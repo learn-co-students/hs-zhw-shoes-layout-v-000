@@ -11,4 +11,4 @@ This challenge asks that you work in teams to create the website page shown in t
 
 1. Clone this repository ♥ `git clone git@github.com:jongrover/challenge-4.git`
 2. cd into folder ♥ `cd challenge-4`
-3. Write the neccesary CSS in the css/layout.css file to create classes for the different posible columns to make up a three column grid. One column should take up one-third, another two-thirds, and another all three-thirds. Make use of clearfix and clear to avoid issues. Use the image file MOCKUP.jpg as a reference to build the index.html page as it appears.
+3. Write the necessary CSS in the css/layout.css file to create classes for the different possible columns to make up a three column grid. One column should take up one-third, another two-thirds, and another all three-thirds. Make use of clearfix and clear to avoid issues. Use the image file MOCKUP.jpg as a reference to build the index.html page as it appears.

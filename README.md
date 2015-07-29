@@ -1,9 +1,4 @@
----
-tags: layout, positioning, float, display, column structure, clearfix, clear, kids
-language: html, css
-type: lab
-level: 2
----
+
 
 # ZHW Shoes Layout
 

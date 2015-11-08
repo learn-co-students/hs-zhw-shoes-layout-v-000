@@ -1,4 +1,5 @@
 /********** Fixes **********/
+/*  This is extremely ugly, but I managed to get the visual result */
 
 * {
   margin:0;
@@ -18,10 +19,94 @@
   line-height: 0;
 }
 
-.clear {
+
+
+/* Posititoning Classes */
+
+section.bottom-1{
+  float: left;
+  margin: 0px;
+  width: 65.5%;
+  display: inline-block; 
+
+}
+
+section.bottom-4{
+  
+  margin-top: 20px;
+  width: 31.7%;
+  display: inline-block; 
+  clear: right;
+  float: left;
+  margin-right: 10px;
+}
+
+section.bottom{
+  
+  margin: 0 1.5%;
+  width: 30%;
+  float: left;
+  margin-top: 20px;
+  
+}
+
+section.bottom-5{
+  
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 31.7%;
+  display: inline-block; 
+  clear: both;
+  float: left;
+
+}
+section.bottom-3{
+  width: 32.5%;
+  float: right;
+  margin: 0px;
+  display: block;
+}
+h2.featured{
+  margin-top: 10px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+html, body{
+  min-width: 960px;
+}
+
+section.bottom-6{
+  float: right;
   clear: both;
 }
 
-/* Posititoning Classes */
+section.bottom-7{
+  width: 32.5%;
+  float: right;
+  margin: 0px;
+  display: block;
+  margin-top: 20px;
+  vertical-align: bottom;
+  position: relative;
+  margin-bottom: -5px;
+}
+
+div.bottom-6{
+  float: left; 
+  width: 32.5%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+div.bottom-7{
+  float: right;
+  margin-left: 4px;
+  width: 32.5%;
+  display: inline-block;
+}
+
 
 

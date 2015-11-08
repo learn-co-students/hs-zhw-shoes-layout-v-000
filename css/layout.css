@@ -1,5 +1,10 @@
 /********** Fixes **********/
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
 * {
   margin:0;
   padding:0;
@@ -22,6 +27,33 @@
   clear: both;
 }
 
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+}
+
+[class*="col-"]{
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+img {
+  max-width: 100%;
+}

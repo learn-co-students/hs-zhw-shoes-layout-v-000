@@ -264,6 +264,50 @@ iframe {
 		text-decoration: underline;
 	}
 
+	section#featb {
+		float: left;
+		width: 66%;
+		height: 100%;
+		margin: 0 1% 2% 0;
+	}
+
+	section#shoe-arch {
+		float: left;
+		width: 32%;
+		height: 100%;
+		margin: 0 0% 2% 1%;
+		bottom: 0;
+		overflow: scroll;
+	}
+
+	.cleartest {
+		display: block;
+		clear: both;
+	}
+
+.block-1:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	background-color: #ccc;
+	}
+
+	section.deals {
+		float: left;
+		width: 32%;
+		margin: 0 1% 2% 1%;
+	}
+
+	div.cleartest section#first {
+		margin: 0 1% 2% 0;
+	}
+
+	div.cleartest section#last {
+		margin: 0 0 2% 1%;
+	}
 /********** Details **********/
 
 #details {
@@ -286,6 +330,20 @@ iframe {
 
 	#details a:hover, #details a:active {
 		text-decoration: underline;
+	}
+
+	section.details div div {
+		float: left;
+		width: 32%;
+		padding: 0 2em;
+	}
+
+	section.details div div#left {
+		padding: 0 0 0 2em;
+	}
+
+	section.details div div#right {
+		padding: 0 2em 0 0;
 	}
 
 /********** Footer **********/

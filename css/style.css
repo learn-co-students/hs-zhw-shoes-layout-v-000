@@ -254,6 +254,32 @@ iframe {
 
 	/********** Sections **********/
 
+	.milk_text{
+		margin-top: 10px;
+	}
+
+[class*="col-"] {
+	float:left;
+	min-height: 1px;
+	padding:2px;
+}
+
+	.col-1{
+		width: 66%;
+		margin: 2% 2% 0% 0%;
+		
+	}
+
+	.col-2{
+		width: 32%;
+		margin: 2% 2% 0% 0%;
+		
+	}
+
+	.last{
+		margin-right:0;
+	}
+
 	section {
 		padding: 20px;
 		background: white;

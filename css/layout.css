@@ -32,23 +32,35 @@
 #featured {
   width: 66%;
   float: left;
-  margin: 0px 0 10px ;
+  margin: 0 ;
 }
 
 #archive {
   width: 32%;
   float: right;
-  margin: 0 0 10px 2px;
+  margin: 0 0 0 2%;
 
 }
 
-figure.deals {
-  width: 32%;
+div .clear {
   display: inline-block;
-  margin: 0 2 0 0;
 }
 
-.deals + h3, .deals ~ p {
+.deals {
   width: 32%;
-  /*display: inline-block;*/
+  margin: 20px 2% 0 0;
+  display: inline-block;
+  
+}
+
+.deals figure, .deals h3, .deals p {
+  display: inline-block;
+}
+
+.deals figure > * {
+  display: inline-block;
+}
+
+#last-deal {
+  margin: 20px 0 0 0;
 }

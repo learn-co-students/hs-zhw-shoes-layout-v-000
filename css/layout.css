@@ -24,4 +24,31 @@
 
 /* Posititoning Classes */
 
+#sale {
+  margin: 0 0 20px 0;
 
+}
+
+#featured {
+  width: 66%;
+  float: left;
+  margin: 0px 0 10px ;
+}
+
+#archive {
+  width: 32%;
+  float: right;
+  margin: 0 0 10px 2px;
+
+}
+
+figure.deals {
+  width: 32%;
+  display: inline-block;
+  margin: 0 2 0 0;
+}
+
+.deals + h3, .deals ~ p {
+  width: 32%;
+  /*display: inline-block;*/
+}

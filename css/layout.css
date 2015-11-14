@@ -64,3 +64,18 @@ div .clear {
 #last-deal {
   margin: 20px 0 0 0;
 }
+
+
+#contact, #links, #follow {
+  width: 32%;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+#links, #follow {
+  margin: 0 0 0 2%;
+  
+}
+
+
+

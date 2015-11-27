@@ -22,6 +22,62 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Positioning Classes */
 
+.wrapper {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
 
+.right {
+  display: inline-block;
+  width: 32.333%;
+  margin-left: 1%;
+}
+
+.left {
+  display: inline-block;
+  width: 32.333%;
+}
+
+.shadow {
+  display: inline-block;
+}
+
+.summer_grass {
+  width: 66.166%;
+  display: inline-block;
+  margin-bottom: 1.5%;
+}
+
+.main {
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+#follow {
+  vertical-align: top;
+  padding-top: .1666%;
+}
+
+#archive {
+  vertical-align: bottom;
+  margin-bottom: 1.5%;
+}
+
+#archive h2 {
+  margin-top: 1.5%;
+}
+
+#social {
+  position: fixed;
+  top: 200px;
+  right: 0px;
+}
+
+#logo {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}

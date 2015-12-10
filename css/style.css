@@ -106,8 +106,9 @@ iframe {
 }
 
 .wrapper {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
+	font: sans-serif;
 }
 
 .shadow {
@@ -122,8 +123,10 @@ iframe {
 }
 
 .border_right {
-	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+	float: left;
+	border-left: 1px dotted #ccc;
+	padding-left: 20px;
+	width: 33%;
 }
 
 .thumbs_up {
@@ -255,20 +258,59 @@ iframe {
 	/********** Sections **********/
 
 	section {
-		padding: 20px;
+		padding: 10px;
 		background: white;
+		/*margin: 10px;*/
+
 	}
 
 	section a {
 		color: #555;
 		text-decoration: underline;
+	
+	}
+
+	.archive {
+		width: 30%;
+		margin: 10px;
+		max-height: 100%;
+		float: left;
+		overflow: auto;
+	} 
+
+	.clearfix:after {
+		clear: both;
+		overflow: auto;
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 90%;
+	}
+
+	.featured {
+		float: left;
+		margin: 10px;
+		width: 62%;
+	}
+
+	#deals {
+		/*clear: both;*/
+		float: left;
+		/* margin-right: 10px; */
+		width: 30%;
+		margin: 10px;
+		display: inline-block;
 	}
 
 /********** Details **********/
 
 #details {
 	clear:both;
-	padding: 20px 10px;
+	display: inline;
+	padding: 20px;
+	
 	/* gradient */
 	background: rgb(229,229,229); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
@@ -279,6 +321,7 @@ iframe {
 	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
 }
 
+
 	#details a:link, #details a:visited {
 		color: black;
 		text-decoration: none;
@@ -287,6 +330,7 @@ iframe {
 	#details a:hover, #details a:active {
 		text-decoration: underline;
 	}
+
 
 /********** Footer **********/
 

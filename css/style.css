@@ -106,8 +106,9 @@ iframe {
 }
 
 .wrapper {
-	width: 960px;
+	width: 1080px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .shadow {
@@ -247,8 +248,8 @@ iframe {
 
 #wood {
 	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
-	background-position: center top, left top;
-	background-repeat: no-repeat, repeat-y;
+	background-position: center top;
+	background-repeat:  repeat-all;
 	padding: 30px 0;
 }
 

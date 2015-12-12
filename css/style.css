@@ -214,7 +214,9 @@ iframe {
 /********** Social Bar **********/
 
 #social {
+	display: inline-block;
 	position: fixed;
+	vertical-align: bottom;
 	top: 200px;
 	right: 3px;
 	width: 40px;
@@ -222,7 +224,8 @@ iframe {
 }
 
 	a.fbook, a.twitt, a.gplus {
-		display: block;
+		display: inline-block;
+		vertical-align: bottom;
 		width: 40px;
 		height: 40px;
 		text-indent: 100%;

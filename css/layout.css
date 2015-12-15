@@ -1,27 +1,67 @@
-/********** Fixes **********/
-
 * {
-  margin:0;
-  padding:0;
-  border:0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
+
 
 /* Posititoning Classes */
 
+section.shadow {
+    margin: 1%;
+    border: 2px solid #fff;
+    overflow: auto;
+}
+
+section.featured {
+    float: left;
+    width: 64.67%;
+    display: block;
+}
+
+section.archive {
+    float: right;
+    width: 31.33%;
+    display: block;
+}
+
+section.shoe1 {
+    display: block;
+    float: left;
+    width: 31.33%;
+}
+
+section.shoe2 {
+    display: block;
+    float: left;
+    width: 31.33%;
+}
+
+section.shoe3 {
+    display: block;
+    float: right;
+    width: 31.33%;
+}
+
+.border_right {
+    margin: 1%;
+    float: left;
+    width: 33.33%;
+}
 

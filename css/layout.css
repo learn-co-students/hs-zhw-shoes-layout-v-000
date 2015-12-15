@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+.featured{
+  float:left;
+  width:66%;
+  height: 590px;
+}
 
+.archive{
+  float: right;
+  width: 32%;
+}
+
+.bugs{
+  float:left;
+  width: 32%;
+  margin: -10px 0 0 0;
+}
+
+.skaters{
+  float:left;
+  width: 32%;
+  margin: -10px 19px 0 19px;
+}
+
+.heels{
+  float:right;
+  width: 32%;
+  margin: -10px 0 0 0;
+}
+
+.border_right {
+  margin: 1%;
+  float: left;
+  width: 33.33%;
+}

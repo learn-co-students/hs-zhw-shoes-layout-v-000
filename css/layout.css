@@ -22,6 +22,51 @@
   clear: both;
 }
 
+
+
 /* Posititoning Classes */
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
 
+.col-1{
+float: left;
+width: 32%;
+}
 
+.col-2{
+float: left;
+width: 66%;
+padding:2%
+}
+
+.col-3{
+  padding: 2%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+[class*="col-"]{
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+img, video, audio {
+  max-width: 100%;
+}
+
+section{
+  padding: 20px;
+  margin-bottom: 20px;
+}

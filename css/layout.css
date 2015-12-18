@@ -17,18 +17,25 @@
   .col2 {
     float: left;
     width: 31.333%;
-    margin-top: 2%;
-    margin-left: 1%; 
+    margin-top: 3%;
+    margin-left: 3%; 
   }
 
   .col3 {
-    float: left;
     width: 100%;
   }
 
   .leftcol {
     margin-left: 0;
   }
+
+  .rightcol {
+    float: left;
+    width: 31.333%;
+    margin-left: 3%;
+    margin-top: 0;
+  }
+
 
 .clearfix:after {
   content: ".";

@@ -264,6 +264,24 @@ iframe {
 		text-decoration: underline;
 	}
 
+	.col1 {
+		float: left;
+		width: 66.666%;
+	}
+
+	.col2 {
+		float: left;
+		width: 33.333%;
+	}
+
+	.col3 {
+		float: left;
+		width: 100%;
+	}
+
+	.clear {
+		clear: both;
+	}
 /********** Details **********/
 
 #details {

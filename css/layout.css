@@ -9,6 +9,27 @@
   -moz-box-sizing: border-box;
 }
 
+  .col1 {
+    float: left;
+    width: 65.666%;
+  }
+
+  .col2 {
+    float: left;
+    width: 31.333%;
+    margin-top: 2%;
+    margin-left: 1%; 
+  }
+
+  .col3 {
+    float: left;
+    width: 100%;
+  }
+
+  .leftcol {
+    margin-left: 0;
+  }
+
 .clearfix:after {
   content: ".";
   display: block;

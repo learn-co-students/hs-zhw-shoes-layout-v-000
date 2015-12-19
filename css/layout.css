@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+.featured-archived {
+  margin: 2% auto;
+}
+
+.featured-archived section#col-1 {
+  width: 65%;
+  float: left;
+  margin-right:2%;
+}
+
+.featured-archived section#col-2  {
+  width:33%;
+  overflow: auto;
+}
+
+section.shadow.col-3 {
+  width:32%;
+  float: left;
+}
+
+section.shadow.col-4 {
+  margin-left: 2%;
+  width: 32%;
+  float: right;
+}
+
+
+.border_right.col-3 {
+  width:32%;
+  float: left;
+}
+
+.border_right.col-5 {
+  width:32%;
+  float: left;
+}
+
 

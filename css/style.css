@@ -8,6 +8,16 @@ img, video, audio, iframe, table, form {
 	max-width: 100%; /* FF, Safari, Chrome */
 }
 
+/*
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+*/
+
 /* prevent the verify image on contact page from stretching */
 img.verif_img {
 	width: 50px;
@@ -104,11 +114,45 @@ iframe {
 	overflow: hidden;
 	height: 353px;
 }
-
+.new {
+	clear:both;
+}
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 }
+
+
+.col-1 {
+  float: left;
+  width: 306px;
+
+}
+
+.col-2 {
+  float: left;
+  width: 631px;
+}
+
+.col-3 {
+
+}
+
+[class*='col-'] {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.first {
+  margin-left: 0px;
+}
+
+.last {
+  margin-right: 0px;
+}
+
+
+
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
@@ -301,5 +345,8 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+
+
 
 /* code examples copyright Jonathan Grover 2012 */

@@ -23,5 +23,28 @@
 }
 
 /* Posititoning Classes */
-
-
+#feature {
+  float: left;
+}
+#archive {
+  float: right;
+}
+.deals {
+  clear: both;
+  width: 100%;
+  margin: 2% 0%;
+}
+  /* one-third */
+.col-1 {
+  width: 31.33%;
+  margin: 0% 0% 2% 2%;
+}
+  /* two-thirds */
+.col-2 {
+  width: 64.6%;
+  margin: 0% 0% 2% 2%;
+}
+  /* three-thirds */
+.col-3 {
+  width: 100%;
+}

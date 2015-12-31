@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+[class*="col-"] {
+  float: left;
+}
 
+.col-1 {
+  width: 32%;
+  margin: 1% 1% 1% 1%;
+}
+
+.col-2 {
+  width: 66%;
+  margin: 0% 1% 1% 1%;
+}
+
+.col-3 {
+  margin: 0% 0% 1% 0%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.last {
+  margin-right: 0%;
+}
+
+.shoe-archive {
+  margin-top: 0%;
+}

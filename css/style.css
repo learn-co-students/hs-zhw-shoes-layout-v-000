@@ -165,6 +165,10 @@ iframe {
 	line-height: 0;
 }
 
+.clear {
+	clear: both;
+}
+
 /********** Header **********/
 
 	/********** Nav Bar **********/

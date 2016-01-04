@@ -24,4 +24,15 @@
 
 /* Posititoning Classes */
 
+.onethird {
+  column-span: 1;
+}
 
+.twothird {
+  column-span: 2;
+}
+
+.threethird {
+  column-span: 3;
+  clear: both;
+}

@@ -134,6 +134,44 @@ iframe {
 	height: 415px;
 }
 
+.col1-left {
+	width: 31%;
+	margin-right: 4%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.col1-mid {
+	width: 31%;
+	margin-right: 3%;
+	float: left;
+}
+
+.col1-right {
+	width: 31%;
+	float: right;
+	margin-bottom: 10px;
+
+}
+
+
+.col2-left {
+	width: 66%;
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 10px;
+}
+
+/*.col2-right {
+	width: 63%;
+	float: right;
+	margin-right: 3%;
+}*/
+
+.col-3 {
+	width: 99%
+}
+
 /********** Header **********/
 
 	/********** Nav Bar **********/

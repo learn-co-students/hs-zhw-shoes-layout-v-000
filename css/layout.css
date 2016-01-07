@@ -23,5 +23,23 @@
 }
 
 /* Posititoning Classes */
+.col-1, .col-2{
+  margin: 0 2% 2% 0;
+}
+.last-col{
+  margin: 0 0 2% 0;
+}
 
+.col-1{
+  width: 64.66%;
+  float:left;
+}
+.col-2{
+  width: 31.33%;
+  float:left;
+}
+
+h2.milk_text {
+  margin: 15px 0;
+}
 

@@ -1,4 +1,4 @@
-/********** Web Fonts **********/
+********* Web Fonts **********/
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
@@ -264,6 +264,52 @@ iframe {
 		text-decoration: underline;
 	}
 
+
+.col1 {
+	width: 960px;
+
+}
+
+.col2 {
+	width: 630px;
+	float: left;
+}
+
+.col3 {
+	width: 300px;
+	float: right;
+}
+
+.col333 {
+	width: 300px;
+	margin-top: 20px;
+}
+
+
+
+.left {
+	margin: 20px, 20px, 20px, 0;
+	float: right;
+}
+
+.center {
+	margin: 20px;
+	display: inline-block;
+}
+
+.right {
+	margin: 20px, 0, 20px, 20px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
 /********** Details **********/
 
 #details {
@@ -302,4 +348,4 @@ footer {
 		text-decoration: underline;
 	}
 
-/* code examples copyright Jonathan Grover 2012 */
+/* code examples copyright Jonathan Grover 2012 

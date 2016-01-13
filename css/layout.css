@@ -40,6 +40,27 @@ section#archive {
   padding-bottom: 38px;
 }
 
+#lady {
+  width: 31%;
+  float: left;
+  margin-right: 2%;
+}
+
+#skate {
+  width: 31%;
+  float: left;
+  margin-right: 2%;
+}
+
+#heels {
+  width: 33%;
+  float: left;
+  padding-bottom: 5px;
+}
+
+
+
+
 
 
 

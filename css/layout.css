@@ -24,4 +24,46 @@
 
 /* Posititoning Classes */
 
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
 
+[class*="col-"] {
+  margin: 0 0 2% 2%;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  
+}
+
+.first {
+  margin: 0 0 1% 0;
+  clear: both;
+}
+
+/*/////// SOCIAL ///////*/
+
+#social {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
+}
+
+#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}

@@ -112,6 +112,38 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+	float:left;
+	width: 79%;
+	
+}	
+
+.shadow-1{
+width:20.7%;
+float:right;
+height:655px;
+}	
+
+.shadow-2{
+width: 32.5011%;
+float:left;
+margin-right: 15;
+margin:4px;
+}
+
+.shadow-3{
+width: 32.5011%;
+float:left;
+margin-left: 15;
+margin: 4px;
+
+}
+
+.shadow-4{
+width: 32.5011%;
+float: left;
+margin-left: 15;
+margin: 4px;
+
 }
 
 .milk_text {
@@ -119,12 +151,22 @@ iframe {
 	color: white;
 	text-shadow: 0 2px 3px #000;
 	margin: 0 0 10px;
-}
 
-.border_right {
-	border-right: 1px dotted #ccc;
-	padding-right: 20px;
 }
+.border_right{
+	border-right: 1px dotted #ccc;
+	padding-right: 25px;
+	display: inline-block;
+	clear: both;
+	}
+	.border_right-1{
+		position: relative;
+		border-top: 5px;
+	border-right: .5px dotted #ccc;
+	display: inline-block;
+	}
+	
+
 
 .thumbs_up {
 	background: white url(../images/thumbs_up.jpg) no-repeat top right;
@@ -184,6 +226,15 @@ iframe {
 		}
 
 	/********** Logo **********/
+
+
+div#logo.shadow div.wrapper{
+	position:left;
+  float: auto;
+  max-width: 3000px;
+}
+
+
 
 	#logo {
 		padding: 85px 0 25px;

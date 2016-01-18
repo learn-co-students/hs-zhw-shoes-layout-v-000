@@ -22,6 +22,32 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Positioning Classes */
 
+body {
+  width: 1080px;
+}
 
+.deals section {
+  margin-top: 21.6px;
+}
+
+.col-1 {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+}
+
+.col-2 {
+  width: 66%;
+  float: left;
+  margin-left: 2%;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+.first {
+  margin-left: 0;
+}

@@ -9,6 +9,10 @@
   -moz-box-sizing: border-box;
 }
 
+.wrapper{
+  margin: 0 auto;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +27,51 @@
 }
 
 /* Posititoning Classes */
+
+/*spans 70% of the space */
+.col-1{
+  float: left;
+  width: 66%;
+}
+
+/* spans 30% of the space */
+.col-2{
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+
+}
+
+/*spans 100% of the space */
+
+
+
+
+/*[class*="col-"]{
+  margin-left: 2%;
+}*/
+
+.col-3{
+  width: 32%;
+  float: right;
+  margin-top: 22px;
+}
+
+.col-4{
+  width: 32%;
+  float: right;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 20px;
+
+}
+
+.col-5{
+  width: 32%;
+  float: left;
+  margin-top: 20px;
+}
+
+
 
 

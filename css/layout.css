@@ -23,5 +23,40 @@
 }
 
 /* Posititoning Classes */
+.col-1{
+  float:left;
+  width: 32%;
+}
 
+.col-2{
+  float:left;
+  width: 66%;
+}
 
+.col-3{
+  background:#F00ß;
+}
+
+[class*="col-"]{
+  margin-left:2%;
+}
+
+.first{
+  margin-left: 0%;
+}
+/
+#block-1{
+  margin-bottom:20px;
+}
+#block-2{
+  margin-bottom:20px;
+}
+
+#block-3{
+  margin-bottom:20px;
+}
+/* Attempt to convert above into one style command.
+[class*="block-"]{
+  margin-bottom: 20px;
+}
+*/

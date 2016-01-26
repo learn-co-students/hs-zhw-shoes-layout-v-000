@@ -30,24 +30,28 @@
 
 
 /* Posititoning Classes */
-.wrapper{
-	width:960px;
-	margin: 0 auto;
-}
 
 .col-1{
 	float:left;
 	width:32%;
+	width:100%; /* IE */
+	max-width: 100%; /* FF, Safari, Chrome */
+	
+	
 	
 }
 .col-2{
 	float:left;
 	width:66%;
+	width:100%; /* IE */
+	max-width: 100%; /* FF, Safari, Chrome */
+
 	
 }
-/*.col-3{
-	
-}*/
+.col-3{
+	float:left;
+	width:32%;
+}
 [class*="col-"]{
 	margin-left:2%;
 }
@@ -56,11 +60,60 @@
 }
 ///* Sections //// */
 section{
-	padding:20px;
+	padding:30px;
 	margin-bottom:20px;
 	
 }
+aside{
+	float:right;
+}
+#archive{
+	width:315px;
+	height:600px;
+	display:inline-block;
+	
+	padding:10px;
+	background:white;
+	border: 1px solid black;
+	
+	
+}
+#summergrass{
+	background:white;
+	display:inline-block;
+	width:635px;
+	height:600px;
+	border: 1px solid black;
+	
+}
+#ladybug {
+	background:white;
+	display:inline-block;
+	border:1px solid black;
+	width:312px;
+	height:400px;
+	margin-top:20px;
+	
+	
+}
+#skaters{
+	background:white;
+	display:inline-block;
+	border:1px solid black;
+	width:312px;
+	height:400px;
+	margin-top:20px;
+	margin-left:5.5px;
+	
+}
 
-
-
-
+#bluestar{
+	background:white;
+	display:inline-block;
+	border:1px solid black;
+	width:315px;
+	height:400px;
+	margin-top:20px;
+	margin-left:5.5px;
+	
+}

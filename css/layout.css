@@ -22,6 +22,69 @@
   clear: both;
 }
 
+.shadow-2{
+  float: left;
+  width: 62%;
+}
+
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.border_right{
+  float: left;
+}
+
+[class*="border_right"] {
+   margin-left: 2%;
+}
+
+.first{
+  margin-left: 0%;
+}
+
+.shadow-1{
+  width: 94%;
+}
+
+.shadow-2{
+  float: left;
+  width: 64%;
+  background: #ccc;
+}
+
+.shadow-4{
+  float: left;
+  width: 28%;
+  margin-left: 2%;
+  background: #ccc;
+}
+
+.shadow-3{
+  float: left;
+  width: 28%;
+  background: #ccc;
+  margin-top: 2%;
+  margin-right: 6%;
+}
+
+.shadow-5{
+  float: left;
+  width: 28%;
+  background: #ccc;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.shadow-6{
+  float: left;
+  width: 28%;
+  background: #ccc;
+  margin-left: 2%;
+  margin-top: 2%;
+  
+}
 /* Posititoning Classes */
 
 

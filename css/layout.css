@@ -23,18 +23,16 @@
 }
 
 /* Posititoning Classes */
-.col-2 {
- 
-  width:66%;
-  float: left;
-
-}
-
 .col-1 {
-
-  width: 32%;
   float: left;
-}
+  width: 32%;
+  }
+
+.col-2 {
+ float: left;
+ width: 66%;
+  }
+
 
 [class*="col-"] {
   margin: 0 0 2% 2%;

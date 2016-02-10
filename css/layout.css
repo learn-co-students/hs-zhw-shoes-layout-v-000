@@ -23,20 +23,20 @@
 }
 
 /* Posititoning Classes */
-.two_column_items {
+.col-2 {
  
   width:66%;
   float: left;
 
 }
 
-.one_column_items {
+.col-1 {
 
   width: 32%;
   float: left;
 }
 
-[class*="column_items"] {
+[class*="col-"] {
   margin: 0 0 2% 2%;
 }
 

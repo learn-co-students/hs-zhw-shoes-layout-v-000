@@ -24,4 +24,17 @@
 
 /* Posititoning Classes */
 
+.featured {
+
+position: relative;
+width: 66%;
+float: left;
+
+}
+
+.archive { 
+  width: 32%;
+  margin-left: 10px;
+  float: right;
+}
 

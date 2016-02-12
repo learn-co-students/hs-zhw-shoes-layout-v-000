@@ -24,4 +24,34 @@
 
 /* Posititoning Classes */
 
+.col-1 { /* class for column taking up 1/3 of width */
+  float:left;
+  width:32%;
+}
+
+.col-2 { /* class for column taking up 2/3 of width */
+  float:left;
+  width:66%;
+}
+
+.col-3 { /* class for column taking up 100% of width */
+  /* float is N/A because it will be the only element on the line */
+  /* width is N/A because the default will be 100% of the width */
+}
+
+[class*="col-"] { /* spaces columns with 2% margin on left so they are not right next to each other*/
+  margin-left: 2%;
+}
+
+.first { /* fix for first column in each section so that it does NOT have the 2% margin on left */
+  margin-left:0%;
+}
+
+section:nth-of-type(3) { /* fix spacing between Archive List and Lady Bug Shoes */
+  margin-bottom: 2%;
+}
+
+[class="milk_text"] { /*fix spacing between Sale and Featured Brands */
+  padding-top: 2%;
+}
 

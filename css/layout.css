@@ -25,3 +25,42 @@
 /* Posititoning Classes */
 
 
+.featured {
+  display: inline-block;
+  width: 66%
+}
+
+.arch {
+  display: inline-block;
+  width: 33%
+}
+
+.lady {
+  display: inline-block;
+  width: 33%;
+}
+
+.skaters {
+  display: inline-block;
+  width: 33%;
+}
+
+.heels {
+  display: inline-block;
+  width: 33%;
+}
+
+.col_1 {
+  display: inline-block;
+  width: 33%;
+}
+
+.col_2 {
+  display: inline-block;
+  width: 33%;
+}
+
+.col_3 {
+  display: inline-block;
+  width: 33%;
+}

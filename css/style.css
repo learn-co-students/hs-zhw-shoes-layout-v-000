@@ -115,7 +115,7 @@ iframe {
 }
 
 .milk_text {
-	font: bold 42px 'Elsie Swash Caps', cursive;
+	font: bold 42px 'elsie swash caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
 	margin: 0 0 10px;
@@ -134,9 +134,9 @@ iframe {
 	height: 415px;
 }
 
-/********** Header **********/
+/********** header **********/
 
-	/********** Nav Bar **********/
+	/********** nav bar **********/
 
 	#nav_bar {
 		position: fixed;
@@ -163,7 +163,7 @@ iframe {
 			text-align: center;
 			border-right: 1px solid #ccc;
 			text-decoration: none;
-			font: 20px "Trebuchet MS", Arial, sans-serif;
+			font: 20px "trebuchet ms", arial, sans-serif;
 		}
 
 		#nav_bar nav a.selected {
@@ -174,44 +174,44 @@ iframe {
 		#nav_bar nav a:hover {
 			color:white;
 			/* gradient */
-			background: rgb(0,0,0); /* Old browsers */
-			background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(71,71,71,1) 28%, rgba(81,81,81,1) 35%, rgba(71,71,71,1) 72%, rgba(43,43,43,1) 87%, rgba(28,28,28,1) 91%, rgba(0,0,0,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(28%,rgba(71,71,71,1)), color-stop(35%,rgba(81,81,81,1)), color-stop(72%,rgba(71,71,71,1)), color-stop(87%,rgba(43,43,43,1)), color-stop(91%,rgba(28,28,28,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* IE10+ */
-			background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* W3C */
+			background: rgb(0,0,0); /* old browsers */
+			background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(71,71,71,1) 28%, rgba(81,81,81,1) 35%, rgba(71,71,71,1) 72%, rgba(43,43,43,1) 87%, rgba(28,28,28,1) 91%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(28%,rgba(71,71,71,1)), color-stop(35%,rgba(81,81,81,1)), color-stop(72%,rgba(71,71,71,1)), color-stop(87%,rgba(43,43,43,1)), color-stop(91%,rgba(28,28,28,1)), color-stop(100%,rgba(0,0,0,1))); /* chrome,safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* chrome10+,safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* ie10+ */
+			background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* w3c */
 		}
 
-	/********** Logo **********/
+	/********** logo **********/
 
 	#logo {
 		padding: 85px 0 25px;
 		/* gradient */
-		background: rgb(229,229,229); /* Old browsers */
-		background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(99%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
-		background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+		background: rgb(229,229,229); /* old browsers */
+		background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* ff3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(99%,rgba(255,255,255,1))); /* chrome,safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* chrome10+,safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* ie10+ */
+		background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* w3c */
 	}
 
 		#logo h1 {
 			margin: 0;
 			padding-top: 20px;
 			display: inline-block;
-			font-family: 'Clicker Script', cursive;
+			font-family: 'clicker script', cursive;
 			background: url(../images/logo_crown_emboss.png) no-repeat top center;
 		}
 
 		#logo h2 {
 			margin:0;
 			display: inline-block;
-			font-family: 'Elsie Swash Caps', cursive;
+			font-family: 'elsie swash caps', cursive;
 		}
 
-/********** Social Bar **********/
+/********** social bar **********/
 
 #social {
 	position: fixed;
@@ -243,7 +243,7 @@ iframe {
 	a.gplus:hover { background-position: -40px -80px; }
 	a.gplus:active { background-position: -80px -80px; }
 
-/********** Content Area **********/
+/********** content area **********/
 
 #wood {
 	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
@@ -251,23 +251,51 @@ iframe {
 	background-repeat: no-repeat, repeat-y;
 	padding: 30px 0;
 }
-  /********** Columns ***********/
+
+  /********** columns ***********/
+  * {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+  }
 
   .col-1 {
-    width: 98%; 
-    margin: auto; 
+    float: left; 
+    width: 32%; 
+    margin-top: 5px; 
   }
 
   .col-2 {
-    width: 66%
-    margin: 2%
     float: left; 
+    width: 66%; 
   }
 
   .col-3 {
-    width: 32%
-    margin: 2%
     float: left; 
+  }
+
+  #shoe-archive {
+    margin-top: 0px; 
+  }
+  
+  .clearfix:after {
+    content: "."; 
+    display: block; 
+    clear: both; 
+    visibility: hidden; 
+    height: 0; 
+    line-height: 0; 
+    background: #ccc; 
+  }
+
+  [class*="col-"] {
+    margin-left: 2%; 
+    margin-bottom: 10px; 
+  }
+
+  .first {
+    margin-left: 0%; 
+    clear: both; 
   }
 
 	/********** Sections **********/

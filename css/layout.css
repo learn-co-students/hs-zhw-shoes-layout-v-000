@@ -1,4 +1,4 @@
-/********** Fixes **********/
+/*/********** Fixes **********/
 
 * {
   margin:0;
@@ -23,5 +23,94 @@
 }
 
 /* Posititoning Classes */
+
+
+.sale-center {
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+}
+ 
+.grass-left {
+  width: 60.67%;
+  padding: 15px;
+  float: left;
+  margin-right: 20px;
+}
+
+.archive-right {
+  width: 35%;
+  padding: 15px;
+  margin: 1%;
+  float: left;
+  max-height: auto;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.lady-bug-shoe {
+  width: 32%;
+  margin: 5px;
+  float: left;
+}
+
+.skate-shoe {
+  width: 32%;
+  margin: 5px;
+  float: left; 
+}
+
+.heel-shoe{
+  width: 32%;
+  margin: 5px;
+  float: left;
+}
+
+.col-1 {
+width: 31%;
+float: left;
+
+}
+
+
+[class*="col-"] {
+  margin-left: 5%;
+}
+
+.first {
+  margin-left: 0%
+}
+
+div {
+  display: block;
+}
+
+.footer {
+  width: 0 auto;
+}
+
+/*
+.heel {
+  width: 32%;
+}
+
+.milk_text {
+padding: 10px;
+}*/
+
+
+
+
+/* Positioning ID's*/
+/*
+#logo {
+  margin: 0px;
+  width: 100%;
+}*/
+
+
+
+
 
 

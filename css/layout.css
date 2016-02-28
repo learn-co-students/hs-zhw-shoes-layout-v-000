@@ -23,5 +23,40 @@
 }
 
 /* Posititoning Classes */
+#top .col-2, #top .col-1{
 
+  height: 100%;
+  display: table-cell;
 
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+ 
+  
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+
+}
+
+.col-3 {
+  float: left;
+ 
+}
+
+[class*="col-"] {
+
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+section {
+  margin-bottom: 20px
+}

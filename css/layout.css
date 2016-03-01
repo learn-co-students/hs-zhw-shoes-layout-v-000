@@ -1,9 +1,9 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+.col1_left {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
 
+.col1_mid {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.col1_right {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+
+
+.col2_right {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.col2_left {
+  float: left;
+  width: 64%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%
+}

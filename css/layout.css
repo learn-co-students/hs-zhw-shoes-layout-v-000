@@ -31,7 +31,6 @@
 .col-2 {
   float: left;
   width:32%;
-
 }
 
 .col-3 {
@@ -46,8 +45,4 @@
 
 .marg-left {
   margin-left: 2%;
-}
-
-.marg-top {
-  margin-top: 5px;
 }

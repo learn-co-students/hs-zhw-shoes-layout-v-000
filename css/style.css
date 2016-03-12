@@ -257,6 +257,7 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin-bottom: 2%;
 	}
 
 	section a {
@@ -294,12 +295,47 @@ footer {
 	text-align: center;
 	font-size: 10px;
 	color: #555;
-	padding: 10px 0 20px;
+	padding: 0 0 20px;
+	
 }
 
 	footer a {
 		color: #555;
 		text-decoration: underline;
 	}
+
+/** {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}*/
+/*/ COLUMNS /*/
+.col-1 {
+	width: 100%;
+	float: left;
+}
+.col-2 {
+ 	width: 66%;
+ 	float: left;
+ }
+.col-3 {
+	width: 32%;
+	float: left;
+	margin-left: 2%;
+}
+.first
+{
+	margin-left: 0%;
+	clear: both;
+}
+
+.clearfix: after{
+  content:".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
 
 /* code examples copyright Jonathan Grover 2012 */

@@ -48,3 +48,7 @@
   margin-left: 0%;
   margin-bottom: 19px; /*might not be needed if it picks it up in [class*=...]? */
 }
+
+.hack {
+  padding-bottom: 24px;
+}

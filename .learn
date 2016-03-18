@@ -12,6 +12,4 @@ languages:
   - css
 type:
   - lab
-tests:
- - green_onion
 level: 2

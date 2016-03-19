@@ -22,6 +22,41 @@
   clear: both;
 }
 
+#archive {
+  margin: 0px 0px 20px 0px;
+}
+
+#featured {
+  padding: 20px 20px 17px 20px;
+}
+
+#featured-title {
+  clear: both;
+}
+
+#sale {
+  margin: 0px 0px 20px 0px;
+}
+
 /* Posititoning Classes */
 
+.col-1-3 {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
 
+.col-2-3 {
+  float: left;
+  width: 66%;
+  margin-right: 2%;
+}
+
+.col-3-3 {
+  float: left;
+  width: 100%;
+}
+
+.last {
+  margin-right: 0;
+}

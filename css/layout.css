@@ -18,8 +18,9 @@
   line-height: 0;
 }
 
-.clear {
+.clearfix {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
@@ -36,6 +37,11 @@
 
 .col-3 {
 
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
 }
 
 .first {

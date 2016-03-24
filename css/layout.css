@@ -24,4 +24,39 @@
 
 /* Posititoning Classes */
 
+h2.milk_text {
+  margin: 2% 0 1% 0;
+}
 
+.col-1 {
+  width: 66%;
+  float: left;
+  padding-bottom: 12px;
+}
+
+.col-2 {
+  width: 32%;
+  float: right;
+}
+
+.col-lower1 {
+  display: inline-block;
+  float: left;
+  width: 32%;
+  margin: 2% 1% 0 0;
+
+}
+.col-lower2 {
+  display: inline-block;
+  float: left;
+  width: 32%;
+  margin: 2% 1% 0 1%;
+
+}
+.col-lower3 {
+  display: inline-block;
+  float: left;
+  width: 32%;
+  margin: 2% 0 0 1%;
+
+}

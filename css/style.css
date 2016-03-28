@@ -15,6 +15,14 @@ img.verif_img {
 	vertical-align: bottom;
 }
 
+/********** Layout **********/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /********** Global **********/
 
 body {
@@ -264,6 +272,15 @@ iframe {
 		text-decoration: underline;
 	}
 
+	#sale {
+		margin-bottom: 20px;
+	}
+
+	#grass, #archive {
+		height: 580px;
+		margin-bottom: 20px;
+	}
+
 /********** Details **********/
 
 #details {
@@ -301,5 +318,44 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+/********** Columns **********/
+
+.col-third {
+  float: left;
+  width: 32%; 
+}
+
+.col-2third {
+  float: left;
+  width: 66%;
+}
+
+.clearfix:after {
+  content: ".";
+  display:block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+
+
+
+
+
+
+
+
 
 /* code examples copyright Jonathan Grover 2012 */

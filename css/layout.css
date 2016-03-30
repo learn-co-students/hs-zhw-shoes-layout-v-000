@@ -22,49 +22,22 @@
   clear: both;
 }
 
-.shadow {
-  margin: 0%;
-
-}
-
-.one-third {
-  width: 31.333%;
-}
-
-.two-thirds {
-  width: 65.7%;
-}
-
-.total {
-  width: 100%;
-}
-
-#summer-grass {
+.column-1 {
+  width: 32.33%;
   float: left;
+  margin: 0 0 2% 1%;
 }
 
-#archive {
-  float: right;
-}
-
-#lady-bug {
+.column-2 {
+  width: 65.67%;
   float: left;
-  clear: left;
+  margin: 0 0 0 0;
 }
 
-#skater {
-  margin: 0 auto;
+.column-1-left {
+  width: 32.33%;
+  float: left;
+  margin: 0 0 2% 0;
+
 }
-
-#bluestar {
-  float: right;
-}
-
-#social {
-  margin-right: 10px;
-  margin-top: 20px;
-}
-
-/* Posititoning Classes */
-
 

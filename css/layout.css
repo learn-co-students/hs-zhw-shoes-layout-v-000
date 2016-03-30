@@ -24,4 +24,43 @@
 
 /* Posititoning Classes */
 
+h2.milk_text {
+  margin: 2% 0 1% 0}
+
+
+section#grass {
+  width: 64%;
+  margin: 0 2% 2% 0;
+  float: left;
+}
+
+section#archive {
+  width: 33.66%;
+  float: left;
+  padding-bottom: 38px;
+}
+
+#lady {
+  width: 31%;
+  float: left;
+  margin-right: 2%;
+}
+
+#skate {
+  width: 31%;
+  float: left;
+  margin-right: 2%;
+}
+
+#heels {
+  width: 33%;
+  float: left;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
 

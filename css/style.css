@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0;
 }
 
 .border_right {
@@ -256,7 +256,6 @@ iframe {
 
 	section {
 		padding: 20px;
-		background: white;
 	}
 
 	section a {
@@ -264,6 +263,9 @@ iframe {
 		text-decoration: underline;
 	}
 
+	.shadow {
+		background-color: #FFF;
+	}
 /********** Details **********/
 
 #details {

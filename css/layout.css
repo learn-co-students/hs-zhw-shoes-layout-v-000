@@ -25,3 +25,28 @@
 /* Posititoning Classes */
 
 
+.shadow.center {
+  width: 66%;
+  float: left;
+}
+
+.shadow.right, .border_right {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+}
+
+.shadow.right.ladybug {
+  clear: both;
+  margin: 2%;
+  margin-left: 0%;
+}
+
+.shadow.right.skater {
+  margin: 2% 2% 2% 0%;
+}
+
+.shadow.right.bluestar {
+  margin-left: 0%;
+  margin-top: 2%;
+}

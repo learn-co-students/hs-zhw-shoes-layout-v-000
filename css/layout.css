@@ -24,4 +24,23 @@
 
 /* Posititoning Classes */
 
+ 
+.third{
+	float: left;
+	width: 31.333%;
+	margin: 1%;
+}
+ 
+ .2-third{
+	float: left;
+	width: 60.666%;
+	margi: 1%
+}
+ 
+.whole{
+	float: left;
+	width: 100%;
+}
+ 
+
 

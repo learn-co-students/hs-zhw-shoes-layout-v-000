@@ -1,4 +1,4 @@
-/********** Web Fonts **********/
+********* Web Fonts **********/
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
@@ -250,7 +250,6 @@ iframe {
 	background-position: center top, left top;
 	background-repeat: no-repeat, repeat-y;
 	padding: 30px 0;
-	background-size: cover;
 }
 
 	/********** Sections **********/
@@ -272,7 +271,7 @@ iframe {
 }
 
 .col2 {
-	width: 635px;
+	width: 640px;
 	float: left;
 }
 
@@ -282,23 +281,35 @@ iframe {
 }
 
 .col333 {
-	width: 303px;
+	width: 300px;
 	float: left;
-	margin-top: 20px; 
 }
 
-.right {
-	margin: 20px, 0, 20px, 20px;
-}
 
+/*
 .left {
-	margin: 20px, 20px, 20px, 0;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0;
+	float: right;
 }
 
 .center {
-	margin-left: 25px;
-	margin-right: 25px;
+ 	margin: 20px;
+	float: right;
 }
+
+.right {
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	float: left;
+}
+*/
+
+
 
 
 
@@ -343,4 +354,4 @@ footer {
 		text-decoration: underline;
 	}
 
-/* code examples copyright Jonathan Grover 2012 */
+/* code examples copyright Jonathan Grover 2012 

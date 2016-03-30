@@ -4,9 +4,9 @@
   margin:0;
   padding:0;
   border:0;
-  box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .clearfix:after {
@@ -22,6 +22,31 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Positioning Classes */
+@media (min-width: 768px) {
+  .col-sm-4 {
+    float: left;
+    width: 32%;
+  }
+  .col-sm-8 {
+    float: left;
+    width: 66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-4, .col-sm-8 {
+    margin-left: 2%;
+  }
+  section.shadow {
+    margin-bottom: 2%;
+  }
+  section.shadow p {
+    margin-bottom: 21px;
+  }
+  .first.col-sm-8, .first.col-sm-4 {
+    margin-left: 0;
+  }
+}
 
 

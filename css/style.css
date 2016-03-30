@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
@@ -264,6 +264,45 @@ iframe {
 		text-decoration: underline;
 	}
 
+
+	
+
+	.col-1 {
+		float: left;
+		width: 32%;
+
+	}
+
+	.col-2 {
+		float: left;
+		width: 66%;
+	}
+
+	.col-3 {
+
+	}
+
+
+
+	[class*="col-"] {
+		margin-left: 2%;
+		margin-bottom: 2%;
+	}
+
+	.first {
+		margin-left: 0%;
+		clear: both;
+	}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+}
+
 /********** Details **********/
 
 #details {
@@ -288,13 +327,15 @@ iframe {
 		text-decoration: underline;
 	}
 
+
+
 /********** Footer **********/
 
 footer {
 	text-align: center;
 	font-size: 10px;
 	color: #555;
-	padding: 10px 0 20px;
+	padding: 10px 0 10px;
 }
 
 	footer a {

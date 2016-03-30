@@ -247,7 +247,7 @@ iframe {
 
 #wood {
 	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
-	background-position: center top, left top;
+	background-position: center top,left top;
 	background-repeat: no-repeat, repeat-y;
 	padding: 30px 0;
 }

@@ -24,4 +24,58 @@
 
 /* Posititoning Classes */
 
+#sale {
+  margin: 0 0 20px 0;
+
+}
+
+#featured {
+  width: 66%;
+  float: left;
+  margin: 0 ;
+}
+
+#archive.shadow {
+  width: 32%;
+  float: right;
+  margin: 0 0 0 2%;
+  padding-bottom: 10px;
+}
+
+div .clear {
+  display: inline-block;
+}
+
+.deals {
+  width: 32%;
+  margin: 20px 2% 0 0;
+  display: inline-block;
+  
+}
+
+.deals figure, .deals h3, .deals p {
+  display: inline-block;
+}
+
+.deals figure > * {
+  display: inline-block;
+}
+
+#last-deal {
+  margin: 20px 0 0 0;
+}
+
+
+#contact, #links, #follow {
+  width: 32%;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+#links, #follow {
+  margin: 0 0 0 2%;
+  
+}
+
+
 

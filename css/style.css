@@ -213,7 +213,7 @@ iframe {
 
 /********** Social Bar **********/
 
-#social {
+html #social {
 	position: fixed;
 	top: 200px;
 	right: 3px;

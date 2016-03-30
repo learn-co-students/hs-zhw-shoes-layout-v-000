@@ -22,6 +22,49 @@
   clear: both;
 }
 
+.shadow {
+  margin: 0%;
+
+}
+
+.one-third {
+  width: 31.333%;
+}
+
+.two-thirds {
+  width: 65.7%;
+}
+
+.total {
+  width: 100%;
+}
+
+#summer-grass {
+  float: left;
+}
+
+#archive {
+  float: right;
+}
+
+#lady-bug {
+  float: left;
+  clear: left;
+}
+
+#skater {
+  margin: 0 auto;
+}
+
+#bluestar {
+  float: right;
+}
+
+#social {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
 /* Posititoning Classes */
 
 

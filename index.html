@@ -1,3 +1,20 @@
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @lamass
+ Watch 1
+  Star 0
+ Fork 105 jmheyd/hs-zhw-shoes-layout-v-000
+forked from learn-co-students/hs-zhw-shoes-layout-v-000
+ Code  Pull requests 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathhs-zhw-shoes-layout-v-000/index.html
+6e0cc98  a day ago
+@jmheyd jmheyd changed html and css to create column structure
+2 contributors @jongrover @jmheyd
+RawBlameHistory     224 lines (199 sloc)  7.86 KB
 <!doctype html>
 <!--
 	Learn HTML & CSS from Scratch
@@ -33,8 +50,10 @@
 			<!--/////////// Logo Panel //////////-->
 			<div id="logo" class="shadow">
 				<div class="wrapper">
-					<h1>ZHW</h1>
-					<h2>Shoes</h2>
+					<hgroup>
+						<h1>ZHW</h1>
+						<h2>Shoes</h2>
+					</hgroup>
 				</div><!-- .wrapper -->
 			</div>
 			<!--/////////// Ends Logo Panel //////////-->
@@ -54,10 +73,10 @@
 
 		<div id="wood" class="clearfix"><!-- start wood texture -->
 
-			<div class="wrapper">
+			<div class="wrapper clearfix">
 
 				<!--/////////// Sale //////////-->
-				<section class="shadow">
+				<section class="first shadow">
 					<figure>
 						<img src="images/holidays_shoe_sale.jpg" alt="Picture of kids' shoes on the steps">
 						<figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -74,7 +93,7 @@
 				<h2 class="milk_text">Featured Brands</h2>
 
 				<!--/////////// Featured Brands //////////-->
-				<section class="shadow">
+				<section class="col-2 first shadow">
 					<figure>
 						<img src="images/shoes_on_grass.jpg" alt="Photo of shoes in the wet grass">
 						<figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -90,7 +109,7 @@
 				<!--/////////// Ends Featured Brands //////////-->
 				
 				<!--/////////// Archive List //////////-->
-				<section class="shadow">
+				<section class="col-1 shadow">
 					<h2>Shoe Archive</h2>
 					<h3><a href="#">2014</a></h3>
 					<ul>
@@ -135,7 +154,7 @@
 				<!--/////////// End Archive List //////////-->
 
 				<!--/////////// Deals //////////-->
-				<section class="shadow">
+				<section class="col-1 first shadow">
 					<figure>
 						<img src="images/lady_bug_shoe.jpg" alt="Pair of Lady Bug Shoes">
 						<figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -145,7 +164,7 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</section>
 
-				<section class="shadow">
+				<section class="col-1 shadow">
 					<figure>
 						<img src="images/skate_shoe.jpg" alt="Pair of Skater Shoes">
 						<figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -155,7 +174,7 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</section>
 
-				<section class="shadow">
+				<section class="col-1 shadow">
 					<figure>
 						<img src="images/heel_3.jpg" alt="Picture of baby shoes">
 						<figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -175,7 +194,7 @@
 
 			<div class="wrapper">
 
-				<div class="border_right">
+				<div class="col-1 first border_right">
 					<h3>Contact</h3>
 					<p>email: <a href="mailto:info@zhwshoes.com">info@zhwshoes.com</a><br>
 					phone: +1 504 555 5555</p>
@@ -185,7 +204,7 @@
 					Maricia, CA 91555, USA</address>
 				</div>
 
-				<div class="border_right">
+				<div class="col-1 border_right">
 					<h3>Links</h3>
 					<p><a href="#" target="_blank">Shoe Repair & Restoration</a><br>
 					<a href="#" target="_blank">Fashion Editors Assoc.</a><br>
@@ -197,7 +216,7 @@
 					<a href="#" target="_blank">Spearhead Artist Mgmt.</a></p>
 				</div>
 
-				<div class="">
+				<div class="col-1">
 					<h3>Follow</h3>
 					<p><a href="#" target="_blank">Youtube</a><br>
 					<a href="#" target="_blank">Facebook</a><br>

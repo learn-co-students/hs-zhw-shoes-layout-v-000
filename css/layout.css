@@ -24,4 +24,44 @@
 
 /* Posititoning Classes */
 
+div .milk_text {
+  margin-top: 10px;
+}
 
+.col-1 {  
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  background: grey;
+}
+
+.dates {
+  float: left;
+  width: 32%;
+  background-color: white;
+  padding-left: 15px; 
+  margin-left: 19px;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+#deals {
+  clear: both;
+}
+
+div#deals section {
+  margin-top: 20px;
+}

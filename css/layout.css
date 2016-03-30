@@ -29,6 +29,11 @@
   width: 32%;
 }
 
+.one {
+   border-spacing: 5px;
+   margin-bottom: 20px;
+ }
+
 .col-2 {
   float: left;
   width: 66%;
@@ -40,5 +45,9 @@
 
 .third {
 	margin-left: 2%;
+}
+
+.special {
+	margin-bottom: -22px;
 }
 

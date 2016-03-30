@@ -25,3 +25,48 @@
 /* Posititoning Classes */
 
 
+.col-1 {
+  float: left;
+  width: 32%;
+
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  float: left;
+  width: 32%;
+  clear: left;
+
+
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+* {
+  -webkit-box-siding: border-box;
+  -mox-box-siding: border-box;
+  box-siding: border-box;
+}
+
+
+

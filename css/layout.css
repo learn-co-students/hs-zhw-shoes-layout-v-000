@@ -27,16 +27,19 @@
 .col-1 {
   width: 32%;
   float: left;
+  height: 100%;
 }
 
 .col-2 {
   width: 66%;
   float: left;
+  height: 100%;
 }
 
 .col-3 {
   width: 100%;
   margin-bottom: 2%;
+  height: 100%;
 }
 
 .right {
@@ -54,5 +57,10 @@
 .padding {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.links {
+  padding-left: 2%;
+  width:34%;
 }
 

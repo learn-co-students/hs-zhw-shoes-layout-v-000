@@ -30,12 +30,13 @@
 }
 
 .col-2 {
-  width: 65%;
+  width: 66%;
   float: left;
 }
 
 .col-3 {
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .right {
@@ -50,4 +51,8 @@
   margin-top: 2%;
 }
 
+.padding {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 

@@ -15,6 +15,29 @@ img.verif_img {
 	vertical-align: bottom;
 }
 
+/********** Layout **********/
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
 /********** Global **********/
 
 body {

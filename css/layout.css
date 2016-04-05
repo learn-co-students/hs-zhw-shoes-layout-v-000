@@ -25,3 +25,26 @@
 /* Posititoning Classes */
 
 
+.col-1 {
+  float: left;
+  width : 32%
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.sale{
+  margin-bottom: 2%;
+}
+
+[class*=col-]{
+  margin-left: 15px;
+  margin-bottom: 2%;
+}
+
+.first{
+  margin-left: 0%;
+  clear: both;
+}

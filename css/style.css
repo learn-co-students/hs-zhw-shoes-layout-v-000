@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -303,3 +303,40 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+/* My CSS */
+
+.featured-brands {
+	margin-top: 20px;
+}
+
+.col-1 {
+	width: 32%;
+	float: left;
+}
+
+.col-2 {
+	width: 66%;
+	float: left;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+ }
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.shoes {
+	margin-top: 20px;
+}

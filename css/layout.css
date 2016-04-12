@@ -23,5 +23,23 @@
 }
 
 /* Posititoning Classes */
+.content-row {
+  clear: both;
+  margin-bottom: 2%;
+}
 
+.two-thirds-col {
+  float: left;
+  width: 66%;
+  margin-right: 2%;
+}
 
+.one-third-col {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+[class*="-col"]:last-child {
+  margin-right: 0;
+}

@@ -9,19 +9,42 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
+/* Posititoning Classes */
+.row { /* This divs the three separate rows */
+  clear: both;
+  margin-bottom: 2%;  /* This puts a margin inbetween all rows*/
+}
+
+.row:after {
   content: ".";
   display: block;
   clear: both;
   visibility: hidden;
   height: 0;
-  line-height: 0;
+  line-height: 0;  
+} 
+
+[class*="col-"] { 
+  float: left;  /* this floats all the elements in the column classes */
+  margin-left: 2%;
 }
 
-.clear {
-  clear: both;
+[class*="col-"]:first-child {
+  margin-left: 0;  /* This overrides the margin of the first element in each row since it doesnt need a left margin */
 }
 
-/* Posititoning Classes */
+.col-4 { 
+  width: 32%; 
+}
 
+.col-8 { 
+  width: 66%; 
+}
 
+[class*="first"] {
+  padding-bottom: .5em;
+}  
+
+[class*="milk"] { 
+  padding-top: 2%;
+}

@@ -302,4 +302,26 @@ footer {
 		text-decoration: underline;
 	}
 
+/*////// COLUMNS ///// */
+.col-1 {
+	width: 99.999%;
+}
+.col-2 {
+	width: 66.666%;
+	display: inline;
+}
+.col-3 {
+	width: 33.333%;
+	display: inline;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+
+}
+
 /* code examples copyright Jonathan Grover 2012 */

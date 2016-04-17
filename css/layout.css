@@ -23,5 +23,67 @@
 }
 
 /* Posititoning Classes */
+/* best way to create column structure is to set elements to display block 
+but use floating to get them to display side by side */
+#sale {
+  margin: 1%;
+}
 
+#feature-title {
+  margin: 1%;
+}
+
+#feature {
+  float: left;
+  width: 64.6%;
+  margin: 1%;
+}
+
+#archive {
+  float: right;
+  width: 31.3%;
+  margin: 1%;
+}
+
+/* three shoes next to each other */
+#deals {    
+  clear: both;
+}
+
+.deal-1 {
+  float: left;
+  width: 31.3%;
+  margin: 1%;
+}
+
+.deal-2 {
+  float: left;
+  width: 31.3%;
+  margin: 1%;
+}
+
+.deal-3 {
+  float: left;
+  width: 31.3%;
+  margin: 1%;
+}
+
+/* details next to each other */
+#details-1 {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px 0;
+}
+
+#details-2 {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px 0;
+}
+
+#details-3 {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px 0;
+}
 

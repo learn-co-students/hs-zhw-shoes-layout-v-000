@@ -30,6 +30,7 @@
 .col-2 {
   width: 66%;
   float: left;
+  height: 600px;
 }
 
 .col-3 {
@@ -49,6 +50,9 @@
 
 }
 
+#shoe_archive {
+  height: 600px;
+}
 
 
 

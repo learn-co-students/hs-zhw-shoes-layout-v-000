@@ -281,16 +281,22 @@ iframe {
 #col-3 {
   float: left;
   width: 20%;
+  clear: both;
+  display: block;
 }
 
 #col-4 {
-float: right;
+float: left;
 width: 20%;
+clear: both;
+display: block;
 }
 
 #col-5 {
 float: right;
 width: 20%;
+clear: both;
+display: block;
 }
 
 /********** Details **********/

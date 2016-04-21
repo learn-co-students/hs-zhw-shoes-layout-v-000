@@ -118,12 +118,13 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px auto 0px;
 }
 
 .border_right {
 	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+	padding-right: 70px;
+	padding-left: 20px;
 }
 
 .thumbs_up {
@@ -257,12 +258,46 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		display: block;
 	}
 
 	section a {
 		color: #555;
 		text-decoration: underline;
 	}
+
+	/********** Columns **********/
+
+#col-1 {
+	float: left;
+	width: 65.9%;
+	margin: 10px 10px 10px 0px;
+}
+
+#col-2 {
+  float: right;
+  width: 31.9%;
+  margin: 10px 0px 10px 10px;
+}
+
+#col-3 {
+  float: left;
+  width: 31.9%;
+  margin: 10px 10px 10px 0px;
+  clear: both;
+}
+
+	#col-4 {
+	float: left;
+	width: 31.9%;
+	margin: 10px;
+}
+
+	#col-5 {
+	float: right;
+	width: 31.9%;
+	margin: 10px 0px 10px 10px;
+}
 
 /********** Details **********/
 
@@ -286,6 +321,11 @@ iframe {
 
 	#details a:hover, #details a:active {
 		text-decoration: underline;
+	}
+
+	.table {
+		display: table-cell;
+		padding-left: 20px;
 	}
 
 /********** Footer **********/

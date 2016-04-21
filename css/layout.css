@@ -22,6 +22,42 @@
   clear: both;
 }
 
+.col-1 {
+  width: 32%;
+  float: left;
+}
+
+.col-2 {
+  width: 66%;
+  float: left;
+  height: 600px;
+}
+
+.col-3 {
+  
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.shadow {
+
+}
+
+#shoe_archive {
+  height: 600px;
+}
+
+
+
+
+
 /* Posititoning Classes */
 
 

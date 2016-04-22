@@ -32,7 +32,7 @@
 .wrapper .archive {
   float:right;
   width:32%;
-  margin-bottom: 10px;
+  zoom: 1;
 }
 
 .col-1 {
@@ -43,7 +43,7 @@
 }
 
 .first {
-  clear:left;
+  clear:both;
   margin:1% 1% 1% 0;
 }
 

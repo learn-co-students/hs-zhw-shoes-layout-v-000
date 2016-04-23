@@ -22,6 +22,38 @@
   clear: both;
 }
 
+img, audio, video {
+  max-width: 100%;
+}
+
 /* Posititoning Classes */
+
+.col-1 {
+  margin-left: 2%;
+  width: 32%;
+  float: left;
+}
+
+.col-2 {
+  margin-left: 2%;
+  width: 66%;
+  float: left;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+#deals {
+  margin-top: 1em;
+}
+
+h2[class="milk_text"] {
+  margin-top: 0.25em;
+}
 
 

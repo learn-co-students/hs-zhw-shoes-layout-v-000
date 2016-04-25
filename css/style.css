@@ -215,11 +215,13 @@ iframe {
 
 #social {
 	position: fixed;
+
 	top: 200px;
 	right: 3px;
 	width: 40px;
 	z-index: 1;
 }
+
 
 	a.fbook, a.twitt, a.gplus {
 		display: block;
@@ -257,7 +259,6 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
-	}
 
 	section a {
 		color: #555;
@@ -287,6 +288,33 @@ iframe {
 	#details a:hover, #details a:active {
 		text-decoration: underline;
 	}
+
+
+[class*="col-"]{
+	margin-left: 2%;
+
+}
+
+.first {
+		margin-left: 0%;
+	}
+
+.clearfix: after {
+		content: ".";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		height: 0;
+		line-height: 0;
+	}
+
+*{
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+
+
 
 /********** Footer **********/
 

@@ -24,4 +24,30 @@
 
 /* Posititoning Classes */
 
+.col-2 {
+  float:left;
+  width:66%;
+  margin-bottom: 10px;
+}
+.wrapper .archive {
+  float:right;
+  width:32%;
+  zoom: 1;
+}
 
+.col-1 {
+  clear: right;
+  float: left;
+  width:32%;
+  margin:1%;
+}
+
+.first {
+  clear:both;
+  margin:1% 1% 1% 0;
+}
+
+.last {
+  float: right;
+  margin: 1% 0% 1% 1%;
+}

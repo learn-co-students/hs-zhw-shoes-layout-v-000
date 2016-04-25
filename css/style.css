@@ -259,8 +259,6 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
-		clear: both;
-	}
 
 	section a {
 		color: #555;
@@ -291,21 +289,6 @@ iframe {
 		text-decoration: underline;
 	}
 
-.col-1 {
-	float: left;
-	width: 32%;
-
-}
-
-.col-2 {
-	float: left;
-	width: 66%;
-	
-}
-
-.col-3 {
-
-}
 
 [class*="col-"]{
 	margin-left: 2%;

@@ -114,6 +114,43 @@ iframe {
 	box-shadow: 0 3px 10px #333;
 }
 
+.col-2-3 {
+	width: 66.66%;
+	float:left;
+	padding: 20px 0px 20px 20px;
+}
+.col-1-3 {
+	width: 33.33%;
+	float: left;
+	padding: 20px 20px 20px 20px;
+}
+.col-thir-1 {
+	width: 33.33%;
+	float: left;
+	padding-right:10px;
+}
+.col-thir-2 {
+	width: 33.33%;
+	float: left;
+	padding-right:10px;
+}
+.col-thir-3 {
+	width: 33.33%;
+	float: left;
+	3
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;

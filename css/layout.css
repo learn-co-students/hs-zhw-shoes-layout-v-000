@@ -24,4 +24,55 @@
 
 /* Posititoning Classes */
 
+.grass {
+  float: left;
+  width: 66%;
+  display: block;
+  margin: 0 0 .5em 0;
+}
+
+.archive {
+  float: left;
+  width: 32%;
+  display: block;
+  margin: 0 0 .5em 2%;
+}
+
+.ladybugs {
+  clear: both;
+  float: left;
+  width: 32%;
+  margin: .5em 0 0 0;
+}
+
+.skaters {
+  float: left;
+  width: 32%;
+  margin: .5em 0 0 2%;
+}
+
+.heels {
+  float: left;
+  width: 32%;
+  margin: .5em 0 0 2%;
+}
+
+.contact {
+  float: left;
+  width: 32%;
+}
+
+.links {
+  float: left;
+  padding-left: 2%;
+  width: 34%;
+}
+
+.follow {
+  float: left;
+  padding-left: 2%;
+  width: 34%;
+}
+
+
 

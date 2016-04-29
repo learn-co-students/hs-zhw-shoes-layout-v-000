@@ -26,7 +26,7 @@ h2, h3 {
 }
 
 ul, ol {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 li {
@@ -252,17 +252,64 @@ iframe {
 	padding: 30px 0;
 }
 
+
+
 	/********** Sections **********/
 
+
 	section {
-		padding: 20px;
-		background: white;
+		background: white;	
 	}
 
 	section a {
 		color: #555;
 		text-decoration: underline;
 	}
+
+	* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background: white;
+  padding: 18px;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: white;
+  padding: 14px;
+  margin-bottom: 28px;
+  
+}
+
+.col-3 {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+  clear: both;
+}
+
 
 /********** Details **********/
 

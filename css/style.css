@@ -15,6 +15,33 @@ img.verif_img {
 	vertical-align: bottom;
 }
 
+/********** Layout **********/
+
+.col-1 {
+	float: left;
+	width: 32%;
+	margin-right: 1%;
+}
+
+.col-2 {
+	float: left;
+	width: 65%;
+	margin-right: 1%;
+}
+
+.col-3 {
+	width: 100%;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: ".";
+     clear: both;
+     height: 0;
+     line-height: 0;
+     }
+
 /********** Global **********/
 
 body {
@@ -257,6 +284,7 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin-bottom: 20px;
 	}
 
 	section a {

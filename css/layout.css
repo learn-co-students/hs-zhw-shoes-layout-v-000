@@ -18,10 +18,47 @@
   line-height: 0;
 }
 
+.wrapper {
+  width 960px;
+  margin: 0 auto;
+}
+
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
+
+h2 {
+  margin: 0 auto;
+}
+
+.col-1 {
+  float:left;
+  width:31%;
+  margin-bottom: 20px;
+  
+  background: #fff;
+}
+.col-2 {
+  float:left;
+  width:64%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  background: #fff; 
+}
+
+.col-3 {
+  background: #fff ;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.deals {
+  float:left;
+  width:31%;
+  display: inline-block;
+  margin-right: 2%;
+}
 
 

@@ -23,5 +23,42 @@
 }
 
 /* Posititoning Classes */
+section {
+  margin-bottom: 2%;
+}
 
+.col-1 {
+  background-color: #fff;
+  float: left;
+  width: 32%;
+}
 
+.col-2 {
+  background-color: #fff;
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  background-color: #fff;
+}
+
+[class*=col-] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.shadow.col-1.first {
+  clear: both;
+}
+
+#details {
+  margin-bottom: 0%;
+}
+
+#details [class*="col-"] {
+  background-color: transparent;
+}

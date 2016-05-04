@@ -23,34 +23,28 @@
 }
 
 /* Posititoning Classes */
-.shadow {
-  width: 100%;
-}
-
-.milk_text {
-  padding: 2%;
-  margin: 2%;
-}
-
 .col-66 {
   float: left;
-  width: 64.66%;
+  width: 66%;
 }
 
 .col-33 {
   float: left;
-  width: 31.33%;
+  width: 32%;
+}
+
+.shadow {
+  margin-bottom: 2%;
 }
 
 [class*="col-"] {
-  margin-left: 2%
+  margin-left: 2%;
 }
 
-.first {
+[class*="col-"]:first-child {
   margin-left: 0%;
-  clear: both;
 }
 
 .row {
-  margin: 2% 0;
+  clear: both;
 }

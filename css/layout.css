@@ -18,10 +18,60 @@
   line-height: 0;
 }
 
-.clear {
+.clearfix {
   clear: both;
+  overflow: auto;
 }
 
 /* Posititoning Classes */
 
+.shadow1{
+ width: 600px; 
+ 
+}
+
+.shadow2 {
+  position: relative;
+  bottom: 595px;
+  left: 620px;
+  width:340px;
+  height: 599px;
+}
+
+.shadow3 {
+  display: block;
+  position: relative;
+  right: 10px;
+  bottom: 585px;
+  width: 340px;
+  height: 400px;
+}
+
+.shadow4 {
+  position: relative;
+  bottom: 987px;
+  left:350px;
+  width: 340px;
+  height: 400px;
+}
+
+.shadow5 {
+  position: relative;
+  bottom: 1387px;
+  left: 710px;
+  width: 330px;
+  height: 400px;
+}
+
+
+
+.border_right{
+  float: left;
+  
+}
+
+.shoes{
+ padding: 10px;
+ width: 500px;
+}
 

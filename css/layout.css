@@ -9,6 +9,41 @@
   -moz-box-sizing: border-box;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+.col-1 {        /*one-third */
+  float: left;
+  width: 32%;
+}
+
+.col-2 {          /* two-thirds  */
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+}
+
+[class*= "col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
+  margin-bottom: 2%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +58,17 @@
 }
 
 /* Posititoning Classes */
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
 

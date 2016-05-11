@@ -264,6 +264,20 @@ iframe {
 		text-decoration: underline;
 	}
 
+.col-1 {
+float: left;
+width: 30%;
+}
+
+.col-2 {
+float: left;
+width: 62%;
+}
+
+.col-3 {
+background: #ccc;
+}
+
 /********** Details **********/
 
 #details {

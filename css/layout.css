@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 32%;
+  float: left;
+}
 
+.col-2 {
+  width: 66%;
+  float: left;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first-col {
+  margin-left: 0%;
+}
+
+/* Spacing */
+
+.sale,
+.featured {
+  margin-bottom: 20px;
+}

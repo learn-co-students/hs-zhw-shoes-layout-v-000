@@ -22,6 +22,28 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Positioning Classes */
+.col-1 {
+  float: right;
+  width: 32%;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
 
+.col-3 {
+  float: left;
+  width: 32%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

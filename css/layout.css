@@ -24,4 +24,38 @@
 
 /* Posititoning Classes */
 
+.col-1{
+  float:left;
+  width:32%;
+  background-color: #fff;
+  padding: 20px;
+  margin-left:10px;
+}
+.col-2{
+  float:left;
+  width:65%;
+  background-color: #fff;
+  padding: 20px;
+}
+.col-3{
+  background:#ccc;
+  width:100%;
+  /*margin:10px;*/
+}
+.first{
+  margin-left:0%;
+}
+.white{
+  background-color: #fff;
+}
+.clearfix:a{
 
+}
+/*make the background of every .shadow that comes after the section element transparent*/
+section ~ .shadow{
+  padding: 0;
+  background-color: transparent;
+  margin: 10px;
+  box-shadow: none;
+
+}

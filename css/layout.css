@@ -23,5 +23,20 @@
 }
 
 /* Posititoning Classes */
+.shadow {
+  display: block;
+}
 
+.col-1 {
+  width: 30%;
 
+}
+
+.col-2 {
+  width: 60%;
+  ;
+}
+
+.col-3 {
+  width: 100%;
+}

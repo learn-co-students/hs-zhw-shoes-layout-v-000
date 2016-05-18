@@ -23,20 +23,26 @@
 }
 
 /* Posititoning Classes */
-.shadow {
+
+.col-1 {
+  width: 66%;
+  float: left;
   display: block;
 }
 
-.col-1 {
-  width: 30%;
-
-}
-
 .col-2 {
-  width: 60%;
-  ;
+  width: 32%;
+  float: right;
+  display: block;
 }
 
 .col-3 {
-  width: 100%;
+  width: 30%;
+  display: inline-block;
+  clear: both;
+  margin: 10px;
+}
+
+.first  {
+  margin-left: 0%;
 }

@@ -25,22 +25,20 @@
 /* Posititoning Classes */
 
 .col-1 {
-  width: 66%;
-  float: left;
-  display: block;
+  width: 100%;
+  margin-bottom: 2%;
 }
 
 .col-2 {
-  width: 32%;
-  float: right;
-  display: block;
+  width: 66%;
+  float: left;
+  margin: 0 0 2% 2%;
 }
 
 .col-3 {
-  width: 30%;
-  display: inline-block;
-  clear: both;
-  margin: 10px;
+  width: 32%;
+  float: left;
+  margin: 0 0 2% 2%;
 }
 
 .first  {

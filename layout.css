@@ -1,0 +1,47 @@
+/********** Fixes **********/
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Posititoning Classes */
+
+/*------LAYOUT-------------*/
+.shadow-1 col-1 {
+  width: 100%;
+  margin: 0, auto;
+  background: blue;
+  border: 20px;
+}
+  
+h3, p, .shadow2 col2 {                                                                                                                  ? 111q
+  width: 67%;
+  margin: 1%
+  background: blue;
+  border-style: solid;
+  border: 30px;
+}
+
+.connie {
+  width: 32.5%;
+  clear: both;
+}
+

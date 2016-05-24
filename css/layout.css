@@ -24,4 +24,34 @@
 
 /* Posititoning Classes */
 
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
 
+.row:after {
+  content: "clrfx";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+[class*="column"] {
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="column"]:first-child {
+  margin-left: 0;
+}
+
+
+.column-two-thirds {
+  width: 66%;
+}
+
+.column-one-third {
+  width: 32%;
+}

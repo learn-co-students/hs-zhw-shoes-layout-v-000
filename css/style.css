@@ -303,3 +303,50 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+
+/********** Columns **********/
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #fff;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #fff;
+}
+
+.col-3 {
+  float: left;
+  width: 32%;
+}
+
+.featured {
+	margin: 25px auto;
+}
+
+
+
+/* Attribute selector to add margins to columns*/
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+/* To negate margin on the left side of the first column*/
+.first {
+  margin-left: 0%;
+}
+
+/* Clearfix*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+

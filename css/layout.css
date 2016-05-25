@@ -24,6 +24,11 @@
 
 /* Posititoning Classes */
 
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+
 .col-1 {
   float: left;
   width: 32%;

@@ -26,14 +26,12 @@
 
 
 .col-1, {
-    float: left;
     width: 32%;
     padding: 2px;
 
   }
 
   .col-2{
-    float: right;
     width: 66%;
     padding: 2px
   
@@ -46,10 +44,10 @@
   }
 
 [class*= "col-"] {
-  margin-left: 0 0 2%;
+  margin-left: 2%;
 }
 
 .first {
-  margin-left: 0 0 2%;
+  margin-left: 2%;
   clear:  both;
 }

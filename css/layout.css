@@ -24,11 +24,9 @@
 
 /* Posititoning Classes */
 
-.row {
 
-}
 
-.col-1, {
+.col-1 {
     float: left;
     width: 32%;
 
@@ -57,7 +55,7 @@ margin-left: 2%;
   margin-left: 0%;
 }
 
-img, video, audio {
+/*img, video, audio {
   max-width: 100% ;
-}
+}*/
 

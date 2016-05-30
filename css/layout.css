@@ -23,35 +23,41 @@
 }
 
 /* Posititoning Classes */
-.wrapper {
-  width: 960px;
-  margin: 0 auto;
-  }
+
+.row {
+
+}
 
 .col-1, {
     float: left;
     width: 32%;
-    padding: 2px;
 
   }
 
-  .col-2{
+  .col-2 {
     float: left;
     width: 66%;
-    padding: 2px
   
   }
 
-  .col-3{
-    padding: 2px;
+  .col-3 {
     
   }
 
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
 [class*= "col-"] {
-  margin-left: 2%;
+margin-left: 2%;
 }
 
 .first {
-  margin-left: 2%;
-  clear:  both;
+  margin-left: 0%;
 }
+
+img, video, audio {
+  max-width: 100% ;
+}
+

@@ -288,6 +288,8 @@ iframe {
 		text-decoration: underline;
 	}
 
+
+
 /********** Footer **********/
 
 footer {
@@ -301,5 +303,64 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+
+/*****FOOTER DETAILS*******/  
+#contact {
+	float: left;
+	width: 33.3%;
+}
+#links {
+	float: left;
+	width: 33.3%;
+}
+#follow {
+	float: left;
+	width: 33.3%;
+}
+ 
+#main_img {
+  margin-bottom: 2%
+}
+
+#col_1 {
+  float: left;
+	width: 64.6%;
+	display: block;
+	margin-right: 2%;
+}
+	
+#col_2 {
+	float: right;
+	width: 33.3%;
+}
+
+#col_3 {
+		float: left;
+		display: inline-block;
+		width: 31.3%;
+		margin-top: 2%;
+		margin-right: 2%;
+		clear: both;
+}
+
+	#col_4 {
+		float: left;
+		width: 31.3%;
+		display: inline-block;
+		margin-top: 2%;
+		margin-right: 2%;
+}
+
+#col_5 {
+		float: right;
+		display: inline-block;
+		width: 33.3%;
+		clear: right;
+		margin-top: 2%;
+}
+
+
+
 
 /* code examples copyright Jonathan Grover 2012 */

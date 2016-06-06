@@ -1,4 +1,4 @@
-/********** Fixes **********/
+r/********** Fixes **********/
 
 * {
   margin:0;
@@ -23,5 +23,25 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+float: left;
+width: 32%
+}
 
+.col-2 {
+float: left;
+width: 66%
+}
 
+.col-3 {
+width:100% 
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}

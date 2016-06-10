@@ -24,9 +24,14 @@
 
 /* Posititoning Classes */
 
-.deals {
-  margin-top: 2%;
+.sale {
+  margin: 0 0 2%;
 }
+
+.featured {
+  margin: 0 0 2%;
+}
+
 
 .col-1 {
   float: left;

@@ -24,4 +24,36 @@
 
 /* Posititoning Classes */
 
+.shadow {
+  box-shadow: 0 3px 10px #333;
+  display: block;
+  margin: 0 10px 10px 0px;
+}
 
+
+.col-1 {
+  width: 29.66%;
+  float: left;
+}
+
+.col-2 {
+  width: 60.33%;
+  float: left;
+  height: 589px;
+  margin: 0 10px 0 0;
+}
+
+.col-3 {
+  width: 100%;
+  float: left;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}

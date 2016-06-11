@@ -24,4 +24,39 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 29.66%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
 
+.col-2 {
+  width: 60.5%;
+  float: left;
+  height: 588px;
+  margin: 0px 10px 10px 0;
+}
+
+.col-3 {
+  width: 91%;
+  float: left;
+  margin: 0 0 10px;
+}
+
+ .fbook {
+   position: absolute;
+   top: 102px;
+   right: -40px;
+ }
+
+ .twitt {
+   position: absolute;
+   top: 142px;
+   right: -40px;
+ }
+
+ .gplus {
+   position: absolute;
+   top: 182px;
+   right: -40px;
+ }

@@ -24,4 +24,67 @@
 
 /* Posititoning Classes */
 
+<<<<<<< HEAD
+.main {
+  margin-bottom: 15px;
+}
+
+.milk_text + .shadow {
+  float: left;
+  width: 66%;
+  margin-bottom: 18px;
+}
+
+.archive {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 10px;
+  height: ;
+}
+
+.lady {
+  float: left;
+  width: 32%;
+  clear: both;
+}
+
+.skater {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.bluestar {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.milk_text {
+  margin-top: 15px;
+}
+
+.contact {
+  float: left;
+  width: 32%;
+}
+ 
+.links {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.follow {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+
+
+
+=======
+>>>>>>> e2bccdc97b5f76c03ef4e905e0586761d6ccd118
 

@@ -24,4 +24,44 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 32%;
+  margin-left: 2%;
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+#wrapper-2 {
+  clear: left;
+  margin-bottom: 20px;
+}
+
+.col-2 {
+  width: 66%;
+  left-margin: 2%;
+  float: left;
+}
+
+.first {
+  margin-left: 0;
+  float: left;
+}
+
+.second-row {
+  margin-top: 20px;
+}
+
+.clearfix: after {
+  content : "HELLO WORLD";
+  display: block;
+  clear: both;
+}
+
+.wrapper div {
+  float: left;
+  margin-right: 80px;
+}
 

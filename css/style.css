@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -134,6 +134,12 @@ iframe {
 	height: 415px;
 }
 
+div {
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
 /********** Header **********/
 
 	/********** Nav Bar **********/
@@ -253,6 +259,14 @@ iframe {
 }
 
 	/********** Sections **********/
+	*{
+	  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;}
+
+	.wrapper {
+	  width: 960px;
+	  margin: 0 auto;
+}
 
 	section {
 		padding: 20px;
@@ -264,6 +278,56 @@ iframe {
 		text-decoration: underline;
 	}
 
+	.clearfix:after {
+		content: ".";
+		display: block ;
+		clear: both;
+		visibility: hidden;
+		height: 0;
+		line-height: 0;
+	}
+
+	.col-1 {
+	float: left;
+	width: 66%;
+	padding: 20px;
+	}
+
+	.col-2 {
+	float: right;
+	width: 32%;
+		padding: 20px;}
+
+		.col-3 {
+float: left;
+			width: 33%;
+		margin: 5px;}
+
+		.col-7 {
+float: left;
+		width: 33%;
+margin: 5px;}
+
+
+.col-8 {
+	float: left;
+width: 33%;
+padding: 5px;}
+
+.col-4 {
+float: left;
+width: 32%;
+padding: 10px; }
+
+	.col-5 {
+float: left;
+	width: 32%;
+padding: 20px;}
+
+.col-6 {
+float: left;
+width: 32%;
+}
 /********** Details **********/
 
 #details {

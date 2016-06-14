@@ -24,4 +24,35 @@
 
 /* Posititoning Classes */
 
+.primary-featured {
+  width: 65.66%;
+  height: 36em;
+  float: left;
+  margin-bottom: 10px;
+  overflow: scroll;
+}
+
+.archive {
+  width: 32.33%;
+  height: 36em;
+  float: right;
+  margin-bottom: 10px;
+  overflow: scroll;
+}
+
+.wrapper .deals {
+  float: left;
+  width: 33.33%;
+  clear:  both;
+  margin-top: 10px;
+}
+
+.wrapper .border_right {
+  float: left;
+  width: 33.33%
+}
+
+
+
+
 

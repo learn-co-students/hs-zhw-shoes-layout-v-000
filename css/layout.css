@@ -18,15 +18,16 @@
   line-height: 0;
 }
 
-.clearfix {
-
-}
-
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
+
+.wrapper {
+  width: 1080px;
+  margin: 0 auto;
+}
 
 .col-1 {
   float: left;
@@ -41,9 +42,13 @@
 }
 
 .col-3 {
-  float: right;
-  width: 100%;
-  margin-bottom: 20px;
+
 }
 
-#right {}
+[class*= "col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

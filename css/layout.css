@@ -32,13 +32,13 @@
 .col-1 {
   float: left;
   width: 32%;
-  margin: 10px;
+  margin: 15px;
 }
 
 .col-2 {
   float: left;
-  width: 66%;
-  margin: 10px;
+  width: 64%;
+  margin: 15px;
 }
 
 .col-3 {
@@ -46,7 +46,8 @@
 }
 
 [class*= "col-"] {
-  margin-left: 2%;
+  margin-left: 0%;
+  float: left;
 }
 
 .first {

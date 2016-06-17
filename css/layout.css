@@ -26,19 +26,18 @@
 
 .wrapper {
   width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .col-1 {
-  float: left;
   width: 32%;
-  margin: 1%
+  margin: 1% 1%;
+
 }
 
 .col-2 {
-  float: left;
   width: 66%;
-  margin: 1% 2% 1%
+  margin: 1% 2%;
 }
 
 .col-3 {
@@ -48,8 +47,4 @@
 [class*= "col-"] {
   margin-left: 0%;
   float: left;
-}
-
-.first {
-  margin-left: 0%;
 }

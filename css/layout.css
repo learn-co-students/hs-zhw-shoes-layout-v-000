@@ -27,3 +27,34 @@ section  {
   padding: 20px;
 
 }
+
+
+	.col-1 {
+	float: left;
+	width: 66%;
+	margin: 5px 0px;
+	}
+
+	.col-2 {
+	float: right;
+	width: 32%;
+		margin: 5px 0px;}
+
+		.col-4 {
+float: left;
+			width: 32%;
+margin-top: 5px ;
+		margin-right: 20px;}
+
+		.col-4 without {
+float: left;
+			width: 32%;
+margin-top: 5px ;
+		}
+
+
+
+.col-7 {
+float: left;
+width: 32%;
+}

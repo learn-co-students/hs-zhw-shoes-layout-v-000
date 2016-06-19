@@ -24,24 +24,24 @@
 }
 
 /* Posititoning Classes */
-.shadow-1 {
+.col-1 {
 	float:left;
 	width:32%;
 }
 
-.shadow-2 {
+.col-2 {
 	float:right;
 	width:32%;
 }
 
 
-.shadow-3 {
+.col-3 {
 	float:left;
 	width:66%;
 }
 
 
-[class*="shadow-"] {
+[class*="col-"] {
 	margin-left:2%;
 }
 

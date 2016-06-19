@@ -23,5 +23,24 @@
 }
 
 /* Posititoning Classes */
+.shadow-1{
+	float:left;
+	width:32%;
+}
+
+.shadow-2 {
+	float:left;
+	width:66%;
+}
+
+.shadow-3 {
+background: #d3d3d3;
+}
 
 
+[class*="shadow-"] {
+	margin-left:2%;
+}
+.first {
+	margin-left:0%;
+}

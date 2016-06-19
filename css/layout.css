@@ -16,6 +16,7 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+
 }
 
 .clear {
@@ -23,5 +24,35 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+	float:left;
+	width:32%;
+
+}
+
+.col-2 {
+	float:right;
+	width:32%;
+
+}
 
 
+.col-3 {
+	float:left;
+	width:66%;
+
+}
+
+
+[class*="col-"] {
+	margin-left:2%;
+}
+
+.first {
+	margin-left:0%;
+  clear:both;
+}
+
+section {
+  margin-bottom:20px;
+}

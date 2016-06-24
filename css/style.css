@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -268,7 +268,7 @@ iframe {
 
 #details {
 	clear:both;
-	padding: 20px 10px;
+	padding: 20px 0px;
 	/* gradient */
 	background: rgb(229,229,229); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
@@ -301,5 +301,50 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+/*////// COLUMNS //////*/
+
+.col-0 {
+  background: white;
+	margin-bottom: 2%
+}
+
+.col-1 {
+  float: left;
+  width: 66%;
+  background: white;
+}
+
+.col-2 {
+  float: right;
+  width: 32%;
+  background: white;
+}
+
+.col-3 {
+	float: left;
+  width: 32%;
+  background: white;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+	margin-bottom: 12px
+}
+
+
 
 /* code examples copyright Jonathan Grover 2012 */

@@ -9,6 +9,50 @@
   -moz-box-sizing: border-box;
 }
 
+.shadow {
+  margin: 1%;
+}
+
+#grassshoes {
+  float: left;
+  width: 64.666%;
+}
+
+#archive {
+  float: left;
+  width: 31.333%;
+}
+
+#ladybug {
+  float: right;
+  width: 31.333%;
+}
+
+#skaters {
+  float: right;
+  width: 31.333%;
+}
+
+#heels {
+  float: right;
+  width: 31.333%;
+}
+
+.border_left {
+  float: left;
+  width: 33.333%;
+}
+
+.border_mid {
+  float: left;
+  width: 33.333%;
+}
+
+.border_right {
+  float: left;
+  width: 33.333%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +67,3 @@
 }
 
 /* Posititoning Classes */
-
-

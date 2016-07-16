@@ -144,8 +144,8 @@ iframe {
   width: 33%;
 }
 .col-3 {
-	display: inline-block;
-  width: 33%;
+	float: left;
+  width: 30%;
 }
 /********** Header **********/
 

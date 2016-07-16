@@ -147,6 +147,11 @@ iframe {
 	float: left;
   width: 30%;
 }
+
+.two {
+	float:left;
+	margin: 5px;
+}
 /********** Header **********/
 
 	/********** Nav Bar **********/

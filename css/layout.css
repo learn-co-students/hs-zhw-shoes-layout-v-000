@@ -23,5 +23,48 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+  float: left;
+  width: 65%;
+  margin: 2px;
+}
 
+.col-2 {
+  float: right;
+  width: 32%;
+  margin: 2px;
+}
 
+.col-shoes-1 {
+  float: left;
+  width: 32%;
+  margin-right: 18px;
+}
+
+.col-shoes-2 {
+  float: left;
+  width: 32%;
+  margin-right: 18px;
+}
+
+.col-shoes-3 {
+  float: left;
+  width: 32%;
+}
+
+.col-footer-1 {
+  float: left;
+  width: 32%;
+  margin-right: 18px;
+}
+
+.col-footer-2 {
+  float: left;
+  width: 32%;
+  margin-right: 18px;
+}
+
+.col-footer-3 {
+  float: left;
+  width: 32%;
+}

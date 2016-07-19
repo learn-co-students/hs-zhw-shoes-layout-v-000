@@ -10,12 +10,13 @@
 }
 
 .clearfix:after {
-  content: ".";
+  content: "a";
   display: block;
   clear: both;
   visibility: hidden;
   height: 0;
   line-height: 0;
+
 }
 
 .clear {
@@ -29,18 +30,21 @@
 
 
   .col {
-  width: 64%;
+  width: 66%;
   display: block;
   float: left;
+  margin: 0 1% 1% 0;
+
 }
 
  .col-2 {
 
+  width: 32%;
   display: block;
+  float: right;
+  margin: 0 0 1% 1%;
 
-  width: 34%;
-  float: left;
-  margin: 0 auto 10px auto;
+
 
 
 }
@@ -49,8 +53,9 @@
 .col-3 {
   display: block;
 
+
   width: 32%;
-  margin: 5px auto;
+  margin: 1% 1% 1% 0;
 
 
 
@@ -60,9 +65,8 @@
   display: block;
 
 
-  width: 33%;
-  margin: 5px auto;
-  padding: 0 10px 0 10px;
+  width: 32%;
+  margin: 1%;
   float: left;
 
 
@@ -76,9 +80,9 @@ margin: 10px 0 10px 0;
 
 
 float: right;
-  width: 33%;
+  width: 32%;
 
-  margin: 5px auto;
+  margin: 1% 0 1% 1%;
 }
 
 .bottom-m {

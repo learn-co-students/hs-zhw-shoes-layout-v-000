@@ -10,18 +10,100 @@
 }
 
 .clearfix:after {
-  content: ".";
+  content: "a";
   display: block;
   clear: both;
   visibility: hidden;
   height: 0;
   line-height: 0;
+
 }
 
 .clear {
   clear: both;
 }
 
+
+
 /* Posititoning Classes */
 
 
+
+  .col {
+  width: 66%;
+  display: block;
+  float: left;
+  margin: 0 1% 1% 0;
+
+}
+
+ .col-2 {
+
+  width: 32%;
+  display: block;
+  float: right;
+  margin: 0 0 1% 1%;
+
+
+
+
+}
+
+
+.col-3 {
+  display: block;
+
+
+  width: 32%;
+  margin: 1% 1% 1% 0;
+
+
+
+  float: left;
+}
+.col-m {
+  display: block;
+
+
+  width: 32%;
+  margin: 1%;
+  float: left;
+
+
+}
+.may {
+margin: 10px 0 10px 0;
+
+
+}
+.col-r {
+
+
+float: right;
+  width: 32%;
+
+  margin: 1% 0 1% 1%;
+}
+
+.bottom-m {
+
+
+  width: 33%;
+
+  float: left;
+
+
+}
+
+.bottom-l {
+  float: left;
+  width: 33%;
+
+
+}
+
+.bottom-r {
+  width: 33%;
+
+  float: left;
+}

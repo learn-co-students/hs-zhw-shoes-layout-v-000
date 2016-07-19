@@ -22,6 +22,84 @@
   clear: both;
 }
 
+
+
 /* Posititoning Classes */
 
 
+
+  .col {
+  width: 64%;
+  display: block;
+  float: left;
+}
+
+ .col-2 {
+
+  display: block;
+
+  width: 34%;
+  float: left;
+  margin: 0 auto 10px auto;
+
+
+}
+
+
+.col-3 {
+  display: block;
+
+  width: 32%;
+  margin: 5px auto;
+
+
+
+  float: left;
+}
+.col-m {
+  display: block;
+
+
+  width: 33%;
+  margin: 5px auto;
+  padding: 0 10px 0 10px;
+  float: left;
+
+
+}
+.may {
+margin: 10px 0 10px 0;
+
+
+}
+.col-r {
+
+
+float: right;
+  width: 33%;
+
+  margin: 5px auto;
+}
+
+.bottom-m {
+
+
+  width: 33%;
+
+  float: left;
+
+
+}
+
+.bottom-l {
+  float: left;
+  width: 33%;
+
+
+}
+
+.bottom-r {
+  width: 33%;
+
+  float: left;
+}

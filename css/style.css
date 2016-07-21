@@ -112,6 +112,7 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+	width: 100%;
 }
 
 .milk_text {
@@ -134,56 +135,26 @@ iframe {
 	height: 415px;
 }
 
-.col-1 {
-  float: left;
-  width: 64%;
-	margin: 0 auto;
+.col-1{ float: left;
+        width: 32%;
+
 }
 
-.col-2 {
-	float: right;
-	width: 33%;
-	margin-left: 1%;
-}
-.col-3 {
-	float: left;
-	width: 31%;
-	margin-left: 0 auto;
-	margin-top: 2%;
-	margin-right: 2%;
-}
+.col-2{ float: left;
+        width: 66%;
+        }
+
+.col-3{   width: 100%}
+
+[class*='col-']{
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
+.first{margin-left: 0%;
+        clear: left;}
 
-.leftie {
-	float: left;
-	width: 31%;
-	margin-left: 0 auto;
-	margin-top: 2%;
-	margin-right: 0%;
-}
 
-.centerie {
-	float:center;
-	width: 31%;
-	margin-top: 2%;
-	margin-left: 1%;
-}
-
-.rightie {
-	float: right;
-	width: 31%;
-	margin-right: 0 auto;
-	margin-top: 2%;
-	margin-left: 2%;
-}
-
-.col-uno {
-	float: left;
-  width: 31%;
-	margin: 0 auto;
-	margin-right: 2%;
-}
 
 
 /********** Header **********/

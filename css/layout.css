@@ -23,5 +23,41 @@
 }
 
 /* Posititoning Classes */
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
 
+.col-1 {
+  width: 32%;
+}
 
+.col-2 {
+  width: 66%;
+}
+
+.col-3 {
+
+}
+
+.first {
+  margin-left: 0%;
+}
+#social {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
+}
+
+div#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+img {
+  max-width: 100%;
+}

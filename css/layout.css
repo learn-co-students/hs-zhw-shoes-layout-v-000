@@ -27,19 +27,24 @@
 .col-1 {
   width: 32%;
   display: block;
-  margin: 2px;
 }
 
 .col-2 {
   width: 66%;
   display: block;
-  margin: 2px;
 }
 
 .col-3 {
-  width: 98%;
   display: block;
-  margin: 2px;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
 }
 
 .right {

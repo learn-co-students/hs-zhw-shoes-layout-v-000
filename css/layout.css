@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 32%;
+  display: block;
+}
 
+.col-2 {
+  width: 66%;
+  display: block;
+}
+
+.col-3 {
+  display: block;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+#details .col-1 {
+  display: inline-block;
+}

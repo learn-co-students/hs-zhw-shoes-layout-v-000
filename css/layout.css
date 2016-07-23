@@ -22,6 +22,51 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Positioning Classes */
 
+.col1_left {
+  float: left;
+  width: 32%;
+}
 
+.col1_mid {
+  width: 32%;
+}
+
+.col1_right {
+  float: right;
+  width: 32%;
+}
+
+.col2_left {
+  float: left;
+  width: 66%;
+}
+
+.col2_right {
+  float: right;
+  width: 32%;
+}
+
+.first {
+  margin-left: 0%
+ }
+
+ [class*="col-"] {
+   margin-left: 2%
+  }
+
+ /*/////// SECTIONS ////////*/
+
+ header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+ }
+
+ section {
+    padding: 20px
+    margin-bottom: 20px
+  }

@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+/*/////// LAYOUT ////////*/
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 65.5%;
+}
+
+.col-3 p {
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-rule: 1px dotted #ccc;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 3%;
+  border-radius: 5%;
+}
+
+.first {
+  margin-left: 0%;
+}

@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -113,6 +113,24 @@ iframe {
 .shadow {
 	box-shadow: 0 3px 10px #333;
 }
+
+
+
+.float-left {
+	float: left;
+	width: 32%;
+	margin: 0 2% 2% 0;
+}
+
+.large-box {
+	width: 66%;
+}
+
+.float-right {
+	float:right;
+	width: 32%;
+}
+
 
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;

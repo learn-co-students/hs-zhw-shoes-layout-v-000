@@ -24,4 +24,36 @@
 
 /* Posititoning Classes */
 
+.twothirdsleft {
+  float: left;
+  width: 65%;
+  margin: 1% 1% 1% 0;
+}
 
+.archive {
+  float: left;
+  width: 32%;
+  margin: 1% 1% 1% 0;
+}
+
+.onethirdright {
+  float: left;
+  width: 32%;
+  margin: 1% 0 1% 1%;
+}
+
+.onethirdleft {
+  float: left;
+  width: 32%;
+  margin: 1% 1% 1% 0;
+}
+
+.onethirdmiddle {
+  float: left;
+  width: 32%;
+  margin: 1% 0 1% 0;
+}
+
+.holidays {
+  margin-bottom: 1%;
+}

@@ -24,6 +24,74 @@
 
 /* Posititoning Classes */
 
+
+/******* Start of Learn Solution Using My Classes in Index.html ********/
+
+  .row {
+    clear: both;
+    margin-bottom: 2%;
+  }
+  
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+
+  [class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
+
+  [class*="col-"]:first-child {
+    margin-left: 0;
+  }
+
+  .col-1 { width: 32%; }
+  .col-2 { width: 66%; }
+
+/**** End of Learn Solution with My Classes ****/
+
+
+
+
+/******* Start of Learn Solution with Their Classes -->
+
+  .row {
+    clear: both;
+    margin-bottom: 2%;
+  }
+  
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+
+  [class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
+
+  [class*="col-"]:first-child {
+    margin-left: 0;
+  }
+
+  .col-4 { width: 32%; }
+  .col-8 { width: 66%; }
+
+-->  End of Learn Solution *******/
+
+
+
+/******* My Solution Code -->
+
 .main {
   margin-bottom: 15px;
 }
@@ -85,7 +153,7 @@
   margin: 5px;
 }
 
-
+---> End of My Solution Code *****/
 
 
 

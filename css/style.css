@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
@@ -303,3 +303,53 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+.deals {
+	display: inline-block;
+	width: 32.5%;
+}
+
+.detail {
+	display: inline-block;
+	position: relative;
+	left: 16%;
+	width: 22.66%;
+}
+
+#photo1 {
+	margin-right: .375%;
+}
+
+#photo2 {
+	margin-left: .375%;
+	margin-right: .375%;
+}
+
+#photo3 {
+	margin-left: .375%;
+}
+
+/*//////////////COLUMNS//////////////*/
+
+
+
+.col-1 {
+	float: right;
+	width: 33%;
+	margin-left: .5%;
+	margin-bottom: 2%;
+}
+
+
+.col-2 {
+	float: left;
+	max-width: 66%;
+	margin-right: .5%;
+	margin-bottom: 2%;
+}
+
+.col-3 {
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+}

@@ -24,4 +24,40 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  clear: both;
+  background-color: rgb(229, 229, 229);
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+}

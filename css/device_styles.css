@@ -1,14 +1,3 @@
-/**
- * Learn HTML & CSS from Scratch
- * 4.1: Responsive Layouts
- */
-
-/********** Device Styles **********/
-
-/**
- * Tablet Landscape: 1024px
- */
-
 @media only screen and (max-width: 1024px) {
 
 	.wrapper {
@@ -149,7 +138,7 @@
 	*, h1, h2, h3, h4, h5, h6, p, a, section, div, table {
 		color: black;
 	}
-	
+
 }
 
 /* code examples copyright Jonathan Grover 2012 */

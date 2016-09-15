@@ -1,9 +1,7 @@
 /********** Fixes **********/
 
+
 * {
-  margin:0;
-  padding:0;
-  border:0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -24,4 +22,38 @@
 
 /* Posititoning Classes */
 
+.milk_text {
+  padding: 13px 0px 9px;
+}
 
+#shoes {
+  float:left;
+  width: 64.4%;
+  margin: 0px 10px 10px 0px;
+  margin-right: 10px;
+}
+
+#archive {
+  float:left;
+  width: 33%;
+  margin: 0px 0px 10px 10px;
+  padding: 0px 0px 0px 15px;
+  line-height: 17.95px;
+}
+
+#archive li {
+    margin-left: -20px;
+}
+
+.shadow {
+  float:left;
+  width: 31.2%;
+  margin: 10px;
+}
+
+
+.border_right {
+  float:left;
+  width: 33.333%;
+  padding:20px;
+}

@@ -18,10 +18,10 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
-}
+.clearfix{ clear: both; margin-bottom: 2%}
 
 /* Posititoning Classes */
 
-
+.featured {width: 66%; float: left; }
+.first {width: 32%; float: left; margin-left: 0;}
+.row {width: 32%; float: left; margin-left: 2%; }

@@ -9,6 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +24,9 @@
 }
 
 /* Posititoning Classes */
-
-
+.left{ float: left;  width: 32%; margin: 4.5px;}
+.right{ float: right; width: 32%; margin: 4.5px;}
+.center{ display: inline-block; width: 32%; margin:4.5px;}
+.righto{ width: 32%; padding: 38px;}
+.lefto{ width: 66%;}
+.clearright{ clear: right; }

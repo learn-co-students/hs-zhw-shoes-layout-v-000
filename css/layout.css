@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.milk_text + .shadow {
+  float: left;
+  width: 65%;
+}
 
+.shoe-archive {
+  float: right;
+  width: 30%;
+}
+
+/*.next {
+  clear: both;
+}*/
+
+.threes {
+  display: inline-block;
+  width: 30%;
+  margin: 20px 48px 20px 0;
+  float: left;
+}
+
+.no-marging {
+  margin-right: 0;
+}

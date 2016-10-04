@@ -15,11 +15,6 @@
   display: block;
 }
 
-.col-4 {
-  float: left;
-  width: 32%;
-}
-
 [class*="col-"] {
   margin-left: 2%;
   margin-bottom: 2%;

@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
@@ -252,6 +252,7 @@ iframe {
 	padding: 30px 0;
 }
 
+
 	/********** Sections **********/
 
 	section {
@@ -302,4 +303,83 @@ footer {
 		text-decoration: underline;
 	}
 
+/*/////// Images ///////*/
+
+.shoes-on-grass {
+	display:block;
+	float:left;
+	margin: 5px;
+}
+
+.shadow h3 .summer {
+	border: 3px dotted purple;
+}
+
+.shadow p .summer {
+	border: 3px dotted purple;
+}
+.shadow figure h3 {
+	display:block;
+	float:left;
+	margin:auto;
+}
+
+
+/*puts a border around */
+.shadow .shoe-archive {
+	border: 3px;
+}
+*/
+
+
+#shoe-archive {
+	border: 3px dotted green;
+}
+
+
+ul li {
+	border: 3px;
+}
+
+/*
+.shoe-archive-list .col-1 {
+	display: block;
+	float: right;
+	border: 3px dotted orange;
+	margin: 0px 0px 0px 0px;
+}
+*/
+
+/*
+.summer-grass {
+	border: 3px dotted yellow;
+}
+*/
+
+.col-1 {
+	float:left;
+	width: 32%;
+	margin: 5px 5px 0px 5px;
+}
+
+.col-2 {
+	float: left;
+	width: 65%;
+	margin-left: 5px;
+}
+
+.col-3 {
+	width: 100%;
+}
+
+.col-4 {
+	float:right;
+	width: 32%;
+	margin: auto;
+}
+
+.milk_text .featured-brands {
+	margin-top: 10px;
+	border: 5px dotted green;
+}
 /* code examples copyright Jonathan Grover 2012 */

@@ -324,46 +324,19 @@ footer {
 	margin:auto;
 }
 
-
-/*puts a border around */
-.shadow .shoe-archive {
-	border: 3px;
-}
-*/
-
-
-#shoe-archive {
-	border: 3px dotted green;
-}
-
-
 ul li {
 	border: 3px;
 }
 
-/*
-.shoe-archive-list .col-1 {
-	display: block;
-	float: right;
-	border: 3px dotted orange;
-	margin: 0px 0px 0px 0px;
-}
-*/
-
-/*
-.summer-grass {
-	border: 3px dotted yellow;
-}
-*/
-
 .col-1 {
 	float:left;
 	width: 32%;
-	margin: 5px 5px 0px 5px;
+	margin: 10px 5px 0px 5px;
 }
 
 .col-2 {
 	float: left;
+	display:block;
 	width: 65%;
 	margin-left: 5px;
 }
@@ -373,13 +346,10 @@ ul li {
 }
 
 .col-4 {
-	float:right;
+	float:left;
 	width: 32%;
-	margin: auto;
+	margin:0px 0px 0px 10px;
+	max-height: 580px;
 }
 
-.milk_text .featured-brands {
-	margin-top: 10px;
-	border: 5px dotted green;
-}
 /* code examples copyright Jonathan Grover 2012 */

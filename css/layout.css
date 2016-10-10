@@ -24,4 +24,38 @@
 
 /* Posititoning Classes */
 
+.far-right{
+  float: right;
+}
 
+.shadow#featured {
+  width: 66%;
+  float: left;
+}
+
+.shadow#archive {
+  width: 33%;
+  float: right;
+}
+
+#deals-1 {
+display: block;
+float: left;
+width: 32%;
+margin: 2% 0;
+clear: both;
+}
+
+#deals-2 {
+display: block;
+float: left;
+width: 32%;
+margin: 2%;
+}
+
+#deals-3 {
+display: block;
+float: left;
+width: 32%;
+margin: 2% 0;
+}

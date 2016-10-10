@@ -23,5 +23,56 @@
 }
 
 /* Posititoning Classes */
+.border_right {
+  padding-left: 20px;
+  border-right: 1px #aaa dotted;
+  float: left;
+  width: 32%
+}
 
+.no_border {
+  padding-left: 20px;
+  float: left;
+  width: 32%
+}
 
+.border_left {
+  padding-left: 20px;
+  border-right: 1px #aaa dotted;
+  float: left;
+  width: 34%
+}
+
+.first {
+  padding-left: 0%;
+}
+
+.shadow {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.second {
+  float:left;
+  width: 32%;
+}
+
+.two-thirds {
+  margin-bottom: 2%;
+  float: left;
+  width: 66%;
+  height: 593px;
+}
+
+.one-third {
+  margin-bottom: 2%;
+  float: right;
+  width: 32%;
+  margin-left: 2%;
+  height: 593px;
+}
+
+.whole {
+  margin-bottom: 2%;
+}

@@ -37,6 +37,10 @@
   margin-left: 2%;
 }
 
-.row {
+.first {
+  margin-left: 0%;
+}
 
+.deals {
+  margin-top: 10px;
 }

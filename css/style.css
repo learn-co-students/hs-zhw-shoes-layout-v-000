@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -40,6 +40,37 @@ p, address {
 
 figure {
 	margin:0 0 10px;
+
+}
+.container{
+	width:100%;
+	height:100%;
+		overflow: hidden;
+		padding-bottom: 2%;
+}
+.col1{
+	width:65%;
+	float:left;
+	height:auto;
+
+}
+.col2{
+float:left;
+	width:33%;
+	height:auto;
+
+}
+.col3{
+	float:left;
+	width:32%;
+}
+.col4{
+	width:33.33%;
+	float:left;
+	padding-left: 30px;
+}
+.first{
+	margin-left: 2%;
 }
 
 	figcaption {
@@ -108,11 +139,16 @@ iframe {
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
+	height:auto;
+
 }
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+
+
 }
+
 
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;

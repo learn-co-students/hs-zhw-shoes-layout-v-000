@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -132,6 +132,37 @@ iframe {
 
 .contact_form {
 	height: 415px;
+}
+
+/*Setting up 3 section columns*/
+/*1/3 of width - 2% * 2 for margins*/
+.col-1{
+	width:32%;
+}
+
+.col-2{
+	width:66%;
+}
+/*.col-3{
+
+}*/
+
+/*all columns*/
+[class*="col-"]{
+  margin-left: 2%;
+  float:left;
+/*background: #white;*/
+  /*leftmost columng?*/
+}
+
+/*lefmost doesn't need margin-left*/
+.leftmost{
+	clear:both;
+	margin-left: 0;
+}
+
+#wrongH{
+	height:594px;
 }
 
 /********** Header **********/

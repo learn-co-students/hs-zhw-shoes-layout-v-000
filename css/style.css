@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
@@ -252,6 +252,7 @@ iframe {
 	padding: 30px 0;
 }
 
+
 	/********** Sections **********/
 
 	section {
@@ -301,5 +302,54 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+/*/////// Images ///////*/
+
+.shoes-on-grass {
+	display:block;
+	float:left;
+	margin: 5px;
+}
+
+.shadow h3 .summer {
+	border: 3px dotted purple;
+}
+
+.shadow p .summer {
+	border: 3px dotted purple;
+}
+.shadow figure h3 {
+	display:block;
+	float:left;
+	margin:auto;
+}
+
+ul li {
+	border: 3px;
+}
+
+.col-1 {
+	float:left;
+	width: 32%;
+	margin: 10px 5px 0px 5px;
+}
+
+.col-2 {
+	float: left;
+	display:block;
+	width: 65%;
+	margin-left: 5px;
+}
+
+.col-3 {
+	width: 100%;
+}
+
+.col-4 {
+	float:left;
+	width: 32%;
+	margin:0px 0px 0px 10px;
+	max-height: 580px;
+}
 
 /* code examples copyright Jonathan Grover 2012 */

@@ -1,3 +1,5 @@
+
+
 /********** Fixes **********/
 
 * {
@@ -24,4 +26,36 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 20px;
+}
+
+.follow {
+  float: left;
+  width: 31%;
+}
+
+}
+
+.wrapper {
+
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#archive {
+  vertical-align: top;
+}

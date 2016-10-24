@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -134,6 +134,7 @@ iframe {
 	height: 415px;
 }
 
+
 /********** Header **********/
 
 	/********** Nav Bar **********/
@@ -247,8 +248,8 @@ iframe {
 
 #wood {
 	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
-	background-position: center top, left top;
-	background-repeat: no-repeat, repeat-y;
+	background-position: center;
+	background-repeat: repeat;
 	padding: 30px 0;
 }
 

@@ -24,4 +24,16 @@
 
 /* Posititoning Classes */
 
+.col1{
+	float: left;
+	width: 66%;
+}
+.col2{
+	float: right;
+	width: 32%;
+}
 
+.col3{
+	float: left;
+	width: 32%;
+}

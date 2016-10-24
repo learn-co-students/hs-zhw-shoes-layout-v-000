@@ -134,26 +134,6 @@ iframe {
 	height: 415px;
 }
 
-.col1{
-	float: left;
-	width: 66%;
-}
-.col2{
-	float: left;
-	width: 32%;
-}
-.col3{
-display: inline;
-}
-
-/*.clearfix{
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	height: 0;
-	line-height: 0;
-}*/
 
 /********** Header **********/
 

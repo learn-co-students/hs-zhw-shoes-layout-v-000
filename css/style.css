@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -303,3 +303,71 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+#archive-list {
+	float: right;
+	width: 32.5%;
+}
+
+#summer-shoes {
+	float: left;
+	width: 65%;
+}
+
+#lady-bug {
+	clear:both;
+	display: block;
+	float: left;
+	width: 31%;
+	margin: 10px;
+}
+
+#skater {
+	display: block;
+	float:left;
+	width:31%;
+	margin: 10px;
+}
+
+#heel {
+	display: block;
+	float:right;
+	width:31%;
+	margin: 10px;
+}
+
+#contacts {
+	float: left;
+	display: block;
+	width:31%;
+	margin: 10px;
+}
+
+#links {
+	float: left;
+	display: block;
+	width:31%;
+	margin: 10px;
+}
+
+#follow {
+	float: right;
+	display: block;
+	width:31%;
+	margin: 10px;
+}
+
+
+.clearfix:after{
+	content: ".";
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}

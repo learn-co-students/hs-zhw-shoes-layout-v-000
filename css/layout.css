@@ -53,6 +53,8 @@
 
 .footer{
   float: left;
+  width: 33%;
+  padding: 2%;
 }
 
 /*.first {

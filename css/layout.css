@@ -29,7 +29,6 @@
 .col1{
 	float: left;
 	width: 66%;
-  margin-left: 2%;
 }
 .col2{
 	float: left;
@@ -38,6 +37,15 @@
 }
 
 .col3{
+	float: left;
+	width: 32%;
+}
+.col4{
+	float: left;
+	width: 32%;
+  margin-left: 2%;
+}
+.col5{
 	float: left;
 	width: 32%;
   margin-left: 2%;

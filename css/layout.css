@@ -22,6 +22,37 @@
   clear: both;
 }
 
+/*from solution*/
+.row {
+clear:both;
+margin-bottom: 2%;
+}
+
+.row:after {
+  content: ".";
+  display: block;
+  clear: both;
+visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
 /* Posititoning Classes */
+.col-1 {
+  width: 32%
 
+}
 
+.col-2 {
+  width: 66.666%
+
+}
+
+[class*="col-"] {
+  float:left;
+}
+
+[class*="col-"]: first-child {
+  margin-left: 0;
+}

@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -253,6 +253,74 @@ iframe {
 }
 
 	/********** Sections **********/
+
+	#first_row {
+		background: none;
+		margin: 0;
+		padding: 0;
+		clear: both;
+		display: block;
+	}
+
+	#second_row {
+		background: none;
+		margin: 0;
+		padding: 0;
+		clear: both;
+		display: block;
+	}
+
+	.shoes_on_grass {
+		float: left;
+		width: 65.666%;
+		margin-right: 1%;
+		margin-bottom: 1%;
+	}
+
+	.shoe_archive {
+		display: inline-block;
+		float: right;
+		width: 32.333%;
+		margin-left: 1%;
+		margin-bottom: 1%;
+	}
+
+	#lady_bug {
+		float: left;
+		margin-right: 1%;
+		width: 32.333%
+	}
+
+	#skate_shoe {
+		float: left;
+		margin: 0% 1% 0% 1%;
+		width: 31.333%
+	}
+
+	#heel_3 {
+		float: left;
+		margin-left: 1%;
+		width: 32.333%
+	}
+
+	#contact {
+		float: left;
+		margin-right: 1%;
+		width: 32.333%
+	}
+
+	#links {
+		float: left;
+		margin: 0% 1% 0% 1%;
+		width: 31.333%
+	}
+
+	#follow {
+		float: left;
+		margin-left: 1%;
+		width: 32.333%
+	}
+
 
 	section {
 		padding: 20px;

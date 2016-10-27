@@ -256,7 +256,7 @@ iframe {
 
 	#first_row {
 		background: none;
-		margin: 0;
+
 		padding: 0;
 		clear: both;
 		display: block;
@@ -264,7 +264,7 @@ iframe {
 
 	#second_row {
 		background: none;
-		margin: 0;
+		
 		padding: 0;
 		clear: both;
 		display: block;
@@ -283,6 +283,7 @@ iframe {
 		width: 32.333%;
 		margin-left: 1%;
 		margin-bottom: 1%;
+		overflow: hidden;
 	}
 
 	#lady_bug {

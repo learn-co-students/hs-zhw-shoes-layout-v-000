@@ -24,4 +24,47 @@
 
 /* Posititoning Classes */
 
+#grass {
+  float: left;
+  width: 65.9%;
 
+}
+
+#archive {
+  float: right;
+  width: 32%;
+}
+
+#deal_1 {
+  float: left;
+  width: 32%;
+  margin: 20px 9px 20px 0px;
+}
+
+#deal_2 {
+  float: left;
+  width: 32%;
+  margin: 20px 11px 20px 9px;
+}
+
+#deal_3 {
+  float: right;
+  width: 32%;
+  margin: 20px 0px 20px 9px;
+}
+
+#col-1 {
+  float: left;
+  width: 32%;
+}
+
+#col-2 {
+  float: left;
+  width: 32%;
+  margin: 0px 0px 0px 15px;
+}
+
+#col-3 {
+  float: right;
+  width: 32%;
+}

@@ -21,7 +21,42 @@
 .clear {
   clear: both;
 }
+#first_image{
+  margin-left: 0%;
+}
+.col-1{
+  float:left;
+  width:32%;
+  margin-left: 2%;
+  margin-bottom:20px;
+  overflow: hidden;
+}
 
-/* Posititoning Classes */
+.list{
+  height:594px;
+}
+
+.col-2{
+  float:left;
+  width:66%;
+  overflow:hidden;
+  margin-bottom:20px;
+}
 
 
+
+.maybe{
+  margin-bottom:10px;
+}
+
+
+
+/* BOTTOM SHIT RIGHT HERE */
+.straighten{
+  display:inline-block:
+}
+#details .hope{
+display:inline-block;
+vertical-align: top;
+padding-right:125px;
+}

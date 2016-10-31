@@ -24,4 +24,39 @@
 
 /* Posititoning Classes */
 
+#featured {
+  margin-top: 15px;
+}
 
+.col2_left {
+  float: left;
+  width: 66%;
+  height: 600px;
+  margin-bottom: 8px;
+}
+
+.col2_right {
+  float: left;
+  width: 32.5%;
+  height: 600px;
+  margin-left: 8px;
+}
+
+.col3 {
+  float: left;
+  width: 32.5%;
+  margin: 0 8px 30px 0;
+}
+
+.col3-3 {
+  float: left;
+  width: 32.5%;
+  margin: 0;
+}
+
+#my-footer {
+  background: #f4f4f4;
+  padding: 10px 0 10px;
+  position: relative;
+  top: 20px;
+}

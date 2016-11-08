@@ -9,6 +9,11 @@
   -moz-box-sizing: border-box;
 }
 
+.clearfix{
+  clear: both;
+  margin-bottom: 2%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -18,10 +23,26 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
-}
-
 /* Posititoning Classes */
 
 
+
+.col-1 {
+  width: 32%;
+  float: left;
+}
+
+.col-2 {
+  width: 66%;
+  float: left;
+}
+
+
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

@@ -302,4 +302,8 @@ footer {
 		text-decoration: underline;
 	}
 
+	.archive {
+		padding-bottom: 10%;
+	}
+
 /* code examples copyright Jonathan Grover 2012 */

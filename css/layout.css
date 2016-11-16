@@ -24,4 +24,24 @@
 
 /* Posititoning Classes */
 
-
+.side{
+  width:33.33%;
+  float:right;
+}
+.content-left{
+  width:65.66%;
+  float:left;
+  margin-right:1%;
+}
+.deals{
+  width:32.33%;
+  margin-right:1%;
+  float:left;
+}
+.deals:last-of-type{
+  margin-right:0;
+}
+.row{
+  margin-bottom:10px;
+  width:100%;
+}

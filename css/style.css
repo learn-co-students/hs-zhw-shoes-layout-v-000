@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -119,6 +119,7 @@ iframe {
 	color: white;
 	text-shadow: 0 2px 3px #000;
 	margin: 0 0 10px;
+	width: 100%;
 }
 
 .border_right {
@@ -252,17 +253,55 @@ iframe {
 	padding: 30px 0;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 	/********** Sections **********/
 
 	section {
-		padding: 20px;
+		width: 100%;
+		padding: 2%;
 		background: white;
+		display: inline-block;
+		margin-bottom: 2%;
 	}
 
 	section a {
 		color: #555;
 		text-decoration: underline;
 	}
+
+#two-third {
+	float: left;
+	width: 66%;
+}
+#one-third {
+	width: 32%;
+}
+
+[id*="one-third"] {
+
+	margin-right: 1.5%; /*320px*/
+}
+
+.last {
+	margin: 0%;
+}
+
+#one-right {
+	float: right;
+	width: 32%;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
 
 /********** Details **********/
 
@@ -277,6 +316,16 @@ iframe {
 	background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+	width: 960px;
+	position: absolute;
+
+
+}
+
+#details div {
+	display: inline-block;
+	float: center;
+
 }
 
 	#details a:link, #details a:visited {

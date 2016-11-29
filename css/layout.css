@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+.shadow-1 {
+  float: left;
+  width: 66%;
+  margin: 5px;
+}
 
+.shadow-2 {
+  float: left;
+  width: 32%;
+  margin: 1px;
+}
+
+.shadow-3 {
+  float: right;
+  width: 32%;
+  margin: 5.5px;
+  }
+
+.shadow-4 {
+  float: right;
+  width: 32%;
+  margin: 5.5px;
+}
+
+.shadow-5 {
+  float: right;
+  width: 32%;
+  margin: 5.5px;
+}

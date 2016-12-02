@@ -22,6 +22,26 @@
   clear: both;
 }
 
+.milk_text {
+  padding-top: 15px;
+}
+
 /* Posititoning Classes */
 
+.col-4 {
+  width: 32%;
+}
 
+.col-8 {
+  width: 66%;
+}
+
+[class*="col-"] {
+  float:left;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}

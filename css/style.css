@@ -274,17 +274,18 @@ iframe {
 
 	.col-1{
 		float:left;
-		width: 31%;
+		width: 32%;
 		margin: 0 0 2% 2%;
 	}
 
 	.col-2{
 		float:left;
-		width: 64%;
+		width: 66%;
 		margin: 0 0 2% 2%;
 	}
 
 	.col-3{
+		width: 100%;
 		mmargin: 0 0 2% 2%;
 	}
 

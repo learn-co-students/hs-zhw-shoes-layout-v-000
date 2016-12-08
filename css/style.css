@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
@@ -163,7 +163,7 @@ iframe {
 			text-align: center;
 			border-right: 1px solid #ccc;
 			text-decoration: none;
-			font: 20px "Trebuchet MS", Arial, sans-serif;
+			font: bold 20px "Trebuchet MS", Arial, sans-serif;
 		}
 
 		#nav_bar nav a.selected {

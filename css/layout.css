@@ -25,3 +25,30 @@
 /* Posititoning Classes */
 
 
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-right: 2%
+}
+
+.col-2 {
+    float: left;
+    width: 66%;
+    margin-right: 2%
+}
+
+.col-4 {
+width: 32%; float:left; margin-left:0%; margin-right:0%;
+}
+
+
+
+.first {margin-left: 0%;}
+
+footer {clear:both;}
+
+section {display: block; margin-bottom:20px;}
+
+.shadow {margin-top:10px;}
+
+h2 .milk-text {margin-top:10px;}

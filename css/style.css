@@ -264,6 +264,44 @@ iframe {
 		text-decoration: underline;
 	}
 
+#Holidays_Sale {
+	margin-bottom: 20px;
+}
+
+
+/*  Featured Brands */
+	#Summer_Grass {
+		width: 66%;
+		float: left;
+		margin-bottom: 20px;
+	}
+
+/* Archive List */
+	#Shoe_Archive {
+		width: 32%;
+		float: right;
+		font-size: 0.98em;
+	}
+
+	/* Deals */
+	#Lady_Bugs {
+		width: 32%;
+		float: left;
+		clear: left;
+		margin-right: 2%;
+	}
+
+	#Skaters {
+		width: 32%;
+		float: left;
+		margin-right: 2%;
+	}
+
+	#Bluestar_Heels {
+		width: 32%;
+		float: left;
+	}
+
 /********** Details **********/
 
 #details {
@@ -286,6 +324,21 @@ iframe {
 
 	#details a:hover, #details a:active {
 		text-decoration: underline;
+	}
+
+	#contact {
+		width: 33.333%;
+		float: left;
+	}
+
+	#links {
+		width: 33.333%;
+		float: left;
+	}
+
+	#follow {
+		width: 33.333%;
+		float: left;
 	}
 
 /********** Footer **********/

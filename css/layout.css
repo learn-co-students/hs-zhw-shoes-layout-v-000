@@ -24,4 +24,46 @@
 
 /* Posititoning Classes */
 
+.feature-brands {
+   width: 66%;
+   margin-right: 10px;
 
+   float: left;
+   position: relative;
+}
+
+.archive {
+   width: 32%;
+
+   float: right;
+   position: relative;
+}
+
+.deals {
+   clear: both;
+
+   padding-top: 20px;
+}
+
+.col-1 {
+   width: 31.8%;
+   margin-right: 20px;
+
+   float: left;
+   position: relative;
+}
+
+.col-2 {
+   width: 31.8%;
+   margin-right: 18px;
+
+   float: left;
+   position: relative;
+}
+
+.col-3 {
+   width: 32%;
+
+   float: right;
+   position: relative;
+}

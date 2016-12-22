@@ -24,4 +24,23 @@
 
 /* Posititoning Classes */
 
+.col-1-3,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+}
 
+.center {
+  margin: 0 1.5% 0 1.5%;
+}
+
+.col-1-3 {
+  max-width: 320px;
+  width: 32.33%;
+  padding-top: 30px;
+}
+
+.col-2-3 {
+  width: 64.66%;
+  margin-right: 3%;
+}

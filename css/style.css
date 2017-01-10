@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 15px 0 10px;
 }
 
 .border_right {
@@ -245,6 +245,40 @@ iframe {
 
 /********** Content Area **********/
 
+.col1_left {
+  float: left;
+  width: 32.9%;
+  margin-right: 5px;
+}
+
+.col1_mid {
+  float: left;
+  width: 32.9%;
+  margin: 0 5px 0 5px;
+}
+
+.col1_right {
+  float: left;
+  width: 32%;
+  margin-left: 5px;
+  padding-bottom: 25px;
+}
+
+.col2_left {
+  float: left;
+  width: 67%;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.col2_right {
+  float: left;
+  width: 31.85%;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
 #wood {
 	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
 	background-position: center top, left top;
@@ -267,7 +301,7 @@ iframe {
 /********** Details **********/
 
 #details {
-	clear:both;
+	clear: both;
 	padding: 20px 10px;
 	/* gradient */
 	background: rgb(229,229,229); /* Old browsers */

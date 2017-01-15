@@ -24,4 +24,45 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 66%;
+  float: left;
+  margin: 0% 1% 1% 0%;
+}
 
+.col-2 {
+  float: left;
+  width: 32%;
+}
+
+.col-3 {
+  margin: 0% 0% 1% 0%
+}
+
+.arch {
+  margin: 0% 0% 1% 1%;
+}
+
+.left {
+  margin: 1% 1% 1% 0%;
+}
+
+.mid {
+  margin: 1%;
+}
+
+.right {
+  margin: 1% 0% 1% 1%;
+}
+
+
+
+#social {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
+  display: block;
+  height: 40px;
+}

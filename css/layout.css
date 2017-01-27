@@ -14,7 +14,7 @@
   display: block;
   clear: both;
   visibility: hidden;
-  height: 0;
+  height: 10px;
   line-height: 0;
 }
 
@@ -23,5 +23,32 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+  float: left;
+  width: 32%;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
 
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.deals {
+  margin-top: 2px;
+}
+
+.border-right {
+  border-right: thick double #D3D3D3;
+}
+
+footer {
+  text-align: center;
+}

@@ -22,6 +22,36 @@
   clear: both;
 }
 
+section {
+  padding: 20px;
+  margin-bottom:20px;
+}
+
 /* Posititoning Classes */
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

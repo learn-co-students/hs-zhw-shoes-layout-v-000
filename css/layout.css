@@ -9,9 +9,6 @@
   -moz-box-sizing: border-box;
 }
 
-body {
-  margin: 0 auto;
-}
 .clearfix:after {
   content: ".";
   display: block;
@@ -31,7 +28,7 @@ body {
   margin-left: 2%;
 }
 
-[class*="left"] {
+[class*="col"]:first-child {
   margin-left: 0;
 }
 

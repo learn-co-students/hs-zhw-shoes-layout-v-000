@@ -18,10 +18,30 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
+.c-1 {
+ float: left;
+ width: 32%;
 }
 
-/* Posititoning Classes */
+.c-2 + .c-1 {
+ height: 580px;
+}
 
+.c-2 {
+ float: left;
+ width: 66%;
+ height: 580px;
+ 
+}
 
+[class*="c-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.shadow {
+  margin-bottom: 2%;
+}

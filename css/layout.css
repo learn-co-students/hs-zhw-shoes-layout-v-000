@@ -10,12 +10,12 @@
 }
 
 .clearfix:after {
-  content: "hellow YOUUUUUU";
+  content: ".";
   display: block;
   clear: both;
-  visibility: visible;
-  height: 25px;
-  line-height: 50px;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
 }
 
 .clear {

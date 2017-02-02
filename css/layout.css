@@ -44,3 +44,8 @@
 .first {
   margin-left: 0%;
 }
+
+.space {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}

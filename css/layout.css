@@ -10,12 +10,12 @@
 }
 
 .clearfix:after {
-  content: ".";
+  content: "hellow YOUUUUUU";
   display: block;
   clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
+  visibility: visible;
+  height: 25px;
+  line-height: 50px;
 }
 
 .clear {
@@ -24,4 +24,36 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+  padding: 20px;
+  background: #fff;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+/*  height: 580px;*/
+}
+
+.col-1 + .col-2 {
+  height: 580px;
+}
+
+.col-3 {
+  background: #fff;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}

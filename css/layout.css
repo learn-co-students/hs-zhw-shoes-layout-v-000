@@ -23,5 +23,33 @@
 }
 
 /* Posititoning Classes */
+#featured-brands {
+    height: 600px;
+    margin-bottom: 2%;
+}
+.col-1{
+    display: block;
+    width: 31%;
+    float: left;
+    margin: 0 2% 0 0;
+    height: 100%;
+}
+.col-2{
+    display: block;
+    width: 64%;
+    float: left;
+    margin: 0 2%;
+    height: 100%;
+}
+.first {
+    margin-left: 0;
+}
+.last {
+    margin-right: 0;
+}
 
-
+div.deals section {
+    min-height: 350px;
+    max-height: 400px;
+    overflow: auto;
+}

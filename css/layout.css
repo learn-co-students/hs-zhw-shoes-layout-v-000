@@ -1,4 +1,4 @@
-/********** Fixes **********/
+/*********** Fixes ***********/
 
 * {
   margin:0;
@@ -24,4 +24,43 @@
 
 /* Posititoning Classes */
 
+#logo {
+  margin-bottom: 0%;
+}
 
+.shadow {
+  margin-bottom: 2%;
+}
+
+.col-1w {
+  float: left;
+  width: 66%;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 32%;
+}
+
+.col-3 {
+  float: right;
+  width: 32%;
+}
+
+.border-right {
+  padding: 10%;
+}
+
+[class*="col-"] { /* This selector applies 2% margin to all class selectors where name contains
+"col-". */
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

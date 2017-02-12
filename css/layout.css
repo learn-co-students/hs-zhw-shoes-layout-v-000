@@ -41,3 +41,8 @@
 .first {
   margin-left: 0%;
 }
+
+.deals {
+  display: block;
+  margin-top: 10px;
+}

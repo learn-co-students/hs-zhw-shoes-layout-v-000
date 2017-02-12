@@ -24,4 +24,84 @@
 
 /* Posititoning Classes */
 
+/* Holiday Sale Formatting */
 
+div#wood > div.wrapper > section.shawdow {
+  display: block;
+}
+
+/* Featured Brands */
+div#wood > div.wrapper h2.milk_text {
+  padding-top: 0.4em;
+}
+
+/* Blue Shoe Summer Grass Section Formatting */
+div#wood > div.wrapper section:nth-child(3) {
+  width: 66%;
+  float: left;
+  min-height: 590px;
+  max-height: 590px;
+}
+
+/* Shoe Archieve Section Formatting*/
+
+div#wood > div.wrapper section:nth-child(4) {
+  width: 32%;
+  float: right;
+  background: white;
+  min-height: 590px;
+  max-height: 590px;
+  overflow: auto;
+}
+
+/* Lady Bug Shoes */
+div#wood > div.wrapper section:nth-child(5) {
+  width: 32%;
+  float: left;
+  clear: both;
+  margin-top: 2%;
+  margin-right: 2%;
+  min-height: 360px;
+  max-height: 360px;
+  overflow: auto;
+}
+/* Skater Shoes */
+div#wood > div.wrapper section:nth-child(6) {
+width: 32%;
+margin-top: 2%;
+margin-right: 2%;
+float: left;
+min-height: 360px;
+max-height: 360px;
+overflow: auto;
+}
+
+/* Bluestar Heels */
+div#wood > div.wrapper section:nth-child(7) {
+  width: 32%;
+  float: left;
+  margin-top: 2%;
+  min-height: 360px;
+  max-height: 360px;
+  overflow: auto;
+}
+
+/* Footer Formatting */
+section#details div.wrapper > div {
+  float: left;
+  width: 33%;
+  overflow-x:auto;
+}
+
+section#details div.wrapper div:nth-child(2) {
+  display: inline-block;
+}
+
+section#details div.wrapper div:nth-child(3) {
+  float: right;
+}
+
+section#details div.wrapper div:nth-child(2), section#details div.wrapper div:nth-child(3){
+  padding-left: 1em;
+  width: 33%;
+}

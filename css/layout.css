@@ -1,3 +1,4 @@
+
 /********** Fixes **********/
 
 * {
@@ -22,6 +23,64 @@
   clear: both;
 }
 
+.col-1 {
+  width: 32%;
+  float: left;
+  margin-top: 2%;
+
+}
+
+.last {
+  float: right;
+  margin-right: 0;
+}
+.col-2 {
+  width: 32%;
+  float: left;
+
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+}
+
+.col-3 {
+  width: 64%;
+  background: #ccc;
+  float: left;
+  clear: both;
+  margin-right: 2%;
+}
+.col-4 {
+  width: 34%;
+  float: right;
+  padding: 15px;
+
+  /*margin-left: 2%;*/
+}
+
+.clearfix: after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+
+}
+
+.footer-1 {
+  width: 33%;
+  float: left;
+}
+.footer-2 {
+  float: right;
+  width: 33%;
+}
+
+/*[class*="col-"]{
+  margin-right: 2%
+}*/
+
+
+
 /* Posititoning Classes */
-
-

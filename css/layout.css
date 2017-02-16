@@ -23,5 +23,30 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #eee;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #eee;
+}
 
+.col-3 {
+  background: #eee;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#shoe-row {
+  margin-top: 5px;
+}

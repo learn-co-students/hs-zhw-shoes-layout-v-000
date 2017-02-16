@@ -24,4 +24,64 @@
 
 /* Posititoning Classes */
 
+.steps {
+  margin: 0 0px 15px 0; 
+}
+
+.grass {
+  float: left;
+  width: 65.5%;
+  margin: 0 1px 14px 0; 
+}
+
+.archive {
+  float: left;
+  width: 33%;
+  margin: 0 0 1.6% 13px; 
+  padding-top: 1.6%;
+  padding-right: 0;
+  padding-bottom: 2.5%;
+  padding-left: 1.6%;
+}
+
+.deal-1 {
+  clear: both;
+  float: left;
+  width: 31.9%;
+  margin: 0 15px 10px 0;
+}
+
+.deal-2 {
+  float: left;
+  width: 31.9%;
+  margin: 0 15px 10px 0;
+}
+
+.deal-3 {
+  float: left;
+  width: 33%;
+  padding-bottom: 1.5%;
+}
+
+.index-1 {
+  float: left;
+  width: 33.333%;
+}
+
+.index-2 {
+  float: left;
+  width: 33.333%;
+}
+
+.index-3 {
+  float: left;
+  width: 33.333%;
+}
+
+* { /* Universal Selector: includes border and padding, with cross browser support */
+      -webkit-box-sizing: border-box; /*older versions of safari */
+      -moz-box-sizing: border-box; /*older versions of firefox */
+      box-sizing: border-box;
+   }
+
 

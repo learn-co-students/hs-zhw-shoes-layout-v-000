@@ -24,4 +24,63 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 66%;
+  background: #fff;
+  margin-bottom: 20px;
+}
 
+.col-2 {
+  float: right;
+  width: 32%;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.col-3 {
+  position: relative;
+  float: left;
+  width: 32%;
+  background: #fff;
+}
+
+.col-4 {
+  float: left;
+  width: 32%;
+  background: #fff;
+  margin-left: 20px
+}
+
+.col-5 {
+  float: right;
+  width: 32%;
+  background: #fff;
+}
+
+.col-6 {
+  position: relative;
+  float: left;
+  width: 32%;
+}
+
+.col-7 {
+  float: left;
+  width: 32%;
+  margin-left: 20px
+}
+
+.col-8 {
+  float: right;
+  width: 32%;
+}
+
+
+.first {
+  margin-left: 0%;
+}
+
+.shadow {
+  display: inline:block;
+  margin-bottom: 10;
+}

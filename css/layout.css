@@ -52,13 +52,8 @@
   margin-top: 30px;
 }
 
-#details + div + div {
+.border_right {
   float: left;
   width: 33%;
-}
-
-
-.  {
-  float: right;
-  width: 33%
+  display: inline-block;
 }

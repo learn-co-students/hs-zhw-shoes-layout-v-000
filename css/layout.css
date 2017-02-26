@@ -1,12 +1,53 @@
 /********** Fixes **********/
-
-* {
+*{
   margin:0;
   padding:0;
   border:0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+}
+
+/* Posititoning Classes */
+
+.col-1{
+  float: left;
+  width: 32%;
+  display: block;
+  height: 593px;
+
+}
+
+.col-2{
+  float: left;
+  width: 65.5%;
+  margin-right: 12px;
+  display:block;
+  height: 593px;
+}
+
+/*.space{
+margin-right: 8px;
+}*/
+
+.col-4{
+  float: left;
+  width: 31.9%;
+  margin-top: 12px;
+  margin-right: 13.7px;
+  margin-bottom: 25px;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+[class*="col-"]{
+  margin-right: : 4%;
+}
+
+[class="milk_text"] {
+  padding-top: 1.5%;
 }
 
 .clearfix:after {
@@ -21,7 +62,3 @@
 .clear {
   clear: both;
 }
-
-/* Posititoning Classes */
-
-

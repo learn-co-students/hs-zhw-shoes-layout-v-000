@@ -25,3 +25,24 @@
 /* Posititoning Classes */
 
 
+
+
+.col-1{
+  float: left;
+  width: 32%;
+  margin: 5px;
+   
+}
+
+.col-2{
+  float: left;
+  width: 65%;
+    margin: 5px;
+
+   b
+}
+
+.col-3{
+  /* no need to give width or float as 100%*/
+  background: #ccc;
+}

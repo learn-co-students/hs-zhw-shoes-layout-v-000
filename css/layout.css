@@ -24,4 +24,16 @@
 
 /* Posititoning Classes */
 
+.featured-brand {
+  float: left;
+  width: 66%;
+  margin: 0 5px 10px 0;
+  background: white;
+}
 
+.archive {
+  float: right;
+  width: 32%;
+  margin: 0 0 10px 5px;
+  background: white;
+}

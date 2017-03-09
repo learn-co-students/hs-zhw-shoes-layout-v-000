@@ -23,5 +23,43 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+  width: 31.4%;
+  margin-right: 1em;
+  margin-top: 1em;
+  float: left;
+}
 
+.col-2 {
+  width: 31.4%;
+  margin-right: 1em;
+  margin-top: 1em;
+  float: left;
+}
 
+.col-3 {
+  width: 31.4%;
+  margin-top: 1em;
+  float: left;
+}
+
+.border_right {
+  width: 33.3%;
+  float: left;
+}
+
+#grass {
+  width: 64.6%;
+  float: left;
+  margin-right: 1em;
+}
+
+#date {
+  width: 33.3%;
+  margin-left: .02em;
+  float: left;
+}
+
+.sale {
+  margin-bottom: 1em;
+}

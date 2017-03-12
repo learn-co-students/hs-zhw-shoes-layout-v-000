@@ -24,4 +24,50 @@
 
 /* Posititoning Classes */
 
+#col-1 {
+  float: left;
+  width: 65%;
+  margin: 6px;
+}
 
+#col-2 {
+  float: left;
+  width: 31%;
+  margin:6px;
+}
+
+#col-3 {
+  float: left;
+  width: 32%;
+  margin: 5px;
+}
+
+#col-4 {
+  float: left;
+  width: 32%;
+  margin: 5px;
+}
+
+#col-5 {
+  float: left;
+  width: 32%;
+  margin: 5px;
+}
+
+#col-6 {
+  float: left;
+  width: 32%;
+  margin: 5px;
+}
+
+#col-7 {
+  float: left;
+  width: 32%;
+  margin: 5px;
+}
+
+#col-8 {
+  float: left;
+  width: 32%;
+  margin: 5px;
+}

@@ -1,5 +1,4 @@
 /********** Fixes **********/
-
 * {
   margin:0;
   padding:0;
@@ -24,4 +23,40 @@
 
 /* Posititoning Classes */
 
+.col-8{
+  width: 64.5%;
+  float: left;
+}
 
+.col-4{
+  width: 31.5%;
+  float: left;
+  margin-left: 16px; 
+}
+
+.archive ul{
+}
+
+.row{
+
+}
+
+.shoe-row{
+  
+}
+
+.shoe{
+  display: inline-block;
+  margin: 20px 15px 5px 0px ;
+   overflow: hidden; 
+    width: 300px;
+
+  }
+
+.border_right{
+  display: inline-table;
+}
+
+.border_right p {
+  margin-right:120px;
+}

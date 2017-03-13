@@ -22,6 +22,28 @@
   clear: both;
 }
 
+.shadow {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* Posititoning Classes */
 
+.col-1{
+  float: left;
+  width: 31.333%;
+  display: inline-block;
+}
+.col-2 {
+  float: left;
+  width: 64.666%;
+}
+.col-3 {
 
+}

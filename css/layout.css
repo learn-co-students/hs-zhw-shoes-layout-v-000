@@ -24,4 +24,50 @@
 
 /* Posititoning Classes */
 
+.left {
+  float: left;
+  width: 64%;
+  margin: auto;
+}
 
+.right {
+  float: right;
+  width: 32%;
+  margin: auto;
+}
+
+.left1 {
+  float: left;
+  width: 29%;
+  margin: 2.1%;
+}
+
+.middle1 {
+  float: left;
+  width: 29%;
+  margin: 2.1%;
+}
+
+.right1 {
+  float: right;
+  width: 29%;
+  margin: 2.1%;
+}
+
+.left2 {
+  float: left;
+  width: 29%;
+  margin: auto;
+}
+
+.middle2 {
+ float: left;
+ width: 29%;
+ margin: auto;
+}
+
+.right2 {
+  float: right;
+  width: 29%;
+  margin: auto;
+}

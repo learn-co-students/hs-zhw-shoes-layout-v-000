@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -147,6 +147,7 @@ iframe {
 		background: url(../images/header-fade.gif);
 		border-bottom: 1px solid #ccc;
 		text-align: center;
+		background-color: #EAEAEA;
 	}
 
 	#nav_bar nav {
@@ -155,7 +156,7 @@ iframe {
 
 		#nav_bar nav a {
 			display: inline-block;
-			width: 20%;
+			width: 15%;
 			margin: 0;
 			padding: 22px 0;
 			text-transform: uppercase;
@@ -216,9 +217,9 @@ iframe {
 #social {
 	position: fixed;
 	top: 200px;
-	right: 3px;
+	right: 20px;
 	width: 40px;
-	z-index: 1;
+	z-index: 3;
 }
 
 	a.fbook, a.twitt, a.gplus {
@@ -257,6 +258,8 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin: 5px;
+		width: auto;
 	}
 
 	section a {
@@ -264,6 +267,16 @@ iframe {
 		text-decoration: underline;
 	}
 
+	.col-1 {
+		float: left;
+		width: 32%;
+	}
+
+	.col-2 {
+		float: left;
+		width: 65%;
+
+	}
 /********** Details **********/
 
 #details {
@@ -302,4 +315,7 @@ footer {
 		text-decoration: underline;
 	}
 
+* {
+	box-sizing: border-box;
+}
 /* code examples copyright Jonathan Grover 2012 */

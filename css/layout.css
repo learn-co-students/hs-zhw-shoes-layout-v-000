@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+/* I added the following classes to the HTML: featured, archive, and deals*/
 
+.featured {
+  float: left;
+  margin: 1%;
+  width:64.666%;
+  height: 600px;
+  overflow: auto;
+}
+
+.archive {
+  float: right;
+  margin: 1%;
+  width: 31.333%;
+  height: 600px;
+  overflow: hidden;
+}
+
+/*FIXME: The height is slightly longer than it should be on Archive, and it is pushing down on the section right below it. */
+
+.deals {
+  float: left;
+  margin: 1%;
+  width: 31.333%;
+}
+
+#details .border_right {
+  float: left;
+  margin: 1%;
+  width: 31.333%;
+  padding-left: 25px;
+}
+
+/*FIXME: The final box "Follow" should not be .border_right ... Because it does not need a border there. */

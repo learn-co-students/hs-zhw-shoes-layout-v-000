@@ -1,7 +1,7 @@
 /********** Fixes **********/
 
 * {
-  margin:10px;
+  margin:0;
   padding:0;
   border:0;
   box-sizing: border-box;
@@ -24,18 +24,18 @@
 
 /* Posititoning Classes */
 .col-1 {
- float: right;
- width: 28%;
+ float: left;
+ width: 25%;
 }
 
 .col-2 {
   float: left;
-  width: 62%;
+  width: 58%;
   height:70%
 }
 
 .col-3 {
-  float: center;
+  float: left;
   width: 96%;
 }
 
@@ -47,4 +47,8 @@
 
 .first {
   margin-left: 0%;
+}
+
+.row {
+  margin: 3%;
 }

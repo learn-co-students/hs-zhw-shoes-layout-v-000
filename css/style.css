@@ -291,6 +291,7 @@ iframe {
 
  #details [class*="col"]{
 	 padding-left: 15px;
+	 margin: 0;
  }
 /********** Footer **********/
 

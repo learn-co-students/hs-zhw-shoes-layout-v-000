@@ -25,3 +25,20 @@
 /* Posititoning Classes */
 
 
+.col-1{
+  width: 32.6%;
+  float: left;
+  margin-top: 2%;
+  margin-right: 1%;
+}
+.last{
+  margin-right: 0;
+}
+#archive{
+  margin-top: 0;
+}
+.col-2{
+  width:66.4%;
+  float:left;
+  margin-right: 1%;
+}

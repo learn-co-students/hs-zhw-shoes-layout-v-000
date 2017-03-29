@@ -22,6 +22,29 @@
   clear: both;
 }
 
+  .col-1 {
+    float: left;
+    width: 31%;
+
+  }
+
+  .col-2 {
+    float: left;
+    width: 64%;
+  }
+
+  #archive {
+    margin-bottom: 15px;
+    height: 580px;
+  }
+
+
+  [class*="col-"] {
+    margin-left: 2%;
+  }
+
+
+
+
+
 /* Posititoning Classes */
-
-

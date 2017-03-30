@@ -1,9 +1,34 @@
+/**
+ * Learn HTML & CSS from Scratch
+ * 4.2: Final Code
+ */
+
 /********** Web Fonts **********/
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
+/********** Fixes **********/
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -264,6 +289,43 @@ iframe {
 		text-decoration: underline;
 	}
 
+	/* Posititoning Classes */
+
+	.col1_left {
+		float: left;
+		width: 32.6%;
+		margin: 0 0 20px;
+	}
+
+	.col1_mid { /* give center column of three this class last */
+		float: left;
+		width: 32.6%;
+		margin: 0 1% 20px 1%;
+	}
+
+	.col1_right {
+		float: right;
+		width: 32.6%;
+		margin: 0 0 20px;
+	}
+
+	.col2_left {
+		float: left;
+		width: 66.4%;
+		margin: 0 1% 20px 0;
+	}
+
+	.col2_right {
+		float: right;
+		width: 66.4%;
+		margin: 0 0 20px 1%;
+	}
+
+	.col3 {
+		margin: 0 0 20px;
+		clear: both;
+	}
+
 /********** Details **********/
 
 #details {
@@ -301,5 +363,3 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
-
-/* code examples copyright Jonathan Grover 2012 */

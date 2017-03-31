@@ -121,9 +121,25 @@ iframe {
 	margin: 0 0 10px;
 }
 
-.border_right {
-	border-right: 1px dotted #ccc;
+.col-1 {
+	border-right: 1px dotted white;
 	padding-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.col-3 {
+	border-right: 1px dotted white;
+	padding-right: 20px;
+/*	margin-left: 10px;*/
+	margin-bottom: 10px;
+}
+
+.col-2 {
+	border-right: 1px dotted white;
+	padding-right: 20px;
+/*	margin-left: 10px;*/
+	height: auto + 5px;
 }
 
 .thumbs_up {

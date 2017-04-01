@@ -25,3 +25,44 @@
 /* Posititoning Classes */
 
 
+#featured_brand {
+  float: left;
+  width: 63.666%;
+  margin: 1%;
+}
+
+#archived {
+  float: left;
+  width: 32.333%;
+  margin: 1%;
+}
+
+#lady_bug {
+  position: relative;
+  top: 5px;
+  float: right;
+  width: 31.333%;
+  margin: 1%;
+}
+
+#skate {
+  float: right;
+  width: 31.333%;
+  margin: 1%;
+}
+
+#heel {
+  float: right;
+  width: 31.333%;
+  margin: 1%;
+}
+
+.border_right {
+  padding-left: 3%;
+  float: left;
+  width: 30.333%;
+}
+
+#follow {
+  border-right: transparent;
+}

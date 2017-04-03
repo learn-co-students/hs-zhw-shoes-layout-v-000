@@ -23,5 +23,47 @@
 }
 
 /* Posititoning Classes */
+.milk_text {
+  position: relative;
+  top: 5px;
+  left: 8px;
 
+}
 
+.shadow {
+  margin: 10px;
+}
+
+.col-1 {
+  float: left;
+  width: 618px;
+  height: 575px;
+}
+
+.col-2 {
+  display: inline-block;
+  height: 575px;
+  width: 297px;
+  float: right;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 297px;
+}
+
+.bot-3 {
+  display: inline-block;
+  width: 297px;
+  position: relative;
+  bottom: : 50px;
+}
+
+.bot-r {
+  position: relative;
+  bottom: 30px;
+}
+
+[class*="col-"] {
+  margin-left: 10px;
+}

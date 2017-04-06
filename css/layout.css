@@ -38,9 +38,10 @@
 }
 
 .col-3 {
-  background: #ccc;
+  margin-bottom: 5px;
 }
 
 .first {
+  float: left;
   margin-left: 0%;
 }

@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -16,7 +16,14 @@ img.verif_img {
 }
 
 /********** Global **********/
-
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 body {
 	background: url(../images/handmadepaper.png);
 }
@@ -251,7 +258,29 @@ iframe {
 	background-repeat: no-repeat, repeat-y;
 	padding: 30px 0;
 }
-
+/***** Columns **************/
+.col-1 {
+	float: left;
+	width: 32%;
+}
+.col-2 {
+	float: left;
+	width: 66%;
+}
+[class*=col-] {
+	margin-left: 2%;
+}
+.first {
+	margin-left: 0%;
+}
+.clearfix:after {
+	content: '.';
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
 	/********** Sections **********/
 
 	section {
@@ -288,6 +317,10 @@ iframe {
 		text-decoration: underline;
 	}
 
+/******** Deals *******/
+#deals {
+	margin-top: 10px;
+}
 /********** Footer **********/
 
 footer {
@@ -301,5 +334,7 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
-
+	.clear {
+	  clear: both;
+	}
 /* code examples copyright Jonathan Grover 2012 */

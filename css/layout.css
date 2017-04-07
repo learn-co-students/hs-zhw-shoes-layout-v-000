@@ -25,3 +25,57 @@
 /* Posititoning Classes */
 
 
+
+.col1 {
+  width: 64%;
+  display:block;
+  float: left;
+}
+
+.col1 p, .col1 h3  {
+  clear: left;
+}
+
+.list {
+ width: 30%;
+ display:inline-block;
+ float: right;
+ height: 100%;
+
+}
+
+.col2 {
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+}
+
+.col3 {
+  width: 30%;
+  float: left;
+  margin-left: 48px;
+  margin-top: 30px;
+}
+
+.col4 {
+  width: 30%;
+  float: right;
+  margin-top: 30px;
+}
+
+.col5 {
+  width: 30%;
+  float: left;
+}
+
+.col6 {
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+}
+
+.col7 {
+  width: 30%;
+  float: right;
+  margin-right: 35px;
+}

@@ -9,6 +9,32 @@
   -moz-box-sizing: border-box;
 }
 
+.col-1{
+  float: left;
+  width: 31%; /* 2% margin * 2 so subtract from 100 */
+  background: white;
+}
+
+.col-2{
+  float: left;
+  width: 66%; /* spanning 2/3, so it's only making space for 2% margin*/
+  background: white;
+}
+
+.col-3{
+  float: left;
+  width: 31.5%; /* 2% margin * 2 so subtract from 100 */
+  background: white;
+  margin-top: 3%;
+}
+[class*="col-"]{
+  margin-left: 2.5%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -22,6 +48,5 @@
   clear: both;
 }
 
+
 /* Posititoning Classes */
-
-

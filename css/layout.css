@@ -24,4 +24,44 @@
 
 /* Posititoning Classes */
 
+/*[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+ */
 
+ .summer_grass {
+  display: inline-block;
+  width: 65.5%;
+  padding: 20px;
+}
+
+
+.archive {
+  float: right;
+  margin: 0px 10px;
+  width: 32%;
+/*  display: inline-block;
+  width: 30%;
+  margin: 10px;
+    padding: 20px;
+    */
+}
+
+.contact-correspondence, .links, .follow {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.border_right.follow {
+  border: none;
+}
+
+.shoes {
+  display: block;
+  float: left;
+  width: 310px;
+  margin: 10px 10px 0px 0px;
+}

@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -48,6 +48,7 @@ figure {
 		text-align: right;
 	}
 
+/*
 table {
 	margin: 0 0 20px;
 	border-top: 1px solid #ccc;
@@ -57,6 +58,7 @@ table {
 tr:nth-child(even) {
 	background: #efefef;
 }
+
 
 th, td {
 	padding: 10px;
@@ -68,7 +70,7 @@ th {
 	background: #555;
 	color: white;
 }
-
+*/
 input, textarea {
 	display: block;
 	width: 100%;

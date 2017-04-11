@@ -40,7 +40,7 @@
 }
 
 .featured {
-  width: 66%;
+  width: 65%;
   float: left;
   margin: 0 0 20px;
 }
@@ -48,7 +48,7 @@
 .archive {
   width: 33%;
   float: right;
-  margin: 0 0 20px;
+  margin: 0 0px 18px;
 }
 
 .clearfix:after {
@@ -68,8 +68,8 @@
 
 .center_shadow {
   width: 32%;
-  float: left;
-  margin: 0 0 20px;
+  display: inline-block;
+  margin: 0 0 0 20px;
 }
 
 .right_shadow {
@@ -81,13 +81,13 @@
 .col_1 {
   width: 32%;
   float: left;
-  margin: 0 0 20px 10px;
+  margin: 0 0 20px;
 }
 
 .col_2 {
   width: 32%;
-  float: left;
-  margin: 0 0 20px 10px;
+  display: inline-block;
+  margin: 0 0 0 20px;
 }
 
 .col_3 {

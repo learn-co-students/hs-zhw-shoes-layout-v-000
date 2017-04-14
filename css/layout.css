@@ -24,4 +24,46 @@
 
 /* Posititoning Classes */
 
+#archive {
+  position: relative;
+  top: 15px;
+  right: 5px;
+}
+
+.col-1 {
+  display: inline-block;
+  width: 31%;
+}
+
+.col-2 {
+  display: inline-block;
+  width: 65%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+ [class*="col-"]:first-child {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+
+
+
+
+
+
+
+
 

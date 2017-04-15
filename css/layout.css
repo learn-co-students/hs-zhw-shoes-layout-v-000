@@ -25,3 +25,44 @@
 /* Posititoning Classes */
 
 
+.shadow{
+  display: block;
+  margin: 8px 0px;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.col-1{
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  margin-right: 0%;
+}
+
+.col-2{
+  float: left;
+  width: 66%;
+  margin-left: 2%;
+  margin-right: 0%;
+}
+
+.col-3{
+  width: 100%;
+}
+
+.first{
+  margin-left: 0%;
+}
+
+.taller{
+  min-height: 110%;
+}
+
+
+
+
+
+

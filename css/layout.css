@@ -1,5 +1,4 @@
 /********** Fixes **********/
-
 * {
   margin:0;
   padding:0;
@@ -25,30 +24,30 @@
 /* Posititoning Classes */
 
 .col-1 {
-
-    float: left;
-    width: 55%;
-    border: 5em
-
-}
-
-.colr-2 {
-  float: right;
-  width: 30%;
-  margin-right: 1%;
+  width: 32%;
+  display: inline-block;
+  float: left;
 }
 
 .col-2 {
-
+  width: 66%;
+  display: inline-block;
   float: left;
-  width: 30%;
-  margin-right: 3%;
 }
 
 .col-3 {
-    background: #ccc;
+  width: 100%;
 }
 
-.first{
-  margin-left: 0%;
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+h2.milk_text {
+  margin-top: 15px;
 }

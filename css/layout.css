@@ -10,7 +10,7 @@
 }
 
 .clearfix:after {
-  content: ".";
+  content: "hello";
   display: block;
   clear: both;
   visibility: hidden;
@@ -23,5 +23,35 @@
 }
 
 /* Posititoning Classes */
+.featured{
+
+  width : 66%;
+  float : left;
 
 
+}
+
+.archive{
+  width:32%;
+  float : left;
+  margin-left: 2%;
+  font-size: 90%;
+
+}
+.milk_text{
+
+
+
+}
+
+
+.col-2{
+  float: left;
+  width: 32%;
+  margin: 2% 0 0 0;
+}
+.col-1{
+  width: 32%;
+  margin: 2% 0 0 2%;
+  float : left;
+}

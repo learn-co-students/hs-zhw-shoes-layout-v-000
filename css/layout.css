@@ -9,30 +9,40 @@
   -moz-box-sizing: border-box;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
 /* Posititoning Classes */
 
-  .row {
-    clear: both;
-    margin-bottom: 2%;
-  }
+.col-1 {
 
-  .row:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    height: 0;
-    line-height: 0;
-  }
+}
 
-  [class*="col-"] {
-    float: left;
-    margin-left: 2%;
-  }
+.col-2 {
+  float: left;
+  width: 66%;
+}
 
-  [class*="col-"]:first-child {
-    margin-left: 0;
-  }
-
-  .col-4 { width: 32%; }
-  .col-8 { width: 66%; }
+.col-3 {
+  float: left;
+  width: 32%;
+}

@@ -24,4 +24,63 @@
 
 /* Posititoning Classes */
 
+.sale {
+  margin-bottom: 10px;
+}
 
+.brands {
+  float: left;
+  width: 66%;
+}
+
+.archive {
+float: left;
+width: 32%;
+margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+width: 32%;
+margin-left: 2%;
+}
+
+.col-3 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.col-4 {
+  float: left;
+  width: 32%;
+  padding-left: 10px;
+  border-left: 1px dotted #ccc;
+}
+
+[class*="col-"] {
+  margin-top: 2%;
+}
+
+.shadow {
+  display: inline-block;
+}
+
+.section {
+  padding: 10px
+}
+
+#logo {
+  display: inline-block;
+  width: 100%;
+  padding-left: 22px
+}

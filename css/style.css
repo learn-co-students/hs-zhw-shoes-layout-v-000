@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -114,11 +114,55 @@ iframe {
 	box-shadow: 0 3px 10px #333;
 }
 
+.clearfix:after {
+    content: “.”;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+
+.shadow figure {
+	clear: both;
+}
+
+/* Seemed to be correct, but page was not as responsive as it should have been to browser window changes.
+Looked at the repos and realized the L/R margins needed to be percentages as well. Also, the deals section had
+to be separated as a div in order to clear the archive when browser is sized.  */
+
+.col-1-right {
+	width: 32%;
+	float: right;
+	padding: 20px 20px 7px 20px;
+	}
+
+.col-1 {
+	width: 32%;
+	float: left;
+	margin-top: 20px;
+	}
+
+.col-2 {
+	width: 66%;
+	margin-right: 2%;
+	float: left;
+	padding: 20px 20px 5px 20px;
+}
+
+.second {
+	margin-left: 2%;
+}
+
+.deals {
+	clear: both;
+}
+
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {

@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -110,6 +110,9 @@ iframe {
 	margin: 0 auto;
 }
 
+*{
+	box-sizing: border-box;
+}
 .shadow {
 	box-shadow: 0 3px 10px #333;
 }
@@ -119,6 +122,7 @@ iframe {
 	color: white;
 	text-shadow: 0 2px 3px #000;
 	margin: 0 0 10px;
+	margin-top: 2%;
 }
 
 .border_right {
@@ -301,5 +305,49 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+	.col-1 {
+	    float: left;
+	    width: 32%;
+
+	  }
+
+	  .col-2 {
+	    float: left;
+	    width: 66%;
+
+	  }
+
+	  .col-3 {
+			margin-top: 1%;
+	  }
+
+		[class*="col-"] {
+			margin-top: 1%;
+	    margin-left: 2%;
+	  }
+
+	  .first {
+	    margin-left: 0%;
+	  }
+
+		  .clearfix::after {
+		    content: ".";
+		    display: block;
+		    clear: both;
+		    visibility: hidden;
+		    height: 0;
+		    line-height: 0;
+		  }
+
+			.colorgrey {
+		    background: linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%);
+		  }
+
+			.setmargin {
+				margin-bottom: 10px;
+			}
+
+
 
 /* code examples copyright Jonathan Grover 2012 */

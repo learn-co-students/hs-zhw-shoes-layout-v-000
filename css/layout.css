@@ -24,4 +24,54 @@
 
 /* Posititoning Classes */
 
+.shadow {
+  width: 100%;
+  background-color: white;
+}
 
+#featured_brands {
+  width: 66%;
+  float: left;
+  margin-right: 8px;
+}
+
+#shoe_archive {
+  width: 33%;
+  float: right;
+}
+
+#lady_bug {
+  width: 32%;
+  float: left;
+  margin: 10px 18px 0 0;
+}
+
+#skate_shoe {
+  width: 32%;
+  float: left;
+  margin: 10px 18px 0 0;
+}
+
+#heel {
+  width: 32%;
+  float: left;
+  margin-top: 10px;
+}
+
+#contact {
+  width: 33%;
+  float: left;
+  padding-left: 15px;
+}
+
+#links {
+  width: 33%;
+  float: left;
+  padding-left: 15px;
+}
+
+#follow {
+  width: 33%;
+  float: left;
+  padding-left: 15px;
+}

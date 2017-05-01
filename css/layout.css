@@ -9,6 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -22,6 +23,25 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Posititoning Classes, only border_right worked, can't see image to check what I'm supposed to do, can't find bug button, leaving it be.*/
 
+body div.clearfix div.wrapper section.shadow div.2014 {
+  float: left;
+  width: 33.333%;
+}
 
+body div.clearfix div.wrapper section.shadow div.2013 {
+  display: block;
+  float: left;
+  width: 33.333%;
+}
+
+body div.clearfix div.wrapper section.shadow div.2012 {
+  display: block;
+  float: right;
+  width: 33.333%;
+}
+
+body section.clearfix div.wrapper div.border_right {
+  float: left;
+}

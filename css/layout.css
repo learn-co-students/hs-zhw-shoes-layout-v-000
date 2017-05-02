@@ -9,6 +9,33 @@
   -moz-box-sizing: border-box;
 }
 
+.col-1 {
+  width: 32%;
+  float: left;
+}
+
+.col-2{
+  width: 66%;
+  float: left;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+[class="milk_text"] {
+  padding-top: 1.5%;
+}
+
+section:nth-of-type(3) {
+  margin-bottom: 2.5%;
+  height: 593px;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +50,3 @@
 }
 
 /* Posititoning Classes */
-
-

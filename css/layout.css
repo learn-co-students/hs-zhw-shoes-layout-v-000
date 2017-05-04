@@ -22,6 +22,51 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Posititoning Classes */ /*Note this doesn't resize properly and the col2 height is 3 px off in height. Learn staff OK'd it as resizing is in the future lessons*/
 
+.milk_text {
+    padding-top: 10px;
+    position:relative;
+    top: 5px;
+}
 
+.shadow {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shadow:nth-of-type(2) {
+  width: 65.8%;
+  margin-bottom: 15px;
+}
+
+.shadow:nth-of-type(3) {
+  width: 32%;
+  float:right;
+}
+
+.shadow:nth-of-type(4) {
+  width: 32%;
+  margin-right: 15px;
+}
+
+.shadow:nth-of-type(5) {
+  width: 32%;
+}
+
+.shadow:nth-of-type(6) {
+  width: 32%;
+  float:right;
+}
+
+.border_right {
+  display: inline-block;
+  width: 32%;
+  margin-right:15px;
+}
+
+[class=""] {
+  display: inline-block;
+  width:31%;
+  vertical-align: top;
+}

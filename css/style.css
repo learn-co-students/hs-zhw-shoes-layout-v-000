@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -118,8 +118,9 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 20px 0 10px;
 }
+
 
 .border_right {
 	border-right: 1px dotted #ccc;
@@ -264,42 +265,36 @@ iframe {
 		text-decoration: underline;
 	}
 
-/********** Details **********/
+	.col-1 {
+		width: 66.67%;
+		float: left;
+		margin-left: -1%;
+	}
 
-#details {
-	clear:both;
-	padding: 20px 10px;
-	/* gradient */
-	background: rgb(229,229,229); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(99%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+	.col-2{
+		width: 31.33%;
+		float:left;
+	}
+
+	.col-3 {
+		width: 33.33%;
+		float: left;
+		margin-top: 2%;
+	}
+
+.col-3:nth-child(1) {
+	margin-left: 2%;
 }
-
-	#details a:link, #details a:visited {
-		color: black;
-		text-decoration: none;
+	.col-3:nth-child(3) {
+		width:31.33%;
+		padding-bottom: 3.4%;
 	}
 
-	#details a:hover, #details a:active {
-		text-decoration: underline;
+
+	[class*="col-"] {
+		margin-left: 1%;
 	}
 
-/********** Footer **********/
-
-footer {
-	text-align: center;
-	font-size: 10px;
-	color: #555;
-	padding: 10px 0 20px;
-}
-
-	footer a {
-		color: #555;
-		text-decoration: underline;
-	}
-
-/* code examples copyright Jonathan Grover 2012 */
+	[class*="col-"]:first-child {
+		 margin-left: 0;
+	 }

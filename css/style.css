@@ -33,10 +33,10 @@ li {
 	margin-left: 20px;
 }
 
-p, address {
+/*p, address {
 	margin: 0 0 25px;
 	font-size: 14px;
-}
+}*/
 
 figure {
 	margin:0 0 10px;
@@ -110,7 +110,7 @@ iframe {
 	margin: 0 auto;
 }
 
-.shadow {
+section, #logo {
 	box-shadow: 0 3px 10px #333;
 }
 
@@ -252,6 +252,26 @@ iframe {
 	padding: 30px 0;
 }
 
+
+#wood .wrapper, #details .wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 1rem;
+}
+
+.h-rule, #sale {
+	grid-column: span 3;
+}
+
+#featured {
+	grid-column: span 2;
+}
+
+{
+	grid-column:
+}
+
 	/********** Sections **********/
 
 	section {
@@ -267,7 +287,6 @@ iframe {
 /********** Details **********/
 
 #details {
-	clear:both;
 	padding: 20px 10px;
 	/* gradient */
 	background: rgb(229,229,229); /* Old browsers */

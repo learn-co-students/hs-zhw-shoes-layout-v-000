@@ -1,5 +1,7 @@
 /********** Fixes **********/
+section {
 
+}
 * {
   margin:0;
   padding:0;
@@ -24,4 +26,32 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float:left;
+  width: 65.5%;
 
+}
+
+.col-2 {
+    float: left;
+    width: 31.333%;
+    /*margin-left: 30px;*/
+
+
+}
+
+.col-3 {
+  float:left;
+  width: 31.333%;
+  margin-top: 20px;
+  margin-right: 4px;
+
+}
+
+
+
+
+
+[class*="col-"] {
+  margin-left: 1.5%;
+}

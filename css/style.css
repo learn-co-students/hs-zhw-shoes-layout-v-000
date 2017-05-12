@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -103,6 +103,12 @@ iframe {
 	margin: 0;
 	overflow: hidden;
 	height: 353px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -256,6 +262,7 @@ iframe {
 
 	section {
 		padding: 20px;
+		margin-bottom: 20px;
 		background: white;
 	}
 
@@ -264,6 +271,42 @@ iframe {
 		text-decoration: underline;
 	}
 
+	/********** Columns **********/
+
+		.col-1 {
+		  float: left;
+		  width: 32%;
+		}
+
+		.col-2 {
+		  float: left;
+		  width: 66%;
+		}
+
+		.col-3 {
+
+		}
+
+		[class*="col-"] {
+			margin-left: 2%;
+		}
+
+		.first {
+		  margin-left: 0%;
+		}
+
+	  .height {
+			height: 600px;
+		}
+
+		.clearfix:after {
+		  content: ".";
+		  display: block;
+		  clear: both;
+		  visibility: hidden;
+		  height: 0;
+		  line-height: 0;
+		}
 /********** Details **********/
 
 #details {

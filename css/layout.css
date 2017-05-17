@@ -24,10 +24,31 @@
 
 #feature {
   float: left;
-  width: 60%;
+  width: 70%;
 }
 
 #archive {
   float: right;
-  width: 30%
+  width: 28%;
+}
+
+#col-1 {
+  float: left;
+  width: 31%;
+  margin: 1%;
+  display: inline-block;
+}
+
+#col-2 {
+  float: left;
+  width: 31%;
+  margin: 1%;
+  display: inline-block;
+}
+
+#col-3 {
+  float: left;
+  width: 31%;
+  margin: 1%;
+  display: inline-block;
 }

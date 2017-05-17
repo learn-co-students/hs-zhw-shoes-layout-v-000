@@ -22,6 +22,12 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+#feature {
+  float: left;
+  width: 60%;
+}
 
-
+#archive {
+  float: right;
+  width: 30%
+}

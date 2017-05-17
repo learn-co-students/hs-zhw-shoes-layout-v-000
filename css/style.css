@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -16,6 +16,11 @@ img.verif_img {
 }
 
 /********** Global **********/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 body {
 	background: url(../images/handmadepaper.png);
@@ -124,6 +129,11 @@ iframe {
 .border_right {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+	padding-left: 10px;
+}
+
+.follow{
+	padding-left: 10px;
 }
 
 .thumbs_up {
@@ -257,6 +267,48 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin: 1%;
+	}
+
+	#summer{
+		float:left;
+		width: 64.666%
+	}
+
+	#archive{
+		float:right;
+		width: 31.333%;
+	}
+
+	#ladyb{
+		float:left;
+		width: 31.333%
+	}
+
+	#skaters{
+		float:left;
+		width: 31.333%
+	}
+
+	#bluestar{
+		float:left;
+		width: 31.333%
+	}
+
+	#contacts{
+		float:left;
+		width: 33.333%
+
+	}
+
+	#links{
+		float:left;
+		width: 33.333%
+	}
+
+	#follows{
+		float:left;
+		width: 33.333%
 	}
 
 	section a {

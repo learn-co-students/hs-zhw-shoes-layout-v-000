@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.shadow.col-1 {
+  float: left;
+  width: 65%;
+  margin-right: 0%;
+  }
 
+.shadow.col-2 {
+  float: left;
+  width: 31%;
+  margin-left: 2%;
+}
+
+.shadow.col-3 {
+  float: left;
+  width: 31.5%;
+  margin: 0.75%;
+ }
+/*  had trouble getting the columns to align to my satisfaction. decided to stop
+rather than ruin the assignment. */
+
+.border_right.col-1 {
+  float: left;
+  width: 33%;
+}

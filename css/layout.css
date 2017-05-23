@@ -24,4 +24,34 @@
 
 /* Posititoning Classes */
 
+.col-feature {
+  width: 66%;
+  float: left;
+}
 
+.col-archive {
+  width: 33%;
+  float: right;
+}
+
+.col-deal {
+  width: 33%;
+  display: inline-block;
+  float: left;
+}
+
+.col-footer {
+  width: 33%;
+  display: inline-block;
+  float: left;
+}
+
+}
+
+[class*="col-"] img {
+  max-width: 100%;
+}
+
+.border_right + .col-footer {
+  padding-left: 20px;
+}

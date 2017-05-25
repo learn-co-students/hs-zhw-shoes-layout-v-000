@@ -24,4 +24,49 @@
 
 /* Posititoning Classes */
 
+#summer-grass {
+  width: 635px;
+  float: left;
+  margin-bottom: 20px;
+}
 
+#shoe-archive {
+  width: 305px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  /*height: 594px;*/
+}
+
+#shoe-type-1 {
+  width: 310px;
+  float: left;
+  clear: both;
+}
+
+#shoe-types {
+  width: 306px;
+  float: left;
+  margin-left: 19px;
+}
+
+#contact-box {
+  width: 320px;
+  float:left;
+}
+
+#links-box {
+  width: 320px;
+  float: left;
+  padding-left: 20px;
+}
+
+#follow-box {
+  width: 320px;
+  float: left;
+  padding-left: 20px;
+}
+
+#holliday-sale {
+  margin-bottom: 20px;
+}

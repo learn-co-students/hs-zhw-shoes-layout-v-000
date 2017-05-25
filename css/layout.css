@@ -24,4 +24,46 @@
 
 /* Posititoning Classes */
 
+section {
+  padding: 5px;
+  margin: 1%;
+}
 
+.first {
+  float: left;
+  width: 65%;
+}
+
+.archive {
+  float: left;
+  padding-bottom: 6px;
+  width: 30.99%;
+}
+
+.col-1 {
+  float: left;
+  width: 31.5%;
+}
+
+.col-2 {
+  float: left;
+  width: 31.5%;
+}
+
+.col-3 {
+  float: left;
+  width: 31%;
+  padding-bottom: 1.9%;
+}
+
+.links {
+  padding-left: 20px;
+}
+
+.follow {
+  padding-left: 20px;
+}
+
+.test {
+  padding-top: 5px;
+}

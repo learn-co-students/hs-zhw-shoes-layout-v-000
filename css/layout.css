@@ -2,7 +2,7 @@
 
 * {
   margin:0;
-  padding:0;
+  padding: 0;
   border:0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -24,4 +24,38 @@
 
 /* Posititoning Classes */
 
+img {
+  max-width: 100%;
+}
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  background: #ccc;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}

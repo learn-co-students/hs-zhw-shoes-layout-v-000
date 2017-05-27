@@ -20,8 +20,38 @@
 
 .clear {
   clear: both;
+  width: 310px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.clear:last-child {
+  clear: both;
+  width: 310px;
+  display: inline-block;
+  margin-right: 0;
 }
 
 /* Posititoning Classes */
 
+.column {
+  float: left;
+  height: 200px;
+  width: 320px;
+  display: inline-block;
+  padding: 10px;
+}
 
+.left {
+  float: left;
+  width: 634px;
+  height: 640px;
+  margin-bottom: 15px;
+}
+
+.right {
+  float: right;
+  width: 310px;
+  height: 640px;
+  margin-bottom: 15px;
+}

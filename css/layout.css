@@ -18,10 +18,27 @@
   line-height: 0;
 }
 
-.clear {
+/*.clear {
   clear: both;
-}
+}*/
 
 /* Posititoning Classes */
 
 
+.col-1 {
+  width: 64%;
+  float: left;
+}
+
+.col-2 {
+  width: 32%;
+  float: right;
+}
+
+.col-3 {
+
+  width: 30%;
+  margin: 15px;
+  
+  float: left;
+}

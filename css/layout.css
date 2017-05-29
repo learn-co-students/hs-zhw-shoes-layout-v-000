@@ -22,6 +22,23 @@
   clear: both;
 }
 
+.col-2 {
+  display: inline-block;
+  float: left;
+  width: 66%;
+}
+
+.col-1 {
+  display: inline-block;;
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 32%;
+  float: left;
+}
+
+.first {
+  margin-left: 0%;
+}
 /* Posititoning Classes */
 
 

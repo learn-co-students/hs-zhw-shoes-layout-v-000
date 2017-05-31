@@ -24,4 +24,28 @@
 
 /* Posititoning Classes */
 
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
 
+.row:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+[class*="column"] {
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="column"]:first-child {
+  margin-left: 0;
+}
+
+.column { width: 32%; }
+.column-big { width: 66%; }

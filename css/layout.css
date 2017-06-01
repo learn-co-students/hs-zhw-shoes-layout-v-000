@@ -24,4 +24,45 @@
 
 /* Posititoning Classes */
 
+.summergrass {
+  display: inline;
+  width: 600px;
+  padding: 8px;
+  margin: 2px;
+  float: left;
+}
 
+.shoe{
+  display: inline;
+  width: 300px;
+  margin:2px;
+  padding: 8px;
+  float:left;
+}
+
+.ladybugs{
+  width: 31.333%;
+  margin:1%;
+  padding:8px;
+
+}
+.skaters{
+  width: 31.333%;
+  margin:1%;
+  padding:8px 4px;
+  float:left;
+}
+
+.heels{
+  width: 31.333%;
+  margin:1%;
+  padding:8px 4px;
+  float:left;
+}
+
+.border_right{
+  width: 31.333%;
+  margin:1%;
+
+  float:left;
+}

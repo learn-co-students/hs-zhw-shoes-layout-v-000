@@ -9,7 +9,17 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
+
+
+/* Posititoning Classes */
+
+
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+.row:after {
   content: ".";
   display: block;
   clear: both;
@@ -18,10 +28,20 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
 }
 
-/* Posititoning Classes */
+.first {
+  margin-left: 0%;
+}
 
+.col-1 {
+  width: 32%;
+}
+
+.col-2 {
+  width: 66%;
+}
 

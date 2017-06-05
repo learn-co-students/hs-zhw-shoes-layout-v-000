@@ -18,10 +18,21 @@
   line-height: 0;
 }
 
-.clear {
+.clearfix {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
+[class*="col-"] {
+  float: left;
+  margin-left:1%;
+}
 
+.col-8{
+  width: 66%;
+}
 
+.col-4{
+  width: 32%;
+}

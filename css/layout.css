@@ -24,4 +24,35 @@
 
 /* Posititoning Classes */
 
+.art-2 {
+  display: inline-block;
+  width: 65.333%;
+  float: left;
+}
 
+.archive {
+  display: inline-block;
+  width: 32.666%;
+  float: right;
+}
+
+.art-3{
+  display: inline-block;
+  width: 32%;
+  margin-right: 2%;
+  margin-top: 1.5%;
+  float: left;
+}
+
+.art-3.last{
+  margin-right: 0;
+}
+
+.details{
+  display: inline-block;
+  width: 30%;
+  margin-right: 2%;
+  margin-top: 1.5%;
+  float: left;
+  padding-right:
+}

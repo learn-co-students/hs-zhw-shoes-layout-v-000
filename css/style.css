@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -214,12 +214,13 @@ iframe {
 /********** Social Bar **********/
 
 #social {
-	position: fixed;
-	top: 200px;
-	right: 3px;
-	width: 40px;
-	z-index: 1;
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
 }
+
 
 	a.fbook, a.twitt, a.gplus {
 		display: block;
@@ -230,6 +231,7 @@ iframe {
 		overflow: hidden;
 		background: url(../images/social-icons.png) no-repeat;
 	}
+
 
 	a.fbook { background-position: 0 0; }
 	a.fbook:hover { background-position: -40px 0; }
@@ -258,6 +260,58 @@ iframe {
 		padding: 20px;
 		background: white;
 	}
+
+	.col-1{
+  float: left;
+  width: 31%;
+  background:linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%);
+}
+
+.col-2{
+
+	float: left;
+	width: 630px;
+	background: #fff;
+}
+
+.col-3{
+	display: block;
+	float: left;
+	width: 31%;
+	background: #fff;
+}
+
+.col-4{
+
+	margin: 0px 0px 0px 20px;
+	display: block;
+	float: left;
+	width: 300px;
+	background: #fff;
+}
+
+.first{
+	margin: 10px 10px 10px 0px;
+	width: 305px;
+}
+
+.second{
+	margin: 10px;
+	width: 305px;
+}
+
+.third{
+	margin: 10px 0px 10px 10px;
+	width: 300px;
+}
+
+.left{
+	margin: 0px 10px 0px 0px;
+}
+
+.right{
+	margin: 0px 0px 0px 10px;
+}
 
 	section a {
 		color: #555;

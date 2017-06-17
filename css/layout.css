@@ -24,4 +24,31 @@
 
 /* Posititoning Classes */
 
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  /*margin-right: 0%;
+  margin-bottom: 1%;*/
+}
 
+[class*="col-"]:first-child{
+  margin-left: 0%;
+}
+
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+.row:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
+.col-4 { width: 32%; }
+.col-8 { width: 66%; }

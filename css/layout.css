@@ -24,4 +24,44 @@
 
 /* Posititoning Classes */
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 
+}
+
+.col-1 {
+  float: left;
+  width: 62%;
+}
+
+.col-2 {
+  float: left;
+  width: 30%;
+}
+
+.col-3 {
+  float:left;
+  width: 30%;
+}
+
+[class*="col-"] {
+  margin-left: 2%
+}
+
+/* SECTION */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}

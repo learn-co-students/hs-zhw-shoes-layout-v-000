@@ -1,7 +1,7 @@
 /********** Fixes **********/
 
-* {
-  margin:0;
+* { /*comment out margin becuause it was throwing off columns in chrome*/
+  /*margin:0;*/
   padding:0;
   border:0;
   box-sizing: border-box;
@@ -24,4 +24,55 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+	float: left;
+	width: 32%;
+  height: 100%;
+}
 
+.col-2 {
+	float: left;
+	width: 66%;
+  height: 100%;
+}
+
+.col-2.first {
+	float: left;
+	width: 66%;
+  /*padding-bottom: 5.5em;*/
+}
+
+.col-3 {
+	/*Not needed here but here cause its purpose is clearer*/
+	widows: 100%;
+  margin-bottom: 2%;
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+  /*needed to adjust the margin after the workaround*/
+  margin-top: 2%;
+}
+
+.first {
+	margin-left: 0%;
+}
+ 
+* {/*I don't think this is doing anything*/
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/*found this workaround on stack over flow
+https://stackoverflow.com/questions/1205159/html-css-making-two-floating-divs-the-same-height
+*/
+.row {
+ overflow: hidden;
+}
+
+/*for the work around*/
+.special {
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}

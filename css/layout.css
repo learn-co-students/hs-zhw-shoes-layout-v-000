@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+	float: left;
+	width: 32%
+}
 
+.col-2 {
+	float: left;
+	width: 66%;
+}
+
+.col-3 {
+	/*Not needed here but here cause its purpose is clearer*/
+	widows: 100%;
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+	margin-left: 0%;
+}
+ 
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}

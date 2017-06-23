@@ -18,12 +18,6 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
-}
-
-/* Posititoning Classes */
-
 .clearfix:after {
   content: ".";
   display: block;
@@ -32,6 +26,8 @@
   height: 0;
   line-height: 0;
 }
+
+/* Posititoning Classes */
 
 .col-1 {
 	float: left;
@@ -45,10 +41,10 @@
 
 
 [class*="col-"] {
-  margin-left: 2%;
+  margin: 0 0 2% 2%;
 }
 
 .first {
-  margin-left: 0%;
+  margin: 0 0 2% 0;
   clear: both;
 }

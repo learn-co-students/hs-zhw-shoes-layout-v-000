@@ -105,43 +105,6 @@ iframe {
 	height: 353px;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.col-1 {
-	float: left;
-	width: 32%;
-}
-
-.col-2 {
-	float: left;
-	width: 66%;
-}
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
-
-[class*="col-"] {
-  margin-left: 2%;
-}
-
-.first {
-  margin-left: 0%;
-}
-
-.beginning {
-	clear: both;
-}
-
 .wrapper {
 	width: 960px;
 	margin: 0 auto;

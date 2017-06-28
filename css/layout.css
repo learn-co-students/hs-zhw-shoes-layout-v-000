@@ -18,10 +18,23 @@
   line-height: 0;
 }
 
-.clear {
+.clearfix {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
+#featured {
+  width: 66%;
+  float: left;
+}
 
+#archive {
+  width: 33%;
+  float: right;
+}
 
+.first-third, .second-third, .third-third{
+  float: left;
+  width: 33%;
+}

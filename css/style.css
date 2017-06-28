@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 0 0 10px auto;
 }
 
 .border_right {
@@ -313,6 +313,8 @@ footer {
 .col-2 {
 	float: left;
 	width: 66%;
+	min-width: 66%;
+	min-height: 100%;
 
 }
 
@@ -328,4 +330,9 @@ footer {
 .first {
 	margin-left: 0%;
 }
+
+.featured-brands-bar {
+	margin-top: 15px;
+}
+
 /* code examples copyright Jonathan Grover 2012 */

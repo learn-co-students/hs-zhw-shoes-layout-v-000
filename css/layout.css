@@ -24,4 +24,31 @@
 
 /* Posititoning Classes */
 
+.left-two-thirds{
+  width: 66.6667%;
+  float: left;
+}
 
+.right-one-third{
+  position: absolute;
+  width: 33.3333%;
+  float: right;
+}
+
+.left-one-third{
+  position: absolute;
+  width: 33.3333%%;
+  float: left;
+}
+
+.middle-one-third{
+  position: absolute;
+  width: 33.3333%;
+  float: middle;
+}
+
+.right-one-third{
+  position: absolute;
+  width: 33.3333%;
+  float: right;
+}

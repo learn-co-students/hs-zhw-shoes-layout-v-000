@@ -257,6 +257,7 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+
 	}
 
 	section a {
@@ -313,8 +314,6 @@ footer {
 .col-2 {
 	float: left;
 	width: 66%;
-	min-width: 66%;
-	min-height: 100%;
 
 }
 
@@ -335,4 +334,33 @@ footer {
 	margin-top: 15px;
 }
 
+
+.middle-section {
+	clear: both;
+	margin-bottom: 2%;
+}
+
+.bottom-section {
+	clear: both;
+	margin-bottom: 2%;
+}
+
+.image-lock {
+	height: 589px;
+}
+
+.bottom-lock{
+	max-height: 453px;
+
+}
+
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 /* code examples copyright Jonathan Grover 2012 */

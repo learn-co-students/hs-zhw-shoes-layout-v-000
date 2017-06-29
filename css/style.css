@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -118,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 0 0 10px auto;
 }
 
 .border_right {
@@ -257,6 +257,7 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+
 	}
 
 	section a {
@@ -302,4 +303,64 @@ footer {
 		text-decoration: underline;
 	}
 
+	/********** Column Structure **********/
+
+.col-1 {
+	float: left;
+	width: 32%;
+
+}
+
+.col-2 {
+	float: left;
+	width: 66%;
+
+}
+
+.col-3 {
+	float: left;
+
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+.featured-brands-bar {
+	margin-top: 15px;
+}
+
+
+.middle-section {
+	clear: both;
+	margin-bottom: 2%;
+}
+
+.bottom-section {
+	clear: both;
+	margin-bottom: 2%;
+}
+
+.image-lock {
+	height: 589px;
+}
+
+.bottom-lock{
+	max-height: 453px;
+
+}
+
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 /* code examples copyright Jonathan Grover 2012 */

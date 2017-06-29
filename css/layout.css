@@ -9,6 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +24,31 @@
 }
 
 /* Posititoning Classes */
+.wrapper {
+  margin: 0 auto;
+}
 
+ 
+.shadow {
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+}
 
+.col-1 {
+  float: left;
+  width: 31%;
+  margin: 1%;
+}
+
+.col-2 {
+  float: left;
+  width: 31%;
+  margin: 1%;
+}
+
+.col-3 {
+  float: right;
+  width: 31%;
+  margin: 1%;
+}

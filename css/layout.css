@@ -25,3 +25,49 @@
 /* Posititoning Classes */
 
 
+.shadow {
+  margin-bottom: 10px;
+}
+.flex-grid{
+  display:flex;
+}
+
+#featured{
+  flex:2.23;
+  margin: 10px;
+  margin-left:0;
+}
+
+#archive{
+  flex:1;
+  margin: 10px;
+  margin-right:0;
+}
+#column-1{
+ flex:1;
+  width:32%;
+  margin: 10px;
+  margin-right: 0;
+}
+
+#column-2{
+flex:1;
+  width:32%;
+  margin:10px;
+}
+
+#column-3{
+  flex:1;
+  width:32%;
+  margin:10px;
+  margin-left:0;
+}
+
+#flex-grid{
+  display:flex;
+}
+
+.border_right{
+  margin-left:75px;
+  flex:.3;
+}

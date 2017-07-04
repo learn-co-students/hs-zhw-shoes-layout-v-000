@@ -24,4 +24,30 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float:left;
+  width:30%;
+}
 
+.col-2 {
+  float:left;
+  width:62%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  alignitems:baseline
+}
+
+h2.milk_text {
+  margin-top:15px;
+}
+
+.sea {
+  padding-bottom:35px;
+}

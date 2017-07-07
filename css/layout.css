@@ -24,4 +24,55 @@
 
 /* Posititoning Classes */
 
+.main-feature {
+  display: flex;
+  margin-bottom: 3%;
+}
 
+#archive  {
+  float: right;
+  width: 35%;
+  margin: 1%
+}
+
+#brands  {
+  float: left;
+  width: 65%;
+  margin: 1%;
+}
+
+#ladybug {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+#skate  {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+#heels  {
+  width: 30%;
+  float: left;
+  /*margin: 1%;*/
+}
+
+#contact {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+#links  {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+#follow  {
+  width: 30%;
+  float: left;
+  /*margin: 1%;*/
+}

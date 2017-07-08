@@ -24,4 +24,16 @@
 
 /* Posititoning Classes */
 
+h3 {
+  width: 32%;
+  float: left;
+}
 
+.summergrass {
+  float: left;
+  width: 33%;
+}
+
+h2 {
+  width: 33%;
+}

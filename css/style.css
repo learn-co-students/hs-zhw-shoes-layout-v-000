@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -252,7 +252,33 @@ iframe {
 	padding: 30px 0;
 }
 
-	/********** Sections **********/
+	/********** Section	s **********/
+	.clearfix::after {
+		content: ".";
+		display:block;
+		clear:both;
+		visibility: hidden;
+	}
+
+	.border_right {
+			float: left;
+			width: 62%;
+			border: 0px 2px;
+			left:auto;
+		}
+
+	.border_left {
+			float: right;
+			width: 30%;
+			border: 0px 2px;
+		}
+
+	.follow {
+			display: inline-block;
+			padding: 10px 0px;
+			width: 230px;
+			clear: both;
+		}
 
 	section {
 		padding: 20px;
@@ -264,6 +290,38 @@ iframe {
 		text-decoration: underline;
 	}
 
+	.grass {
+		float: left;
+		width: 62%;
+		border: 0px 2px;
+	}
+
+	.darkness {
+		float: right;
+		width: 30%;
+		border: 0px 2px;
+	}
+
+	.ladybug {
+		display: inline-block;
+		padding: 10px 0px;
+		width: 230px;
+		clear: both;
+	}
+
+	.skate {
+		display: inline-block;
+		padding: 10px 0px;
+		width: 230px;
+		clear: both;
+	}
+
+	.heel {
+		display: inline-block;
+		padding: 10px 0px;
+		width: 230px;
+		clear: both;
+	}
 /********** Details **********/
 
 #details {

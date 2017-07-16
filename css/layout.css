@@ -24,6 +24,7 @@
   clear: both;
   margin-bottom: 2%;
 }
+<<<<<<< HEAD
 
 .space:after {
   content: ".";
@@ -34,11 +35,40 @@
   line-height: 0;
 }
 
+=======
+
+.space:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+>>>>>>> 27d0100bff3fd4bc60ac3601e2896848e8bf5b21
 .col-1 {
   width: 32%;
   float: left;
   margin-left: 2%;
 }
+<<<<<<< HEAD
+=======
+
+.col-2 {
+  width: 66%;
+  float: left;
+  margin-right: 0;
+}
+
+.col-3 {
+  width: 32%;
+  float: left;
+  margin-right: 0;
+}
+
+/* Posititoning Classes */
+>>>>>>> 27d0100bff3fd4bc60ac3601e2896848e8bf5b21
 
 .col-2 {
   width: 66%;

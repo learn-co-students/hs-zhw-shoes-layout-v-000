@@ -14,14 +14,39 @@
   display: block;
   clear: both;
   visibility: hidden;
-  height: 0;
-  line-height: 0;
 }
 
 .clear {
   clear: both;
 }
 
+.wrapper {
+  width: 100%;
+}
+
 /* Posititoning Classes */
 
+.grass {
+  float: left;
+  width: 66%;
+}
 
+.archive {
+  float: right;
+  width: 33%;
+}
+
+.randomshoes {
+  float: left;
+  position: relative;
+  width: 33%;
+  margin-left: 4px;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.border-right {
+  float: left;
+}

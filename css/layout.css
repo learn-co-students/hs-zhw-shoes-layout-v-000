@@ -16,6 +16,7 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+
 }
 
 .clear {
@@ -23,5 +24,34 @@
 }
 
 /* Posititoning Classes */
+.small_image {
+ width: 31%;
+ float: left;
+ margin: 1%;
+ display: inline;
+}
+
+.archive {
+  width: 26%;
+  padding-bottom: 56px;
+}
+
+.featured {
+  width: 70%;
+  padding-bottom: 25px;
+}
+
+.together {
+  float: left;
+  margin: 1%;
+}
 
 
+.links {
+  float: left;
+
+}
+
+.contact {
+  float: left;
+}

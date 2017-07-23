@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+.summergrass {
+  float: left;
+  margin-right: 2%;
+  width: 65.333%;
+  margin-right: 2%;
+}
 
+.shoearchive {
+  float: left;
+  width: 31.666%;
+}
+
+.shoes-1 {
+  float: left;
+  width: 31.666%;
+  margin: 2% 2% 0 0;
+}
+
+.shoes-2{
+  float: left;
+  width: 31.666%;
+  margin-top: 2%;
+}
+
+.company_info-1 {
+  float: left;
+  width: 33.333%;
+}
+
+.company_info-2 {
+  float: left;
+  width: 33.333%;
+  padding-left: 2%;
+}

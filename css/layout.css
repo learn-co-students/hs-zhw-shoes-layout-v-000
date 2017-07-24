@@ -22,6 +22,60 @@
   clear: both;
 }
 
+.secondrow section
+{
+  float: left;
+}
+.thirdrow section
+{
+  float: left;
+  max-width: 31%;
+}
+.thirdrow:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+.thirdrow
+{
+  margin: 1% 0 0 0 ;
+}
+
+.secondrow:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+.row2i1
+{ margin: 0 5% 0 0;
+  max-width: 70%;
+
+}
+.row2i2{
+  min-width: 25%;
+  min-height: 100%;
+}
+.row3i1
+{
+  margin: 0 3% 0 0;
+}
+.row3i2
+{
+  margin: 0 3% 0 0;
+}
+.foot div
+{
+  float: left;
+  min-width: 33.33333%;
+
+}
+
+
+
 /* Posititoning Classes */
-
-

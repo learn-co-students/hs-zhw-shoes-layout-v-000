@@ -9,9 +9,33 @@
   -moz-box-sizing: border-box;
 }
 
+.col-1 {
+  width: 66%;
+  min-height: 597px;
+}
+
+.col-2 {
+  width: 32%;
+  min-height: 597px;
+}
+
+.col-3 {
+  width: 32%;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  height: 100%;
+}
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
 .clearfix:after {
   content: ".";
-  display: block;
+  display: table;
   clear: both;
   visibility: hidden;
   height: 0;
@@ -23,5 +47,3 @@
 }
 
 /* Posititoning Classes */
-
-

@@ -25,3 +25,79 @@
 /* Posititoning Classes */
 
 
+	.col1_left {
+		float: left;
+		width: 32.7%;
+		margin: 0 0 2px;
+	}
+
+	.col1_mid { /* give center column of three this class last */
+		float: left;
+		width: 32.7%;
+		margin: 0 1% 20px 1%;
+	}
+
+  .col1_right {
+    float: right;
+    width: 32.6%;
+    margin: 0 0 2px;
+  }
+
+	.col1_right_long {
+		float: right;
+		width: 32.6%;
+    min-height: 591px;
+		margin: 0 0 2px;
+	}
+
+	.col2_left {
+		float: left;
+		width: 66.4%;
+		margin: 0 1% 20px 0;
+	}
+
+	.col2_right {
+		float: right;
+		width: 66.4%;
+		margin: 0 0 20px 1%;
+	}
+
+	.col3 {
+		margin: 0 0 20px;
+		clear: both;
+	}
+
+.thirdrow section {
+  float: left;
+  max-width: 32.6%;
+}
+
+.thirdrow:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.thirdrow {
+  margin: 1% 0 0 0;
+}
+
+.secondrow:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.secondrow section {
+  float: left;
+}
+foot div {
+  float: left;
+  min-width: 33.33333%;
+}

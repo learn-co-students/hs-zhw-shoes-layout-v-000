@@ -18,10 +18,42 @@
   line-height: 0;
 }
 
+.row {
+  clear:both;
+  margin-bottom: 2%;
+}
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
+.col1_left {
+    float: left;
+    width: 32%;
+}
 
+.col1_mid {
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+}
 
+.col1_right {
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+}
+
+.dates_col {
+  height: 599px;
+  font-size: 14px;
+	float: left;
+	width: 32%;
+  margin-left: 2%;
+}
+
+.col2_left {
+    float: left;
+    width: 66%;
+    margin-bottom: 2%;
+}

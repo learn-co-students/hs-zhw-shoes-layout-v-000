@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
 
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  clear:both;
+}
+
+.col-1 {
+  width: 32%;
+}
+
+.brands {
+  padding-bottom: 16px;
+}
+
+.col-2 {
+  width: 66%;
+}
+
+[class*="col-"]{
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="col-"]:first-child{
+  margin-left: 0%
+}

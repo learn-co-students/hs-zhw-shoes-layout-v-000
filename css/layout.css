@@ -1,4 +1,7 @@
-/********** Fixes **********/
+clearfix {
+  overflow: auto;
+  zoom: 1;
+}
 
 * {
   margin:0;
@@ -22,6 +25,33 @@
   clear: both;
 }
 
+#archive{
+  float: right;
+  width: 10%;
+}
+
+#lady{
+  float: left;
+  width: 10%;
+}
+
+#skate{
+  float: left;
+  width: 10%:
+}
+
+#heels{
+  float: left;
+  width: 25%;
+}
+
+#wrapper{
+  width: 0 auto;
+}
+
+
+
+
+
+
 /* Posititoning Classes */
-
-

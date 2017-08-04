@@ -24,4 +24,89 @@
 
 /* Posititoning Classes */
 
+#archive{
+  
+  float:left;
+  width:22%;
+  margin:1px 1px 1px 15px;
+  display: block;
+  height:630px;
+
+
+
+}
+#grass {
+  float:left;
+  width: 74%;
+  margin: 1px;
+  height: 630px;
+  display:block;
+  }
+
+#grass, #archive {
+
+  display: block;
+
+
+}
+/*/// opt 2 for .grass
+.grass {
+  float:left;
+  width: 74%;
+  margin: 1px;
+  display:inline;
+} ////*/
+
+#ladybug {
+  float:left;
+  width: 31%;
+  margin: 20px 10px 10px 0px;
+}
+
+#skate, #heel {
+
+  float:left;
+  width: 31%;
+  margin:20px 10px 10px 10px;
+  padding:15px;
+
+ }
+ /*//////Alternate for 
+ #ladybug, #skate, #heel {
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+ .ladybug, .skate, .heel {
+
+  float:left;
+  width: 31%;
+  margin:10px;
+  padding:1px;
+}   /////////*/
+
+ #right{ 
+ display: block-inline;
+ padding:2px;
+ border:2px white normal;
+ float:left;
+ margin-right:100px;
+}
+ #left{ 
+ display: block-inline;
+ padding:2px;
+ border:2px white normal;
+ float:left;
+  margin-right:100px;
+}
+#follow{ 
+ display: block-inline;
+ padding:2px;
+ border:2px white normal;
+ float:left;
+  margin-right:100px;
+}
 

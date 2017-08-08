@@ -25,3 +25,42 @@
 /* Posititoning Classes */
 
 
+.col-1 {
+  float:left;
+  width: 32%;
+  background: rgb(225,225,225);
+}
+
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: rgb (225,225,225);
+}
+
+.col-3 {
+  background: (225,225,225);
+}
+
+[class*= "col-"] {
+  margin-left: 2%;
+}
+
+.first{
+  margin-left: 0%;
+}
+
+
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+}
+
+section{
+  padding:20px;
+  margin-bottom:20px;
+}

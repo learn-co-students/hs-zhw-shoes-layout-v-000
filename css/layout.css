@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 31.25%;
+  margin: 10px 20px 0px 0px;
+  /*background: #ccc;*/
+}
 
+.col-2 {
+  float: left;
+  width:  64.5%;
+  margin: 10px 20px 0px 0px;
+  /*background: #ccc*/
+}
+
+.col-3 {
+  /*background: #ccc;*/
+}
+
+/*.shadow {
+  margin: 10px;
+}*/
+
+#archive {
+}

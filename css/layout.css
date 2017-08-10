@@ -23,5 +23,20 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+float: left;
+width: 32%;
+}
 
+.col-2{
+  float: left;
+  width: 66%;
+}
 
+[class*=col-] { /*using attribute selector, any element in a class where the value "col-" */
+  margin-left: 2%;
+}
+
+.first { /* use this to prevent left margin on first element of the column */
+  margin-left: 0%;
+}

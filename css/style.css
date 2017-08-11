@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -19,6 +19,15 @@ img.verif_img {
 
 body {
 	background: url(../images/handmadepaper.png);
+	height:100%;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+html {
+	height:100%;
+	min-height: 100%;
+	min-width: 100%;
 }
 
 h2, h3 {
@@ -118,12 +127,18 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+}
+
+#follow {
+	display:inline-block;
+	width:31%;
+	float:right;
 }
 
 .thumbs_up {
@@ -229,6 +244,7 @@ iframe {
 		white-space: nowrap;
 		overflow: hidden;
 		background: url(../images/social-icons.png) no-repeat;
+
 	}
 
 	a.fbook { background-position: 0 0; }
@@ -250,6 +266,7 @@ iframe {
 	background-position: center top, left top;
 	background-repeat: no-repeat, repeat-y;
 	padding: 30px 0;
+
 }
 
 	/********** Sections **********/

@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -105,13 +105,19 @@ iframe {
 	height: 353px;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 }
 
 .shadow {
-	box-shadow: 0 3px 10px #333;
+	box-shadow: 0 3px 20px #333;
 }
 
 .milk_text {
@@ -122,7 +128,7 @@ iframe {
 }
 
 .border_right {
-	border-right: 1px dotted #ccc;
+	border-right: 1px dotted gray;
 	padding-right: 20px;
 }
 
@@ -132,6 +138,43 @@ iframe {
 
 .contact_form {
 	height: 415px;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #fff;
+}
+
+.gray {
+  background: rgb(229,229,229);
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #fff;
+}
+
+.col-3 {
+  background: #fff;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+[class*="col-"]{
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
 }
 
 /********** Header **********/
@@ -258,6 +301,10 @@ iframe {
 		padding: 20px;
 		background: white;
 	}
+
+	/*#details {
+		background: rgb(229,229,229);
+	}*/
 
 	section a {
 		color: #555;

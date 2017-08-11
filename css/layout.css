@@ -1,5 +1,18 @@
 /********** Fixes **********/
 
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+
 * {
   margin:0;
   padding:0;
@@ -16,12 +29,53 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+
 }
 
 .clear {
-  clear: both;
+  clear:both;
 }
 
 /* Posititoning Classes */
 
+.shadow {
+  clear:both;
+}
 
+.archive {
+  display:inline-block;
+  width:32%;
+  float:right;
+}
+
+.grass {
+  display:inline-block;
+  width:66%;
+  margin-bottom: 20px;
+}
+
+.lady_bugs {
+  display:inline-block;
+  width: 32%;
+
+}
+
+.col-2 {
+  display:inline-block;
+  width: 32%;
+
+}
+
+.col-3 {
+  display:inline-block;
+  width:32%;
+}
+
+.col-1 {
+  display:inline-block;
+  width: 32%;
+}
+
+[class*= "col-"] {
+  margin-left: 1.5%;
+}

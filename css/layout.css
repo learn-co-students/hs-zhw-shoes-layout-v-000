@@ -22,6 +22,48 @@
   clear: both;
 }
 
+div#row {
+  display: inline-block;;
+}
+
+.col-1{
+  float: left;
+  width: 32%;
+  background: white;
+  margin-top: 2%;
+}
+
+.col-1-second{
+  float: left;
+  width: 32%;
+  background: white;
+}
+
+.col-2 {
+  background: white;
+  max-width: 65.5%;
+  float: left;
+}
+
+.col-3 {
+  background: white;
+  max-width: 100%
+  float: left;
+  margin-bottom: 1%
+}
+
+[class*="col-"] {
+  margin-left: 1.5%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.last {
+  margin-right: 0%;
+}
+
+
+
 /* Posititoning Classes */
-
-

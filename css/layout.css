@@ -23,5 +23,55 @@
 }
 
 /* Posititoning Classes */
+.shadow {
+  width: 100%;
+}
 
 
+.shadow.two-thirds{
+  display: block;
+  width: 69%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.shadow.one-third{
+  display: block;
+  width: 29%;
+  padding-bottom: 40px;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.shadow.lady-bug{
+  width: 305px;
+  margin-right: 2%;
+  float:left;
+}
+
+.shadow.skater{
+  width: 305px;
+  float:left;
+}
+
+.shadow.baby-shoes{
+  width: 305px;
+  margin-left: 2%;
+  float: right;
+}
+
+.contact{
+  width: 320px;
+  float: left;
+}
+
+.links{
+  width: 320px;
+  float: left;
+}
+
+.follow{
+  width: 320px;
+  float: right;
+}

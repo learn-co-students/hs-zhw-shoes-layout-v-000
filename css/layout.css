@@ -25,3 +25,30 @@
 /* Posititoning Classes */
 
 
+.col-1 {
+  margin: 1%;
+  width: 31.3%;
+  float: left
+}
+
+.col-2 {
+  width: 64.6%;
+  float: left;
+  margin: 1%;
+}
+
+.col-3 {
+  width: 100%
+}
+
+.no-left-margin {
+  margin-left: 0;
+}
+
+.no-right-margin {
+  margin-right: 0;
+}
+
+.padding-fix {
+  padding: 15px;
+}

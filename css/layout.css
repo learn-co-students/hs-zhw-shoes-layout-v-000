@@ -20,8 +20,36 @@
 
 .clear {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 66%;
+  margin: 0;
+}
 
+.col-2 {
+  float: left;
+  width: 32%;
+  margin: 0 0 2% 2%;
+}
+
+.col-3 {
+  float: left;
+  width: 32%;
+  margin: 0 2% 0 0;
+}
+
+.col-4 {
+  float: left;
+  width: 32%;
+  margin: 0;
+}
+
+.border_right {
+  float: left;
+  width: 33%;
+}

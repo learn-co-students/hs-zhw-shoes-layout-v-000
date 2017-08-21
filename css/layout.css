@@ -25,3 +25,32 @@
 /* Posititoning Classes */
 
 
+/* Columns */
+
+.col-1 {
+  width: 100%;
+}
+
+.col-2 {
+	width: 32%;
+  float: left;
+  margin-left: 2%;
+}
+
+.col-3 {
+	width: 66%;
+  float: left;
+  margin-left: 2%;
+}
+
+figure, img {
+  width: 100%;
+}
+
+.space_bottom {
+  margin-bottom: 20px;
+}
+
+.first {
+  margin-left: 0;
+}

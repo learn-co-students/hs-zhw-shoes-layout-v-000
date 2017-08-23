@@ -24,4 +24,67 @@
 
 /* Posititoning Classes */
 
+#grass {
+   display: block;
+   float:left;
+   width: 64.66%;
+   height:575px;
+   margin: 1%;
+ }
 
+ #list {
+    display: block;
+    float:right;
+    width: 31.33%;
+    height:575px;
+    margin: 1%;
+  }
+
+  #lady_bug {
+    clear:both;
+     display: block;
+     float:left;
+     width: 31.33%;
+     height:575px;
+     margin: 1%;
+   }
+
+   #skate {
+      display: block;
+      float:left;
+      width: 31.33%;
+      height:575px;
+      margin: 1%;
+    }
+
+    #heel {
+       display: block;
+       float:left;
+       width: 31.33%;
+       height:575px;
+       margin: 1%;
+     }
+
+     #contact {
+        display: block;
+        float:left;
+        width: 31.33%;
+        height:575px;
+        margin: 1%;
+      }
+
+      #links {
+         display: block;
+         float:left;
+         width: 31.33%;
+         height:575px;
+         margin: 1%;
+       }
+
+       #follow {
+          display: block;
+          float:left;
+          width: 31.33%;
+          height:575px;
+          margin: 1%;
+        }

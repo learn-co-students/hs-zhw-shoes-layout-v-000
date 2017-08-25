@@ -24,4 +24,47 @@
 
 /* Posititoning Classes */
 
+.milk_text {
+  padding-top: 8px;
+}
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  float: left;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.contact {
+  float: left;
+  width: 32%;
+}
+
+.links {
+  float: left;
+  width: 32%;
+  padding-left: 10px;
+}
+
+.follow {
+  float: left;
+  width: 32%;
+  padding-left: 10px;
+}
+
+.first {
+  margin-left: 0%;
+}

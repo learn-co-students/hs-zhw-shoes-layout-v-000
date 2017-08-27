@@ -23,5 +23,46 @@
 }
 
 /* Posititoning Classes */
+.columns{
+  display:inline-block;
+}
+.columns .featured {
+  float:left;
+  width:66%;
+  display: inline-block;
+  margin-bottom:3px;
+}
 
+.columns .archive {
+  float:right;
+  width: 33%;
+  margin-left: 1%;
+  display:inline-block;
+  padding-bottom: 5px;
+}
 
+.archive section.shadow{
+  padding-bottom: 13%;
+  margin-right: 3%;
+}
+.archive .shadow li {
+  font-size: 95%;
+}
+
+.featured .shadow li {
+  font-size: 98%;
+}
+
+.col-32{
+  float:left;
+  width:32%;
+  margin-left:1.5%;
+  display:inline-block;
+}
+
+.col-3{
+  float:left;
+  width:32%;
+  margin-left:0%;
+  display:inline-block;
+}

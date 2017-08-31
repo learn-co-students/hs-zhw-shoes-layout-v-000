@@ -22,6 +22,95 @@
   clear: both;
 }
 
+.wrapper-header-and-nav{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.wrapper-one {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.wrapper-one .Featured-Brands {
+  width: 66%;
+  height: 38em;
+  float: left;
+  background: white;
+  padding: 1.5%;
+  margin-bottom: 2%;
+
+}
+
+.wrapper-one .Archive {
+  width: 32%;
+  height: 38em;
+  float: right;
+  background: white;
+  padding: 1.5%;
+  margin-bottom: 2%;
+}
+
+.wrapper-two {
+  width: 70%;
+  margin-top: 5%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  clear: both;
+  display: block;
+}
+
+.wrapper-two .Lady-Bug {
+  width: 32%;
+  background: white;
+  display: inline-block;
+  float: left;
+  margin-right: 2%;
+  padding: 1.5%;
+
+
+}
+.wrapper-two .Converse {
+  width: 32%;
+  background: white;
+  display: inline-block;
+  float: left;
+  padding: 1.5%;
+
+}
+.wrapper-two .Baby-Shoes {
+  width: 32%;
+  background: white;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+  padding: 1.5%;
+}
+
+.wrapper-three{
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+#contact-and-correspondence{
+  width: 33%;
+  display: inline-block;
+  float: left;
+  padding-left: 3%;
+}
+#links{
+  width: 33%;
+  display: inline-block;
+  float: left;
+  padding-left: 3%;
+
+}
+#follow{
+  width: 33%;
+  float: right;
+  padding-left: 3%;
+}
+
 /* Posititoning Classes */
-
-

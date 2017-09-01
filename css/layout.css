@@ -25,3 +25,66 @@
 /* Posititoning Classes */
 
 
+section {
+  margin: 1%;
+}
+
+.grass {
+  float: left;
+  width: 64.666%
+}
+
+.archive {
+  float: left;
+  width: 31.333%
+}
+
+.shoe-a {
+  float: left;
+  width: 31.333%
+}
+
+.shoe-b {
+  float: left;
+  width: 31.333%
+}
+
+.shoe-c {
+  float: left;
+  width: 31.333%
+}
+
+.border_left {
+  float: left;
+  width: 31.333%
+}
+
+.border_middle {
+  float: left;
+  width: 31.333%;
+}
+
+.border_right {
+  float: right;
+  width: 31.333%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}

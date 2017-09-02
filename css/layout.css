@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+/*.col-container {  ///// attempted fix for issue
+  display: table;
+} */
 
+.col-1 {
+  width: 32%;
+  float: left;
+  /*display: table-cell;*/
+}
+
+.col-2 {
+  width: 66%;
+  float: left;
+  /*display: table-cell;*/
+}
+
+.col-3 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-top: 2%;
+  /*display: table;*/
+}
+
+.first {
+  margin-left: 0%;
+}

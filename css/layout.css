@@ -25,3 +25,84 @@
 /* Posititoning Classes */
 
 
+.sale {
+  /*width: 100%;*/
+  margin: 10px;
+  border: 3px;
+  padding: 20px;
+}
+.fb {
+
+}
+.mid {
+  width: 960px;
+}
+.grass {
+  width: 620px;
+  float: left;
+  /*padding: 10px;*/
+  margin: 10px;
+  border: 3px;
+  height: 100%;
+
+}
+.arch {
+  float: right;
+  width: 300px;
+
+  float: right;
+  /*padding: 10px;*/
+  margin: 10px;
+  border: 3px;
+}
+.pppack {
+  margin: 0 auto;
+  width: 100%;
+}
+.bug {
+  width: 300px;
+  float: left;
+  /*padding: 10px;*/
+  margin: 10px;
+  border: 3px;
+
+
+}
+.skate {
+  width: 300px;
+  float: left;
+  /*padding: 10px;*/
+  margin: 10px;
+  border: 3px;
+
+
+}
+.heel {
+  width: 300px;
+  float: right;
+  /*padding: 10px;*/
+  margin: 10px;
+  border: 3px;
+
+}
+
+.left {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+.right {
+  float: right;
+  width: 300px;
+  margin: 10px;
+}
+.center {
+
+  width: 300px;
+  margin: 10px;
+  float: left;
+
+}
+.deet {
+  width: 100%
+}

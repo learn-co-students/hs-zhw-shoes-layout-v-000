@@ -25,3 +25,55 @@
 /* Posititoning Classes */
 
 
+#featured{
+	width: 66%;
+	float: left;
+}
+#archive{
+	width: 32%;
+	float: right;
+	margin: 0px 0px 0px 0px;
+  height: auto;
+}
+
+ #lady-bug{
+	 width: 32%;
+	 float: left;
+	 margin: 15px 0px 0px 0px;
+ }
+
+ #skaters{
+ 	width: 32%;
+	float: left;
+	margin: 15px 10px 0px 2%;
+ }
+
+ #heels{
+	 width: 32%;
+	 float: right;
+	 margin: 15px 0px 0px 0px;
+ }
+
+ #details{
+   max-height: 33.33%;
+ }
+
+ #contact-info{
+   width: 32%;
+	 float: left;
+	 margin: 15px 0px 0px 0px;
+ }
+
+ #links{
+   width: 32%;
+ 	float: left;
+ 	margin: 15px 10px 0px 10px;
+
+ }
+
+ #follow{
+   width: 32%;
+	 float: left;
+	 margin: 15px 0px 0px 0px;
+
+ }

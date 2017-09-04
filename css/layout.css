@@ -24,4 +24,51 @@
 
 /* Posititoning Classes */
 
+.column-2 {
+  float: left;
+  width: 64.66%;
+  margin: 1%;
+}
 
+.column-1 {
+  float: left;
+  width: 31.33%;
+  margin: 1%;
+}
+
+.shoe1 {
+  float: left;
+  width: 31.33%;
+  margin: 1%;
+}
+
+.shoe2 {
+  float: left;
+  width: 31.33%;
+  margin: 1%;
+}
+
+.shoe3 {
+  float: left;
+  width: 31.33%;
+  margin: 1%;
+}
+
+.col-1{
+  float: left;
+  width: 31.33%;
+}
+
+.col-2{
+  float: left;
+  width: 31.33%;
+  padding-left: 1.5%;
+}
+
+.col-3{
+  float: left;
+  width: 31.33%;
+  padding-left: 1.5%;
+}
+
+.wrapper.margin-bottom

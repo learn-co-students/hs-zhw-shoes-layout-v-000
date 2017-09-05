@@ -24,4 +24,34 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 66%;
+  margin-right: 1%;
+}
 
+.col-2 {
+  float: left;
+  width: 33%;
+}
+
+.col-3 {
+  float: left;
+  width: 32.66%;
+  margin-left: 1%;
+  margin-top: 1%
+}
+
+#lady_bug {
+  float: left;
+  width: 32.66%;
+  margin-left: 0;
+  margin-top: 1%
+}
+div#row {
+  display: inline-block;
+}
+
+footer {
+  background-color: #ccc;
+}

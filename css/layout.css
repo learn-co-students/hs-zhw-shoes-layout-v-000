@@ -24,4 +24,31 @@
 
 /* Posititoning Classes */
 
+.col-2-3{
+  width: 64%;
+  float:left;
+  margin:1%;
 
+}
+
+.col-1-3{
+  width:31%;
+  float:left;
+  margin:1%;
+}
+
+.deals {
+  width:31%;
+  float:left;
+  margin:1%;
+}
+
+.ft {
+  width:31%;
+  float:left;
+  margin:1%;
+}
+
+.main_pic {
+  margin:1%;
+}

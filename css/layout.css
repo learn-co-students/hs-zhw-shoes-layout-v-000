@@ -24,4 +24,57 @@
 
 /* Posititoning Classes */
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+[class*="col-"] {
+  margin: 1%;
+}
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.col-1 {
+  width: 32%;
+  float: left;
+}
+.col-2 {
+    width: 66%;
+    float: left;
+}
+.col-3 {
+    width: 100%;
+}
+.last {
+  margin-right: 0%;
+}
+
+.first {
+ margin-left: 0%;
+}
+
+
+/*/////
+class blank line 200
+
+//////*/
+.border_right{
+  border-right: 2px;
+}
+
+#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+#details {
+
+}

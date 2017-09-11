@@ -24,4 +24,25 @@
 
 /* Posititoning Classes */
 
+.one-column {
+	float: left;
+	width: 32%;
+	margin-bottom: 2%;
+}
 
+.two-column {
+	float: left;
+	width: 66%;
+}
+
+.three-column {
+	margin-bottom: 2%;
+}
+
+[class*="-column"] {
+	margin-left: 2%;
+}
+
+.first-in-row {
+	margin-left: 0%;
+}

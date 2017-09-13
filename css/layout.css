@@ -24,4 +24,35 @@
 
 /* Posititoning Classes */
 
+.milk-text {
+  padding-top: 4%
+}
 
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-bottom: 4%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  margin-bottom: 4%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.last {
+  margin-right: 0%;
+}
+
+.border_right {
+  float: left;
+  width: 20em;
+}

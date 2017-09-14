@@ -24,4 +24,78 @@
 
 /* Posititoning Classes */
 
+#grassshoe {
+  position: relative;
+  float: left;
+  width: 64%;
+  margin-right: 2.6%;
+}
 
+#archive {
+  position: relative;
+  float: left;
+  width: 32%;
+}
+
+#ladybug {
+  position: relative;
+  float: left;
+  width: 31.3%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+#skateshoe {
+  position: relative;
+  float: left;
+  width: 31.3%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+#babyshoe {
+  position: relative;
+  float: left;
+  width: 31.3%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+#contact {
+  position: relative;
+  float: left;
+  width: 31.3%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+#links {
+  position: relative;
+  float: left;
+  width: 31.3%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+#socfollow {
+  position: relative;
+  float: left;
+  width: 31.3%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+a.fbook, a.twitt, a.gplus {
+display: block;
+}
+
+div#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+#social {
+  position: fixed;
+  z-index: 1;
+}

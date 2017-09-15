@@ -22,6 +22,24 @@
   clear: both;
 }
 
+#featuredbrands {
+  width: 630px;
+  float: left;
+}
+
+#archivelist {
+  width: 310px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.currentdeals {
+  width: 306.667px;
+  float: left;
+}
+
+.currentdealsmargin {
+  margin-right: 20px;
+}
+
 /* Posititoning Classes */
-
-

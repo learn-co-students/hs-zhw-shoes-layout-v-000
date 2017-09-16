@@ -33,13 +33,17 @@
   margin-bottom: 20px;
 }
 
-.currentdeals {
-  width: 306.667px;
+.columnwidth {
+  width: 306.2px;
   float: left;
 }
 
-.currentdealsmargin {
+.columnmarginright {
   margin-right: 20px;
+}
+
+.detailspadding {
+  padding-left: 20px;
 }
 
 /* Posititoning Classes */

@@ -22,6 +22,28 @@
   clear: both;
 }
 
+#featuredbrands {
+  width: 630px;
+  float: left;
+}
+
+#archivelist {
+  width: 310px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.columnwidth {
+  width: 306.2px;
+  float: left;
+}
+
+.columnmarginright {
+  margin-right: 20px;
+}
+
+.detailspadding {
+  padding-left: 20px;
+}
+
 /* Posititoning Classes */
-
-

@@ -22,6 +22,96 @@
   clear: both;
 }
 
+
+.col-1 {
+	float: left;
+  width: 34%;
+}
+
+.col-1b {
+  float: left;
+  width: 31%;
+  margin-top: 2%;
+}
+
+.col-1c {
+  float: left;
+  width: 34%;
+  margin-top: 2%;
+}
+
+.col-2 {
+	float: left;
+	width: 64%;
+}
+
+.col-3 {
+	width: 960px;
+}
+
+.special-margin {
+  margin-top: 30px;
+}
+/*.col-4 {
+  -moz-column-count: 3;
+  -moz-columns: 3;
+  -webkit-columns: 3;
+  columns: 3;
+}*/
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.special-height {
+  height: 575px;
+}
+
+.special-heightb {
+  height: 351px;
+}
+
+
+.special-fontsize {
+  font-size: 14px;
+}
+
+/*.special-margin {
+  margin: 20px 20px;
+}*/
+/*
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  background: #CCC;
+  width: 66%;
+}
+
+.col-3 {
+  background: #CCC;
+
+
+
+ .clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
+
+
+/* code examples copyright Jonathan Grover 2012 */
+
 /* Posititoning Classes */
-
-

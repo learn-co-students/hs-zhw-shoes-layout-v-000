@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -42,7 +42,7 @@ figure {
 	margin:0 0 10px;
 }
 
-	figcaption {
+figcaption {
 		font: 12px 'Elsie Swash Caps', cursive;
 		color: #777;
 		text-align: right;
@@ -302,4 +302,9 @@ footer {
 		text-decoration: underline;
 	}
 
-/* code examples copyright Jonathan Grover 2012 */
+/*
+.clearfix {
+
+}
+
+*/

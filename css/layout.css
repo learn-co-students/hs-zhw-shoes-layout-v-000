@@ -22,6 +22,48 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Posititoning Classes ??DO I use wrapper-1 to make the middle section the right height? */
+#wrapper-1 {
+  margin: 10px;
+}
 
+#green-shoes{
+  display: inline-block;
+  float: left;
+  width: 64%;
+  margin-right: 2%;
+}
 
+#archive-list {
+  display: inline-block;
+  float: right;
+  width: 32%;
+}
+
+#wrapper-2 {
+  display:inline-flex;
+  margin: 10px;
+}
+
+#ladybug {
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+}
+
+#skate {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+}
+
+#heels {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-around;
+}

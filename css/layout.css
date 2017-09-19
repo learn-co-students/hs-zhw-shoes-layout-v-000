@@ -24,4 +24,56 @@
 
 /* Posititoning Classes */
 
+/*.sale {
 
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-row-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  }
+*/
+
+  .sale {
+    margin-bottom: 18px;
+    clear: both;
+    }
+
+
+  .sale:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    }
+
+  #feature {
+    width: 66%;
+    float: left;
+    margin-right: 18px;
+  }
+
+  #cal {
+    width: 32%;
+    float: left;
+    height: 593px;
+    overflow: auto;
+  }
+
+  #bug {
+    width: 32%;
+    float: left;
+    margin-right: 18px;
+  }
+
+  #skate {
+    width: 32%;
+    float: left;
+    margin-right: 18px;
+  }
+
+  #heel {
+    width: 32%;
+    float: left;
+  }

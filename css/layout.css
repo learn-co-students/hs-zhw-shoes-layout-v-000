@@ -24,4 +24,50 @@
 
 /* Posititoning Classes */
 
+.col2_left {
+  float: left;
+  width: 100%;
+  margin: 1em auto;
+}
 
+.col1_mid {
+  float: left;
+  width: 66%;
+  margin: 0;
+  background: white;
+}
+
+.col2_right {
+  float: left;
+  width: 32%;
+  margin: 0 0 0 2%;
+}
+
+.col1_left {
+  float: left;
+  width: 32%;
+  margin: 2% 2% 0 0;
+  display: table-cell;
+}
+
+.col1_right {
+  float: left;
+  width: 32%;
+  margin: 2% 0 0 0;
+  display: table-cell;
+}
+
+.col-6 {
+  float: left;
+  width: 32%;
+  margin: 0 2% 0 0;
+  display: table-cell;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+[class*=""] {
+  margin-left: 10%;
+}

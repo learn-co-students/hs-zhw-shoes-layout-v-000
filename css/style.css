@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -112,6 +112,7 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+	margin: 0 auto;
 }
 
 .milk_text {
@@ -132,6 +133,15 @@ iframe {
 
 .contact_form {
 	height: 415px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 /********** Header **********/
@@ -250,6 +260,55 @@ iframe {
 	background-position: center top, left top;
 	background-repeat: no-repeat, repeat-y;
 	padding: 30px 0;
+}
+
+#summer-grass {
+	float: left;
+	width: 66%;
+	height: 600px;
+}
+
+#shoe-archive {
+	float: right;
+	width: 32%;
+	height: 600px;
+}
+
+#lady-bug {
+	float: left;
+	width: 32%;
+	margin: 15px 2% 10px 0;
+
+}
+
+#skater {
+	float: left;
+	width: 32%;
+	margin: 15px 2% 10px 0%;
+}
+
+#heels{
+	float: right;
+	width: 32%;
+	margin: 15px 0 10px 0%;
+}
+
+#contact-info {
+	float: left;
+	width: 32%;
+	margin: 15px 2% 10px 0;
+}
+
+#other-links {
+	float: left;
+	width: 32%;
+	margin: 15px 2% 10px 0%;
+}
+
+#social-media {
+	float: right;
+	width: 32%;
+	margin: 15px 0 10px 0%;
 }
 
 	/********** Sections **********/

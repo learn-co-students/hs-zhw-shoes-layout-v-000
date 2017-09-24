@@ -24,4 +24,24 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%; /* 100% - 2% margin between cols / 3 = 32% */
+}
 
+.col-2 {
+  float: left;
+  width: 66%; /* twice the value of col-1; + 2% marging added back that we don't need between col 1 & 2 */
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#deals {
+  margin-top: 20px;
+}

@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -18,7 +18,9 @@ img.verif_img {
 /********** Global **********/
 
 body {
-	background: url(../images/handmadepaper.png);
+	background: url(../images/wood.jpg);
+	background-repeat: y;
+
 }
 
 h2, h3 {
@@ -295,6 +297,7 @@ footer {
 	font-size: 10px;
 	color: #555;
 	padding: 10px 0 20px;
+	background: #ccc
 }
 
 	footer a {
@@ -303,3 +306,26 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+/* COlUMNS */
+.col-1{
+	float:left;
+	width:32%;
+	margin-left:2%;
+}
+
+
+.col-2{
+	float:left;
+	width:66%;
+
+}
+
+.showsup{
+
+	padding: 10px 0;
+}
+
+.first{
+	margin-left:0;
+}

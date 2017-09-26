@@ -23,5 +23,28 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+   float: left;
+   width: 32%;
+   background: #white;
+ }
 
+.col-2 {
+ float: left;
+ width: 66%;
+ background: #white;
+}
 
+.col-3 {
+ /* dont' need width: 100% as block element naturally takes up that much room */
+ background: #white;
+}
+
+[class*="col-"] {
+ margin-left: 2%;
+ margin-bottom: 19px;
+}
+
+.first {
+ margin-left: 0%;
+}

@@ -24,4 +24,36 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 31%;
+  display: table-cell;
+}
 
+.col-2 {
+  float: left;
+  width: 64%;
+  display: table-cell;
+}
+
+.col-3 {
+  float: right;
+  width: 30%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#shoe-archive {
+  margin-bottom: 20px;
+  line-height: 1.2em;
+}
+
+#featured-brands {
+  margin-top: 20px;
+}

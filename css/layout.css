@@ -23,5 +23,52 @@
 }
 
 /* Posititoning Classes */
+#column_2 {
+  /*width: 960px;*/
+  width: 100%; /* Set full-width to expand the whole page */
+  margin-top: 2%;
+  /*background: #c00;*/
 
+}
+#column_3 {
+  width: 960px;
+  /*background: #ff0;*/
+}
+.wrapper .border_right {
+  width: 33%;
+  border-right: 2px dashed #ccc;
+  float: left;
+  margin: 0 20px 0 0;
+}
 
+.deals {
+	box-shadow: 0 3px 10px #333;
+  width: 32%;
+  float: right;
+  margin: 2% 0 20px 0;
+}
+.deals_float {
+	box-shadow: 0 3px 10px #333;
+  width: 32%;
+  float: left;
+  margin: 2% 2% 20px 0;
+}
+
+.featured {
+	box-shadow: 0 3px 10px #333;
+  width: 66%;
+  height: 100%;
+  float: left;
+  margin: 0 2% 0 0;
+  }
+.featured p {
+font-size: 16px;
+}
+.featured_float {
+	box-shadow: 0 3px 10px #333;
+  width: 32%;
+  float: left;
+}
+.featured_float ul {
+font-size: 16px;
+}

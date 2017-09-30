@@ -24,4 +24,14 @@
 
 /* Posititoning Classes */
 
+.inline {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+}
 
+.inline-2 {
+  display :inline-block;
+  width: 60%;
+  margin: 10px;
+}

@@ -354,6 +354,7 @@ footer {
 
 .smaller {
 	font-size: 14px;
+	padding-bottom: 25px;
 }
 
 /* code examples copyright Jonathan Grover 2012 */

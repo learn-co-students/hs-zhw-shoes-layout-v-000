@@ -35,6 +35,7 @@
 .col-2 {
   float: left;
   width: 62%;
+  margin: 2%;
 
 }
 
@@ -45,7 +46,7 @@
 .col {
   float: right;
   width: 32%;
-  margin: 7px;
+
 }
 
 

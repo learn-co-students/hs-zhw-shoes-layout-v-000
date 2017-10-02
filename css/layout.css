@@ -43,7 +43,9 @@
   margin-left: 0;
 }
 
-
+[class*= "col-"] {
+  margin-left: 2%;
+}
 
 div .border_right {
   float: left;

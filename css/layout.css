@@ -39,6 +39,10 @@
 
 }
 
+.col {
+  float:right;
+  width: 32%;
+
 .first {
   margin-left: 0;
 }

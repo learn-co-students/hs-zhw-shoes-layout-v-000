@@ -54,7 +54,9 @@
   margin-left: 0;
 }
 
-
+.milk-text {
+  margin: 2%;
+}
 
 div .border_right {
   float: left;

@@ -78,10 +78,11 @@ section {
 
 }
 
- #social:last-child {
-  position: absolute;
+ #socialpages:last-child {
+  position: relative;
   width: 32%;
   float: left;
   margin-left: 2%;
-  top: 1900px;
+  bottom: 170px;
+  left: 310px;
 }

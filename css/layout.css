@@ -25,3 +25,64 @@
 /* Posititoning Classes */
 
 
+
+
+#medium-col {
+  float: left;
+  width: 66%;
+  clear: both;
+
+}
+
+#small-col {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+#ladybug {
+  clear: both;
+  width: 32%;
+  float: left;
+}
+
+#skateshoe {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+}
+
+#heel {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+}
+
+#company_info {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+
+}
+
+#Links {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+
+}
+
+ #socialpages:last-child {
+  position: relative;
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+  bottom: 170px;
+  left: 310px;
+}

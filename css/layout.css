@@ -20,8 +20,32 @@
 
 .clear {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
+.col-1 {
+  float:left;
+  width: 64.666%;
+  margin-right: 2%;
 
+}
 
+.col-2 {
+  background: #fff;
+  float:left;
+  width: 31.333%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+ .border_right {
+  background: #fff;
+  float:left;
+  width: 31.333%;
+  padding: 2%;
+}
+
+.border_right:last-child {
+  padding: 2%;
+}

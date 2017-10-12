@@ -1,9 +1,9 @@
-/********** Web Fonts **********/
+
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -91,6 +91,24 @@ input[type="submit"]:hover {
 	background: #555;
 }
 
+* {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+
+.clearfix:after {
+
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+
+
+}
+
 input.verif_box {
 	display: inline-block;
 	width: 80%;
@@ -112,6 +130,21 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+  float: left;
+margin: 2px;
+
+}
+
+.col-1 {
+float: left;
+width: 32%;
+
+}
+
+.col-2 {
+float: left;
+width: 49%;
+height:inherit;
 }
 
 .milk_text {
@@ -186,6 +219,7 @@ iframe {
 	/********** Logo **********/
 
 	#logo {
+    width: 100%;
 		padding: 85px 0 25px;
 		/* gradient */
 		background: rgb(229,229,229); /* Old browsers */
@@ -219,6 +253,24 @@ iframe {
 	right: 3px;
 	width: 40px;
 	z-index: 1;
+}
+
+#fb {
+  float: left;
+  max-width: 100%;
+
+}
+
+.col2 {
+
+  float: left;
+  width: 45%;
+}
+
+.col-3 {
+  float: left;
+  width: 28%;
+
 }
 
 	a.fbook, a.twitt, a.gplus {
@@ -301,5 +353,3 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
-
-/* code examples copyright Jonathan Grover 2012 */

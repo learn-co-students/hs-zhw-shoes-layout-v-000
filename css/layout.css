@@ -23,5 +23,24 @@
 }
 
 /* Posititoning Classes */
+#fbrands {
+  padding-top: 10px;
+}
 
+.first {
+  float: left;
+  width: 31.33%;
+}
 
+.col-2 {
+  width:65.66%;
+  float: left;
+  margin-bottom: 2%;
+}
+
+.col-1 {
+  width: 31.33%;
+  float: right;
+  margin-bottom: 2%;
+  margin-left: 3%;
+}

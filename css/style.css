@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -42,10 +42,10 @@ figure {
 	margin:0 0 10px;
 }
 
-	figcaption {
-		font: 12px 'Elsie Swash Caps', cursive;
-		color: #777;
-		text-align: right;
+figcaption {
+	font: 12px 'Elsie Swash Caps', cursive;
+	color: #777;
+	text-align: right;
 	}
 
 table {
@@ -107,8 +107,9 @@ iframe {
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
+	margin: 2% auto;;
 }
+
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
@@ -132,6 +133,52 @@ iframe {
 
 .contact_form {
 	height: 415px;
+}
+/********** Fixes ************/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/********** Layout ************/
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3{
+
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
 }
 
 /********** Header **********/
@@ -214,12 +261,20 @@ iframe {
 /********** Social Bar **********/
 
 #social {
-	position: fixed;
+	position: fixed;;
 	top: 200px;
 	right: 3px;
 	width: 40px;
 	z-index: 1;
 }
+
+#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+}
+
 
 	a.fbook, a.twitt, a.gplus {
 		display: block;
@@ -265,6 +320,7 @@ iframe {
 	}
 
 /********** Details **********/
+
 
 #details {
 	clear:both;

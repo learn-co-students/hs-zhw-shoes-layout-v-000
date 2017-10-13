@@ -107,9 +107,9 @@ iframe {
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
-	background: #ccc;
+	margin: 2% auto;;
 }
+
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
@@ -162,13 +162,11 @@ iframe {
 .col-1 {
   float: left;
   width: 32%;
-	background: #ccc;
 }
 
 .col-2 {
   float: left;
   width: 66%;
-
 }
 
 .col-3{
@@ -263,7 +261,7 @@ iframe {
 /********** Social Bar **********/
 
 #social {
-	position: fixed;
+	position: fixed;;
 	top: 200px;
 	right: 3px;
 	width: 40px;
@@ -274,8 +272,7 @@ iframe {
   display: block;
   width: 40px;
   height: 40px;
-  background: yellow;
-	z-index: 3;
+  background: #ccc;
 }
 
 

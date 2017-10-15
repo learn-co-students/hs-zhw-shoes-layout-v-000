@@ -18,10 +18,27 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
+/* Positioning Classes */
+
+.col-1 {
+  float: left;
+  width: 32%;
+  display: inline-block;
+}
+.col-2 {
+  float: left;
+  width: 66%;
+  display: inline-block;
+}
+.col-3 {
+  float: left;
+  display: inline-block;
 }
 
-/* Posititoning Classes */
+[class*="col-"] {
+  margin-left: 2%;
+}
 
-
+.first {
+  margin-left: 0%;
+}

@@ -12,16 +12,37 @@
 .clearfix:after {
   content: ".";
   display: block;
+  background: transparent;
   clear: both;
   visibility: hidden;
   height: 0;
   line-height: 0;
 }
 
-.clear {
-  clear: both;
-}
 
 /* Posititoning Classes */
 
+.left {
+  float: left;
+	width: 66%;
+  margin-left: 0%;
+}
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.after {
+  margin-left: 2%;
+}
+
+section {
+  margin-bottom: 2%;
+
+}

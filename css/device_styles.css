@@ -73,11 +73,6 @@
 		background-position: 0 -5px;
 	}
 
-	.col1_left, .col1_mid, .col1_right, .col2_left, .col2_right {
-		float: none;
-		width: 100%;
-		margin: 0 0 20px;
-	}
 
 	.border_right {
 		border-right: 0;
@@ -149,7 +144,7 @@
 	*, h1, h2, h3, h4, h5, h6, p, a, section, div, table {
 		color: black;
 	}
-	
+
 }
 
 /* code examples copyright Jonathan Grover 2012 */

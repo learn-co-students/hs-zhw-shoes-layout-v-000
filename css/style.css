@@ -2,8 +2,31 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
+.col-1 {
+	width: 32%;
+	float: left;
+	height: 100%;
+}
+
+.col-2{
+	width: 66%;
+	margin: 0;
+	float: left;
+
+}
+
+.col-3{
+	width: 99.9%;
+	float: left;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -103,6 +126,13 @@ iframe {
 	margin: 0;
 	overflow: hidden;
 	height: 353px;
+}
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin-left: 0%;
 }
 
 .wrapper {
@@ -257,6 +287,7 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin-bottom: 20px;
 	}
 
 	section a {
@@ -303,3 +334,12 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}

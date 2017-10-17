@@ -51,12 +51,12 @@
 	}
 
 	#nav_bar {
-		position: static;
+		position: static;;
 		border-top: 1px solid #ccc;
 	}
 
 	#nav_bar nav a {
-		padding: 10px 0;
+		padding: 8px 0;
 	}
 
 	#logo {
@@ -149,7 +149,7 @@
 	*, h1, h2, h3, h4, h5, h6, p, a, section, div, table {
 		color: black;
 	}
-	
+
 }
 
 /* code examples copyright Jonathan Grover 2012 */

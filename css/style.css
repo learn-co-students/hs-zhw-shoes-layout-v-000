@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -73,7 +73,7 @@ input, textarea {
 	display: block;
 	width: 100%;
 	padding: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 	box-shadow: 0 3px 5px #ccc;
 	border: 1px solid #ccc;
 }
@@ -112,6 +112,7 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+	padding-bottom: 20px;
 }
 
 .milk_text {
@@ -122,8 +123,15 @@ iframe {
 }
 
 .border_right {
-	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+	float: left;
+  width: 31.53%;
+  padding: 20px;
+}
+
+.border_right:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .thumbs_up {
@@ -132,6 +140,29 @@ iframe {
 
 .contact_form {
 	height: 415px;
+}
+
+.col-2 {
+	float: left;
+	width: 65%;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+
+.col-1 {
+	float: left;
+	width: 32%;
+	margin-left: 0px;
+	padding: 20px;
+	padding-bottom: 20px;
+}
+
+.last {
+	margin-left: 20px;
+}
+
+.first {
+	margin-right: 20px;
 }
 
 /********** Header **********/
@@ -257,6 +288,7 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin-bottom: 20px;
 	}
 
 	section a {
@@ -296,10 +328,4 @@ footer {
 	color: #555;
 	padding: 10px 0 20px;
 }
-
-	footer a {
-		color: #555;
-		text-decoration: underline;
-	}
-
 /* code examples copyright Jonathan Grover 2012 */

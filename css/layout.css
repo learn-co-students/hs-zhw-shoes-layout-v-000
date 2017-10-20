@@ -23,5 +23,32 @@
 }
 
 /* Posititoning Classes */
+#wood {
+  max-width: 1200px;
+  margin: auto;
+}
+section {
+  margin-top: 2%;
+}
 
+.col-1 {
+  width: 66%;
+  float: left;
+}
 
+.col-2 {
+  width: 32%;
+  float: left;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.archive {
+  padding-bottom: 2px;
+}

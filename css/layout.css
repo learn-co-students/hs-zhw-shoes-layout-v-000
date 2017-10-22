@@ -42,10 +42,10 @@
 
 .onethird {
   width: 32%;
-  margin-left: 2%;
   float: left;
   margin-left: 2%;
   margin-bottom: 2%;
+  margin-top:2%;
 }
 .leftmost {
   margin-left: 0;

@@ -31,31 +31,22 @@
 
 .twothird {
 
-  width: 65%;
+  width: 66%;
   margin-left: 2%;
   float: left;
-    margin-left: 0%;
+    margin-left: 2;
     margin-bottom: 2%;
 
 }
-.onethird #leftmost {
-  margin-left: 0;
-}
-.twothird #leftmost {
-  margin-left: 0;
-}
 
-.leftmost .onethird{
-  margin-left: 0;
-}
-.leftmost .twothird{
-  margin-left:0;
-}
 
 .onethird {
-  width: 31%;
+  width: 32%;
   margin-left: 2%;
   float: left;
   margin-left: 2%;
   margin-bottom: 2%;
+}
+.leftmost {
+  margin-left: 0;
 }

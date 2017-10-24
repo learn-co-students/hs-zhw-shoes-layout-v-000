@@ -41,14 +41,17 @@
 
 #col-1 {
   float: left; 
-  width: 480px; 
+  width: 60%; 
 } 
 
 /* SHOE ARCHIVE */ 
 
 #col-2 {
   float: left;
-  width: 240px; 
+  width: 36%; 
+  margin-left: 4%; 
+  margin-right: auto; 
+  padding-bottom: 0; 
 }
 
 #archive {
@@ -60,12 +63,20 @@
 
 #ladybug { 
   margin-left: auto; 
+  margin-right: auto; 
 }
 
 .col-3 {
   float: left;
-  width: 31%; 
+  width: 32%; 
   margin-left: 2%; 
   
+}
+
+#heels {
+ 
+  margin-left: 2%; 
+  margin-right: auto; 
+  width: 32%; 
 }
 

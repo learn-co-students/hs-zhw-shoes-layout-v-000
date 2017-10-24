@@ -32,18 +32,26 @@
 
 #col-1 {
   float: left; 
-  margin-left: 0%; 
-  width: 62%; 
+  margin-left: 0%;
+  padding: 0%; 
+  width: 59%; 
+  max-width: 100%; 
 } 
 
 /* SHOE ARCHIVE */ 
 
 #col-2 {
   float: left;
-  margin-right: 2%; 
-  width: 33%;    
+  margin-right: 0%; 
+  margin-left: 2%; 
+  margin-bottom: 5%; 
+  padding-bottom: 2%;
+  width: 39%;  
+  overflow: hidden; 
   
 }
+
+section #
 
 /* LADYBUGS, SKATERS, BLUESTAR HEELS */ 
 

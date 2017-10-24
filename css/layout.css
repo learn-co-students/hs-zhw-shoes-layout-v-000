@@ -32,7 +32,11 @@
 
 #feature-background {
   background: none; 
-  margin-bottom: 2px; 
+ 
+}
+
+#sale {
+   margin-bottom: 2px; 
 }
 
 #col-1 {

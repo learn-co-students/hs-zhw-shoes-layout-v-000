@@ -26,8 +26,8 @@
 
 /* FEATURED BRANDS */
 
- div.wrapper h2 .milk_text #feature {
-  margin: 5% 0 0 5%; 
+.first {
+  margin-left: 0; 
 }
 
 #feature-background {
@@ -40,27 +40,24 @@
    margin-bottom: 2px; 
 }
 
-#col-1 {
+.col-1 {
   float: left; 
-  width: 60%; 
+  width: 32%; 
   padding-bottom: 11px; 
   max-height: 100%; 
 } 
 
 /* SHOE ARCHIVE */ 
 
-#col-2 {
+.col-2 {
   float: left;
-  width: 38%; 
+  width: 66%; 
   margin-left: 2%; 
   margin-right: auto; 
   padding-bottom: 0; 
 }
 
-#archive {
-/*  padding-bottom: 1px; */
-  max-height: 100%; 
-}
+
 
 /* LADYBUGS, SKATERS, BLUESTAR HEELS */ 
 

@@ -18,7 +18,7 @@ img.verif_img {
 /********** Global **********/
 
 body {
-	background: url(../images/handmadepaper.png);
+	
 }
 
 .col-1 {
@@ -28,13 +28,14 @@ body {
 .wrapper .col-2 {
   float: left;
   margin-left: 2%; 
-  width: 40%; 
-   
+  margin-right:
+  padding: ; 
+  width: 25%;    
   
 }
 .wrapper .col-3 {
   float: left;
-  width: 60%;
+  width: 65%;
   margin: 2%;
   
 }
@@ -66,7 +67,7 @@ figure {
 		text-align: right;
 	}
 
-table {
+tble {
 	margin: 0 0 20px;
 	border-top: 1px solid #ccc;
 	border-left: 1px solid #ccc;

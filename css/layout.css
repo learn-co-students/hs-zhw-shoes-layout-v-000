@@ -41,9 +41,9 @@
 
 #col-1 {
   float: left; 
-  margin-left: 0%;
-  margin-bottom: 30px;  
-  width: 59%; 
+  margin: 20px 4px 0 auto; 
+  padding-bottom: 0px; 
+  width: 50%; 
   max-width: 100%; 
 } 
 
@@ -51,12 +51,10 @@
 
 #col-2 {
   float: left;
-  margin-right: 0%; 
-  margin-left: 2%; 
-  margin-bottom: 5%; 
+  margin: 20px 0 4px 11px; 
   padding-bottom: 10px;
-  width: 39%;  
-  overflow: hidden; 
+  width: 30%;  
+  height: 70%;  
   
 }
 
@@ -69,7 +67,7 @@
 
 .col-3 {
   float: left;
-  width: 65%;
+  width: 20%;
   margin: 2%;
   
 }

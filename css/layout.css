@@ -41,21 +41,14 @@
 
 #col-1 {
   float: left; 
-  margin: 20px 4px 0 auto; 
-  padding-bottom: 0px; 
-  width: 50%; 
-  max-width: 100%; 
+  width: 480px; 
 } 
 
 /* SHOE ARCHIVE */ 
 
 #col-2 {
   float: left;
-  margin: auto 4px; 
-
-  width: 30%;  
-  
-  
+  width: 240px; 
 }
 
 #archive {
@@ -65,10 +58,14 @@
 
 /* LADYBUGS, SKATERS, BLUESTAR HEELS */ 
 
+#ladybug { 
+  margin-left: auto; 
+}
+
 .col-3 {
   float: left;
-  width: 32%;
-  margin: 1%;
-  margin-left: 0; 
+  width: 31%; 
+  margin-left: 2%; 
   
 }
+

@@ -25,16 +25,18 @@ body {
   
 } 
 
-.col-2 {
+.wrapper .col-2 {
   float: left;
-  margin: ; 
-  width: 42%; 
+  margin-left: 2%; 
+  width: 40%; 
+   
   
 }
-.col-3 {
+.wrapper .col-3 {
   float: left;
-  margin: ; 
-  width: 50%; 
+  width: 60%;
+  margin: 2%;
+  
 }
 
 h2, h3 {

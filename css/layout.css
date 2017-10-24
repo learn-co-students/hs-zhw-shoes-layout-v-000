@@ -25,26 +25,29 @@
 /* Posititoning Classes */
 
 /* FEATURED BRANDS */
+
+#feature-background {
+  background: none; 
+}
+
 .col-1 {
   float: left; 
   margin: 2%; 
-  width: 64%; 
+  width: 50%; 
 } 
 
 /* SHOE ARCHIVE */ 
 
-.wrapper .col-2 {
+.col-2 {
   float: left;
   margin-left: 2%; 
-  margin-right:
-  padding: ; 
   width: 25%;    
   
 }
 
 /* LADYBUGS, SKATERS, BLUESTAR HEELS */ 
 
-.wrapper .col-3 {
+.col-3 {
   float: left;
   width: 65%;
   margin: 2%;

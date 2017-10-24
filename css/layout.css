@@ -26,14 +26,19 @@
 
 /* FEATURED BRANDS */
 
+ div.wrapper h2 .milk_text #feature {
+  margin: 5% 0 0 5%; 
+}
+
 #feature-background {
   background: none; 
+  margin-bottom: 2px; 
 }
 
 #col-1 {
   float: left; 
   margin-left: 0%;
-  padding: 0%; 
+  margin-bottom: 30px;  
   width: 59%; 
   max-width: 100%; 
 } 
@@ -45,13 +50,16 @@
   margin-right: 0%; 
   margin-left: 2%; 
   margin-bottom: 5%; 
-  padding-bottom: 2%;
+  padding-bottom: 10px;
   width: 39%;  
   overflow: hidden; 
   
 }
 
-section #
+#archive {
+  padding-bottom: 10px; 
+  max-height: 100%; 
+}
 
 /* LADYBUGS, SKATERS, BLUESTAR HEELS */ 
 

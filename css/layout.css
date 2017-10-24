@@ -24,12 +24,10 @@
 
 /* Posititoning Classes */
 
-body {
-	
-}
-
 .col-1 {
-  
+  float: left; 
+  margin: 2%; 
+  width: 64%; 
 } 
 
 .wrapper .col-2 {

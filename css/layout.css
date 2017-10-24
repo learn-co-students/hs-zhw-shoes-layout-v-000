@@ -32,16 +32,16 @@
 
 #col-1 {
   float: left; 
-  margin: 2%; 
-  width: 50%; 
+  margin-left: 0%; 
+  width: 62%; 
 } 
 
 /* SHOE ARCHIVE */ 
 
 #col-2 {
   float: left;
-  margin-left: 2%; 
-  width: 25%;    
+  margin-right: 2%; 
+  width: 33%;    
   
 }
 

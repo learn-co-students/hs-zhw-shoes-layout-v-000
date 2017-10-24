@@ -25,13 +25,16 @@ body {
   
 } 
 
-
 .col-2 {
+  float: left;
+  margin: ; 
+  width: 42%; 
   
 }
 .col-3 {
+  float: left;
   margin: ; 
-  width: 66%; 
+  width: 50%; 
 }
 
 h2, h3 {

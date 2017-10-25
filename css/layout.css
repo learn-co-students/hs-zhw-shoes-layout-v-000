@@ -26,9 +26,6 @@
 
 /* FEATURED BRANDS */
 
-section .first {
-  margin-left: 0; 
-}
 
 #feature-background {
   background: none; 
@@ -47,6 +44,15 @@ column 3 = 100% (column 1 + column 2 + column 3)
 
 */ 
 
+[class*= "col-"] {
+  margin: 2%; 
+}
+
+div .first {
+  margin-left: 0; 
+  margin-right: 0; 
+}
+
 .wrapper {
 	width: 960px; 
 	margin: 0 auto; 
@@ -55,8 +61,7 @@ column 3 = 100% (column 1 + column 2 + column 3)
 .col-1 {
   float: left; 
   width: 32%;  
- margin-left: 2%; 
-    margin-right: 4%; 
+     
 } 
 
 /* SHOE ARCHIVE */ 
@@ -67,18 +72,16 @@ column 3 = 100% (column 1 + column 2 + column 3)
   margin-left: 0; 
 }
 
-[class*= "col-"] {
-  margin: 2%; 
-}
-
 /* LADYBUGS, SKATERS, BLUESTAR HEELS */ 
 
 .col-3 {
    padding-top: 2%; 
-   margin-left: 74%;
+  
 }
 
 
 /* CONTACT DETAILS */ 
-
+#follow {
+  margin-left: 74%; 
+}
 

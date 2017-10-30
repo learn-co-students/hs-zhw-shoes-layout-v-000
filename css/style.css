@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -155,8 +155,9 @@ iframe {
 
 		#nav_bar nav a {
 			display: inline-block;
+			float: left;
 			width: 20%;
-			margin: 0;
+			margin: 0 auto;
 			padding: 22px 0;
 			text-transform: uppercase;
 			color: black;
@@ -164,6 +165,10 @@ iframe {
 			border-right: 1px solid #ccc;
 			text-decoration: none;
 			font: 20px "Trebuchet MS", Arial, sans-serif;
+		}
+
+		#nav_bar nav a.left {
+			border-left: 1px solid #ccc;
 		}
 
 		#nav_bar nav a.selected {
@@ -257,11 +262,42 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin-bottom: 2%;
 	}
 
 	section a {
 		color: #555;
 		text-decoration: underline;
+	}
+
+	/********** Featured **********/
+
+	#featured {
+		float: left;
+		width: 66%;
+		margin-left: 0;
+		height: 600px;
+	}
+
+	/********** Archive **********/
+
+	#archive {
+		float: left;
+		width: 32%;
+		margin-left: 2%;
+		height: 600px;
+	}
+
+	/********** Deals **********/
+
+	[id*="col-"] {
+		float: left;
+		width: 32%;
+		margin-left: 2%;
+	}
+
+	.first {
+		margin-left: 0;
 	}
 
 /********** Details **********/

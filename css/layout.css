@@ -22,6 +22,38 @@
   clear: both;
 }
 
+
+div.middle{
+  width: 100%;
+  height: 650px;
+  padding: 0px;
+
+}
+
+ .col-1 .shadow{
+  width: 65%;
+  float: left;
+  margin: 10px 10px 10px 0;
+  height: 100%;
+  background-color: white;
+  overflow: auto;
+  min-height: 650px;
+}
+
+.col-2 .shadow{
+  width: 32%;
+  height: 100%;
+
+  float:left;
+  overflow: auto;
+  margin: 10px 0px 10px 10px;
+}
+
+.column {
+	padding: 10px;
+	width: 33%;
+	display: inline;
+	float: left;
+}
+
 /* Posititoning Classes */
-
-

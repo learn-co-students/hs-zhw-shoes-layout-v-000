@@ -23,5 +23,43 @@
 }
 
 /* Posititoning Classes */
+#featured {
+  float: left;
+  margin-right: 1.5%;
+  width: 65.5%;
+}
 
+#archive {
+  float: right;
+  width: 33%;
+}
 
+#deals-1 {
+  clear: both;
+  float: left;
+  width: 32%;
+  height: 360px;
+  margin-top: 1.5%;
+}
+
+#deals-2 {
+  float: left;
+  width: 32%;
+  height: 360px;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+}
+
+#deals-3 {
+  float: left;
+  width: 33%;
+  height: 360px;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+}
+
+.details-box {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}

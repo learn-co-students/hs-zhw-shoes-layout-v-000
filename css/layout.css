@@ -7,6 +7,8 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+
+
 }
 
 .clearfix:after {
@@ -23,5 +25,47 @@
 }
 
 /* Posititoning Classes */
+#contact {
+  float:left;
+  width: 33.333%;
+}
 
+#shoearchive {
+  float:left;
+  height: 599px;
+  margin-bottom: 20px;
+  width: 32.25%
 
+}
+
+#summergrass {
+  float:left;
+  height: 599px;
+  margin-right: 20px;
+  width: 65.666%
+
+}
+
+#ladybug {
+  float:left;
+  margin-right: 20px;
+  width: 31.9%;
+}
+
+#skaters {
+  float:left;
+  margin-right: 20px;
+  width: 31.9%;
+}
+
+#heels {
+  float:left;
+
+  width: 31.9%
+
+}
+
+#holiday {
+  margin-bottom: 20px;
+
+}

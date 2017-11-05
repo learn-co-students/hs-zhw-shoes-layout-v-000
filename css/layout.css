@@ -24,4 +24,30 @@
 
 /* Posititoning Classes */
 
+.span1 {
+  width: 32%;
+  float: left;
+}
 
+.rm {
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.span2 {
+  width: 66%;
+  float: left;
+}
+
+.span3 {
+  width: 32%;
+  float: left;
+  height: 100%;
+}
+
+.staytogether {
+}
+
+footer {
+  float: right;
+}

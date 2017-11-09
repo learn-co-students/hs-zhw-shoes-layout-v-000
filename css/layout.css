@@ -19,9 +19,44 @@
 }
 
 .clear {
-  clear: both;
+  clear:both;
+}
+
+section {
+  padding: 4px;
+  margin-bottom: 20px;
 }
 
 /* Posititoning Classes */
 
 
+.col-1 {
+  float: left;
+  width: 30%;
+  }
+
+.col-2 {
+  float: left;
+  width: 62%;
+  }
+
+.col-3 {
+  float: right;
+  width: 30%;
+  }
+
+  [class*="col-"] {
+    margin-left: 5%;
+  }
+
+.first {
+  margin-left: 0%;
+}
+
+ .last {
+   margin-right: 10%;
+}
+
+img {
+  max-width: 100%;
+}

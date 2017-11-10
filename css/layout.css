@@ -24,4 +24,46 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 32%;
 
+  float: left;
+}
+
+.col-2 {
+  width: 66%;
+  display: inline-block;
+  float: left;
+}
+
+.col-3 {
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.archive {
+  float: right;
+}
+
+.featured, .archive {
+  margin-bottom: 20px;
+}
+
+.deals {
+  margin-bottom: 40px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}

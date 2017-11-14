@@ -27,19 +27,17 @@
 .col-1 {
   float: left;
   width: 32%;
-  background: #fff;
   margin-bottom: 10px;
 }
 
 .col-2 {
   float: left;
   width: 66%;
-  background: #fff;
   margin-bottom: 10px;
 }
 
 .col-3 {
-  background: #fff;
+
 }
 
 [class*="col-"] {

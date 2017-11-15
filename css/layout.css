@@ -24,18 +24,23 @@
 
 /* Posititoning Classes */
 
-#wood > .wrapper {
+body {
+  min-width: 960px;
+  max-width: 1080px;
+}
+
+#wood > .wrapper, #logo > .wrapper, #details > .wrapper {
   width: 75%;
 }
 
 .col-1 {
   float: left;
-  width: 31.33%
+  width: 32%
 }
 
 .col-2 {
   float: left;
-  width: 64.66%
+  width: 66%
 }
 
 .col-3 {
@@ -44,10 +49,6 @@
 
 .row-1 {
   height: 500px;
-}
-
-.row-2 {
-  height: 31.33%;
 }
 
 [class*="col-"] {

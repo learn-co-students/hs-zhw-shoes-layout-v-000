@@ -24,4 +24,49 @@
 
 /* Posititoning Classes */
 
+body {
+  min-width: 960px;
+}
 
+.wrapper {
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 32%
+}
+
+.col-2 {
+  float: left;
+  width: 66%
+}
+
+.col-3 {
+
+}
+
+/*.row-1 {
+  height: 540px;
+}*/
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+
+.first {
+  margin-left: 0;
+}
+/*
+.scroll li, .scroll h3 {
+  font-size: 1em;
+  line-height: 1em;
+}
+*/
+/*
+.scroll {
+  padding-bottom: 1%;
+}
+*/

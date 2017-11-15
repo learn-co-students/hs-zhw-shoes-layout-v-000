@@ -26,11 +26,10 @@
 
 body {
   min-width: 960px;
-  max-width: 1080px;
 }
 
-#wood > .wrapper, #logo > .wrapper, #details > .wrapper {
-  width: 75%;
+.wrapper {
+  margin: 0 auto;
 }
 
 .col-1 {
@@ -47,22 +46,27 @@ body {
 
 }
 
-.row-1 {
-  height: 500px;
-}
+/*.row-1 {
+  height: 540px;
+}*/
 
 [class*="col-"] {
   margin-left: 2%;
-}
-
-[class*="row-"] {
   margin-bottom: 2%;
 }
+
 
 .first {
   margin-left: 0;
 }
-
-.scroll {
-  overflow: auto;
+/*
+.scroll li, .scroll h3 {
+  font-size: 1em;
+  line-height: 1em;
 }
+*/
+/*
+.scroll {
+  padding-bottom: 1%;
+}
+*/

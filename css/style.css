@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -16,6 +16,21 @@ img.verif_img {
 }
 
 /********** Global **********/
+
+#brands {
+	float: left;
+	width: 66%;
+}
+
+#archive {
+	float: right;
+	width: 33%;
+}
+
+#deals {
+	width: 33%;
+	float: auto;
+}
 
 body {
 	background: url(../images/handmadepaper.png);

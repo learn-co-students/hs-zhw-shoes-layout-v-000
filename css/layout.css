@@ -23,5 +23,47 @@
 }
 
 /* Posititoning Classes */
+#bshoes{
+  float: left;
+  width: 66%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
 
+#dates{
+  float: left;
+  width: 31.999%;
+  margin-bottom: 2%;
+}
 
+#shoes1{
+  float: left;
+  width: 31.999%;
+  margin-right: 2%;
+}
+
+#shoes2{
+  float: left;
+  width: 31.999%;
+  margin-right: 2%;
+}
+
+#shoes3{
+  float: left;
+  width: 31.999%;
+}
+
+#left{
+  float: left;
+  width: 33.333%;
+}
+
+#middle{
+  float: left;
+  width: 33.333%;
+}
+
+#right{
+  float: left;
+  width: 33.333%;
+}

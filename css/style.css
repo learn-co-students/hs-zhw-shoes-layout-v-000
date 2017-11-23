@@ -122,7 +122,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
@@ -140,36 +140,39 @@ iframe {
 
 /*Featured column setup*/
 
-#featured  section{
-	clear: both;
+#featured section{
 	height: 585px;
 }
 
 #featured .col-1 {
-	float: right;
-	clear: right;
-	width: 310px;
-	margin-left: 10px;
+	float: left;
+	width: 314px;
+	margin-left: 6px;
 }
 
 #featured .col-2 {
 	float: left;
-	/*clear: left;*/
-	width: 630px;
-	margin-right: 10px;
+	width: 634px;
+	margin-right: 6px;
 }
 
 /*Deals column setup*/
 
-#deals section  {
-	background: aqua;
+#deals section {
 	float:left;
-	margin-left: 2%;
-	width: 313.33px;
+	width: 311px;
+	margin: 12px 3px;
 }
 
 #deals section:first-child {
-	margin-left: 0%;
+	margin-left: 0px;
+	margin-right: 9px;
+}
+
+#deals section:last-child {
+	width: 314px;
+	margin-right: 0px;
+	margin-left: 9px;
 }
 
 .clearfix:after {

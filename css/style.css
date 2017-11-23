@@ -146,33 +146,33 @@ iframe {
 
 #featured .col-1 {
 	float: left;
-	width: 314px;
-	margin-left: 6px;
+	width: 315px;
+	margin-left: 5px;
 }
 
 #featured .col-2 {
 	float: left;
-	width: 634px;
-	margin-right: 6px;
+	width: 635px;
+	margin-right: 5px;
 }
 
 /*Deals column setup*/
 
-#deals section {
+#deals .col-3 {
 	float:left;
-	width: 311px;
-	margin: 12px 3px;
+	width: 312px;
+	margin: 10px 3.3px;
 }
 
-#deals section:first-child {
+#deals .col-3:first-child {
 	margin-left: 0px;
-	margin-right: 9px;
+	margin-right: 6.6px;
 }
 
-#deals section:last-child {
-	width: 314px;
+#deals .col-3:last-child {
+	width: 315px;
 	margin-right: 0px;
-	margin-left: 9px;
+	margin-left: 6.6px;
 }
 
 .clearfix:after {
@@ -184,6 +184,15 @@ iframe {
 	line-height: 0;
 }
 
+#details .wrapper {
+	width: 960px;
+}
+
+#details .col-3 {
+	float:left;
+	width: 312px;
+	margin: 10px 3.3px;
+}
 
 /********** Header **********/
 

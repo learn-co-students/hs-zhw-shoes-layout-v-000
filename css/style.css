@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -108,6 +108,10 @@ iframe {
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
+	/*Rygel added the border-box*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .shadow {
@@ -133,6 +137,50 @@ iframe {
 .contact_form {
 	height: 415px;
 }
+
+/*Featured column setup*/
+
+#featured  section{
+	clear: both;
+	height: 585px;
+}
+
+#featured .col-1 {
+	float: right;
+	clear: right;
+	width: 310px;
+	margin-left: 10px;
+}
+
+#featured .col-2 {
+	float: left;
+	/*clear: left;*/
+	width: 630px;
+	margin-right: 10px;
+}
+
+/*Deals column setup*/
+
+#deals section  {
+	background: aqua;
+	float:left;
+	margin-left: 2%;
+	width: 313.33px;
+}
+
+#deals section:first-child {
+	margin-left: 0%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
 
 /********** Header **********/
 

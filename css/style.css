@@ -108,10 +108,6 @@ iframe {
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	/*Rygel added the border-box*/
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 }
 
 .shadow {
@@ -122,7 +118,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 10px 0 10px;
+	margin: 0 0 10px;
 }
 
 .border_right {
@@ -136,62 +132,6 @@ iframe {
 
 .contact_form {
 	height: 415px;
-}
-
-/*Featured column setup*/
-
-#featured section{
-	height: 585px;
-}
-
-#featured .col-1 {
-	float: left;
-	width: 315px;
-	margin-left: 5px;
-}
-
-#featured .col-2 {
-	float: left;
-	width: 635px;
-	margin-right: 5px;
-}
-
-/*Deals column setup*/
-
-#deals .col-3 {
-	float:left;
-	width: 312px;
-	margin: 10px 3.3px;
-}
-
-#deals .col-3:first-child {
-	margin-left: 0px;
-	margin-right: 6.6px;
-}
-
-#deals .col-3:last-child {
-	width: 315px;
-	margin-right: 0px;
-	margin-left: 6.6px;
-}
-
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	height: 0;
-	line-height: 0;
-}
-
-#details .wrapper {
-	width: 960px;
-}
-
-#details .col-3 {
-	float:left;
-	width: 312px;
-	margin: 10px 3.3px;
 }
 
 /********** Header **********/

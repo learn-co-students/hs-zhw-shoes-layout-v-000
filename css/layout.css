@@ -24,4 +24,24 @@
 
 /* Posititoning Classes */
 
+#featured [class*="col-"] {
+  height: 585px;
+}
 
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.col-2 {
+  width: 66%;
+}
+
+.col-1 {
+  width: 32%;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0%;
+}

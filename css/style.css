@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -19,6 +19,11 @@ img.verif_img {
 
 body {
 	background: url(../images/handmadepaper.png);
+}
+
+section {
+	margin: 1%;
+
 }
 
 h2, h3 {
@@ -112,6 +117,47 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+	float: left;
+	width: 100%;
+	padding: 2%;
+}
+
+.steps {
+	box-shadow: 0 3px 10px #333;
+	float: left;
+	width: 100%;
+	padding: 2%;
+  margin-top: 2%;
+}
+
+.grass {
+	float: left;
+	width: 64.666%;
+
+}
+
+.archive {
+	float: left;
+	width: 31.333%;
+
+}
+
+.lady {
+	box-shadow: 0 3px 10px #333;
+	float: left;
+	width: 31.333%;
+}
+
+.skate {
+	box-shadow: 0 3px 10px #333;
+	float: left;
+	width: 31.333%;
+}
+
+.heel {
+	box-shadow: 0 3px 10px #333;
+	float: left;
+	width: 31.333%;
 }
 
 .milk_text {
@@ -121,9 +167,34 @@ iframe {
 	margin: 0 0 10px;
 }
 
-.border_right {
+.contact {
 	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+	float: left;
+	width: 29.333%;
+  margin-top: 0
+}
+
+.links {
+	border-right: 1px dotted #ccc;
+  padding-left: 2%;
+  padding-right: 2%;
+	float: left;
+	width: 29.333%;
+  margin-left: 3%;
+  margin-top: 0
+
+}
+
+.social {
+	border-right: 1px dotted #ccc;
+  padding-left: 2%;
+  padding-right: 2%;
+	float: left;
+	width: 29.333%;
+  margin-left: 4%;
+  margin-top: 0
 }
 
 .thumbs_up {

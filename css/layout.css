@@ -1,7 +1,7 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
+  margin:0 auto;
   padding:0;
   border:0;
   box-sizing: border-box;
@@ -24,4 +24,77 @@
 
 /* Posititoning Classes */
 
+section.clearfix {
+  margin: 1%;
+  display: inline-block;
+}
 
+#grass{
+  float: left;
+  width: 64.666%
+}
+
+#history {
+  float: right;
+  width: 31.333%;
+  height: 585px
+}
+
+#lady {
+  float: left;
+  width: 31.333%;
+}
+
+#skate {
+  float: left;
+  width: 31.333%;
+}
+
+#heel {
+  float: left;
+  width: 31.333%;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+#contact {
+  float: left;
+  width: 33.333%
+}
+
+#links {
+  float: left;
+  width: 33.333%
+}
+
+#follow {
+  float: left;
+  width: 33.333%
+}
+
+#details {
+  
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66:
+}
+
+.col-3 {
+  
+}
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

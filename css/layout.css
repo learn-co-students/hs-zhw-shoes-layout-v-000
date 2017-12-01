@@ -1,4 +1,3 @@
-/********** Fixes **********/
 
 * {
   margin:0;
@@ -20,8 +19,33 @@
 
 .clear {
   clear: both;
+  margin-bottom: 2%;
 }
+
 
 /* Posititoning Classes */
 
 
+.col-1 {
+  margin: 0 0 20px 0;
+}
+
+.col-2 {
+  width: 66%;
+  margin: 0px 0px 0 0;
+  /* float: left; */
+}
+
+.col-3 {
+  width: 32%;
+
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}

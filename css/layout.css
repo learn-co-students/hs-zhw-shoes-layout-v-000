@@ -25,3 +25,34 @@
 /* Posititoning Classes */
 
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  display: inline-block;
+  width: 66%;
+}
+
+
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#archive {
+  float: right;
+}
+
+img, video, audio {
+  max-width: 100%;
+}
+
+section {
+  margin-bottom: 20px;
+}

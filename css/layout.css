@@ -24,4 +24,46 @@
 
 /* Posititoning Classes */
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 65.2%;
+  margin: 0px;
+}
+
+.col-2 {
+  float: right;
+  width: 32.7%;
+}
+
+#shoe-column {
+  width: 100%;
+  position: relative;
+}
+
+.col-3 {
+  width: 32.25%;
+  float: left;
+  height: auto;
+  position: relative;
+ 
+}
+
+[class*="col-"] {
+  margin: 5px;
+}
+
+#details .border_right {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+#details {
+  padding: 20px;
+}
 

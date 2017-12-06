@@ -24,4 +24,16 @@
 
 /* Posititoning Classes */
 
+.shadow {
+  position: relative;
+}
 
+.border.right h3 {
+  float: right;
+}
+
+. {
+  position: fixed;
+  top: 0;
+  right: 100px;
+}

@@ -23,5 +23,38 @@
 }
 
 /* Posititoning Classes */
+[class*="col-"] {
+  margin: 0 10px 20px;
+  float: left;
+}
+
+.col-1 { /*Two Thirds Column*/
+  width: 65.9%;
+  float: left;
+}
+
+.col-2 { /*One Third Column*/
+  width: 32.29166666666667%;
+}
+
+.col-3 { /*Bottom*/
+  width: 31.94444444444444%;
+}
 
 
+
+
+
+.full {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.last {
+  margin-right: 0;
+  /*float: right;   /*delete later*/*/
+}

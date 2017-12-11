@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -16,6 +16,13 @@ img.verif_img {
 }
 
 /********** Global **********/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*now includes border and padding.
+  we add prefixes for older versions of safari and firefox. */
+}
 
 body {
 	background: url(../images/handmadepaper.png);
@@ -263,6 +270,23 @@ iframe {
 		color: #555;
 		text-decoration: underline;
 	}
+
+	.col-1{
+  float:left;
+	/* 32 *2 = 64. but add 2% for absorbed margin
+	remember of three columns -- 1 will span 2/3 and the last 1/3.
+	so we only have 1 margin
+	 32+2+66 = 100% */
+  width: 66%;
+}
+
+.col-2{
+  float:left;
+  width: 32%;
+	 /* factor in space for margin (2 percent in between each column)
+	  100-4% / 3 */
+}
+
 
 /********** Details **********/
 

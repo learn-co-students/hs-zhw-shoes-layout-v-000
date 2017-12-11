@@ -3,8 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
-	width:100%; /* IE */
+img, video, audio, iframe, table, form {
+	width: 100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
 
@@ -43,6 +43,7 @@ figure {
 }
 
 	figcaption {
+		width: 66%;
 		font: 12px 'Elsie Swash Caps', cursive;
 		color: #777;
 		text-align: right;
@@ -112,8 +113,14 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+	float: left;
+	width: 66%;
 }
-
+.shadow1 {
+	box-shadow: 0 3px 10px #333;
+	float: left;
+	width: 100%;
+}
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
@@ -123,7 +130,11 @@ iframe {
 
 .border_right {
 	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+	/*padding-right: 5px;*/
+}
+.border_left {
+	border-left: 1px dotted #ccc;
+	padding-left: 10px;
 }
 
 .thumbs_up {
@@ -133,7 +144,28 @@ iframe {
 .contact_form {
 	height: 415px;
 }
+/* Copied classes for columns*/
+.col-1 {
+  float: left;
+  width: 32%;
+}
+.col-2 {
+  float: left;
+  width: 33%;
+}
+.col-3 {
+	float: right;
+  width: 32%;
 
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+.first {
+  margin-left: 0%;
+}
+/*End of copy*/
 /********** Header **********/
 
 	/********** Nav Bar **********/
@@ -287,7 +319,12 @@ iframe {
 	#details a:hover, #details a:active {
 		text-decoration: underline;
 	}
-
+  #invisible: {
+		display: block;
+		clear:both;
+		visibility: hidden;
+		text-decoration: none;
+	}
 /********** Footer **********/
 
 footer {

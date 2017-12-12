@@ -33,7 +33,7 @@ h2, h3 {
 }
 
 ul, ol {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 li {
@@ -264,6 +264,7 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin-bottom: 20px;
 	}
 
 	section a {
@@ -272,7 +273,7 @@ iframe {
 	}
 
 	.col-1{
-  float:left;
+	float:left;
 	/* 32 *2 = 64. but add 2% for absorbed margin
 	remember of three columns -- 1 will span 2/3 and the last 1/3.
 	so we only have 1 margin
@@ -281,12 +282,26 @@ iframe {
 }
 
 .col-2{
-  float:left;
+  float:right;
   width: 32%;
 	 /* factor in space for margin (2 percent in between each column)
 	  100-4% / 3 */
 }
 
+.col-3{
+	float:left;
+	width:32%
+}
+
+[class*="-"] { /* selects anything that has a class containing "-" and adds
+the following property:value */
+  margin-left: 2%;
+}
+
+.first {
+  margin-left:0%;
+} /* we don't want first column to be displaced on the left so we make a
+new class and set the margin-left to be 0%. */
 
 /********** Details **********/
 

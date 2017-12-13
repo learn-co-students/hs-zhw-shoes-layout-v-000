@@ -24,4 +24,46 @@
 
 /* Posititoning Classes */
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #fff;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #fff;
+}
+
+.col-3 {
+  background: #fff;
+}
+
+.bottomcol-1 {
+  float: left;
+  width: 32%;
+}
+
+.bottomcol-2 {
+  float: left;
+  width: 66%;
+}
+
+.bottomcol-3 {
+
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

@@ -24,4 +24,51 @@
 
 /* Posititoning Classes */
 
+h2.milk_text + section {
+  float: left;
+  width: 66%;
+  height: 38em;
+  margin: 0px 1% 0% 0px;
+}
 
+h2.milk_text + section + section {
+  float: left;
+  width: 32%;
+  height: 38em;
+  margin: 0px 0px 0% 1%;
+}
+
+/* /// LADY BUGS /////*/
+h2.milk_text + section + section + section {
+  float: left;
+  margin: 2% 1% 2% 0%;
+  width: 32%;
+}
+
+h2.milk_text + section + section + section + section {
+  float: left;
+  margin: 2% 1% 2% 1%;
+  width: 32%;
+}
+
+h2.milk_text + section + section + section + section + section{
+  float: left;
+  margin: 2% 0% 2% 1%;
+  width: 32%;
+}
+
+/*//// CONTACT /////*/
+  #details .wrapper div:first-child {
+  float: left;
+  width: 33.33%;
+}
+/*//// LINKS /////*/
+#details .wrapper div:first-child + div {
+  float: left;
+  width: 33.33%;
+}
+/*//// FOLLOW /////*/
+#details .wrapper div:last-child {
+  float: left;
+  width: 33.33%;  
+}

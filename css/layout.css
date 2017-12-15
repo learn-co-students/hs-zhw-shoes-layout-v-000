@@ -1,27 +1,63 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
 }
 
 .clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
 /* Posititoning Classes */
+.col-1{
+    float: left;
+    width: 100%; 
+    background: #fff;
+}
+
+.col-2 {
+    float: left; 
+    width: 67%; 
+    background: #fff; 
+    
+}
+
+.col-3 {
+    float: right; 
+    width: 33%; 
+    background: #fff;
+}
+
+.col-4 {
+    float: left; 
+    width: 33.3%; 
+    background: #fff;
+}
+
+.col-5 {
+    float: left;
+    width: 33.3%;
+    
+}
+
+.first {
+    margin-left: 2%; 
+}
+
 
 

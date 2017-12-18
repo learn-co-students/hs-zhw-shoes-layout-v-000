@@ -24,4 +24,13 @@
 
 /* Posititoning Classes */
 
-
+[class*="col-"]{
+  margin-left: 2%;
+  width: 32%;
+}
+.col-a{
+  width: 64%;
+}
+.first{
+  margin-left: 0%;
+}

@@ -23,5 +23,49 @@
 }
 
 /* Posititoning Classes */
+.div-1 {
+  float: left;
+  width: 630px;
+  height: 662px;
+  margin: 0 0 15px 0
+}
 
+.div-2{
+  float: left;
+  width: 315px;
+  height: 662px;
+  margin: 0 0 15px 15px
+}
+.div-3{
+  float: left;
+  width: 307px;
+}
 
+.div-4{
+  width: 308px;
+  margin: 0 15px 0 15px;
+  float: left;
+}
+
+.div-5{
+  float: left;
+  width: 315px;
+}
+
+.div-6{
+  float: left;
+  width: 305px;
+  margin: 0 0 0 15px;
+}
+
+.div-7{
+  float: left;
+  width: 305px;
+  margin: 0 0 0 15px;
+}
+
+.div-8{
+  float: left;
+  width: 300px;
+  margin: 0 0 0 15px;
+}

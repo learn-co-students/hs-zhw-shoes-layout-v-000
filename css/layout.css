@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.wrapper {
+  margin: 0 auto;
+  width: 600px;
+  background: #ccc;
+}
 
+
+.shadow1 {
+  float: left;
+  width: 33.333%;
+  background: #ccc;
+}
+
+.shadow2 {
+  float: left;
+  width: 33.333%;
+  background: #ccc;
+}
+
+.shadow3 {
+  float: left;
+  width: 33.333%;
+  background: #ccc;
+}

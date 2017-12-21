@@ -1,4 +1,5 @@
-/********** Fixes **********/
+
+
 
 * {
   margin:0;
@@ -22,6 +23,55 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+.shadow {
+  margin: 10px;
+}
 
+.col-1 {
+   float: left;
+   width: 32%;
+   margin: 5px;
 
+ }
+
+ .col-2 {
+   float: left;
+   width: 66%;
+   margin: 4px;
+
+ }
+
+ .col-3 {
+    float: right;
+    width: 31%;
+    margin: 11px;
+
+  }
+
+  .col-4 {
+    float: left;
+    width: 32%;
+    margin: 5px;
+    padding-left: 300px;
+   }
+
+   .col-5 {
+     width: 50%;
+   }
+
+ .left_padding {
+   margin: 5px;
+
+ }
+ .margin_right {
+   margin: 5px;
+
+ }
+
+ [class*="col-"] {
+   margin-bottom: 2%;
+ }
+
+ .footer {
+   clear: both;
+ }

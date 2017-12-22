@@ -24,6 +24,10 @@
 
 
 /* Posititoning Classes */
+#wood {
+  background-size: cover;
+}
+
 .deals {
   padding-top:20px;
 }

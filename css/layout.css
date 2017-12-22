@@ -9,6 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -22,6 +23,76 @@
   clear: both;
 }
 
+
+div .first {
+  clear: both;
+}
+
+.featured {
+  display: inline-block;
+  float: left;
+  width: 58%;
+}
+
+  .list {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin-left: 2%;
+  font-size: 75%;
+}
+
+div .deals {
+  clear: both;
+}
+
+.bug {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin-right: 2%; 
+  margin-top: 4%;
+}
+
+.bug2 {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+.bug3 {
+  display: inline-block;
+  float: right;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+
+
+
+
+
+  div #col-1{
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+  }
+
+  div #col-2{
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+  }
+
+  div #col-3{
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+  }
 /* Posititoning Classes */
 
 

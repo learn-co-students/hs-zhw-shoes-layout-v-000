@@ -57,3 +57,8 @@ section {
     width: 31.33%;
     
 }
+
+.border_right {
+    width: 33.33%;
+    float: left;
+}

@@ -24,4 +24,62 @@
 
 /* Posititoning Classes */
 
+ .row1 {
+   clear: both;
+ }
 
+ .featured-brand {
+   height: 592px;
+   width: 66%;
+   margin-right: 2%;
+   margin-bottom: 2%;
+   float: left;
+ }
+
+.archive-list {
+  width: 32%;
+  float: left;
+}
+
+.row2 {
+  clear: both;
+}
+
+.lady-bug {
+  width: 32%;
+  margin-right: 2%;
+  float: left;
+}
+
+.skate-shoe {
+  width: 32%;
+  margin-right: 2%;
+  float: left;
+}
+
+.bluestar-heel {
+  width: 32%;
+  margin-left: 0%;
+  float: left;
+}
+
+.row3 {
+
+}
+
+.contact {
+  width: 33%;
+  margin-right: 0.5%;
+  float: left;
+}
+
+.links {
+  width: 33%;
+  margin-right: 0.5%;
+  float: left;
+}
+
+.follow {
+  float: left;
+  width: 33%;
+}

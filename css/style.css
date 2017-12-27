@@ -112,6 +112,7 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+
 }
 
 .milk_text {
@@ -257,6 +258,7 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin:10px;
 	}
 
 	section a {
@@ -303,3 +305,54 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+/*floats */ 
+
+#shoe {
+	width: 30%;
+	float: right;
+	
+}
+
+#grass {
+	width: 60%;
+	float: left;
+}
+
+/*clear*/ 
+
+
+
+/*columns*/ 
+
+#columns .columns {
+	width: 30%;
+}
+
+.col-1, .col-2, .col-3{
+	float: left;
+	width: 30%;
+
+	border: 2x solid black;
+	
+}
+
+section #shadow #col-2 figure img{
+	width: 30%;
+	height: 100px;
+}
+
+section #shadow #col-3 figure img{
+	float: right;
+	width: 30%;
+	height:100px;
+
+}
+footer {
+	clear:both; 
+}
+
+.brands {
+	float:right;
+	clear:both;
+}

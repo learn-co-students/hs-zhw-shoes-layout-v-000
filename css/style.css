@@ -1,9 +1,9 @@
 /********** Web Fonts **********/
-@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
-@import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:900'); /* font-family: 'Elsie Swash Caps', cursive; */
+@import url('http://fonts.googleapis.com/css?family=Clicker+Script'); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -19,18 +19,27 @@ img.verif_img {
 
 body {
 	background: url(../images/handmadepaper.png);
+
 }
+
+
 
 h2, h3 {
 	margin-bottom: 5px;
+	font-family: Arial;
 }
 
 ul, ol {
 	margin-bottom: 10px;
+	    font-size: 14px;
 }
 
 li {
 	margin-left: 20px;
+}
+
+p{
+	font-family: Arial;
 }
 
 p, address {
@@ -122,8 +131,10 @@ iframe {
 }
 
 .border_right {
-	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+		border-right: 1px dotted #ccc;
+	padding-right: 30px;
+	margin-right: 9%;
+	float: left;
 }
 
 .thumbs_up {
@@ -214,11 +225,11 @@ iframe {
 /********** Social Bar **********/
 
 #social {
-	position: fixed;
-	top: 200px;
-	right: 3px;
-	width: 40px;
-	z-index: 1;
+ position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
 }
 
 	a.fbook, a.twitt, a.gplus {
@@ -257,11 +268,13 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+
 	}
 
 	section a {
 		color: #555;
 		text-decoration: underline;
+		font-size: 16px;
 	}
 
 /********** Details **********/
@@ -302,4 +315,66 @@ footer {
 		text-decoration: underline;
 	}
 
-/* code examples copyright Jonathan Grover 2012 */
+
+
+/* style for colums */
+
+
+
+
+#col-1{
+	float: left;
+	width: 66%;
+	 clear: both;
+}
+
+
+#col-2{
+float: right;
+width: 32%;
+height: 20%;
+clear: right;
+
+}
+
+
+.col-md-1{
+	float: left;
+	max-width: 30%;
+	max-height: 50%;
+	margin: 10px 10px 0 0;
+	clear: both;
+}
+
+.col-md-2{
+	float: left;
+	max-width: 30%;
+	max-height: 50%;
+	margin: 10px 10px 0 0;
+	clear: right;
+
+
+}
+
+.col-md-3{
+	float: right;
+	max-width: 30%;
+	max-height: 50%;
+	margin-top: 10px;
+
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
+#shoes{
+height: 600px;
+clear: both;
+}

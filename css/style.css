@@ -131,10 +131,11 @@ iframe {
 }
 
 .border_right {
-		border-right: 1px dotted #ccc;
-	padding-right: 30px;
-	margin-right: 9%;
+	border-right: 1px dotted #ccc;
+	padding-right: 99px;
+	margin-right: 24px;
 	float: left;
+  width: 32%
 }
 
 .thumbs_up {
@@ -315,11 +316,13 @@ footer {
 		text-decoration: underline;
 	}
 
+.media{
+  width: 30%;
+  float: right;
+}
 
 
 /* style for colums */
-
-
 
 
 #col-1{
@@ -340,17 +343,17 @@ clear: right;
 
 .col-md-1{
 	float: left;
-	max-width: 30%;
+	max-width: 32%;
 	max-height: 50%;
-	margin: 10px 10px 0 0;
+	margin: 15px 20px 0 0;
 	clear: both;
 }
 
 .col-md-2{
 	float: left;
-	max-width: 30%;
+	max-width: 32%;
 	max-height: 50%;
-	margin: 10px 10px 0 0;
+	margin: 15px 15px 0 0;
 	clear: right;
 
 
@@ -358,19 +361,10 @@ clear: right;
 
 .col-md-3{
 	float: right;
-	max-width: 30%;
+	max-width: 32%;
 	max-height: 50%;
-	margin-top: 10px;
+  margin: 15px 0 0 0;
 
-}
-
-.clearfix:after{
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
 }
 
 

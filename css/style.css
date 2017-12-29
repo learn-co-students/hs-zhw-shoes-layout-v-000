@@ -19,10 +19,14 @@ img.verif_img {
 
 body {
 	background: url(../images/handmadepaper.png);
+
 }
+
+
 
 h2, h3 {
 	margin-bottom: 5px;
+	font-family: Arial;
 }
 
 ul, ol {
@@ -31,6 +35,10 @@ ul, ol {
 
 li {
 	margin-left: 20px;
+}
+
+p{
+	font-family: Arial;
 }
 
 p, address {
@@ -122,8 +130,10 @@ iframe {
 }
 
 .border_right {
-	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+		border-right: 1px dotted #ccc;
+	padding-right: 30px;
+	margin-right: 9%;
+	float: left;
 }
 
 .thumbs_up {
@@ -214,11 +224,11 @@ iframe {
 /********** Social Bar **********/
 
 #social {
-	position: fixed;
-	top: 200px;
-	right: 3px;
-	width: 40px;
-	z-index: 1;
+ position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
 }
 
 	a.fbook, a.twitt, a.gplus {
@@ -302,4 +312,40 @@ footer {
 		text-decoration: underline;
 	}
 
-/* code examples copyright Jonathan Grover 2012 */
+
+
+/* style for colums */
+
+
+
+
+#col-1{
+	float: left;
+	width: 60%; 
+	 clear: both;
+}
+
+
+#col-2{
+float: right;
+width: 30%;
+height: 20%;
+
+}
+
+
+.col-md-1, .col-md-2, .col-md-3{
+	float: left;
+	max-width: 30%;
+	margin-top: 10px;
+
+	
+}
+
+
+
+
+
+
+
+

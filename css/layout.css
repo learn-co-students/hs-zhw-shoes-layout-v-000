@@ -24,4 +24,43 @@
 
 /* Posititoning Classes */
 
+.col-66-left {
+  float: left;
+  display: block;
+  width: 63%;
+  margin-right: 2%;
+}
 
+.col-33-right{
+  float: right;
+  display: block;
+  width: 33%;
+  margin-left: 2%;
+}
+
+.mid-1 {
+  float: left;
+  width: 30%;
+  display: inline;
+  margin: 20px 10px 20px 0px;
+}
+
+.mid-2 {
+  float: left;
+  width: 30%;
+  display: inline;
+  margin: 20px 10px 20px 22px;
+}
+
+.mid-3 {
+  float: right;
+  width: 33%;
+  display: inline;
+  margin: 20px 0px 20px 10px;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}

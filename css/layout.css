@@ -24,4 +24,46 @@
 
 /* Posititoning Classes */
 
+.one {
+    width: 65%;
+    height: 210px;
+    margin-bottom: 45%;
+    float: left;
+}
+.two {
+    margin-left: 67%;
+    margin-bottom: 44%;
+    height: 186px;
+}
 
+.row1 {
+    width: 100%;
+}
+.three {
+    width: 30%;
+}
+.four {
+    width: 30%;
+    margin-left: 33%;
+}
+.five {
+    width: 30%;
+    margin-left: 66%;
+}
+
+.row2 {
+
+}
+.six {
+    width: 30%;
+}
+
+.seven {
+    width: 30%;
+    margin-left: 33%;
+    float: left;
+}
+.eight {
+    width: 30%;
+    margin-left: 66%;
+}

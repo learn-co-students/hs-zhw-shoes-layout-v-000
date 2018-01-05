@@ -18,10 +18,25 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
+/* Posititoning Classes */
+.col-1 {
+float: left;
+width: 32%;
+margin-left: 2%;
+margin-top: 2%;
 }
 
-/* Posititoning Classes */
+.col-2 {
+float:left;
+width: 65.8%;
+}
+.col-3 {
+float:left;
+width: 32.2%;
+margin-left: 2%;
+}
 
-
+.first {
+  margin-left: 0%;
+  clear:both;
+}

@@ -22,6 +22,9 @@
   clear: both;
 }
 
+.rows {
+  clear: both;
+  margin-bottom: 2%;
+}
+
 /* Posititoning Classes */
-
-

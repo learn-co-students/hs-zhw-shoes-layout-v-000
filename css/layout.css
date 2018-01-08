@@ -22,6 +22,38 @@
   clear: both;
 }
 
+*{
+  box-sizing: border-box; 
+}
+
 /* Posititoning Classes */
+.summergrass{
+  display: inline-block;
+  float: left;
+  width: 66.66%;
+  padding: 10px;
+}
 
+.calendar{
+  display: inline-block;
+  float: right;
+  width: 30.33%;
+}
 
+.ladybug{
+  display: inline-block;
+  position: relative;
+  max-width: 25%;
+}
+
+.skater{
+  display: inline-block;
+  position: relative;
+  max-width: 25%;
+}
+
+.bluestar{
+  display: inline-block;
+  position: relative;
+  max-width: 25%;
+}

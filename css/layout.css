@@ -24,4 +24,28 @@
 
 /* Posititoning Classes */
 
+.tier-1 {
+  float: left;
+  width: 32%;
+}
 
+.tier-2 {
+  float: left;
+  width: 66%;
+
+}
+
+.tier-3 {
+  float: left;
+  width: 100%;
+
+}
+
+[class*="tier-"]{
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

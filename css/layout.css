@@ -23,5 +23,35 @@
 }
 
 /* Posititoning Classes */
+.calendar{
+  float: right;
+  width: 31.33%;
+}
+.shoes-on-grass {
+  float: left;
+  width: 65.00%;
+  margin: 1%;
+  }
+.heel {
+  float: right;
+  width: 31.33%;
+  margin: 1%;
+}
 
+.skate {
+  float: left;
+  width: 31.33%;
+  border: solid hidden;
+  margin: 1%;
+}
 
+.bug {
+  float: left;
+  width: 31.33%;
+  border: solid hidden;
+  margin: 1%;
+}
+.border_right {
+  float: left;
+  width: 33.33%;
+}

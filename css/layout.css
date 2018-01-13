@@ -24,4 +24,55 @@
 
 /* Posititoning Classes */
 
+.shadow {
+  display: block;
+  float: left;
+  width: 31%;
+  margin-right: 2%;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+#logo {
+  display: block;
+  width: 100%;
+}
+
+.row-1 {
+  display: block;
+  height: 585px;
+}
+
+.row-2 {
+  display: block;
+  height: 350px;
+}
+
+.col-8 {
+  float: left;
+  width: 64.666%;
+  margin: 0 2% 2% 0;
+}
+
+.col-4 {
+  float: left;
+  width: 31.333%;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+
+#featured {
+  display: block;
+  float: left;
+  width: 98%;
+  margin-top: 4%;
+  margin-right: 4%;
+  margin-bottom: 1%;
+}
+
+.border_right {
+  margin-right: 2%;
+}
 

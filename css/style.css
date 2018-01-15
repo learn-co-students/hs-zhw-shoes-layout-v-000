@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -118,12 +118,14 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 0 0 6px 3px;
+	padding: 15px 5px 7px 0px;
 }
 
 .border_right {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+
 }
 
 .thumbs_up {
@@ -303,3 +305,41 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+.col-1 {
+	width: 32%;
+	float: left;
+	margin-bottom: 2%;
+
+}
+
+.col-2 {
+	width: 66%;
+	float: left;
+	margin-bottom: 2%;
+
+}
+
+.col-3 {
+  float: left;
+	margin-bottom: 2%;
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+
+.first {
+	margin-left: 0%;
+	clear: both;
+}

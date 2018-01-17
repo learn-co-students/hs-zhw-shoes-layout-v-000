@@ -24,4 +24,24 @@
 
 /* Posititoning Classes */
 
+#wood {
+  background-size: cover;
+}
+.col-33 {
+  display: inline-block;
+  float:left;
+  width: 32%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
 
+.col-66 {
+  display: inline-block;
+  float:left;
+  width: 65%;
+  margin-left: 1%;
+}
+
+.first {
+  margin-left: 0%;
+}

@@ -25,3 +25,59 @@
 /* Posititoning Classes */
 
 
+#summer-grass {
+  float: left;
+  width: 65%;
+  margin: 0 12px 12px 0;
+  display: block;
+  position: relative;
+  left: 12px;
+}
+
+#shoe-archive {
+  float: right;
+  width: 31.7%;
+}
+
+#lady-bugs {
+  width: 31.3%;
+  float: left;
+  margin: 12px 12px 12px 0;
+  display: inline-block;
+  position: relative;
+  left: 12px;
+}
+
+#skaters {
+  margin: 12px;
+  width: 31.3%;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+}
+
+#bluestar-heels {
+  margin-left: 14px;
+  margin-right: 0;
+  width: 31.3%;
+  display: inline-block;
+}
+
+#contact {
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+}
+
+#links {
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+}
+
+.follow {
+  display: inline-block;
+  width: 31%;
+  float: right;
+  margin: 1%;
+}

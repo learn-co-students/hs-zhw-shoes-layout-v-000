@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -155,7 +155,7 @@ iframe {
 
 		#nav_bar nav a {
 			display: inline-block;
-			width: 20%;
+			width: 19%;
 			margin: 0;
 			padding: 22px 0;
 			text-transform: uppercase;
@@ -302,4 +302,24 @@ footer {
 		text-decoration: underline;
 	}
 
+.col-33 {
+  display: inline;
+  float:left;
+  width: 32%;
+}
+
+.col-66 {
+  display: inline;
+  float:left;
+  width: 65%;
+}
+
+.clearfix.after {
+  content: ".";
+  display: block;
+  clear: both ;
+  visibility: hidden ;
+  height: 0;
+  line-height: 0;
+}
 /* code examples copyright Jonathan Grover 2012 */

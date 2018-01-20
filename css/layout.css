@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+#featured_text {
+    padding-left:2px;
+    margin-top: 2%;
+    background-color:none;
+}
 
+[class*="col-"] {
+    float: left;
+}
+
+.summer {
+    width: 66%;
+}
+
+.col-1 {
+    width: 32%;
+}
+
+.left-col {
+    clear: both;
+}
+
+.col-2 {
+    margin-bottom: 2%;
+}
+
+.col-3 {
+    margin-left: 2%;
+}

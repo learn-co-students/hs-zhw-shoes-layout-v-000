@@ -23,5 +23,22 @@
 }
 
 /* Posititoning Classes */
+img {
+  max-width: 100%;
+}
 
+.col-1 {
+  display: inline-block;
+  float: left;
+  width: 31%;
+  padding: 15px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
 
+.col-2 {
+  display: inline-block;
+  float: left;
+  width: 64%;
+  margin-right: 2%;
+}

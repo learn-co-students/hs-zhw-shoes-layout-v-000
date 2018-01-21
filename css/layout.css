@@ -24,4 +24,63 @@
 
 /* Posititoning Classes */
 
+.shadow2 {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+} /*Holiday sale*/
 
+.wood .wrapper .milk_text{
+  padding: 10% 0;
+} /*header: Featured Brands*/
+
+.shadow3 {
+  width: 68%;
+} /*Shoes, Summer Grass width=66.66*/
+
+.shadow4 {
+  width: 22.5%;
+  position: absolute; /*position: absolute*/
+  right: 800px; /*right: 150px*/
+  top: 970px;
+  left: 830px;
+  padding: 10px 10px 30px 10px;
+} /*correct - month/year archive
+right: 30px;
+top: 950px;*/
+
+.shadow5 {
+  width: 33%;
+  margin: 25px 40px 27px 0%;
+  padding: 10px 10px 22px 10px;
+} /*lady bug shoes 15px*/
+
+.shadow6 {
+  width: 33%;
+  margin: -398px -800px 400px 335px;
+  padding: 10px 10px 20px 10px;
+} /*converse shoes -400px -800% 436px 35%
+    margin: -400px -800px 436px 335px;*/
+
+.shadow7 {
+  width: 30%;
+  margin: -770px 0px 45px 675px;
+  padding: 10px 10px 21px 10px;
+} /*high heels*/
+
+#details .wrapper1 .border_right1 {
+  margin-left: 145px;
+  padding-bottom: 75px;
+}
+
+#details .wrapper1 .border_right2 {
+  margin-left: 475px;
+  margin-top: -255px;
+  padding-bottom: 75px;
+}
+
+#details .wrapper1 .border_right3 {
+  margin-left: 820px;
+  margin-top: -255px;
+  padding-bottom: 75px;
+}

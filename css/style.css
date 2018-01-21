@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -14,6 +14,8 @@ img.verif_img {
 	height:30px;
 	vertical-align: bottom;
 }
+
+/* MY FIXES */
 
 /********** Global **********/
 
@@ -284,6 +286,8 @@ iframe {
 		text-decoration: none;
 	}
 
+
+
 	#details a:hover, #details a:active {
 		text-decoration: underline;
 	}
@@ -303,3 +307,49 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+
+.first {
+  margin-left: 0%;
+}
+.one {
+	float: left;
+	width: 32%;
+}
+
+
+.twocombo .two {
+	margin-right: 2%;
+}
+
+.two {
+	float: left;
+	width: 66%;
+}
+
+.three {
+	float: left;
+	width: 100%;
+}
+
+.onecombo .one {
+	margin-right: 2%;
+	width: 32%;
+}
+
+.onecombo .last {
+	margin-right: 0%;
+}
+
+.wrapper.clearfix {
+	margin-bottom: 2%;
+	display: block;
+}
+
+.border_right.one {
+	margin-left: 2%;
+}
+
+.border_right.one.first {
+	margin-left: 0%;
+}

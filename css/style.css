@@ -352,5 +352,8 @@ footer {
 
 .border_right.one.first {
 	margin-left: 0%;
+}
+
+.border_right.one.last {
 	border: 0px;
 }

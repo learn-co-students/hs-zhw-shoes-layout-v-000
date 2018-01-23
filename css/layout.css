@@ -24,4 +24,38 @@
 
 /* Posititoning Classes */
 
+.col-row-1 {
+  column-count: 3;
+  display: inline;
+}
 
+.col-row-2 {
+  column-count: 3;
+  display: inline;
+  margin: 1em;
+}
+
+#spotlight {
+  width: 66%;
+  margin-bottom: 1em;
+}
+
+.feature {
+  width: 32%;
+}
+
+.left {
+  float: left;
+  margin-right: 2%;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  float: right;
+  float: left;
+  clear: none;
+  justify-content: center;
+}

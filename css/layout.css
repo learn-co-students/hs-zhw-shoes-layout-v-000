@@ -25,3 +25,24 @@
 /* Posititoning Classes */
 
 
+.col-1 { /*spans 1/3 of the space */
+  float: left;
+  width: 30%; /*this allows for a 2% margin between the columns */
+}
+
+.col-2 { /*spans 2/3 of the space */
+  float: left;
+  width: 62%; /*this accounts for margin only on 1 side of the column */
+}
+
+.col-3 { /*spans across all of the space*/
+
+}
+
+[class*="col-"] {
+  margin: 1%;
+}
+
+.first {
+  margin-left: 0;
+}

@@ -9,7 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
+.clearfix::after {
   content: ".";
   display: block;
   clear: both;
@@ -23,5 +23,59 @@
 }
 
 /* Posititoning Classes */
+h2.milk_text {
+  margin: 10px 0px;
+}
 
+[class*="col-"] {
+  margin-left: 2%;
+  float:left;
+}
 
+.first {
+  margin-left: 0%;
+}
+
+.col-1 {
+  width: 32%;
+}
+
+.col-2 {
+  width: 66%;
+}
+
+<<<<<<< HEAD
+.col-3{
+  margin: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+=======
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+section.shadow {
+  margin-bottom: 10px;
+>>>>>>> 79aa17ac6a9530409b0aee112822af7644403d47
+}

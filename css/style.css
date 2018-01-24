@@ -9,7 +9,7 @@ img, video, audio, iframe, table, form {
 }
 
 /* prevent the verify image on contact page from stretching */
-img.verif_img {
+.verif_img {
 	width: 50px;
 	height:30px;
 	vertical-align: bottom;
@@ -91,7 +91,7 @@ input[type="submit"]:hover {
 	background: #555;
 }
 
-input.verif_box {
+.verif_box {
 	display: inline-block;
 	width: 80%;
 	margin-right: 5px;
@@ -166,7 +166,7 @@ iframe {
 			font: 20px "Trebuchet MS", Arial, sans-serif;
 		}
 
-		#nav_bar nav a.selected {
+		#nav_bar.selected {
 			background: black;
 			color: white;
 		}
@@ -205,7 +205,7 @@ iframe {
 			background: url(../images/logo_crown_emboss.png) no-repeat top center;
 		}
 
-		#logo h2 {
+		#logo  {
 			margin:0;
 			display: inline-block;
 			font-family: 'Elsie Swash Caps', cursive;
@@ -301,5 +301,3 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
-
-/* code examples copyright Jonathan Grover 2012 */

@@ -68,7 +68,7 @@
 		font-size: 1em;
 	}
 
-	#logo h1 {
+	#logo  {
 		padding: 0 0 0 30px;
 		background-position: 0 -5px;
 	}
@@ -132,7 +132,7 @@
 		font-size: 0.9em;
 	}
 
-	input.verif_box {
+	.verif_box {
 		display: inline-block;
 		width: 70%;
 		margin-right: 5px;
@@ -151,5 +151,3 @@
 	}
 	
 }
-
-/* code examples copyright Jonathan Grover 2012 */

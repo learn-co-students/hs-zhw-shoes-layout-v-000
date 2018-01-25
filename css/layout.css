@@ -23,5 +23,28 @@
 }
 
 /* Posititoning Classes */
+.tier {
+  clear: both;
+  margin-bottom: 2%;
+}
 
+.tier:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
 
+[class*="-column"] {
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="-column"]:first-child {
+  margin-left: 0;
+}
+
+.second-column { width: 32%;}
+.first-column { width: 66%;}

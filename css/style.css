@@ -3,9 +3,18 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
 }
 
 /* prevent the verify image on contact page from stretching */
@@ -118,7 +127,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0;
 }
 
 .border_right {
@@ -250,19 +259,85 @@ iframe {
 	background-position: center top, left top;
 	background-repeat: no-repeat, repeat-y;
 	padding: 30px 0;
+
 }
 
-	/********** Sections **********/
+/********** Sections **********/
 
-	section {
-		padding: 20px;
-		background: white;
-	}
+section {
+	padding: 20px;
+	background: white;
+}
 
-	section a {
-		color: #555;
-		text-decoration: underline;
-	}
+/********** Featured + Archive Columns **********/
+
+.column {
+	float: left;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/********** Featured **********/
+
+.left {
+	width: 66%;
+}
+
+/********** Archive List **********/
+
+.right {
+	margin-left: 2%;
+	width: 32%;
+}
+
+#archive a {
+	color: #555;
+	text-decoration: underline;
+}
+
+
+
+/********** Deals Columns **********/
+
+.row2 {
+	margin-top: 20px;
+}
+
+.row2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column2 {
+	float: left;
+	width: 32%;
+}
+
+.left {
+	margin-right: 1%;
+}
+
+.middle {
+	margin: 0 1%;
+}
+
+.right {
+	margin-left: 1%;
+}
+
+/********** Details Columns **********/
+
+.column3 {
+	float: left;
+	width: 33.33%;
+}
+
+
 
 /********** Details **********/
 

@@ -1,8 +1,8 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
+  margin:0px;
+  padding:0px;
   border:0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -24,4 +24,20 @@
 
 /* Posititoning Classes */
 
+.col-8 {
+	float: left;
+	background: white;
+	width: 66%;
+  margin-right: 2%;
+}
 
+.col-4 {
+	float: left;
+	background: white;
+	width: 32%;
+  margin-right: 2%;
+}
+
+.last {
+  margin-right: 0px;
+}

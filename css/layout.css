@@ -1,12 +1,27 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
+  margin:3;
   padding:0;
   border:0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+}
+.row {
+  clear: both;
+}
+
+.col-8 {
+  float: left;
+  width: 60%;
+}
+
+.col-4 {
+  float: right;
+  width: 29%;
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
 .clearfix:after {
@@ -23,5 +38,3 @@
 }
 
 /* Posititoning Classes */
-
-

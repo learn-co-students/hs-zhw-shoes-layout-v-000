@@ -23,7 +23,9 @@
 }
 
 /* Posititoning Classes */
-.thirty-right {
-  float: right;
+.col-4, .col-8 {
+  float: left;
+  margin-left: 2%;
 }
-
+.col-4 { width: 32%; }
+.col-8 { width: 66%; }

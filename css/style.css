@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -248,7 +248,7 @@ iframe {
 #wood {
 	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
 	background-position: center top, left top;
-	background-repeat: no-repeat, repeat-y;
+	background-repeat:  no-repeat,repeat-y;
 	padding: 30px 0;
 }
 
@@ -263,6 +263,44 @@ iframe {
 		color: #555;
 		text-decoration: underline;
 	}
+
+.col-full {
+
+}
+
+
+
+	.col-left-double {
+		float: left;
+		width: 66%;
+		margin: 0 1% 20px 0;
+
+	}
+
+.col-right-single {
+		float: right;
+		width: 32%;
+		margin: 0 0 20px;
+	}
+
+.col-left-single {
+	clear:both;
+	float: left;
+	width: 32%;
+	margin: 0 1% 20px 0;
+}
+
+.col-center-single {
+	float: left;
+	width: 32%;
+	margin: 0 1% 20px 1%;
+
+}
+
+[class*="col-"] {
+
+
+}
 
 /********** Details **********/
 
@@ -302,4 +340,14 @@ footer {
 		text-decoration: underline;
 	}
 
-/* code examples copyright Jonathan Grover 2012 */
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	border:0;
+}
+ /* code examples copyright Jonathan Grover 2012 */

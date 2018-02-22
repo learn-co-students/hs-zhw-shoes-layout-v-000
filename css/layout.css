@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+.col1_left {
+		float: left;
+		width: 32.6%;
+		margin: 0 0 20px;
+	}
 
+	.col1_mid { /* give center column of three this class last */
+		float: left;
+		width: 32.6%;
+		margin: 0 1% 20px 1%;
+	}
+
+	.col1_right {
+		float: right;
+		width: 32.6%;
+		margin: 0 0 20px;
+	}
+
+	.col2_left {
+		float: left;
+		width: 66.4%;
+		margin: 0 1% 20px 0;
+	}
+
+	.col2_right {
+		float: right;
+		width: 66.4%;
+		margin: 0 0 20px 1%;
+	}
+
+	.col3 {
+		margin: 0 0 20px;
+		clear: both;
+	}

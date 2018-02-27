@@ -1,27 +1,54 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
 /* Posititoning Classes */
 
+.col-33 {
+    float: left;
+    width: 33.3%;
+    height: 100%;
+}
 
+.col-66 {
+    float: left;
+    width: 66.6%;
+    padding-right: 1rem;
+}
+
+#grass-arch {
+    margin-bottom: 1rem;
+}
+
+#deals .col-33:first-child,
+#deals .col-33:nth-child(2) {
+  padding-right: 1rem;
+}
+
+section {
+  height: 100%;
+}
+
+#deals {
+  height: 380px;
+}

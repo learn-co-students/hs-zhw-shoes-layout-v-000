@@ -23,5 +23,46 @@
 }
 
 /* Posititoning Classes */
+.wrapper {
+  margin: 0;
+  width: 600px;
+}
 
 
+section {
+  padding: 20px;
+  margin: 1%;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#LadyBugs {
+  float: left;
+  background: white;
+  width: 31.333%;
+}
+
+#Skaters {
+  float: left;
+  background: white;
+  width: 31.333%;
+}
+
+#BluestarHeels {
+  float: left;
+  background: white;
+  width: 31.333%;
+}
+
+.clearfix ::after{
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}

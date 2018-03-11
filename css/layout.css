@@ -20,8 +20,48 @@
 
 .clear {
   clear: both;
-}
+.}
 
 /* Posititoning Classes */
+.contactfooter {
+  float:left;
+  width: 33.33%
+}
+.linksfooter {
+  float:left;
+  width: 33.33%;
+}
+.linksposition {
+position: relative;
+left: 20px;
+}
+.followfooter {
+  float:right;
+  width: 33.33%;
+}
+.followposition {
+position: relative;
+left: 40px;
+}
+.col-1 {
+  float: left;
+  width: 66%;
+}
+.col-2 {
+  float: right;
+  width: 32%;
+}
+.col-3 {
+  float: left;
+  width: 32%
+}
+[class*="col-"]{
+  margin-left: 2%
+}
+.bottom-margin{
+  margin-bottom: 20px;
+}
 
-
+.first {
+  margin-left: 0%;
+}

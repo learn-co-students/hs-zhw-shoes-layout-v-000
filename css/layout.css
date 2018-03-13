@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.row {
+  clear: both;
+  margin-top: 15px;
+}
 
+.row .col:last-child {
+  margin-right: 0;
+}
+
+.col {
+  float: left;
+  margin-right: 15px;
+}
+
+.col-2-3 {
+  width: -webkit-calc(((100% - 30px)/3) * 2 + 15px);
+  width: -moz-calc(((100% - 30px)/3) * 2 + 15px);
+  width: -o-calc(((100% - 30px)/3) * 2 + 15px);
+}
+.col-1-3 {
+  width: -webkit-calc((100% - 30px)/3);
+  width: -moz-calc((100% - 30px)/3);
+  width: -o-calc((100% - 30px)/3);
+}

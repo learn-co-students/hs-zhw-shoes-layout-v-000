@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+section {
+    margin: 1%
+}
 
+.box-2 {
+    float: left;
+    width: 64.66%;
+    
+}
+
+.box-3 {
+    float: left;
+    width: 31.33%;
+    
+}
+
+.box-4 {
+    float: left;
+    width: 31.33%;
+    
+}
+
+.box-5 {
+    float: left;
+    width: 31.33%;
+    
+}
+
+.box-6 {
+    float: right;
+    width: 31.33%;
+    
+}
+
+.border_right {
+    width: 33.33%;
+    float: left;
+}

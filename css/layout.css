@@ -18,6 +18,14 @@
   line-height: 0;
 }
 
+.spacer {
+  content: ".";
+  visibility: hidden;
+  font-size:200%;
+  height: 4px;
+  line-height: 3px;
+}
+
 .clear {
   clear: both;
 }

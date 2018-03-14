@@ -9,6 +9,12 @@
   -moz-box-sizing: border-box;
 }
 
+/*///// MEDIA STYLE ////*/
+
+img {
+  max-width: 100%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +29,34 @@
 }
 
 /* Posititoning Classes */
+
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%; 
+}
+
+.col-3 {
+  
+}
+
+[class*="col-"] {
+  margin: 0 0 2% 2%;
+}
+
+.first {
+  margin: 0 0 2% 0;
+  clear: both;
+}
+  
+
+
+
+
 
 

@@ -114,17 +114,60 @@ iframe {
 	box-shadow: 0 3px 10px #333;
 }
 
+#grass {
+	width:66%;
+	float:left;
+	height:100%;
+}
+
+
+.clearfix:after {
+	content:".";
+	display:block;
+	clear:both;
+	width:0;
+	line-height:0;
+
+}
+
+.archive {
+	width:32%;
+	float:left;
+	display;inline;
+	margin-left: 18px;
+	height:100%;
+}
+#grassy-text {
+	clear:both;
+}
+
+
+
+.shoes {
+	width:31%;
+	margin:10px 10px 10px;
+	display:inline;
+	clear:left;
+	float:right;
+}
+
+
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
 	margin: 0 0 10px;
+	padding-top: 10px;
 }
 
 .border_right {
+	width:33%;
+	padding-left:17px;
 	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+	float: left;
 }
+
+
 
 .thumbs_up {
 	background: white url(../images/thumbs_up.jpg) no-repeat top right;
@@ -268,7 +311,9 @@ iframe {
 
 #details {
 	clear:both;
+	float:left;
 	padding: 20px 10px;
+	width:100%;
 	/* gradient */
 	background: rgb(229,229,229); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */

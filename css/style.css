@@ -114,6 +114,8 @@ iframe {
 	box-shadow: 0 3px 10px #333;
 }
 
+
+
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
@@ -124,6 +126,8 @@ iframe {
 .border_right {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+	float: left;
+	width: 33.333%;
 }
 
 .thumbs_up {
@@ -303,3 +307,40 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+#col-1 {
+	width: 66%;
+	float: left;
+	background: #fff;
+	margin-right: 2%;
+	padding-bottom: 40px;
+}
+
+#col-2 {
+	width: 32%;
+	float: left;
+	background: #fff;
+	margin-bottom: 2%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+#col-3 {
+	width: 32%;
+	float: left;
+}
+
+#col-31 {
+	width: 32%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+

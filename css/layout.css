@@ -9,6 +9,30 @@
   -moz-box-sizing: border-box;
 }
 
+
+
+.col-1 {
+  float: left;
+  width: 66%;
+  background: #FFF;
+  }
+
+
+.col-2 {
+  float: left;
+  width: 33%;
+  background: #FFF;
+  }
+
+
+  .col-3 {
+  background: #FFF;
+  }
+
+  .text-pad{
+    padding: 20px;
+  }
+
 .clearfix:after {
   content: ".";
   display: block;

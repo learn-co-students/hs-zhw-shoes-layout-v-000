@@ -2,7 +2,7 @@
 
 * {
   margin:0;
-  padding:0;
+  padding: 0;
   border:0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -25,3 +25,31 @@
 /* Posititoning Classes */
 
 
+.col-1{
+  float:left;
+  width:32%;
+}
+
+.col-2{
+  float:left;
+  width: 66%
+}
+
+.col-3{
+  width: 100%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.sale {
+  padding-bottom: 40px;
+}
+#featured {
+  margin-bottom: 20px;
+}

@@ -24,4 +24,58 @@
 
 /* Posititoning Classes */
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto; 
+}
 
+[class*="spacing"] {
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 12px;
+}
+
+
+#featured.milk_text {
+  margin-top: 25px
+}
+
+#left.shadow {
+  float: left;
+  width: 66%
+}
+
+#right.shadow {
+  float: right;
+  width: 32%;
+  padding-bottom: 26px;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#ladybug.shadow {
+  float: left;
+  width: 32%;
+}
+
+#skate.shadow {
+  float: left;
+  width: 32%;
+}
+
+#heels.shadow {
+  float: right;
+  width: 32%;
+}
+
+#contact.border_right {
+  float: left;
+  width: 34%
+}
+
+#links.border_right {
+  float: left;
+  width: 34%
+}

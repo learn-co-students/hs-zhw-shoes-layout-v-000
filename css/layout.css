@@ -1,7 +1,7 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
+  
   padding:0;
   border:0;
   box-sizing: border-box;
@@ -20,8 +20,48 @@
 
 .clear {
   clear: both;
+
 }
 
-/* Posititoning Classes */
+.col-1 {
+  float: left;
+  width: 32%;
+  position: relative;
+
+
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  position: relative;
+}
+
+.col-3 {
+width: 100%;
+
+}
+
+[class*="col-"] {
+margin-left: 2%;
+margin-bottom: 0%;
+}
+
+.first {
+  margin-left: 0%;
+
+}
+
+/* Posititoning Classes 
+Write the necessary CSS in the css/layout.css file to create classes 
+for the different possible columns to make up a three column grid. 
+One column should take up one-third, another two-thirds, and another 
+all three-thirds. Make use of clearfix and clear to avoid issues.
+
+Featured Brands -  2/3
+Shoe Archice - 1/3
+Deals - All 3/3 of it underneath others. 
+
+*/
 
 

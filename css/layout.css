@@ -24,4 +24,25 @@
 
 /* Posititoning Classes */
 
+#featured {
+ float: left;
+ width: 66%;
+ margin: 1% 1% 1% 0;
+}
 
+#archive {
+  float: left;
+  width: 32%;
+  margin: 1% 0% 1% 1%;
+}
+
+.deals {
+float: left;
+width: 32%;
+margin: 1% 0% 1% 2%;
+}
+
+.first {
+  clear: left;
+  margin-left: 0;
+}

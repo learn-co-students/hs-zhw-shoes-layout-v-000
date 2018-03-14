@@ -302,4 +302,79 @@ footer {
 		text-decoration: underline;
 	}
 
+
+
+/***********Columns*************/
+
+.col-1 {
+	float:left;
+	width:31%;
+	
+}
+
+.col-2 {
+	float:left;
+	width:60%;
+}
+
+.col-3 {
+	background: #ccc;
+	
+}
+
+.clearfix:after {
+	content:".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height:0;
+	line-height:0;
+}
+
+
+#line {
+	display:inline-block;
+}
+
+
+
+section {
+	margin-bottom:20px;
+	padding:20px;
+}
+
+.shape {
+	margin:6px;
+}
+
+[class*="col-"] {
+	margin-left: .6%;
+}
+
+
+* {
+	-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing:border-box
+	    
+}
 /* code examples copyright Jonathan Grover 2012 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

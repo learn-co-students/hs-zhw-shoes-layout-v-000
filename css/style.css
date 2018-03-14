@@ -21,7 +21,12 @@ body {
 	background: url(../images/handmadepaper.png);
 }
 
-h2, h3 {
+h2 {
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+h3 {
 	margin-bottom: 5px;
 }
 
@@ -109,10 +114,52 @@ iframe {
 	width: 960px;
 	margin: 0 auto;
 }
-
+/*
 .shadow {
 	box-shadow: 0 3px 10px #333;
 }
+*/
+#bak {
+	background: white;
+}
+
+#back1 {
+	background: white;
+	width: 32%;
+	display: block;
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
+
+
+}
+
+#back2 {
+	background: white;
+	float: left;
+	width: 32%;
+	display: block;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#back3 {
+	background: white;
+	float: left;
+	width: 32%;
+	display: block;
+	margin-top: 2%;
+}
+
+/*
+[id*="back"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin-left: 0%;
+}
+*/
 
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
@@ -252,11 +299,47 @@ iframe {
 	padding: 30px 0;
 }
 
+#stack {
+	float: right;
+	width: 32%;
+	display: block;
+  background: white;
+  max-height: 594px;
+}
+
+#stick {
+	float: left;
+	display: block;
+	width: 66%;
+	background: white;
+}
+
+#move2 {
+	float: left;
+	display: block;
+	width: 32%;
+
+}
+
+#move1 {
+	float: left;
+	display: block;
+	width: 32%;
+	
+}
+
+#move {
+	float: left;
+	display: block;
+	width: 32%;
+	margin: 0 2%;
+}
+
 	/********** Sections **********/
 
 	section {
 		padding: 20px;
-		background: white;
+
 	}
 
 	section a {
@@ -267,7 +350,7 @@ iframe {
 /********** Details **********/
 
 #details {
-	clear:both;
+	/* clear:both; */
 	padding: 20px 10px;
 	/* gradient */
 	background: rgb(229,229,229); /* Old browsers */

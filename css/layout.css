@@ -18,10 +18,36 @@
   line-height: 0;
 }
 
+
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 66%;
+  height: auto
+}
 
+.col-2 {
+  display: block;
+  overflow: hidden;
+  height: auto;
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 16px;
+}
+
+.col-3 {
+  float: left;
+  width: 32%;
+}
+
+.col-4 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}

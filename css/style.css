@@ -111,7 +111,35 @@ iframe {
 }
 
 .shadow {
-	box-shadow: 0 3px 10px #333;
+	box-shadow: 0 3px 5px #333;
+}
+
+.featured {
+
+}
+
+.col-1 {
+	width: 35%;
+	float: left;
+	margin-top: 20px;
+}
+
+
+.col-2 {
+	width: 31%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.col-3 {
+	width: 31%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	position: relative;
+
 }
 
 .milk_text {
@@ -301,5 +329,9 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+
+
+
 
 /* code examples copyright Jonathan Grover 2012 */

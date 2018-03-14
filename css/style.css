@@ -302,4 +302,30 @@ footer {
 		text-decoration: underline;
 	}
 
+	/********** Columns **********/
+
+	.col-3 {
+		width: 100%;
+	}
+
+	.col-2 {
+		width: 66%;
+		float: left;
+		margin-right: 2%;
+		margin-bottom: 1%;
+	}
+
+	.col-1 {
+		width: 32%;
+		margin-right: 2%;
+		margin-bottom: 1%;
+		float: left;
+	}
+
+	.align-right {
+		float: right;
+		margin-right: 0;
+	}
+
+
 /* code examples copyright Jonathan Grover 2012 */

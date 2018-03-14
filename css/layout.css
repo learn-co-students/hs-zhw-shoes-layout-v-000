@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+#feature {
+  float: left;
+  width: 66%;
+}
 
+#sidebar {
+  float: right;
+  width: 32%;
+}
+
+.deals {
+  width: 32%;
+  box-shadow: 0 3px 10px #333;
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+#dealsfirst {
+  margin-left: 0%;
+  clear: both;
+}
+
+.border_right {
+  width: 32%;
+  float: left;
+  display: inline-block;
+  margin-left: 2%
+  }
+
+  #boder_right_first {
+    margin-left: 0%;
+  }

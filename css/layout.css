@@ -20,8 +20,33 @@
 
 .clear {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
 
+.col-1 {
+  vertical-align: top;
+  float: left;
+  width: 32%;
+  margin-top: 2%;
+}
 
+.col-2{
+  vertical-align: top;
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  vertical-align: top;
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

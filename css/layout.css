@@ -1,9 +1,9 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin:20px;
+  padding:20px;
+  border:20px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -23,5 +23,31 @@
 }
 
 /* Posititoning Classes */
+/*done*/
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
 
+.col-1{
+  float:left;
+  width: 64%;
+}
 
+.col-2{
+  float:left;
+  width: 96%;
+}
+
+.col-3{
+  float:left;
+  width: 96%
+}
+
+[class*="col-"]{
+    margin-left: 2%
+  }
+
+.first{
+  margin-left: 0%
+}

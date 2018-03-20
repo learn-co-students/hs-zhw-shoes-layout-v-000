@@ -40,7 +40,7 @@
 
 .col-2{
   float: left;
-  width: 66%
+  width: 65%
 }
 
 .col-3{
@@ -48,5 +48,18 @@
 }
 
 [class*="col-"]{
-  margin-left: 2px;
+  margin-left: 1%;
+}
+
+.first{
+  margin-left: 0%;
+}
+
+section{
+  margin-bottom: 0%;
+}
+
+.bottom_margin{
+  margin-bottom: 1%;
+  padding-bottom: 0.5%;
 }

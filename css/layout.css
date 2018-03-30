@@ -20,11 +20,15 @@
 
 .clear {
   clear: both;
+  margin-bottom: 2%
 }
 
 /* Posititoning Classes */
 
 /* ******* Layout ********** */
+
+
+
 
 .two-thirds {
   float: left;
@@ -36,8 +40,11 @@
   width: 32%;
 }
 
-section {
-  margin: 1%;
+[class*="-third"] {
+  margin-left: 2%;
+}
+.first {
+  margin-left: 0;
 }
 
 * {

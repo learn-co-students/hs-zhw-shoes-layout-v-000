@@ -303,25 +303,3 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
-
-/* ******* Layout ********** */
-
-.two-thirds {
-  float: left;
-  width: 64%;
-}
-
-.one-third {
-  float: left;
-  width: 31%;
-}
-
-section {
-  margin: 1%;
-}
-
-* {
-  box-sizing: border-box;
-  box-sizing: -webkit-border-box;
-  box-sizing: -moz-border-box;
-}

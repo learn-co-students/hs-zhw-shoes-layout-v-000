@@ -29,22 +29,14 @@
   margin-bottom: 2%
 }
 
-.col-4 {
-  width: 32%;
-  float: left;
-  margin-left: 2%
+[class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
 
-}
-
-.col-4: first-child{
-  margin-left: 0;
-}
-
-.col-8 {width: 66%;
-  float: left;
-  margin-left: 2%}
-
-
-  .col-8: first-child{
+  [class*="col-"]:first-child {
     margin-left: 0;
   }
+
+  .col-4 { width: 32%; }
+  .col-8 { width: 66%; }

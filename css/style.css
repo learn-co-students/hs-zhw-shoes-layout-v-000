@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -301,5 +301,82 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+/********** Columns **********/
+
+.col-1 {
+  float: left;
+  width: 31%;
+  background: #fff;
+	margin-left: 2%;
+	height: 490px;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #fff;
+	height: 490px
+}
+
+.col-3 {
+  background: #ccc;
+}
+
+ul {
+	font-size: 13px;
+}
+
+.col-1a {
+  float: left;
+  width: 32%;
+  background: #fff;
+	margin-top: 2%;
+	height: 250px;
+}
+
+.col-1b {
+  float: left;
+  width: 32%;
+  background: #fff;
+	margin: 2%;
+	height: 250px;
+}
+
+.col-1c {
+  float: left;
+  width: 31%;
+  background: #fff;
+	margin-top: 2%;
+	height: 250px;
+}
+
+figcaption {
+	font-size: 10px;
+}
+
+.col-1a p {
+	font-size: 10px;
+}
+
+.col-1b p {
+	font-size: 10px;
+}
+
+.col-1c p {
+	font-size: 10px;
+}
+
+.border_right {
+	float: left;
+}
+
+.middle {
+	float: left;
+}
+
+.border_right p, a, address {
+	font-size: 10px;
+}
 
 /* code examples copyright Jonathan Grover 2012 */

@@ -22,6 +22,55 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-2 {
+  display:flex;
+  justify-content: space-between;
+}
+
+.container-3 {
+  display:flex;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 66%;
+  margin-bottom: 2%;
+
+}
+
+.box2 {
+  width: 32%;
+  margin-bottom: 2%;
+}
+
+.box3 {
+  width: 32%;
+}
+
+.box4 {
+  width: 32%;
+}
+
+.box5 {
+  width: 32%;
+}
+
+.box6 {
+  width: 32%;
+}
+
+.box7 {
+  width: 32%;
+}
+
+.box8 {
+  width: 32%;
+}
+
 
 

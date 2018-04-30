@@ -24,4 +24,49 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 33%;
+  font-size: 97%;
+  /*margin-bottom: 1em;*/
+}
 
+.col-2 {
+  float: left;
+  width: 65%;
+  /*margin-right: 1em;*/
+  /*margin-bottom: 1em;*/
+}
+
+.col-3 {
+  /*border: 5px solid;*/
+  float: left;
+  width: 32%;
+  font-size: 97%;
+  /*margin-left: 1em;*/
+  /*margin-bottom: 1em;*/
+}
+
+.col-4 {
+  /*border: 5px solid;*/
+  float: left;
+  width: 32%;
+  font-size: 97%;
+  /*padding-left: 1em;*/
+  /*margin-bottom: 1em;*/
+}
+
+.deals {
+  float: left;
+}
+[class*="col-"] {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.first {
+  margin-left: 0em;
+}
+
+/*#details {
+  padding-left: 1em;
+}*/

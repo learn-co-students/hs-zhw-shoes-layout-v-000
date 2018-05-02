@@ -24,4 +24,48 @@
 
 /* Posititoning Classes */
 
+.shoes-archive {
+    width: 100%;
+}
+ #archive {
+     float: right;
+     display: inline-block;
+ }
 
+ #summer-grass {
+     display: inline-block;
+ }
+
+ #lady-bug {
+     float: left;
+     display: inline-block;
+  }
+
+.shoe-images-info {
+    margin-top: 12px;
+    width: 100%;
+}
+
+#skate-shoes{
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+ #heels {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+ .col-1 {
+     width: 32.6%;
+ }
+
+.col-2 {
+    width: 66.3%;
+}
+
+.col-3 {
+ display: block;
+}

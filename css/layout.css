@@ -33,5 +33,14 @@
 .col-1 {
   float: left;
   width: 32%;
-  margin-left: 1%;
+  margin-left: 1%
+}
+
+#archive, #featured {
+  height: 595px;
+  overflow: auto;
+}
+
+#secondrow {
+  margin-bottom: 20px;
 }

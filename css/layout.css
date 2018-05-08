@@ -23,5 +23,37 @@
 }
 
 /* Posititoning Classes */
+.col-wrapper {
+  width: 100%;
+}
 
+.col-1 {
+  float: left;
+  width: 66%;
+  margin-right: 1%;
+  height: 100%;
+}
 
+.col-2 {
+  height: 100%;
+  flex: 1;
+  float: left;
+  width: 32%;
+  margin: 1%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.last {
+  margin-right: 0%;
+}
+
+#margin-fix {
+  margin-top: 0%;
+}
+
+#brands-formatting {
+  margin-top: 15px;
+}

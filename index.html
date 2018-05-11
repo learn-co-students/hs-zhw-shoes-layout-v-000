@@ -52,12 +52,12 @@
 		</header>
 		<!--/////////// Ends Header //////////-->
 
-		<div id="wood" class="clearfix"><!-- start wood texture -->
+		<div id="wood" ><!-- start wood texture -->
 
-			<div class="wrapper">
+			<div class="wrapper clearfix">  <!-- clearfix keeps "wood" behind all the sections -->
 
 				<!--/////////// Sale //////////-->
-				<section class="shadow col-3">
+				<section class="shadow col-3 first">
 						<figure>
 							<img src="images/holidays_shoe_sale.jpg" alt="Picture of kids' shoes on the steps">
 							<figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -74,8 +74,8 @@
 				<h2 class="milk_text">Featured Brands</h2>
 
 				<!--/////////// Featured Brands //////////-->
-				<div class="wrapper">
-				<section class="shadow col-2 first">
+				<div class="wrapper clearfix">	<!-- add wrapper with clearfix to keep featured brand and archives on same row with same height-->
+					<section class="shadow col-2 first">
 						<figure>
 							<img src="images/shoes_on_grass.jpg" alt="Photo of shoes in the wet grass">
 							<figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -87,11 +87,12 @@
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</section>
+					</section>
+
 				<!--/////////// Ends Featured Brands //////////-->
 
 				<!--/////////// Archive List //////////-->
-				<section class="shadow col-1">
+					<section class="shadow col-1">
 						<h2>Shoe Archive</h2>
 						<h3><a href="#">2014</a></h3>
 						<ul>
@@ -132,8 +133,8 @@
 							<li><a href="#">Jul</a></li>
 							<li><a href="#">Jun</a></li>
 						</ul>
-				</section>
-			</div>
+					</section>
+				</div> <!-- end wrapper -->
 				<!--/////////// End Archive List //////////-->
 
 				<!--/////////// Deals //////////-->

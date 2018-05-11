@@ -25,11 +25,11 @@
 /* Posititoning Classes */
 .col-1 {
   float: left;
-  width: 31%;
+  width: 32%;
 }
 .col-2 {
   float: left;
-  width: 65%;
+  width: 66%;
 }
 .col-3 {
   /* block level - so will take up 100% by default */

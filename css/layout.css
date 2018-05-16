@@ -18,10 +18,52 @@
   line-height: 0;
 }
 
+
+
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
+.col-1{
+  width: 100%;
+}
 
+.col-2{
+  width: 65%;
+  margin: 1%;
+  margin-top: 0;
+  box-sizing: border-box;
+  float: left;
+  height: auto;
+  display: inline-block;
+}
 
+.side-col{
+    width: 31.5%;
+    margin: 1%;
+    margin-top: 0;
+    float: left;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 18px;
+
+}
+
+.col-3{
+  width: 31.5%;
+  margin: 1%;
+  margin-top: 10px;
+  float: left;
+  height: auto;
+  box-sizing: border-box;
+
+}
+
+.first{
+  margin-left: 0px;
+}
+
+.row{
+  margin-top: 50%;
+}

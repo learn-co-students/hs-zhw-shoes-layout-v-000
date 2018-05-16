@@ -36,15 +36,28 @@
   box-sizing: border-box;
   float: left;
   height: auto;
+  display: inline-block;
+}
+
+.side-col{
+    width: 31.5%;
+    margin: 1%;
+    margin-top: 0;
+    float: left;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 18px;
+
 }
 
 .col-3{
   width: 31.5%;
   margin: 1%;
-  margin-top: 0;
+  margin-top: 10px;
   float: left;
-  box-sizing: border-box;
   height: auto;
+  box-sizing: border-box;
+
 }
 
 .first{
@@ -52,8 +65,5 @@
 }
 
 .row{
-  height: auto;
-  /*display: inline;
-  clear: both;
-  margin-bottom: 20%;*/
+  margin-top: 50%;
 }

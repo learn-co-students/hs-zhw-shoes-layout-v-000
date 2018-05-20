@@ -23,5 +23,12 @@
 }
 
 /* Posititoning Classes */
-
-
+.shadow {
+margin: 1%;
+}
+#featured{
+  width: 33.33%;
+}
+.shadow{
+  margin: 1%;
+}

@@ -11,8 +11,20 @@
 
 @media only screen and (max-width: 1024px) {
 
-	.wrapper {
-		width: 90%;
+	.wrapper{
+		width: auto;
+		align-self: center;
+		align-content: center;
+		align-items: center;
+		float: none;
+	}
+
+	.sale, .featured, .archive, .deal, #details .wrapper div, .wrapper h2, #logo .wrapper{
+		width: auto;
+		margin-right: 10px;
+		margin-left: 10px;
+		height: fit-content;
+		float: none;
 	}
 
 	#social {

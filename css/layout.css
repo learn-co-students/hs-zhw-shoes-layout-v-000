@@ -34,9 +34,3 @@
 .col-3 {
   width: 1%;
 }
-[class*="col-"]{
-  margin-left: 1.2%;
-}
-.first {
-  margin-left: 0%;
-}

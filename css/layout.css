@@ -24,4 +24,6 @@
 
 /* Posititoning Classes */
 
-
+#social {
+  position: absolute;
+}

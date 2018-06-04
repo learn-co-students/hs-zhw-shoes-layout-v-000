@@ -22,6 +22,34 @@
   clear: both;
 }
 
+.milk_text.feature {
+  margin: 15px 0 15px;
+}
+
+.deals {
+  margin: 20px 0 20px;
+}
+
 /* Posititoning Classes */
 
+.col-1 {
+  width: 32%;
+  float: left;
+}
 
+.col-2 {
+  width: 66%;
+  float: left;
+}
+
+.col-3 {
+  float: left;
+}
+
+[class*="col-"] { 
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0;
+}

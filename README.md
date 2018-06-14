@@ -37,3 +37,6 @@ training, you are expected to use your Google-Fu to complete the challenge!
 
 * [CSS Columns](https://www.w3schools.com/css/css3_multiple_columns.asp)
 * [Clearfix][Clearfix]
+
+
+[Clearfix]: https://www.w3schools.com/howto/howto_css_clearfix.asp

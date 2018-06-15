@@ -1,17 +1,11 @@
-tags:
-  - layout
-  - positioning
-  - float
-  - display
-  - column structure
-  - clearfix
-  - clear
-  - kids
 languages:
   - html
   - css
-type:
-  - lab
-tests:
- - green_onion
-level: 2
+tags:
+  - dev tools
+  - developer tools
+  - css selectors
+  - fonts
+  - typography
+  - color
+resources: 4

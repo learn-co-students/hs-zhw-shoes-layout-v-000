@@ -23,5 +23,45 @@
 }
 
 /* Posititoning Classes */
+#featured {
+  display: block;
+  overflow:auto;
+  width: 100%;
+}
+
+.featured-col-1 {
+  float:left;
+  width:635px;
+  margin-right:5px;
+  padding: 0px;
+}
+
+.featured-col-2 {
+  float:left;
+  padding:0px;
+  margin-left: 5px;
+  margin-right: 0px;
+  width: 315px;
+}
+
+.cols-1 {
+  float: left;
+  width:310px;
+  margin: 10px 5px 10px 0px;
+  clear:both;
+}
+
+.cols-2 {
+  float:left;
+  width: 315px;
+  margin: 10px 0px 10px 5px;  
+}
+
+.cols-3 {
+  float:left;
+  width: 315px;
+  margin: 10px 0px 10px 10px;
+  overflow: auto;
+}
 
 

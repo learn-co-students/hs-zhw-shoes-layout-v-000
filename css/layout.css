@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+.col-large {
+  /* display: inline; */
+  float: left;
+  width: 65%;
+  column-gap: 2%
+}
 
+.col-1 {
+  /* display: inline; */
+  float: left;
+  width: 32.666%
+}
+
+.col-2 {
+  /* display: inline; */
+  float: center
+  width: 32.666%
+}
+
+.col-3 {
+  /* display: inline; */
+  float: right;
+  width: 32%
+  margin: 5px;
+}
+
+/*.columns {
+  column-count: 3;
+}*/

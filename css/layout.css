@@ -24,4 +24,29 @@
 
 /* Posititoning Classes */
 
+#brands {
+  float: left;
+  width: 64%;
+  margin: 1%;
+}
+
+#archive {
+  float: left;
+  width: 31%;
+  margin: 1%;
+}
+
+.deals {
+  float: left;
+  width: 31%;
+  margin: 1%;
+}
+
+.border_right {
+  float: left;
+  width: 30%;
+  margin: 1%;
+}
+
+
 

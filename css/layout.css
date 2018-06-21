@@ -24,4 +24,26 @@
 
 /* Posititoning Classes */
 
+.col-4{
+  width: 30%
+}
 
+.col-8{
+  width: 62%
+}
+
+.row{
+clear: both;
+display: block;
+}
+
+.row:after {
+clear: both;
+display: block;
+}
+
+[class*="col-"]{
+  float:left;
+  margin-left: 2%;
+  margin-bottom: 2%
+}

@@ -9,6 +9,22 @@
   -moz-box-sizing: border-box;
 }
 
+.col1 {
+  width: 32%;
+  float: left;
+  margin: 0px 5px;
+}
+
+.col2 {
+  width: 65%;
+  float: left;
+  margin: 0px 5px;
+}
+
+.black1 {
+  display: block;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -22,6 +38,9 @@
   clear: both;
 }
 
+.shoe-a {
+  height: 588px;
+  margin: 0px 5px 10px;
+}
+
 /* Posititoning Classes */
-
-

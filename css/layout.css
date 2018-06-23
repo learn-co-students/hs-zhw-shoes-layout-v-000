@@ -22,6 +22,39 @@
   clear: both;
 }
 
-/* Posititoning Classes */
+/* Positoning Classes */
 
+
+
+.col-2 {
+  float: left;
+  width: 65.5%;
+  margin-right: .5%;
+}
+
+
+.col-1 {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  margin: 7px;
+  text-align: center;
+}
+
+
+.first {
+  margin-left: 0%
+}
+
+
+#archive {
+  text-align: left;
+  padding: 32px;
+  margin: 0px 8px 8px;
+  width: 30;
+}
+
+.second-level {
+  padding: 3px 0px 3px 0px;
+}
 

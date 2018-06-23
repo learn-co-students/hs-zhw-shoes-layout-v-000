@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 32%;
+}
 
+.col-2 {
+  width: 66%;
+}
+
+.col-3 {
+ width: 100%
+}
+
+*[class*="col-"] {
+  margin-left: 2%;
+  float: left;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+.left-border {
+  padding-left: 15px ;
+  border-left: 1px solid #ccc;
+}
+
+.archive-fix {
+  padding-bottom: 15px;
+}

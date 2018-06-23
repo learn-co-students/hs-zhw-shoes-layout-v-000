@@ -20,44 +20,28 @@
 
 .clearfix {
   clear: both;
-  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
 
-section:first-child {         /* Left most column will have margin-left: 2%; removed */
+section:first-child {
   margin-left: 0;
 }
 
-section:first {               /* All first sections push down on the lower elements */
+
+.row {
   margin-bottom: 2%;
 }
 
-
-[class*="col-"] {             /* Pushes elements to the left */
+[class*="col-"] {
   float: left;
   margin-left: 2%;
 }
 
 .col-type-1 {
   width: 66%;
-  overflow: scroll;
 }
 
 .col-type-2 {
   width: 32%;
-  overflow: scroll;
-}
-
-.col-type-3 {
-  width: 30%;
-  overflow: hidden;
-}
-
-.col-type-4 {
-  overflow: scroll;
-}
-
-.wrapper {               /* Makes background visible even when shrunk to a small size*/
-  overflow: scroll;
 }

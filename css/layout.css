@@ -29,44 +29,47 @@
 }
 
 .col-1 {
-  float: left;
   width: 32%;
 }
 
 .col-2 {
-  float: left;
   width: 66%;
 }
 
 [class*="col-"] {
   margin-left: 2%;
+  float: left;
 }
 
-.first {
+[class*="col-"]:first-child {
   margin-left: 0;
 }
 
-.sample-shoes {
-  margin: 2%;
-}
-
-.container {
+/* .table {
   display: table;
-  width: 100%;
-}
-
-.container section {
-  display: table-cell;
-}
-
-.archive {
-  height: auto;
-}
-
-/* .col-3 {
-  width: 100%;
+  border-spacing: 18px;
+  margin-top: -18px;
 } */
 
-.milk-text {
-  margin-top: 10px;
-}
+.row {
+  clear: both;
+  margin-bottom: 2%;
+  /* display: table-row;
+  width: 100%;
+  height: auto;
+  margin-top: -18px;
+  margin: 50 auto; */
+ }
+
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+
+/* .row section {
+  display: table-cell;
+} */

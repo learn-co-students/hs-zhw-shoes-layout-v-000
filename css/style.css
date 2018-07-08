@@ -303,3 +303,47 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+
+/* my styles */
+.col-1 {
+  float: left;
+  width: 64%;
+  height: 589px
+}
+
+.col-2 {
+  float: right;
+  width: 32%;
+  height: 100%;
+}
+
+.col-1a {
+  clear: both;
+  display: inline;
+  float: left;
+  width: 32%;
+}
+.col-2a {
+  display: inline;
+  width: 32%;
+}
+.col-3 {
+  display: inline;
+  float: right;
+  width: 32%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+#main {
+  background: gray;
+  margin-bottom: 20px;
+}
+

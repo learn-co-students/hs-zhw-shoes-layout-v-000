@@ -2,8 +2,55 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
+*{
+  box-sizing: border-box;
+}
+
+
+
+.col-med{
+  float: left;
+  width: 66%;
+  height: 100%;
+}
+
+.col-smlsa{
+  float: left;
+  width: 32%;
+  height: 100%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first{
+  margin-left: 0%;
+}
+
+
+.col-sml{
+  float: left;
+  width: 32%;
+}
+
+.deals{
+  margin-top: 20px;
+}
+
+.ribbon{
+  -webkit-column-count: 3;
+  -webkit-column-gap: 40px;
+  
+}
+/*.fbal{
+  display: flex;
+  width: 100%;
+}*/
+
+
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
 }

@@ -241,6 +241,7 @@ iframe {
   margin:0;
   display: inline-block;
   font-family: 'Elsie Swash Caps', cursive;
+  padding-top: 10px;
 }
 
 /********** Social Bar **********/

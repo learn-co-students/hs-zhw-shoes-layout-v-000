@@ -26,15 +26,15 @@
 
 #featured-pic {
   float: left;
-  width: 65%;
-  margin: 1px;
+  width: 66%;
   height: 36em;
 }
 
-#right {
-  float: right;
+#archive {
+  float: left;
   width: 32%;
   height: 36em;
+  margin-left: 2%
 }
 #col-1 {
   float: left;
@@ -48,7 +48,7 @@
 
 #col-3 {
   width: 32%;
-  float: right
+  float: left;
 }
 
 [id*="col-"] {
@@ -58,4 +58,10 @@
 
 .first {
   margin-left: 0%;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }

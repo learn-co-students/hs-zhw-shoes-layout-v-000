@@ -26,32 +26,34 @@
 
 #featured-pic {
   float: left;
-  width: 69.5%;
+  width: 65%;
   margin: 1px;
   height: 36em;
 }
 
 #right {
   float: right;
-  width: 29.5%;
+  width: 32%;
   height: 36em;
 }
 #col-1 {
   float: left;
-  width: 29.5%;
-  background: #ccc;
+  width: 32%;
 }
 
 #col-2 {
   float: left;
-  width: 29.5%;
+  width: 32%;
 }
 
 #col-3 {
+  width: 32%;
+  float: right
 }
 
 [id*="col-"] {
   margin-left: 2%;
+  margin-top: 2%;
 }
 
 .first {

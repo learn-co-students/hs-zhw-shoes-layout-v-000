@@ -24,4 +24,52 @@
 
 /* Posititoning Classes */
 
+#featured_brands {
+  float: left;
+  width: 66%;
+  /*padding-right: 20px;*/
+  margin-right: 1%;
+}
 
+#archive_list {
+  float: right;
+  width: 32%;
+  padding-left: 20px;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+#deals #lady-bugs {
+  margin-right: 2%;
+}
+
+#deals #skaters {
+  margin-right: 2%;
+}
+
+#deals .bluestar_heels {
+  margin-right: 0;
+}
+
+#deals .shadow{
+  display: inline-block;
+  float: left;
+  width: 32%;
+}
+
+
+
+
+.wrapper .border_right {
+  display: inline-block;
+  width: 33%;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.wrapper .border_left {
+  display: inline-block;
+  width: 33%;
+  padding-left: 10px;
+  vertical-align: top;
+}

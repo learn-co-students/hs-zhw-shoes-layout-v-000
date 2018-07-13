@@ -17,6 +17,12 @@ img.verif_img {
 
 /********** Global **********/
 
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
   background: url(../images/handmadepaper.png);
 }
@@ -108,6 +114,12 @@ iframe {
 .wrapper {
   width: 960px;
   margin: 0 auto;
+	/* display: block; */
+	background: transparent;
+}
+
+.t-parent {
+	background: transparent;
 }
 
 .shadow {
@@ -121,6 +133,12 @@ iframe {
   margin: 0 0 10px;
 }
 
+.vapor_text {
+	color: transparent;
+	z-score: -1;
+	background: transparent;
+}
+
 .border_right {
   border-right: 1px dotted #ccc;
   padding-right: 20px;
@@ -132,6 +150,74 @@ iframe {
 
 .contact_form {
   height: 415px;
+}
+
+.col-1 {
+	float: right;
+	width: 32%;
+	/* background: transparent; */
+}
+
+.col-2{
+	float: left;
+	width: 66%;
+	background transparent;
+}
+
+.col-3{
+	background transparent;
+}
+
+.col-spacer {
+	float: left;
+	width: 2%;
+	background: transparent;
+	margin: 15px, 0, 0;
+
+	display: block;
+  visibility: hidden;
+}
+
+.col-1-oo-3 {
+	float: left;
+	width: 32%;
+	background: transparent;
+	margin: 15px, 0, 0;
+}
+
+.col-2-oo-3 {
+  float: left;
+  width: 32%; 
+  background: transparent;
+  margin: 15px, 0, 0;
+}
+
+.col-3-oo-3 {
+  float: right;
+  width: 32%;
+  background: transparent;
+  margin: 15px, 0, 0;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column-one-third-1 {
+    float: left;
+    width: 32%;
+    padding: 10px;
+}
+
+.one-half-right {
+	width: 50%;
+	float: right;
+	background: transparent;
+	margin: 15px, 2%, 0, 0;
+}
+
+.one-thrid {
+	width: 33.3333%
+	height: 33.333%
 }
 
 /********** Header **********/

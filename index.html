@@ -55,9 +55,8 @@
     <div id="wood" class="clearfix"><!-- start wood texture -->
 
       <div class="wrapper">
-
         <!--/////////// Sale //////////-->
-        <section class="shadow">
+					<section class="shadow">
           <figure>
             <img src="images/holidays_shoe_sale.jpg" alt="Picture of kids' shoes on the steps">
             <figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -71,10 +70,13 @@
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
         
-        <h2 class="milk_text">Featured Brands</h2>
-
+        <!-- Column 3 Filler -->
+				<!-- <p class="col-3 clearfix vaportext">filler text</p> -->
+				<h2 class="milk_text">Featured Brands</h2>
+				
         <!--/////////// Featured Brands //////////-->
-        <section class="shadow">
+        <div class="row clearfix">
+				<section class="shadow col-2">
           <figure>
             <img src="images/shoes_on_grass.jpg" alt="Photo of shoes in the wet grass">
             <figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -90,7 +92,7 @@
         <!--/////////// Ends Featured Brands //////////-->
         
         <!--/////////// Archive List //////////-->
-        <section class="shadow">
+        <section class="shadow col-1">
           <h2>Shoe Archive</h2>
           <h3><a href="#">2014</a></h3>
           <ul>
@@ -132,10 +134,12 @@
             <li><a href="#">Jun</a></li>
           </ul>
         </section>
+				</div> <!-- Close Featured Brands Row-->
         <!--/////////// End Archive List //////////-->
-
+			
+			<div class="row clearfix">
         <!--/////////// Deals //////////-->
-        <section class="shadow">
+        <section class="shadow col-1-oo-3">
           <figure>
             <img src="images/lady_bug_shoe.jpg" alt="Pair of Lady Bug Shoes">
             <figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -144,8 +148,10 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </section>
-
-        <section class="shadow">
+			
+				<div class="col-spacer"><p>.</p></div>
+	
+        <section class="shadow col-2-oo-3">
           <figure>
             <img src="images/skate_shoe.jpg" alt="Pair of Skater Shoes">
             <figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -155,9 +161,9 @@
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </section>
 
-        <section class="shadow">
+        <section class="shadow col-3-oo-3">
           <figure>
-            <img src="images/heel_3.jpg" alt="Picture of baby shoes">
+            <img src="images/heel_3.jpg" alt="Picture of heels">
             <figcaption>royalty free image from www.sxc.hu</figcaption>
           </figure>
           <h3>Bluestar Heels</h3>
@@ -166,9 +172,9 @@
         </section>
         <!--/////////// Ends Deals //////////-->
 
-      </div><!-- .wrapper -->
-
-    </div><!-- #wood -->
+      </div> <!-- .row -->
+			</div> <!-- .wrapper -->
+    </div> <!-- #wood -->
 
     <!--/////////// Details //////////-->
     <section id="details" class="clearfix">

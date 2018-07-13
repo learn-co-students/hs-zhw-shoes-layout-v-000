@@ -23,5 +23,11 @@
 }
 
 /* Posititoning Classes */
+section.row {
+	background: transparent;
+}
 
+section.shadow.col-1 {
+	background: #fff
+}
 

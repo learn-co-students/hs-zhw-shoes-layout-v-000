@@ -168,6 +168,17 @@ iframe {
 	background transparent;
 }
 
+.row-spacer {
+	float: left;
+	width: 100%;
+	height: 15px;
+	background: transparent;
+	margin: 0;
+
+	display: block;
+	visibility: hidden;
+}
+
 .col-spacer {
 	float: left;
 	width: 2%;
@@ -181,21 +192,21 @@ iframe {
 .col-1-oo-3 {
 	float: left;
 	width: 32%;
-	background: transparent;
+	/* background: transparent; */
 	margin: 15px, 0, 0;
 }
 
 .col-2-oo-3 {
   float: left;
   width: 32%; 
-  background: transparent;
+  /* background: transparent; */
   margin: 15px, 0, 0;
 }
 
 .col-3-oo-3 {
   float: right;
   width: 32%;
-  background: transparent;
+  /* background: transparent; */
   margin: 15px, 0, 0;
 }
 

@@ -9,6 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +24,19 @@
 }
 
 /* Posititoning Classes */
+.row{
+  clear:both;
+  margin-bottom: 2%;
+}
 
+.row:after {
+  content:".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
 
+[class*="col-"]:first-child {
+  margin-left: 0;
+}

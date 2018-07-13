@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+.container {
+  margin-bottom: 20px;
+}
+.wrapper #featured {
+  margin-top: 20px;
+  margin-right: 20px;
+  float: left;
+  width: 64.666%;
+  padding-bottom: 25px;
+}
 
+.wrapper #archive {
+  margin-top: 20px;
+  float: left;
+  width: 31.333%;
+}
+
+.wrapper #col-1 {
+  margin-top: 20px;
+  float: left;
+  width: 31.333%
+}
+.wrapper #col-2 {
+  margin: 20px;
+  float: left;
+  width: 31.333%
+}
+
+.wrapper #col-3 {
+  margin-top: 20px;
+  margin-left: 10 px;
+  float: left;
+  width: 31.333%
+}

@@ -1,10 +1,10 @@
-# ZHW Shoes Layout
+Done# ZHW Shoes Layout
 
 ## Objectives
 
 1. Develop HTML and CSS competency
 2. Practice visually interpreting HTML and CSS code from the rendered DOM
-3. Practice jumping into, and contributing to, an existing code base 
+3. Practice jumping into, and contributing to, an existing code base
 
 
 ## Introduction
@@ -26,10 +26,10 @@ and CSS has been updated:
 
 1. Open `index.html` in your browser to see what we have so far (most of the work is completed already)
 2. Write the necessary CSS in `css/layout.css` to create classes for a three column grid
-3. Update `index.html` to make use of your newly created CSS classes 
+3. Update `index.html` to make use of your newly created CSS classes
 4. Either provide sized tile classes, make use of [the clearfix hack][Clearfix] using `float` and `clear`, or use your own implementation to accurately fill the columns with content
 
-**Note:** This lab has less direction than previous labs. As programmers in 
+**Note:** This lab has less direction than previous labs. As programmers in
 training, you are expected to use your Google-Fu to complete the challenge!
 
 

@@ -302,22 +302,28 @@ footer a {
   text-decoration: underline;
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding:  0px 10px 10px;
-    height: 50em
+.column1{
+  column-count: 2;
+  overflow: hidden;
+  height: 600px;
+  padding-bottom: 10px;
 }
 
 
+.footer-details{
+  column-count: 3;
+}
 
+.left-column-big{
+  display: inline-block;
+}
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.shadow{
+  height: 598px;
 }
 
 
-
+.deals{
+  column-count: 3;
+}
 /* code examples copyright Jonathan Grover 2012 */

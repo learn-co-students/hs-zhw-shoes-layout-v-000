@@ -24,4 +24,33 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  margin-right: 2%;
+  width: 66%;
+  padding: 60px;
+}
 
+.col-2 {
+  float: left;
+  margin-right: 2%;
+  width: 29%;
+}
+
+.col-3 {
+  float: left;
+  margin-bottom: 2%;
+}
+
+[class*="col-"] {
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
+  margin-right: 2%;
+}
+
+.deal_wrapper {
+  padding: 5%;
+}

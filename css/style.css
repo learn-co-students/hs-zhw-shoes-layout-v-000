@@ -105,6 +105,29 @@ iframe {
   height: 353px;
 }
 
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+.row:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   height: 0;
+   line-height: 0;
+ }
+
 .wrapper {
   width: 960px;
   margin: 0 auto;
@@ -137,7 +160,7 @@ iframe {
 
 /********** Header **********/
 header {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   left: 0;
   width: 100%;

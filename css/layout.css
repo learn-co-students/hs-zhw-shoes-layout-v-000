@@ -24,4 +24,26 @@
 
 /* Posititoning Classes */
 
+section {
+  column-count: 1;
+  column-width: 50px;
+  column-fill: auto;
+  margin-bottom: 20px;
+}
 
+h3 {
+  column-span: all;
+}
+
+p  {
+  column-span: all;
+  clear: both;
+}
+
+h2 {
+  column-span: all;
+}
+
+li {
+  column-span: all;
+}

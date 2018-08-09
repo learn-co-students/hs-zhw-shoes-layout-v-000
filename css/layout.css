@@ -22,6 +22,58 @@
   clear: both;
 }
 
+[class*="-col"]{
+  margin-left: 2%;
+}
+
+.first{
+  margin-left: 0%;
+}
+
+.one-col{
+  float: left;
+  width: 32%;
+  block: inline;
+}
+
+.low-row{
+  margin-top: 15px;
+}
+
+.two-col{
+  float: left;
+  width: 66%;
+}
+
+.three-col{
+  width: 100%;
+}
+
+.list{
+  margin-top: 0px;
+}
+
+.first-row{
+  display: block;
+  /* height: 100%; */
+  height: 36em;
+}
+
+.border_right_last{
+  float: left;
+  width: 32%;
+}
+
+[class*="border_right"]{
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+
+
+
+
+
+
 /* Posititoning Classes */
-
-

@@ -252,6 +252,24 @@ a.gplus:active { background-position: -80px -80px; }
   padding: 30px 0;
 }
 
+/* Posititoning Classes */
+.col-1 {
+  width: 32%;
+  margin-left: 2%;
+  float: left;
+}
+ .col-2 {
+  width: 66%;
+  margin-left: 2%;
+  float: left;
+}
+ .first {
+  margin-left: 0;
+}
+ .wrapper {
+  margin-bottom: 5px;
+}
+
 /********** Sections **********/
 
 section {

@@ -24,4 +24,38 @@
 
 /* Posititoning Classes */
 
+/*h2 + div.two_columns {
+  column-count: 2;
+}*/
 
+div.two_columns::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.three_columns::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.two_columns section:nth-of-type(2).float_right {
+  float: right;
+}
+
+section.col-33 {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+section.col-66 {
+  float: left;
+  width: 66.66%;
+  padding: 20px;
+}
+
+div + div.three_columns {
+  columns: 3;
+}

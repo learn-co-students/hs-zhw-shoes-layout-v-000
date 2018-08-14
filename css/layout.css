@@ -29,34 +29,33 @@
   margin: 0 auto;
 }*/
 
-.wrapper section.shadow {
+section.shadow{
   box-shadow: unset;
 }
 
-#table-one {
+.table-one {
+  clear: both;
   margin: 0 0 2% 0 ;
-  background-color: yellow;
+}
+.table-one:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
 }
 
-div.wrapper #table-one .tb-left{
-  width: 635px;
-  margin: 0;
-  border: 2px solid red;
-  display: inline-block;
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
 }
 
-div.wrapper .tb-right{
-  width: 300px;
-  border: 2px solid blue;
-  margin: 0;
-  display: inline-block;
+[class*="col-"]:first-child {
+  margin-left: 0;
 }
 
-div#table-two.clearfix, section#details.clearfix .wrapper {
-  columns: 3;
-  background-color: green
-}
+.col-right{ width: 32%;}
+.col-left { width: 66%; padding: 0; margin-bottom: 0;}
 
-h2.milk-text {
- padding: 30px;
-}
+.col-right.dates {padding: 0; margin-bottom: 0;}

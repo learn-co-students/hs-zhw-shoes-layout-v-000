@@ -24,4 +24,39 @@
 
 /* Posititoning Classes */
 
+/*.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}*/
 
+.wrapper section.shadow {
+  box-shadow: unset;
+}
+
+#table-one {
+  margin: 0 0 2% 0 ;
+  background-color: yellow;
+}
+
+div.wrapper #table-one .tb-left{
+  width: 635px;
+  margin: 0;
+  border: 2px solid red;
+  display: inline-block;
+}
+
+div.wrapper .tb-right{
+  width: 300px;
+  border: 2px solid blue;
+  margin: 0;
+  display: inline-block;
+}
+
+div#table-two.clearfix, section#details.clearfix .wrapper {
+  columns: 3;
+  background-color: green
+}
+
+h2.milk-text {
+ padding: 30px;
+}

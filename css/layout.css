@@ -24,10 +24,6 @@
 
 /* Posititoning Classes */
 
-/*h2 + div.two_columns {
-  column-count: 2;
-}*/
-
 div.two_columns::after {
   content: "";
   clear: both;
@@ -42,13 +38,14 @@ div.three_columns::after {
 
 div.two_columns section:nth-of-type(2).float_right {
   float: right;
+  padding: 40px;
 }
 
-section.col-33 {
+/*section.col-30 {
   float: left;
-  width: 33.33%;
+  width: 30%;
   padding: 20px;
-}
+}*/
 
 section.col-66 {
   float: left;
@@ -57,5 +54,11 @@ section.col-66 {
 }
 
 div + div.three_columns {
-  columns: 3;
+  columns: 3 160px;
+}
+
+div.three_columns img {
+  float: left;
+  width: 80%;
+  padding: 5px;
 }

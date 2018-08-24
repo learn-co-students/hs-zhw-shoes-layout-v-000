@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+div.two_columns::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
+div.three_columns::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.two_columns section:nth-of-type(2).float_right {
+  float: right;
+  padding: 40px;
+}
+
+/*section.col-30 {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}*/
+
+section.col-66 {
+  float: left;
+  width: 66.66%;
+  padding: 20px;
+}
+
+div + div.three_columns {
+  columns: 3 160px;
+}
+
+div.three_columns img {
+  float: left;
+  width: 80%;
+  padding: 5px;
+}

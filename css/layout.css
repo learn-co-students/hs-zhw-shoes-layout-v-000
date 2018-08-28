@@ -23,5 +23,25 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+  width: 30%;
+  float: left;
+}
 
+ .col-2 {
+   width: 64%;
+   float: left;
+}
 
+ [class*="col-"] {
+    margin-left: 2%;
+}
+
+ .first {
+    margin-left: 2%;
+    margin-bottom: 4%;
+ }
+
+.deals {
+  clear: both;
+}

@@ -9,6 +9,11 @@
   -moz-box-sizing: border-box;
 }
 
+.clearfix {
+  clear :both;
+  margin-bottom: 2%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -18,27 +23,23 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
-}
-
 /* Posititoning Classes */
-#lady-bug{
-  float:left;
-  width:32%;
-  margin:1% 1% 1% 0%;
+.col-1{
+  float: left;
+  width: 32%;
 }
 
-#skate-shoe{
+.col-2{
   float:left;
-  width:31%;
-  margin:1%;
+  width: 66%;
 }
 
-#heel-3{
-  float:right;
-  width:32%;
-  margin:1% 0% 1% 0%;
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0;
 }
 
 * {

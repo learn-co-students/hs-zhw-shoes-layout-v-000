@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -15,7 +15,37 @@ img.verif_img {
   vertical-align: bottom;
 }
 
+.col-1 {
+  width: 31.833%;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 2%;
+}
+
+.col-2 {
+  width: 65.666%;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 2%;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.white_bg {
+  background: white;
+}
+
 /********** Global **********/
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background: url(../images/handmadepaper.png);
@@ -256,7 +286,7 @@ a.gplus:active { background-position: -80px -80px; }
 
 section {
   padding: 20px;
-  background: white;
+  margin-bottom: 20px;
 }
 
 section a {

@@ -25,21 +25,23 @@
 /* Posititoning Classes */
 .div {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: 3, 1fr;
+  /*100px 100px 100px;*/
   /*float: left;
   width: 66%;
   padding: 2px;*/
-}
 
+}
 .a {
   float: left;
-  width: 70%;
+  width: 65%;
   grid-column-start: 1;
+  /*white-space: nowrap;*/
 }
 
 .b {
   width: auto;
-  justify-content: end;
+display: inline;
 }
 
 .column {

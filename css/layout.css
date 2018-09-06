@@ -23,5 +23,29 @@
 }
 
 /* Posititoning Classes */
+.div {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  /*100px 100px 100px;*/
+  /*float: left;
+  width: 66%;
+  padding: 2px;*/
 
+}
+.a {
+  float: left;
+  width: 65%;
+  grid-column-start: 1;
+  /*white-space: nowrap;*/
+}
 
+.b {
+  width: auto;
+display: inline;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}

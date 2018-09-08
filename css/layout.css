@@ -1,9 +1,9 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin:10;
+  padding:10;
+  border:5;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -22,6 +22,56 @@
   clear: both;
 }
 
+.milk-text {
+  overflow: auto;
+}
+
 /* Posititoning Classes */
+.col-3a {
+  display: inline-block;
+  float: left;
+  width: 270px;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.col-3b {
+  display: inline-block;
+  float: left;
+  width: 270px;
+  position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: -28px;
+}
+
+.col-3c {
+  display: inline-block;
+  float: left;
+  width: 270px;
+  position: relative;
+  margin-right: 0px;
+  margin-left: 20px;
+  margin-top: -65px;
+}
 
 
+.col-2 {
+   float: right;
+   display: inline-block;
+   position: relative;
+   margin-top: -620px;
+   margin-bottom: 20px;
+   width: 280px;
+ }
+
+.col-1 {
+  float: left;
+  display: inline-block;
+  width: 560px;
+  position: relative;
+
+
+}

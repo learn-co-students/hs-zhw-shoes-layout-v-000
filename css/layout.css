@@ -31,7 +31,11 @@
   display: inline-block;
   float: left;
   width: 270px;
-  position: relative;  
+  position: relative;
+  
+  margin: 10px;
+  border: 5px;
+
 }
 
 .col-3b {

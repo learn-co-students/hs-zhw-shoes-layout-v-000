@@ -1,13 +1,15 @@
 /********** Fixes **********/
 
 * {
-  margin:20px;
-  padding:20px;
-  border:20px;
+  margin:0px;
+  padding:0px;
+  border:0px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
+
 
 .clearfix:after {
   content: ".";

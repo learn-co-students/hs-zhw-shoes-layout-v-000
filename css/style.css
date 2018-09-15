@@ -257,6 +257,7 @@ a.gplus:active { background-position: -80px -80px; }
 section {
   padding: 20px;
   background: white;
+  margin-bottom: 20px;
 }
 
 section a {
@@ -303,3 +304,37 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.milk_text {
+  padding: 10px;
+}
+
+/* .clearfix:after {
+  content: ".";
+  display: block;
+  clear:both;
+  visibility: none;
+  height: 0;
+  line-height: 0;
+} */
+
+.deals {
+  clear: both;
+}

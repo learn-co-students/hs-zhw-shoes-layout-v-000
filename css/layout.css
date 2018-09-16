@@ -24,4 +24,13 @@
 
 /* Positioning Classes */
 
+.border_right {
+  border-right: 1px;
+  display: block;
+  float: left;
+  margin-right: 45px;
+}
 
+.shadow {
+  display: inline;
+}

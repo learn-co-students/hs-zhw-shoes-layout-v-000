@@ -24,4 +24,30 @@
 
 /* Positioning Classes */
 
+.grass {
+  width: 66%;
+  float: left;
+  clear: both;
+}
 
+.archive {
+  width: 32%;
+  float: right;
+  margin-bottom: 25px;
+}
+
+.deals {
+  column-count: 3;
+  column-gap: 20px;
+  clear: both;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  margin: 0 0 2% 2%;
+ }
+
+ .first {
+  margin-left: 0%;
+ }

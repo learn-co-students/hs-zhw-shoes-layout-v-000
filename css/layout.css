@@ -24,4 +24,39 @@
 
 /* Positioning Classes */
 
+.wrapper .shadow {
+  display: table;
+  padding-bottom: 10px;
+}
 
+#featured {
+  width: 64%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#archive {
+  width: 33%;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#deal-1 {
+  width: 32%;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+
+#deal-2 {
+  width: 32%;
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+#deal-3 {
+  width: 32%;
+  float: right;
+  margin: 10px 0 10px 10px;
+}

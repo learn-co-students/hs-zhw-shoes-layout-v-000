@@ -24,4 +24,35 @@
 
 /* Positioning Classes */
 
+#featured.shadow {
+  float: left;
+  width: 65%;
+  margin: 5px 10px 10px 5px;
+}
 
+#archive.shadow {
+  width: 31.5%;
+  float: left;
+  margin: 5px 0px 10px 10px;
+}
+
+#deal-1, #deal-2, #deal-3 {
+  float: left;
+  width: 31.5%;
+}
+
+#deal-1 {
+  margin: 10px 10px 10px 5px;
+}
+
+#deal-2 {
+  margin: 10px 10px 10px 10px;
+}
+
+#deal-3 {
+  margin: 10px 0px 10px 10px;
+}
+
+#index {
+  column-count: 3;
+}

@@ -24,39 +24,42 @@
 
 /* Positioning Classes */
 
-.wrapper .shadow {
-  display: table;
-  padding-bottom: 10px;
+.wrapper {
+  width: 100%;
 }
 
-#featured {
-  width: 64%;
+#featured.shadow {
   float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  width: 65%;
+  margin: 5px 10px 10px 5px;
 }
 
-#archive {
-  width: 33%;
+#archive.shadow {
+  width: 31.5%;
   float: left;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin: 5px 0px 10px 10px;
+}
+
+#deal-1, #deal-2, #deal-3 {
+  float: left;
+  width: 31.5%;
 }
 
 #deal-1 {
-  width: 32%;
-  float: left;
-  margin: 10px 10px 10px 0;
+  margin: 10px 10px 10px 5px;
 }
 
 #deal-2 {
-  width: 32%;
-  float: left;
   margin: 10px 10px 10px 10px;
 }
 
 #deal-3 {
-  width: 32%;
-  float: right;
-  margin: 10px 0 10px 10px;
+  margin: 10px 0px 10px 10px;
 }
+
+#details {
+  float: left;
+  
+}
+
+

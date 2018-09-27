@@ -23,5 +23,27 @@
 }
 
 /* Positioning Classes */
+.col-1 {
+  float: left;
+  width: 66%;
+}
+.col-2 {
+  float: left;
+  width: 30%;
+  margin-right: auto;
+}
 
+.col-1b{
+  float: left;
+  width: 30%;
+}
+.col-3{
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
 
+.clearfix {
+    overflow: auto;
+}

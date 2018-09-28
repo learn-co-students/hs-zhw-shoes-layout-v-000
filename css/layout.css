@@ -9,6 +9,10 @@
   -moz-box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -24,4 +28,30 @@
 
 /* Positioning Classes */
 
+.col-1 {
+  display: inline;
+  float: left;
+  width: 66%;
+}
 
+.col-2 {
+  float: right;
+  width: 32%;
+  margin-bottom: 10px;
+} 
+
+
+/* .col-3 {
+
+  padding-top: 50px;
+  display: block;
+  float: left;
+  width: 30%;
+} */
+
+#deals {
+  clear: both;
+  column-count: 3;
+  column-width: 30%;
+  padding-top: 5px;
+}

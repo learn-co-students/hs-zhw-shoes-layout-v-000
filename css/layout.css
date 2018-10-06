@@ -9,7 +9,27 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
+/* Positioning Classes */
+
+div [class *= "-column"] {
+    float: left;
+    margin-left: 2%;
+  }
+
+div [class *= "-column"]:first-child {
+  float: left;
+  margin-left: 0;
+}
+
+.one-column {
+  width: 32%;;
+}
+
+.two-column {
+  width: 66%;
+}
+
+.grid-row:after {
   content: ".";
   display: block;
   clear: both;
@@ -18,10 +38,7 @@
   line-height: 0;
 }
 
-.clear {
+.grid-row  {
   clear: both;
+  margin: 2%;
 }
-
-/* Positioning Classes */
-
-

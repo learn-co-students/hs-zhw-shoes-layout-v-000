@@ -25,3 +25,35 @@
 /* Positioning Classes */
 
 
+.a {
+  float: left;
+  width: 65.666%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+  height: 589px;
+}
+
+.b {
+  float: left;
+  width: 32.333%;
+  margin-left: 1%;
+  margin-bottom: 20px;
+  height: 589px;
+}
+
+.c {
+  float: left;
+  width: 32%;
+}
+
+.d {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.e {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}

@@ -24,4 +24,32 @@
 
 /* Positioning Classes */
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
 
+/* span 1/3 of the space, 2% margins */
+.col-1 {
+  float:left;
+  width: 31%;
+}
+
+/* span 2/3 of the space */
+.col-2 {
+  float:left;
+  width: 64%;
+}
+
+/* span entire space */
+.col-3 {
+
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}

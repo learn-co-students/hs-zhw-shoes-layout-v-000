@@ -15,12 +15,12 @@
     width: 90%;
   }
 
-  #social {
+  /* #social {
     position: absolute;
     top: 100px;
-    right: 5%;
+    right: 5%;ß
     width: auto;
-  }
+  } */
 
   #social a {
     display: inline-block;

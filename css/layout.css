@@ -24,4 +24,50 @@
 
 /* Positioning Classes */
 
+/*.table {
+  display: table;
+  width: 100%;
+}
 
+.table-cell {
+  display: table-cell;
+}*/
+
+#shadowleft {
+  float: left;
+  width: 66%;
+  margin: 1%;
+  margin-left: 0;
+}
+
+#shadowright {
+  float: right;
+  width: 32%;
+  margin: 1%;
+  margin-right: 0;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  margin: 1%;
+  margin-top: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.col-3 {
+  float: right;
+  width: 32%;
+  margin: 1%;
+  margin-right: 0;
+  margin-top: 2%;
+}
+
+.col-4 {
+  float: left;
+  width: 31%;
+  margin: 1%;
+}

@@ -25,3 +25,37 @@
 /* Positioning Classes */
 
 
+.col-1 {
+  display: inline;
+  float: left;
+  width: 32%;
+  margin: 10px 0 0 0;
+}
+
+.col-2 {
+  display: inline;
+  float: left;
+  width: 32%;
+  margin: 10px 0 0 0;
+}
+
+.col-3 {
+  display: inline;
+  float: right;
+  width: 32%;
+  margin: 10px 0 0 0;
+
+}
+
+[class*="col-"] {
+  margin-left: 2%
+}
+
+.first {
+  margin-left: 0%
+}
+
+#details{
+  column-count: 3;
+  margin: 5em 10em;
+}

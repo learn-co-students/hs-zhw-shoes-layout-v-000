@@ -23,5 +23,44 @@
 }
 
 /* Positioning Classes */
+.shadow {
+  margin-bottom: 20px;
+}
+.image-shoe-on-grass {
+  float: left;
+  width: 66%;
+  margin-right: 2%;
+}
+.shoe-archive {
+    float: left;
+    width: 32%;
+}
 
+.lady-bugs {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
 
+.skaters {
+  float: left;
+  width: 32%;
+  margin-right : 2%;
+}
+
+.heels {
+  float: left;
+  width: 32%;
+}
+
+.border_right {
+  float: left;
+  width: 33.333;
+  padding: 2%;
+}
+
+.follow {
+  float: left;
+  width: 33.333;
+  padding: 2%;
+}

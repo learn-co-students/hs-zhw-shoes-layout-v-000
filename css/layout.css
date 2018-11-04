@@ -25,3 +25,38 @@
 /* Positioning Classes */
 
 
+.col-1{
+    float: left;
+    width: 68%;
+
+}
+
+.col-2{
+    float: left;
+    width: 30%;
+
+
+}
+
+.col-3{
+    float: left;
+    width: 32%;
+}
+
+.col-4{
+    float: left;
+    width: 31%;
+}
+
+[class*="col-"]{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+
+.first{
+    margin-left: 0%;
+}
+.container 			{   overflow: hidden;
+margin-bottom:  20px}
+.content, .sidebar 	{ padding-bottom: 99999px; margin-bottom: -99999px;}

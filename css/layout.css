@@ -24,4 +24,27 @@
 
 /* Positioning Classes */
 
+.colbottom_left {
+		float: left;
+		width: 32.6%;
+		margin: 0 0 20px;
+	}
+
+	.colbottom_mid {
+		float: left;
+		width: 32.6%;
+		margin: 0 1% 20px 1%;
+	}
+
+	.col_right {
+		float: right;
+		width: 32.6%;
+		margin: 0 0 20px; 
+	}
+
+	.colmid_left {
+		float: left;
+		width: 66.4%;
+		margin: 0 1% 20px 0;
+	}
 

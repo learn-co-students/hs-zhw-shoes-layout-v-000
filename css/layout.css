@@ -24,4 +24,20 @@
 
 /* Positioning Classes */
 
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.col-1 {
+  float: left;
+  width: 66%;
+}
 
+.col-2 {
+  float: left;
+  width: 34%;
+}
+
+.col-3 {
+  background: #ccc;
+}

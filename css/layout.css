@@ -24,36 +24,28 @@
 
 /* Positioning Classes */
 
-.white-box {
-  background: white;
-}
+.row {
+   clear: both;
+   margin-bottom: 2%;
+ }
 
-.featured-brand {
-  float: left;
-  width: 66%;
-  margin: 0 5px 10px 0;
-}
+ .row:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   height: 0;
+   line-height: 0;
+ }
 
-.archive {
-  float: left;
-  width: 32%;
-  margin: 0 0 10px 10px;
-}
+ [class*="col-"] {
+   float: left;
+   margin-left: 2%;
+ }
 
-.col-end-left {
-    float: left;
-    width: 32%;
-    margin: 10px 0 0 0;
-}
+ [class*="col-"]:first-child {
+   margin-left: 0;
+ }
 
-.col-end-right {
-  float: left;
-  width: 32%;
-  margin: 10px 0 0 0;
-}
-
-.col-middle {
-  float: left;
-  width: 32%;
-  margin: 10px 17px 0 17px;
-}
+ .col-4 { width: 32%; }
+ .col-8 { width: 66%; }

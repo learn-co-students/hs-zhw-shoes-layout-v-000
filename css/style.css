@@ -1,9 +1,54 @@
 /********** Web Fonts **********/
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
+/* My Code - Columns */
+
+.left {
+  float: left;
+  width: 64%;
+  /*padding-bottom: 24px;*/
+  height: 100%;
+}
+
+.right {
+  float: right;
+  width: 33%;
+  height: 100%;
+}
+
+.firstrow {
+  display: inline;
+  position: relative;
+  clear: both;
+  height: 100%;
+  min-height: 100%;
+}
+
+div.secondrow {
+clear: both;
+position: relative;
+display: inline;
+height: 100%;
+min-height: 100%;
+}
+
+.shoeleft {
+  width: 32%;
+  float: left;
+  margin: 0.5%;
+  height: 100%;
+}
+
+.shoeright {
+  width: 32%;
+  float: right;
+  height: 100%;
+}
+
+
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -40,6 +85,7 @@ p, address {
 
 figure {
   margin:0 0 10px;
+  display:inline;
 }
 
 figcaption {

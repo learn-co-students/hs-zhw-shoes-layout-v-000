@@ -24,4 +24,43 @@
 
 /* Positioning Classes */
 
+.col-1 {
+  width: 31.920%;
+  margin: 0;
+  float: left;
+}
 
+.col-2 {
+  width: 65.999%;
+  float: left;
+  min-height: 592px;
+  margin-right: 20px;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+section {
+  padding: 20px;
+}
+
+#deals .col-1 {
+  margin: 20px 20px 0 0;
+}
+
+.col-1-end {
+  margin-right: 0;
+}
+
+div.col-1-end a {
+  padding-left: 20px;
+}
+
+div.col-1-end h3 {
+  margin-left: 20px;
+  padding-left: 20px;
+  width: 31.920%;
+  margin: 0;
+  float: left;
+}

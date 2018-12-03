@@ -24,4 +24,46 @@
 
 /* Positioning Classes */
 
+/* needed to add ids to everthing under featured brands because everything class is shadow */
+/* IN IDE YOU CAN EDIT CSS and HTML AND SAVE WHILE A WINDOW IS OPEN AND IT WILL AUTOMATICALLY CHANGE WHILE HTTPSERVER IS RUNNING */
+/* WORKS BETTER WITH 2 MONITORS */
 
+section {
+  padding: 5px;
+  margin: 1%;
+}
+
+#SummerGrass {
+  float: left;
+  width: 64.333%;
+}
+
+#ShoeArchive {
+ overflow: hidden;
+ float: left;
+ width: 31.333%;
+}
+
+#LadyBugs {
+ float: left;
+ width: 31.333%;
+}
+
+#Skaters {
+ float: left;
+ width: 31.333%;
+}
+
+#BlueStar {
+ float: left;
+ width: 31.333%;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}

@@ -23,5 +23,39 @@
 }
 
 /* Positioning Classes */
+.archive {
+  float: right;
+  width: 31.7%;
+  height: 36.98em;
+  margin-bottom: 25px; 
+}
+
+.featured {
+  float: left;
+  width: 65.8%;
+  margin-bottom: 25px;
+}
 
 
+
+#shoe_box {
+  column-count: 3;
+  column-gap: 1.5em;
+  margin-bottom: 50px;
+}
+
+[class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
+  
+[class*="col-"]:first-child {
+    margin-left: 0;
+  }
+
+.col-1 { 
+  width: 32%; }
+  
+.middle_header {
+  margin-bottom: 20px;
+}

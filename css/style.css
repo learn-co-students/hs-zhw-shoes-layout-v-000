@@ -288,6 +288,21 @@ section a {
   text-decoration: underline;
 }
 
+/*///// Columns /////*/
+
+.items {
+  column-count: 3;
+}
+
+#archive {
+ float: right;
+ column-count: 1; 
+}
+
+#feature1{
+  float: auto;
+}
+
 /********** Footer **********/
 
 footer {
@@ -300,6 +315,15 @@ footer {
 footer a {
   color: #555;
   text-decoration: underline;
+}
+
+/*///// End of Footer /////*/
+
+/*///// Clearfix /////*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* code examples copyright Jonathan Grover 2012 */

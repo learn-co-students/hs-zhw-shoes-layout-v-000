@@ -264,6 +264,38 @@ section a {
   text-decoration: underline;
 }
 
+.bottom_three {
+  width: 30%;
+  float: left;
+  margin: 5px 5px 0px 0px;
+}
+
+#feature{
+  width: 66%;
+  margin: 0px 5px 0px 0px;
+  float: left;
+}
+
+#archive {
+  width: 33%;
+  float: right;
+}
+
+#right {
+  float: right;
+  width: 33%;
+}
+
+#left {
+  float: left;
+  width: 33%;
+}
+
+#middle {
+  float: left;
+  width: 33%;
+}
+
 /********** Details **********/
 
 #details {

@@ -24,4 +24,34 @@
 
 /* Positioning Classes */
 
+.mid-row {
+  margin-bottom: 3%;
+}
 
+.mid-row div.left {
+  width: 65.66%;
+  float: left;
+  margin-right: 3%;
+}
+
+.mid-row div.right {
+  float: right;
+  width: 31.33%;
+}
+
+.bottom-row .left {
+  width: 31.33%;
+  float: left;
+  margin-right: 3%;
+}
+
+.bottom-row .middle {
+  float: left;
+  width: 31.33%;
+  margin-right: 3%;
+}
+
+.bottom-row .right {
+  width: 31.33%;
+  float: left;
+}

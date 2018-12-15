@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -134,6 +134,25 @@ iframe {
   height: 415px;
 }
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
 /********** Header **********/
 
 /********** Nav Bar **********/
@@ -262,6 +281,43 @@ section {
 section a {
   color: #555;
   text-decoration: underline;
+
+  #brand {
+    float:left;
+  }
+
+  #archive {
+    float:right;
+  }
+
+  .border_right {
+    float: left;
+    column-width: auto;
+    display: table-column;
+  }
+
+  #details wrapper {
+    background: blue;
+  }
+}
+
+
+
+#lady-bugs {
+  float: left;
+  width: 32%;
+  margin-top: 2%;}
+
+#skate-shoe {
+  float: left;
+  width: 32%;
+  margin: 2% 0 0 2%;
+}
+
+#blue-heels {
+  float: left;
+  width: 32%;
+  margin: 2% 0 0 2%;
 }
 
 /********** Details **********/
@@ -277,6 +333,8 @@ section a {
   background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+  column-count: 3;
+
 }
 
 #details a:link, #details a:visited {

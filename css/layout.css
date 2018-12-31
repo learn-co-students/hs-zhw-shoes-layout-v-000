@@ -23,10 +23,37 @@
 }
 
 /* Positioning Classes */
+
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+.row:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-4 { width: 32%; }
+.col-8 { width: 66%; }
+
 h2.milk_text {
   margin-top: 0.5em;
 }
-
+/*
 .featured {
   float: left;
   width: 66.1%;
@@ -34,16 +61,15 @@ h2.milk_text {
 
 .archive {
   float: right;
-  /*margin-left: 1em;*/
+  margin-left: 1em;
   width: 32.2%;
+}*/
 
-}
-
-.deals {
+/*.deals {
   clear: both;
   column-count: 3;
 }
 
 .details {
   column-count: 3;
-}
+}*/

@@ -23,5 +23,27 @@
 }
 
 /* Positioning Classes */
+h2.milk_text {
+  margin-top: 0.5em;
+}
 
+.featured {
+  float: left;
+  width: 66.1%;
+}
 
+.archive {
+  float: right;
+  /*margin-left: 1em;*/
+  width: 32.2%;
+
+}
+
+.deals {
+  clear: both;
+  column-count: 3;
+}
+
+.details {
+  column-count: 3;
+}

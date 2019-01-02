@@ -24,4 +24,41 @@
 
 /* Positioning Classes */
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
 
+.col-3 {
+  float: left;
+  width: 32%;
+  margin: 0 auto;
+}
+
+.min-height {
+  min-height: 615px;
+}
+
+.float-right {
+  float: right;
+}
+
+.pad {
+  padding: 0 0 0 2%;
+}
+
+.first {
+  margin-right: 1%;
+}
+
+.second {
+  margin: 0 1%;
+}
+
+.third {
+  margin-left: 1%;
+}
+
+#deals {
+  padding: 2% 0;
+}

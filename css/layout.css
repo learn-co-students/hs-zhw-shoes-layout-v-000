@@ -11,7 +11,7 @@
 
 .clearfix:after {
   content: ".";
-  display: block;
+  display: table;
   clear: both;
   visibility: hidden;
   height: 0;
@@ -23,5 +23,23 @@
 }
 
 /* Positioning Classes */
+.column {
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
 
+.left {
+  width: 66%;
+}
 
+.right {
+  width: 32%;
+}
+
+.column1, .column2, .column3 {
+  float: left;
+  width: 32.33%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}

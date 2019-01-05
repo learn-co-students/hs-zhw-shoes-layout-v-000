@@ -23,5 +23,14 @@
 }
 
 /* Positioning Classes */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
 
-
+.two-col {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

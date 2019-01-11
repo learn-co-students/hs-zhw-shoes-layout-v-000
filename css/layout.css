@@ -11,9 +11,9 @@
 
 .clearfix:after {
   content: ".";
-  display: block;
+  display:block;
   clear: both;
-  visibility: hidden;
+  visibility:hidden;
   height: 0;
   line-height: 0;
 }
@@ -24,4 +24,31 @@
 
 /* Positioning Classes */
 
+/*Columning*/
+.col-1 {
+  float: left;
+  display: inline-block;
+  width: 32%;
+}
+.col-2 {
+  float: left;
+  display: inline-block;
+  width: 66%;
+}
 
+.col-3 {
+  display: inline-block;
+  float: none;
+}
+
+[class*="col-"] {
+  margin-left:2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.border_right {
+  display: inline-block;
+}

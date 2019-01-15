@@ -15,6 +15,9 @@ img.verif_img {
   vertical-align: bottom;
 }
 
+/*MY STUFF*/
+
+
 /********** Global **********/
 
 body {
@@ -121,9 +124,26 @@ iframe {
   margin: 0 0 10px;
 }
 
+
 .border_right {
   border-right: 1px dotted #ccc;
-  padding-right: 20px;
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+.border_left {
+  
+  padding-left: 0px;
+}
+
+.border_bottom1 {
+  margin-bottom: 20px;
+  
+}
+
+.border_bottom2 {
+  margin-bottom: 25px;
+
 }
 
 .thumbs_up {

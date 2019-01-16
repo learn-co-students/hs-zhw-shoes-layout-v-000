@@ -288,6 +288,18 @@ section a {
   text-decoration: underline;
 }
 
+#details .wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#details .wrapper .border_right {
+  float: left;
+  width: 30%;
+  margin: 0 2%;
+  border-right: 2px solid black;
+}
+
 /********** Footer **********/
 
 footer {

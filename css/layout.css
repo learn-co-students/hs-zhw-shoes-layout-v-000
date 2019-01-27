@@ -24,4 +24,65 @@
 
 /* Positioning Classes */
 
+.wrapper {
+  margin: 0 auto;
+  width: 600px;
+
+}
+
+section {
+  padding: 20px;
+  margin: 1%;
+}
+
+#featured {
+  /*display: block;*/
+  float: left;
+  width: 66.66%;
+}
+
+#archive {
+  display: block;
+  float: right;
+  width: 29%;
+}
+
+.lady_bug {
+  float: left;
+  width: 31.33%;
+}
+
+.skate_shoe {
+  float: left;
+  width: 31.33%;
+}
+
+.bluestar {
+  float: right;
+  width: 31.33%;
+}
+
+#contact {
+  float: left;
+  width: 31.33%;
+}
+
+#links {
+  float: left;
+  width: 31.33%;
+}
+
+#social {
+  float: right;
+  width: 31.33%;
+}
+
+.shadow {
+  overflow: auto;
+}
+
+footer {
+  clear: both;
+}
+
 

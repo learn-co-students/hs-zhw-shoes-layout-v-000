@@ -1,3 +1,5 @@
+This is cool and all, but I'm not spending this much time on clearfix and I just spent 2 hours on CSS grid.
+
 # ZHW Shoes Layout
 
 ## Objectives

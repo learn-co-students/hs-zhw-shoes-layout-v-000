@@ -24,4 +24,35 @@
 
 /* Positioning Classes */
 
+.col-1{
+  width: 32%;
+}
 
+.col-2{
+  width: 66%;
+}
+
+.col-3{
+
+}
+
+#grass{
+  float:left;
+}
+
+#chart{
+  float:right;
+}
+
+.col-left{
+  float:left;
+
+}
+
+.marginright{
+    margin-right: 19px;
+}
+
+.margintop{
+  margin-top:10px
+}

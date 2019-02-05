@@ -108,6 +108,7 @@ iframe {
 .wrapper {
   width: 960px;
   margin: 0 auto;
+  margin-bottom: 2%;
 }
 
 .shadow {
@@ -132,6 +133,28 @@ iframe {
 
 .contact_form {
   height: 415px;
+}
+
+.col-1 {
+  float: left; 
+  width: 66%;
+}
+
+.col-2 {
+  float: left;
+  width: 32%;
+}
+
+.top-marg {
+  margin-top: 2%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.no-margin {
+  margin-left: 0%;
 }
 
 /********** Header **********/

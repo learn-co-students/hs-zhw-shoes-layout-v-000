@@ -1,222 +1,106 @@
-<!doctype html>
-<!--
-  Learn HTML & CSS from Scratch
-  4.2: Final Code
--->
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <script src="https://raw.github.com/Wilto/iOS-Orientationchange-Fix/master/ios-orientationchange-fix.js"></script>
-    <meta name="keywords" content="shoes, sandels, slippers, clogs, heels, sneakers, foot, wear, footwear, socks, leather, canvas, suede, laces, warehouse, wholesale">
-    <meta name="description" content="Your stop for the best deals on todays sharpest footwear!">
-    <title>ZHW Shoes - Bargin Footwear Wholesales - On Sale</title>
+    <meta charset="UTF-8">
+    <title>Exceptional Realty Group - Luxury Homes - About</title>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/device_styles.css">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
   </head>
   <body>
-
-    <!--/////////// Social Bar //////////-->
     <div id="social">
-      <a class="fbook" href="#" target="_blank" title="facebook">Facebook</a>
-      <a class="twitt" href="#" target="_blank" title="twitter">Twitter</a>
-      <a class="gplus" href="#" target="_blank" title="google plus">Google Plus</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+      <a href="#">Google Plus</a>
     </div>
-    <!--/////////// Ends Social Bar //////////-->
-
-    <!--/////////// Header //////////-->
-    <header>
-
-      <!--/////////// Logo Panel //////////-->
-      <div id="logo" class="shadow">
+    
+    <div class="white-wood">
+      <header class="medium-fade shadow">
         <div class="wrapper">
-          <h1>ZHW</h1>
-          <h2>Shoes</h2>
+          <div id="logo">
+            <h1>Exceptional</h1>
+            <h2>Realty Group</h2>
+          </div>
         </div><!-- .wrapper -->
-      </div>
-      <!--/////////// Ends Logo Panel //////////-->
+        <div id="navbar" class="light-fade">
+          <div class="wrapper">
+            <nav>
+              <a class="selected" href="index.html">About</a><a href="new-properties.html">New Properties</a><a href="real-estate-listings.html">Listings</a><a href="market-report.html">Market Report</a><a href="contact.html">Contact</a><a href="http://hud.gov" target="_blank">H.U.D.</a>
+            </nav>
+          </div><!-- .wrapper -->
+        </div><!-- #navbar -->
+      </header>
 
-      <!--/////////// Nav Bar //////////-->
-      <div id="nav_bar">
-        <div class="wrapper">
-          <nav>
-            <a href="#">About</a><a class="selected" href="#">On Sale</a><a href="#">Catalog</a><a href="#">Pricing</a><a href="#">Contact</a>
-          </nav>
-        </div><!-- .wrapper -->
-      </div>
-      <!--/////////// Ends Nav Bar //////////-->
+      <div class="wrapper clearfix">
 
-    </header>
-    <!--/////////// Ends Header //////////-->
-
-    <div id="wood" class="clearfix"><!-- start wood texture -->
-
-      <div class="wrapper">
-
-        <!--/////////// Sale //////////-->
-        <section class="shadow">
+        <section id="featured-property" class="col-3 first shadow">
           <figure>
-            <img src="images/holidays_shoe_sale.jpg" alt="Picture of kids' shoes on the steps">
-            <figcaption>royalty free image from www.sxc.hu</figcaption>
+            <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+            <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
           </figure>
-          <h2>Holidays Sale</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
+        </section>
+
+        <section id="promotional" class="col-2 first shadow">
+          <figure>
+            <video controls>
+              <source src="videos/real-estate.mp4" type="video/mp4"> 
+              <source src="videos/real-estate.ogv" type="video/ogg">
+              Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank">Please upgrade your browser</a>.
+            </video>
+            <figcaption>Exceptional Realty Group Promotional Video - Source: archive.org</figcaption>
+          </figure>
+        </section>
+
+        <section id="news" class="col-1 shadow">
+          <h3>Company News</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, inventore, vero, rerum ullam nihil sapiente tempora molestias quis ducimus ipsum laborum vel. Tempore perspiciatis ea error dignissimos libero recusandae explicabo.</p>
         </section>
         
-        <h2 class="milk_text">Featured Brands</h2>
-
-        <!--/////////// Featured Brands //////////-->
-        <section class="shadow">
-          <figure>
-            <img src="images/shoes_on_grass.jpg" alt="Photo of shoes in the wet grass">
-            <figcaption>royalty free image from www.sxc.hu</figcaption>
-          </figure>
-          <h3>Summer Grass</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-        <!--/////////// Ends Featured Brands //////////-->
-        
-        <!--/////////// Archive List //////////-->
-        <section class="shadow">
-          <h2>Shoe Archive</h2>
-          <h3><a href="#">2014</a></h3>
-          <ul>
-            <li><a href="#">Apr</a></li>
-            <li><a href="#">Mar</a></li>
-            <li><a href="#">Feb</a>
-              <ul>
-                <li><a href="#">14th</a></li>
-                <li><a href="#">15th</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Jan</a></li>
-          </ul>
-          <h3><a href="#">2013</a></h3>
-          <ul>
-            <li><a href="#">Dec</a></li>
-            <li><a href="#">Nov</a></li>
-            <li><a href="#">Oct</a>
-              <ul>
-                <li><a href="#">17th</a></li>
-                <li><a href="#">18th</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Sept</a></li>
-          </ul>
-          <h3><a href="#">2012</a></h3>
-          <ul>
-            <li><a href="#">Dec</a></li>
-            <li><a href="#">Nov</a></li>
-            <li><a href="#">Oct</a>
-              <ul>
-                <li><a href="#">4th</a></li>
-                <li><a href="#">5th</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Sept</a></li>
-            <li><a href="#">Aug</a></li>
-            <li><a href="#">Jul</a></li>
-            <li><a href="#">Jun</a></li>
-          </ul>
-        </section>
-        <!--/////////// End Archive List //////////-->
-
-        <!--/////////// Deals //////////-->
-        <section class="shadow">
-          <figure>
-            <img src="images/lady_bug_shoe.jpg" alt="Pair of Lady Bug Shoes">
-            <figcaption>royalty free image from www.sxc.hu</figcaption>
-          </figure>
-          <h3>Lady Bugs</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </section>
-
-        <section class="shadow">
-          <figure>
-            <img src="images/skate_shoe.jpg" alt="Pair of Skater Shoes">
-            <figcaption>royalty free image from www.sxc.hu</figcaption>
-          </figure>
-          <h3>Skaters</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </section>
-
-        <section class="shadow">
-          <figure>
-            <img src="images/heel_3.jpg" alt="Picture of baby shoes">
-            <figcaption>royalty free image from www.sxc.hu</figcaption>
-          </figure>
-          <h3>Bluestar Heels</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </section>
-        <!--/////////// Ends Deals //////////-->
-
       </div><!-- .wrapper -->
+    </div><!-- .white-wood -->
 
-    </div><!-- #wood -->
-
-    <!--/////////// Details //////////-->
-    <section id="details" class="clearfix">
-
-      <div class="wrapper">
-
-        <div class="border_right">
+    <section id="details" class="medium-fade">
+      <div class="wrapper clearfix">
+        <div class="col-1 first border-right">
           <h3>Contact</h3>
-          <p>email: <a href="mailto:info@zhwshoes.com">info@zhwshoes.com</a><br>
-          phone: +1 504 555 5555</p>
+          <p>
+            email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
+            phone: +1 710 555 1234
+          </p>
           <h3>Correspondence</h3>
-          <address>ZHW Shoes<br>
-          P.O. Box 5555<br>
-          Maricia, CA 91555, USA</address>
+          <address>
+            Exceptional Realty<br>
+            P.O.Box 5555<br>
+            Brooklyn, NY 11201
+          </address>
         </div>
 
-        <div class="border_right">
+        <div class="col-1 border-right">
           <h3>Links</h3>
-          <p><a href="#" target="_blank">Shoe Repair & Restoration</a><br>
-          <a href="#" target="_blank">Fashion Editors Assoc.</a><br>
-          <a href="#" target="_blank">NYC Deals</a><br>
-          <a href="#" target="_blank">M-Train Shoe Stories</a><br>
-          <a href="#" target="_blank">Leather Factory Shoe Conditioners</a><br>
-          <a href="#" target="_blank">Diesel Payment Gateway</a><br>
-          <a href="#" target="_blank">Consumer Affairs</a><br>
-          <a href="#" target="_blank">Spearhead Artist Mgmt.</a></p>
+          <p>
+            <a href="#" target="_blank">Home Restoration</a><br>
+            <a href="#" target="_blank">Afordable Mortgages</a><br>
+            <a href="#" target="_blank">Professional Moving Crew</a>
+          </p>
         </div>
 
-        <div class="">
+        <div class="col-1">
           <h3>Follow</h3>
-          <p><a href="#" target="_blank">Youtube</a><br>
-          <a href="#" target="_blank">Facebook</a><br>
-          <a href="#" target="_blank">Twitter</a><br>
-          <a href="#" target="_blank">Flickr</a><br>
-          <a href="#" target="_blank">Foursquare</a><br>
-          <a href="#" target="_blank">Google Plus</a></p>
+          <p>
+            <a href="#" target="_blank">Youtube</a><br>
+            <a href="#" target="_blank">Facebook</a><br>
+            <a href="#" target="_blank">Twitter</a>
+          </p>
         </div>
-
       </div><!-- .wrapper -->
-
     </section>
-    <!--/////////// End Details //////////-->
 
-    <!--/////////// Footer //////////-->
     <footer>
-      &copy; 2012 ZHW Shoes. All Rights Reserved.
+      &copy; 2014 Exceptional Realty. All Rights Reserved.
     </footer>
-    <!--/////////// End Footer //////////-->
 
   </body>
 </html>

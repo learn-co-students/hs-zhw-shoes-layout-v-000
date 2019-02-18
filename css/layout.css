@@ -23,53 +23,38 @@
 }
 
 /* Positioning Classes */
-/*
-.shadow {
-  column-count: 3;
-  column-gap: 40px;
-}
-*/
 
-#sale {
-
-}
-
-#featured {
-  float: left;
-  width: 63.333%;
-}
-
-#archive {
-  float: right;
-  width: 31.333%;
-}
-
-#archive {
-  /* margin-bottom: 21px; */
+.featured {
+  clear: both;
   margin-bottom: 2%;
-  padding-bottom: 2.5%;
-  /* padding-bottom: 20px; */
+}
+
+.featured:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
 }
 
 [class*="col-"] {
-  width: 32%;
   float: left;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 
-#deals1 {
-  margin-right: 2%;
-  float: right;
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-3 {
   width: 32%;
 }
 
-#deals2 {
-  float: center;
-  width: 32%;
+.col-2 {
+  width: 66%;
 }
 
-#deals3 {
-  margin-left: 2%;
-  float: left;
+.col-1 {
   width: 32%;
 }

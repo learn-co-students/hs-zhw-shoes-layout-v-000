@@ -264,14 +264,17 @@ section a {
   text-decoration: underline;
 }
 
-section#promo {
+.col-1 {
   float: left;
   width: 70%;
+  margin: 2px;
+  position: absolute;
 }
 
-section#archive{
-  float: right;
-  width: 28%;
+.col-3 {
+  float: left;
+  width: 30%;
+  margin: 1em;
 }
 
 /********** Details **********/

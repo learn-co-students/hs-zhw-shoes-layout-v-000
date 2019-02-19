@@ -264,6 +264,16 @@ section a {
   text-decoration: underline;
 }
 
+section#promo {
+  float: left;
+  width: 70%;
+}
+
+section#archive{
+  float: right;
+  width: 28%;
+}
+
 /********** Details **********/
 
 #details {

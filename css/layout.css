@@ -9,6 +9,14 @@
   -moz-box-sizing: border-box;
 }
 
+
+
+/* Posititoning Classes */
+.clear {
+  clear: both;
+  margin bottom: 2%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -18,10 +26,24 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
+.col-1 {
+  width: 32%;
+  }
+
+.col-2{
+  width: 66%;
 }
 
-/* Positioning Classes */
+[class*="col-"]{
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
 
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
 
+.milk_text{
+  margin: 10px 0;
+}

@@ -8,6 +8,7 @@ img, video, audio, iframe, table, form {
   max-width: 100%; /* FF, Safari, Chrome */
 }
 
+
 /* prevent the verify image on contact page from stretching */
 img.verif_img {
   width: 50px;
@@ -112,13 +113,15 @@ iframe {
 
 .shadow {
   box-shadow: 0 3px 10px #333;
+  float: left;
+  margin: 1%;
 }
 
 .milk_text {
   font: bold 42px 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
-  margin: 0 0 10px;
+  margin: 1%;
 }
 
 .border_right {
@@ -132,6 +135,14 @@ iframe {
 
 .contact_form {
   height: 415px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /********** Header **********/
@@ -195,6 +206,8 @@ iframe {
   background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+  width: 100%;
+  margin: 0;
 }
 
 #logo h1 {
@@ -216,7 +229,7 @@ iframe {
 #social {
   position: fixed;
   top: 200px;
-  right: 3px;
+  right: 40px;
   width: 40px;
   z-index: 1;
 }
@@ -225,10 +238,11 @@ a.fbook, a.twitt, a.gplus {
   display: block;
   width: 40px;
   height: 40px;
-  text-indent: 100%;
+  text-indent: 0;
   white-space: nowrap;
   overflow: hidden;
   background: url(../images/social-icons.png) no-repeat;
+  background-size: 100%;
 }
 
 a.fbook { background-position: 0 0; }
@@ -250,6 +264,20 @@ a.gplus:active { background-position: -80px -80px; }
   background-position: center top, left top;
   background-repeat: no-repeat, repeat-y;
   padding: 30px 0;
+  width: 100%;
+  background-size: 100%;
+}
+
+#featured {
+  width: 64.7%;
+}
+
+#archive {
+  width: 31.3%
+}
+
+#deals1, #deals2, #deals3 {
+  width: 31.3%;
 }
 
 /********** Sections **********/
@@ -257,6 +285,7 @@ a.gplus:active { background-position: -80px -80px; }
 section {
   padding: 20px;
   background: white;
+  margin: 20px 0;
 }
 
 section a {
@@ -277,6 +306,12 @@ section a {
   background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  column-count: 3;
+  column-gap: 30px;
+  column-rule: 1px solid #c5c5c5;
 }
 
 #details a:link, #details a:visited {
@@ -287,6 +322,7 @@ section a {
 #details a:hover, #details a:active {
   text-decoration: underline;
 }
+
 
 /********** Footer **********/
 

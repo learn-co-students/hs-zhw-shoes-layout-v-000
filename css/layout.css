@@ -23,5 +23,28 @@
 }
 
 /* Positioning Classes */
+.float-left {
+  float: left;
+}
 
+.col-1 {
+ margin: 1%;
+ float: left;
+ width: 64%;
+ height: 100%;
+ overflow: hidden;;
+}
 
+.col-2 {
+  margin: 1%;
+  float: left;
+  width: 30%;
+  height: 100%;
+  overflow: hidden;;
+}
+
+.card {
+  margin: 1%;
+  float: left;
+  width: 31.333%;
+}

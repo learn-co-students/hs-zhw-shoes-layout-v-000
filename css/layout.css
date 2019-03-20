@@ -16,6 +16,7 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+  overflow: auto;
 }
 
 .clear {
@@ -24,4 +25,50 @@
 
 /* Positioning Classes */
 
+.col-1 {
+  float: left;
+  width: 64%;
+  height: 580px;
 
+}
+
+.col-2 {
+  float: right;
+  width: 34%;
+  height: 580px;
+
+}
+
+.col-3 {
+  float: left;
+  width: 30%;
+  margin-top: 20px;
+  height: 359.5px;
+}
+
+.col-4 {
+  float: left;
+  width: 32%;
+  margin-top: 20px;
+  height: 359.5px;
+}
+
+.col-5 {
+  float: right;
+  width: 34%;
+  margin-top: 20px;
+  height: 359.5px;
+}
+
+.col-5.follow {
+  width: 32%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.first {
+  margin-left: 0%
+}

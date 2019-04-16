@@ -25,21 +25,25 @@
 /* Positioning Classes */
 /* Maybe I should turn these into better selectors, without relying on new classes. */
 
-[class*="col-"] {
+#wood .wrapper { /* This is another way to make columns. */
+  column-count: 3; /* I tried using "columns: 32% 3;", but that didn't work. Also, I think the default column-width is auto, thus only "column-count" is needed here. */
+}
+
+/*[class*="col-"] {
   float: left;
   margin-bottom: 2%;
 }
 
-.col-one-third { /* Takes up 1/3 the width of its parent */
+.col-one-third { /* Takes up 1/3 the width of its parent 
   width: 32%;
 }
 
-.col-two-thirds { /* Takes up 2/3 the width of its parent */
+.col-two-thirds { /* Takes up 2/3 the width of its parent 
   width: 66%;
   margin-right: 2%;
 }
 
-.col-center { /* Central column */
+.col-center { /* Central column 
   margin-left: 2%;
   margin-right: 2%;
-}
+} */

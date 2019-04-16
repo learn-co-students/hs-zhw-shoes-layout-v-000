@@ -30,6 +30,10 @@
   /* I also can't use "column-gap: 2%;" either, as that property doesn't accept %. */
 }
 
+#wood .wrapper .shadow {
+  column-span: all;
+}
+
 /*[class*="col-"] {
   float: left;
   margin-bottom: 2%;

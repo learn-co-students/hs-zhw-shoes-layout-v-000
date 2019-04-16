@@ -28,11 +28,17 @@
 #wood .wrapper { /* This is another way to make columns. */
   column-count: 3; /* I tried using "columns: 32% 3;", but that didn't work. Also, I think the default column-width is auto, thus only "column-count" is needed here. */
   /* I also can't use "column-gap: 2%;" either, as that property doesn't accept %. */
+  /* column-rule-width: 2%; Again, this won't accept % values. */
+  column-rule-width: 20px;
 }
 
 #wood .wrapper .shadow:first-child, #wood .wrapper > h2 {
   column-span: all;
 }
+
+/* Unfortunately, while I can specify "all" or "none" for "column-span", I can't specify the EXACT NUMBER of columns to span. */
+/* Unless I make a second wrapper class in the HTML, I can't seem to use the above properties to make two columns that line up with three columns below them. */
+/* End of the other way to make columns.*/ 
 
 /*[class*="col-"] {
   float: left;

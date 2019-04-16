@@ -30,7 +30,7 @@
   /* I also can't use "column-gap: 2%;" either, as that property doesn't accept %. */
 }
 
-#wood .wrapper .shadow {
+#wood .wrapper .shadow:first-child, #wood .wrapper > h2 {
   column-span: all;
 }
 

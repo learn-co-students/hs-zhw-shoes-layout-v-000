@@ -47,8 +47,9 @@
 /* End of the other way to make columns. */ 
 
 /* Here's a better, though not the best, way to make columns; see note under "Positioning Classes". */
+/* It may be better if I use px instead of %, as it would be more consistent with other properties specified elsewhere for the same elements. */
 
-[class*="col-"] { /* This makes the code more DRY. */
+[class*="col-"] { /* This makes the code more DRY (I think). */
   float: left;
   margin-bottom: 2%;
 }
@@ -66,3 +67,10 @@
   margin-left: 2%;
   margin-right: 2%;
 } 
+
+.border_right {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}

@@ -23,6 +23,7 @@
 }
 
 /* Positioning Classes */
+/* Maybe I should turn these into better selectors, without relying on new classes. */
 
 [class*="col-"] {
   float: left;

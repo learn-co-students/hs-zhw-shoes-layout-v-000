@@ -53,6 +53,7 @@
     <!--/////////// Ends Header //////////-->
 
     <div id="wood" class="clearfix"><!-- start wood texture -->
+      <!-- .clearfix is needed here so that the wood background encompasses the floating elements. -->
 
       <div class="wrapper">
 
@@ -135,7 +136,8 @@
         <!--/////////// End Archive List //////////-->
 
         <!--/////////// Deals //////////-->
-        <section class="shadow col-one-third">
+        <section class="shadow col-one-third clear">
+          <!-- It was necessary to clear this element from the floating "Shoe Archive" element above it. -->
           <figure>
             <img src="images/lady_bug_shoe.jpg" alt="Pair of Lady Bug Shoes">
             <figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -171,7 +173,7 @@
     </div><!-- #wood -->
 
     <!--/////////// Details //////////-->
-    <section id="details" class="clearfix">
+    <section id="details" class="clearfix"> <!-- Not sure why this class is needed. -->
 
       <div class="wrapper">
 

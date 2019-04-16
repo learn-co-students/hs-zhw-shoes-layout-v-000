@@ -27,6 +27,7 @@
 
 #wood .wrapper { /* This is another way to make columns. */
   column-count: 3; /* I tried using "columns: 32% 3;", but that didn't work. Also, I think the default column-width is auto, thus only "column-count" is needed here. */
+  /* I also can't use "column-gap: 2%;" either, as that property doesn't accept %. */
 }
 
 /*[class*="col-"] {

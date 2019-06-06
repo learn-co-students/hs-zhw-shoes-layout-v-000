@@ -24,4 +24,43 @@
 
 /* Positioning Classes */
 
+.wrapper {
+  width: 960px;
+}
 
+.feature {
+  float:left;
+  width: 66%;
+  margin-bottom: 2%;
+  height: auto;
+
+}
+
+.archive {
+  float:left;
+  width: 32%;
+  margin-left: 2%;
+
+}
+
+.deal-1 {
+  float:left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+.deal-2 {
+  float:left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+.deal-3 {
+  float:left;
+  width: 32%;
+}
+
+.border_right{
+  float:left;
+  width: 33.33333%;
+}

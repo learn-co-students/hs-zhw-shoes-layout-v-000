@@ -24,4 +24,52 @@
 
 /* Positioning Classes */
 
+.wrapper {
+  width: 100%;
+}
 
+.col-1 {
+  width: 32%;
+}
+
+.col-2 {
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  float: left;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+/* .table {
+  display: table;
+  border-spacing: 18px;
+  margin-top: -18px;
+} */
+
+.row {
+  clear: both;
+  margin-bottom: 2%;
+  /* display: table-row;
+  width: 100%;
+  height: auto;
+  margin-top: -18px;
+  margin: 50 auto; */
+ }
+
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+
+/* .row section {
+  display: table-cell;
+} */

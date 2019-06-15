@@ -24,4 +24,44 @@
 
 /* Positioning Classes */
 
+#featured-pic {
+  float: left;
+  width: 66%;
+  height: 36em;
+}
 
+#archive {
+  float: left;
+  width: 32%;
+  height: 36em;
+  margin-left: 2%
+}
+#col-1 {
+  float: left;
+  width: 32%;
+}
+
+#col-2 {
+  float: left;
+  width: 32%;
+}
+
+#col-3 {
+  width: 32%;
+  float: left;
+}
+
+[id*="col-"] {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}

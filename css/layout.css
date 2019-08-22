@@ -24,4 +24,36 @@
 
 /* Positioning Classes */
 
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
 
+
+ .row:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+ [class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+ .col-1 {
+  float: left;
+  width: 32%;
+  margin-bottom: 2%;
+}
+
+ .col-2{
+  float: left;
+  width: 66%;
+}
+
+ [class*="col-"] {
+  margin-left: 2%
+}

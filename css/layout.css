@@ -1,4 +1,4 @@
-/********** Fixes **********/
+
 
 * {
   margin:0;
@@ -25,3 +25,20 @@
 /* Positioning Classes */
 
 
+.col-3 {
+  width: 100%;
+}
+
+.col-2 {
+  float: left;
+  width: 65%;
+}
+
+.col-1 {
+  float: left;
+  width: 31%;
+}
+
+[class*="col-"] {
+  margin: 1%;
+}
